@@ -1,0 +1,9 @@
+# 基础依赖
+pandas>=1.5.0
+openpyxl>=3.1.0
+
+# API客户端依赖
+requests>=2.28.0
+
+# 类型提示支持
+typing-extensions>=4.4.0

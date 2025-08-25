@@ -1,0 +1,1532 @@
+Received: from DRNOLEXCH06.resource.local (172.20.23.75) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2375.17 via Mailbox Transport; Tue, 7 Dec 2021 14:33:19 +0800
+Received: from DRNOLEXCH06.resource.local (172.20.23.75) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2375.17; Tue, 7 Dec 2021 14:33:19 +0800
+Received: from DRNOLEXCH06.resource.local ([fe80::1559:f5b:c745:9f48]) by
+ DRNOLEXCH06.resource.local ([fe80::1559:f5b:c745:9f48%5]) with mapi id
+ 15.01.2375.017; Tue, 7 Dec 2021 14:33:19 +0800
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_00A8_01DC1354.DFEF1300"
+Content-Transfer-Encoding: binary
+From: Alex Ke <Alex.Ke@nolato.com>
+To: "yaoying@nor-ally.com" <yaoying@nor-ally.com>
+CC: Naomi Wang <naomi.wang@nolato.com>, Cindy Lin <cindy.lin@nolato.com>,
+	Lader Li <Lader.Li@nolato.com>, Tianci Xia <Tianci.Xia@nolato.com>, "Kevin
+ Xing" <kevin.xing@nolato.com>, Sally Chen <sally.chen@nolato.com>,
+	"david@nor-ally.com" <david@nor-ally.com>, "renyongjun@nor-ally.com"
+	<renyongjun@nor-ally.com>, jjhuang <jjhuang@nor-ally.com>
+Subject: =?utf-8?B?5Zue5aSNOiBbRVhURVJOQUxdIOWbnuWkjTog6Ziy5rC06YCP5rCU6Iac5L+h?=
+ =?utf-8?B?5oGv6K+E5Lyw?=
+Thread-Topic: =?utf-8?B?W0VYVEVSTkFMXSDlm57lpI06IOmYsuawtOmAj+awlOiGnOS/oeaBr+ivhA==?=
+ =?utf-8?B?5Lyw?=
+Thread-Index: Adfmg9n6ILoUYD9AQm6KKuFnWwwnHwAFKLDQADPZ15AA0wbiMAAGC36AABDY9yAABi3h0AACvMsA
+Date: Tue, 7 Dec 2021 14:33:19 +0800
+Message-ID: <48ff3cf9fc2342c09cdeb115c7f5731b@nolato.com>
+References: <9e43ae96302441cead94c8b4bfd3dd14@nolato.com>
+ <5857db196b77409a80efaf184bbe994d@nolato.com>
+ <302862e824394bac83ddd56cb841c7e0@nolato.com>
+ <74ba61ee433f4a9ea3cd287c8d141f66@nolato.com>
+ <000e01d7eb0f$3ca804c0$b5f80e40$@nor-ally.com>
+ <64c3ac4b97184ae587fe627cf0344961@nolato.com>
+ <1b68aaf26d9343c7b9d9db5eab249b4d@nolato.com>
+In-Reply-To: <1b68aaf26d9343c7b9d9db5eab249b4d@nolato.com>
+Accept-Language: zh-CN, sv-SE, en-US
+Content-Language: zh-CN
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator: <48ff3cf9fc2342c09cdeb115c7f5731b@nolato.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: DRNOLEXCH06.resource.local
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [172.20.23.62]
+X-MS-Exchange-Organization-Network-Message-Id: 0f709220-4d1d-4bb9-7be2-08d9b94b7594
+Return-Path: Alex.Ke@nolato.com
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.5531206
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2375.017
+X-MailStoreOLK-Original-Content-Type: application/ms-tnef; name="winmail.dat"
+X-MailStoreMapiMimePostProcessor: 25.3.0.23011
+X-MailStore-Folder-UTF7: default/Outlook Sally Chen/+ZTZO9nux-/+ljJsNJAPbBSBnA-
+X-MailStore-Message-ID: <48ff3cf9fc2342c09cdeb115c7f5731b@nolato.com>
+X-MailStore-Header-Hash: 1cd6cce9c0cda0222ffe0000802139754bb9d908
+X-MailStore-Date: 20211207063320
+X-MailStore-ArcDate: 20250822030657
+X-MailStore-Flags: 6
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_00A8_01DC1354.DFEF1300
+Content-Type: multipart/related;
+	boundary="----=_NextPart_001_00A9_01DC1354.DFEF1300"
+
+------=_NextPart_001_00A9_01DC1354.DFEF1300
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_002_00AA_01DC1354.DFEF1300"
+
+------=_NextPart_002_00AA_01DC1354.DFEF1300
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+HI Joanna
+
+如沟通，Volvo项目的透气量有更新，透气膜的透气标准更新为：＞1500ml/min/cm²，详情请见附件
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+发件人: Alex Ke
+发送时间: 2021年12月7日 13:38
+收件人: 'yaoying@nor-ally.com' <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>; 
+'david@nor-ally.com' <david@nor-ally.com>; 'renyongjun@nor-ally.com' 
+<renyongjun@nor-ally.com>; 'jjhuang' <jjhuang@nor-ally.com>
+主题: 回复: [EXTERNAL] 回复: 防水透气膜信息评估
+
+HI Joanna
+
+关于Audi以及Volvo的膜材“贴合无纺布”需求不是必要的，只要能够满足透气防水，温度，以及厚度要求就可以。
+
+另，如沟通，上午邮件让贵司提供三款膜材双方先来测试一下，是基于贵司现有的膜材就可以，就是为了确定双方测试的数据差异，和Audi/Volvo的需求无关（Audi/Volvo的需求参考我们之前发的表格信息）。还请近期安排出。
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+
+发件人: Alex Ke
+发送时间: 2021年12月7日 10:29
+收件人: 'yaoying@nor-ally.com' <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>; 
+david@nor-ally.com; renyongjun@nor-ally.com; jjhuang <jjhuang@nor-ally.com>
+主题: 回复: [EXTERNAL] 回复: 防水透气膜信息评估
+
+HI Joanna
+
+关于确认测试差异的问题
+
+烦请贵司提供三款不同的膜材，每一款约A4大小，各裁一半，Norgin对A4的一半膜材进行防水透气测试，Lovepac进行另一半A4膜材的防水透气测试。同时请Norgin提供实际测试时的视频。
+
+测试条件：透气量，在7kpa条件下，测试每平方厘米每分钟的透气量；防水测试，在60kpa/30s的条件下进行测试
+
+有任何问题请随时练习
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+发件人: yaoying@nor-ally.com
+发送时间: 2021年12月7日 10:08
+收件人: Alex Ke <Alex.Ke@nolato.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>; 
+david@nor-ally.com; renyongjun@nor-ally.com; jjhuang <jjhuang@nor-ally.com>
+主题: [EXTERNAL] 回复: 防水透气膜信息评估
+
+CAUTION: This email originated from outside of the organization. Do not 
+click links or open attachments unless you recognize the sender and know the 
+content is safe.
+
+Hello Alex,
+邮件收到。
+我们稍后开好会后会详细回答这几个问题，并同时抄送我们几位同事在邮件中。
+
+
+B.Regards
+Joanna Yao (姚莹）
+Norshine / Norgin
+Mobile: 86-13651809834
+
+发件人: Alex Ke <Alex.Ke@nolato.com>
+发送时间: 2021年12月7日 9:05
+收件人: 姚莹 <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+HI Joanna
+
+以下信息请帮忙确认：
+
+1.       请问贵司预计提供样品的时间是何时？
+2.       如果收到第一批样品测试不达标，需要贵司重新调整，请问这个调整的LT预计多久？
+3.       针对Audi项目的样品膜的LT预计多久？针对Volvo项目的样品膜的LT预计多久？ 
+
+
+Thx
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+
+
+发件人: Kevin Xing
+发送时间: 2021年12月2日 18:36
+收件人: Alex Ke <Alex.Ke@nolato.com>; 姚莹 <yaoying@nor-ally.com>; 
+david@nor-ally.com; renyongjun@nor-ally.com
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+大家好
+
+请查收附件更新的膜材信息，谢谢。
+
+
+Best Regards
+Kevin Xing
++86 13910312310
+
+发件人: Alex Ke <Alex.Ke@nolato.com>
+发送时间: 2021年12月1日 17:54
+收件人: 姚莹 <yaoying@nor-ally.com>; david@nor-ally.com; 
+renyongjun@nor-ally.com
+抄送: Naomi Wang <naomi.wang@nolato.com>; Kevin Xing 
+<kevin.xing@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; Lader Li 
+<Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+HI Joanna&David&Ren
+
+我这边更新了我们的需求信息以及之前测试Norgin两款膜材的测试数据，请查收
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+发件人: Alex Ke
+发送时间: 2021年12月1日 15:22
+收件人: '姚莹' <yaoying@nor-ally.com>; 'david@nor-ally.com；' 
+<david@nor-ally.com;>; 'renyongjun@nor-ally.com' <renyongjun@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Kevin Xing 
+<kevin.xing@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; Lader Li 
+<Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 防水透气膜信息评估
+
+HI Joanna & David & Ren
+
+您好，附件是我司需要的对应的膜材数据，还请内部评估。
+
+另外，请贵司提供一下贵司防水透气膜的测试信息，包括具体的仪器设备、测试方法、测试标准。还请今天提供，这样我司有时间内部评估双方差异，以便明天会议做讨论。
+
+您这边确认好明天下午的时间后，请告知我。
+
+THX
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+------=_NextPart_002_00AA_01DC1354.DFEF1300
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dutf-8"><meta name=3DGenerator content=3D"Microsoft=
+ Word 15 (filtered medium)"><!--[if !mso]><style>v\:* {behavior:url(#defaul=
+t#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:=E5=AE=8B=E4=BD=93;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:=E7=AD=89=E7=BA=BF;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+=09{font-family:"\@=E5=AE=8B=E4=BD=93";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Barlow;}
+@font-face
+=09{font-family:"\@=E7=AD=89=E7=BA=BF";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"Barlow Light";}
+@font-face
+=09{font-family:"Barlow Medium";}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0cm;
+=09text-align:justify;
+=09text-justify:inter-ideograph;
+=09font-size:10.5pt;
+=09font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:blue;
+=09text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+=09{mso-style-priority:34;
+=09margin:0cm;
+=09text-align:justify;
+=09text-justify:inter-ideograph;
+=09text-indent:21.0pt;
+=09font-size:10.5pt;
+=09font-family:"Calibri",sans-serif;}
+span.EmailStyle21
+=09{mso-style-type:personal-compose;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page WordSection1
+=09{size:612.0pt 792.0pt;
+=09margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+/* List Definitions */
+@list l0
+=09{mso-list-id:1772243662;
+=09mso-list-type:hybrid;
+=09mso-list-template-ids:1383131584 -41895604 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:18.0pt;
+=09text-indent:-18.0pt;}
+@list l0:level2
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%2\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:42.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level3
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:63.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level4
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:84.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level5
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%5\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:105.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level6
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:126.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level7
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:147.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level8
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%8\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:168.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level9
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:189.0pt;
+=09text-indent:-21.0pt;}
+ol
+=09{margin-bottom:0cm;}
+ul
+=09{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DZH-CN link=3Dblue vli=
+nk=3Dpurple style=3D'word-wrap:break-word;text-justify-trim:punctuation'><d=
+iv class=3DWordSection1><p class=3DMsoNormal><span lang=3DEN-US>HI Joanna<o=
+:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span style=3D'font-family:=E5=AE=8B=E4=
+=BD=93'>=E5=A6=82=E6=B2=9F=E9=80=9A=EF=BC=8C</span><span lang=3DEN-US>Volvo=
+</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E9=A1=B9=E7=9B=AE=E7=
+=9A=84=E9=80=8F=E6=B0=94=E9=87=8F=E6=9C=89=E6=9B=B4=E6=96=B0=EF=BC=8C=E9=80=
+=8F=E6=B0=94=E8=86=9C=E7=9A=84=E9=80=8F=E6=B0=94=E6=A0=87=E5=87=86=E6=9B=B4=
+=E6=96=B0=E4=B8=BA=EF=BC=9A=EF=BC=9E</span><span lang=3DEN-US>1500ml/min/cm=
+</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=C2=B2=EF=BC=8C=E8=AF=
+=A6=E6=83=85=E8=AF=B7=E8=A7=81=E9=99=84=E4=BB=B6</span><span lang=3DEN-US><=
+o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o=
+:p></span></p><p class=3DMsoNormal><span lang=3DEN-US>THX<o:p></o:p></span>=
+</p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:none=
+'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Mediu=
+m";color:black'>Alex Ke <o:p></o:p></span></b></p><p class=3DMsoNormal alig=
+n=3Dleft style=3D'text-align:left;text-autospace:none'><span lang=3DEN-US s=
+tyle=3D'font-size:10.0pt;font-family:"Barlow Light";color:black'><o:p>&nbsp=
+;</o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:lef=
+t;text-autospace:none'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:Barlow;color:black'><img width=3D82 height=3D22 style=3D'width:.8541in=
+;height:.2291in' id=3D"=E5=9B=BE=E7=89=87_x0020_6" src=3D"cid:image001.png@=
+01D7EB76.E2F14550"></span><span lang=3DEN-US style=3D'font-size:10.0pt;font=
+-family:"Barlow Light";color:black'><o:p></o:p></span></p><p class=3DMsoNor=
+mal align=3Dleft style=3D'text-align:left;text-autospace:none'><b><span lan=
+g=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black=
+'>L=C3=B6vepac Technology(Shenzhen) Co., Ltd<o:p></o:p></span></b></p><p cl=
+ass=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:none'>=
+<span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";colo=
+r:black'>1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industri=
+al Area, <o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D't=
+ext-align:left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:9=
+.0pt;font-family:"Barlow Light";color:black'>Xinshi Community, Dalang Stree=
+t, Longhua District,<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft=
+ style=3D'text-align:left;text-autospace:none'><span lang=3DEN-US style=3D'=
+font-size:9.0pt;font-family:"Barlow Light";color:black'>Shenzhen, 518109, P=
+.R.China<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'te=
+xt-align:left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:9.=
+0pt;font-family:"Barlow Light";color:black'>Mobile: +86 158-3130-0059<o:p><=
+/o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;=
+text-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-famil=
+y:"Barlow Light";color:black'>E-mail:Alex.Ke@nolato.com<o:p></o:p></span></=
+p><p class=3DMsoNormal><u><span lang=3DEN-US style=3D'font-size:9.0pt;font-=
+family:"Barlow Light";color:#0E2EB8'><a href=3D"http://www.nolato.com/">www=
+.nolato.com</a></span></u><span lang=3DEN-US><o:p></o:p></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoN=
+ormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><div><div style=3D'bor=
+der:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left'><b><span style=3D'font-=
+size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E4=BB=B6=E4=BA=BA<spa=
+n lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF'> Alex Ke <br></span><b><span style=3D'f=
+ont-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E9=80=81=E6=97=B6=
+=E9=97=B4<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'=
+font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> 2021</span><span style=3D=
+'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=B9=B4<span lang=3DEN-=
+US>12</span>=E6=9C=88<span lang=3DEN-US>7</span>=E6=97=A5<span lang=3DEN-US=
+> 13:38<br></span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span>=
+</b><span lang=3DEN-US> 'yaoying@nor-ally.com' &lt;yaoying@nor-ally.com&gt;=
+<br></span><b>=E6=8A=84=E9=80=81<span lang=3DEN-US>:</span></b><span lang=
+=3DEN-US> Naomi Wang &lt;naomi.wang@nolato.com&gt;; Cindy Lin &lt;cindy.lin=
+@nolato.com&gt;; Lader Li &lt;Lader.Li@nolato.com&gt;; Tianci Xia &lt;Tianc=
+i.Xia@nolato.com&gt;; Kevin Xing &lt;kevin.xing@nolato.com&gt;; Sally Chen =
+&lt;sally.chen@nolato.com&gt;; 'david@nor-ally.com' &lt;david@nor-ally.com&=
+gt;; 'renyongjun@nor-ally.com' &lt;renyongjun@nor-ally.com&gt;; 'jjhuang' &=
+lt;jjhuang@nor-ally.com&gt;<br></span><b>=E4=B8=BB=E9=A2=98<span lang=3DEN-=
+US>:</span></b><span lang=3DEN-US> </span>=E5=9B=9E=E5=A4=8D<span lang=3DEN=
+-US>: [EXTERNAL] </span>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=
+=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=
+=B0<span lang=3DEN-US><o:p></o:p></span></span></p></div></div><p class=3DM=
+soNormal align=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o:p>&nb=
+sp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US>HI Joanna<o:p><=
+/o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></=
+span></p><p class=3DMsoNormal><span style=3D'font-family:=E5=AE=8B=E4=BD=93=
+'>=E5=85=B3=E4=BA=8E</span><span lang=3DEN-US>Audi</span><span style=3D'fon=
+t-family:=E5=AE=8B=E4=BD=93'>=E4=BB=A5=E5=8F=8A</span><span lang=3DEN-US>Vo=
+lvo</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E7=9A=84=E8=86=9C=
+=E6=9D=90=E2=80=9C=E8=B4=B4=E5=90=88=E6=97=A0=E7=BA=BA=E5=B8=83=E2=80=9D=E9=
+=9C=80=E6=B1=82=E4=B8=8D=E6=98=AF=E5=BF=85=E8=A6=81=E7=9A=84=EF=BC=8C=E5=8F=
+=AA=E8=A6=81=E8=83=BD=E5=A4=9F=E6=BB=A1=E8=B6=B3=E9=80=8F=E6=B0=94=E9=98=B2=
+=E6=B0=B4=EF=BC=8C=E6=B8=A9=E5=BA=A6=EF=BC=8C=E4=BB=A5=E5=8F=8A=E5=8E=9A=E5=
+=BA=A6=E8=A6=81=E6=B1=82=E5=B0=B1=E5=8F=AF=E4=BB=A5=E3=80=82</span><span la=
+ng=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o=
+:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'font-family:=
+=E5=AE=8B=E4=BD=93'>=E5=8F=A6=EF=BC=8C=E5=A6=82=E6=B2=9F=E9=80=9A=EF=BC=8C=
+=E4=B8=8A=E5=8D=88=E9=82=AE=E4=BB=B6=E8=AE=A9=E8=B4=B5=E5=8F=B8=E6=8F=90=E4=
+=BE=9B=E4=B8=89=E6=AC=BE=E8=86=9C=E6=9D=90=E5=8F=8C=E6=96=B9=E5=85=88=E6=9D=
+=A5=E6=B5=8B=E8=AF=95=E4=B8=80=E4=B8=8B=EF=BC=8C=E6=98=AF=E5=9F=BA=E4=BA=8E=
+=E8=B4=B5=E5=8F=B8=E7=8E=B0=E6=9C=89=E7=9A=84=E8=86=9C=E6=9D=90=E5=B0=B1=E5=
+=8F=AF=E4=BB=A5=EF=BC=8C=E5=B0=B1=E6=98=AF=E4=B8=BA=E4=BA=86=E7=A1=AE=E5=AE=
+=9A=E5=8F=8C=E6=96=B9=E6=B5=8B=E8=AF=95=E7=9A=84=E6=95=B0=E6=8D=AE=E5=B7=AE=
+=E5=BC=82=EF=BC=8C=E5=92=8C</span><span lang=3DEN-US>Audi/Volvo</span><span=
+ style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E7=9A=84=E9=9C=80=E6=B1=82=E6=97=
+=A0=E5=85=B3=EF=BC=88</span><span lang=3DEN-US>Audi/Volvo</span><span style=
+=3D'font-family:=E5=AE=8B=E4=BD=93'>=E7=9A=84=E9=9C=80=E6=B1=82=E5=8F=82=E8=
+=80=83=E6=88=91=E4=BB=AC=E4=B9=8B=E5=89=8D=E5=8F=91=E7=9A=84=E8=A1=A8=E6=A0=
+=BC=E4=BF=A1=E6=81=AF=EF=BC=89=E3=80=82=E8=BF=98=E8=AF=B7=E8=BF=91=E6=9C=9F=
+=E5=AE=89=E6=8E=92=E5=87=BA=E3=80=82</span><span lang=3DEN-US><o:p></o:p></=
+span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></=
+p><p class=3DMsoNormal><span lang=3DEN-US>THX<o:p></o:p></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoN=
+ormal align=3Dleft style=3D'text-align:left;text-autospace:none'><b><span l=
+ang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Medium";color:bla=
+ck'>Alex Ke <o:p></o:p></span></b></p><p class=3DMsoNormal align=3Dleft sty=
+le=3D'text-align:left;text-autospace:none'><span lang=3DEN-US style=3D'font=
+-size:10.0pt;font-family:"Barlow Light";color:black'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autos=
+pace:none'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:Barlow;=
+color:black'><img border=3D0 width=3D82 height=3D22 style=3D'width:.8541in;=
+height:.2291in' id=3D"=E5=9B=BE=E7=89=87_x0020_5" src=3D"cid:image001.png@0=
+1D7EB76.E2F14550"></span><span lang=3DEN-US style=3D'font-size:10.0pt;font-=
+family:"Barlow Light";color:black'><o:p></o:p></span></p><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:none'><b><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black'=
+>L=C3=B6vepac Technology(Shenzhen) Co., Ltd<o:p></o:p></span></b></p><p cla=
+ss=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:none'><=
+span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color=
+:black'>1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industria=
+l Area, <o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'te=
+xt-align:left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:9.=
+0pt;font-family:"Barlow Light";color:black'>Xinshi Community, Dalang Street=
+, Longhua District,<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:none'><span lang=3DEN-US style=3D'f=
+ont-size:9.0pt;font-family:"Barlow Light";color:black'>Shenzhen, 518109, P.=
+R.China<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'tex=
+t-align:left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0=
+pt;font-family:"Barlow Light";color:black'>Mobile: +86 158-3130-0059<o:p></=
+o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;t=
+ext-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family=
+:"Barlow Light";color:black'>E-mail:Alex.Ke@nolato.com<o:p></o:p></span></p=
+><p class=3DMsoNormal><span lang=3DEN-US><a href=3D"http://www.nolato.com/"=
+><span style=3D'font-size:9.0pt;font-family:"Barlow Light"'>www.nolato.com<=
+/span></a><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp=
+;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p>=
+</span></p><div><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;pa=
+dding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-al=
+ign:left'><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF=
+'>=E5=8F=91=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></span></b><span la=
+ng=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> Alex =
+Ke <br></span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></sp=
+an></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'> 2021</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<span lang=3DEN=
+-US>7</span>=E6=97=A5<span lang=3DEN-US> 10:29<br></span><b>=E6=94=B6=E4=BB=
+=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> 'yaoying@nor=
+-ally.com' &lt;</span></span><span lang=3DEN-US><a href=3D"mailto:yaoying@n=
+or-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF=
+'>yaoying@nor-ally.com</span></a></span><span lang=3DEN-US style=3D'font-si=
+ze:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;<br></span><b><span style=3D'=
+font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E6=8A=84=E9=80=81<span la=
+ng=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;=
+font-family:=E7=AD=89=E7=BA=BF'> Naomi Wang &lt;</span><span lang=3DEN-US><=
+a href=3D"mailto:naomi.wang@nolato.com"><span style=3D'font-size:11.0pt;fon=
+t-family:=E7=AD=89=E7=BA=BF'>naomi.wang@nolato.com</span></a></span><span l=
+ang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;;=
+ Cindy Lin &lt;</span><span lang=3DEN-US><a href=3D"mailto:cindy.lin@nolato=
+.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>cindy=
+.lin@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0=
+pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Lader Li &lt;</span><span lang=3DE=
+N-US><a href=3D"mailto:Lader.Li@nolato.com"><span style=3D'font-size:11.0pt=
+;font-family:=E7=AD=89=E7=BA=BF'>Lader.Li@nolato.com</span></a></span><span=
+ lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt=
+;; Tianci Xia &lt;</span><span lang=3DEN-US><a href=3D"mailto:Tianci.Xia@no=
+lato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>T=
+ianci.Xia@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size=
+:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Kevin Xing &lt;</span><span l=
+ang=3DEN-US><a href=3D"mailto:kevin.xing@nolato.com"><span style=3D'font-si=
+ze:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>kevin.xing@nolato.com</span></a><=
+/span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>&gt;; Sally Chen &lt;</span><span lang=3DEN-US><a href=3D"mailto:sa=
+lly.chen@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>sally.chen@nolato.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; </span><span lan=
+g=3DEN-US><a href=3D"mailto:david@nor-ally.com"><span style=3D'font-size:11=
+.0pt;font-family:=E7=AD=89=E7=BA=BF'>david@nor-ally.com</span></a></span><s=
+pan lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=
+; </span><span lang=3DEN-US><a href=3D"mailto:renyongjun@nor-ally.com"><spa=
+n style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>renyongjun@nor-=
+ally.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font=
+-family:=E7=AD=89=E7=BA=BF'>; jjhuang &lt;</span><span lang=3DEN-US><a href=
+=3D"mailto:jjhuang@nor-ally.com"><span style=3D'font-size:11.0pt;font-famil=
+y:=E7=AD=89=E7=BA=BF'>jjhuang@nor-ally.com</span></a></span><span lang=3DEN=
+-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;<br></spa=
+n><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E4=B8=
+=BB=E9=A2=98<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> </span><span style=3D=
+'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=9B=9E=E5=A4=8D<span l=
+ang=3DEN-US>: [EXTERNAL] </span>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </sp=
+an>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=
+=E4=BC=B0<span lang=3DEN-US><o:p></o:p></span></span></p></div></div><p cla=
+ss=3DMsoNormal align=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o=
+:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US>HI Joanna=
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</=
+o:p></span></p><p class=3DMsoNormal><span style=3D'font-family:=E5=AE=8B=E4=
+=BD=93'>=E5=85=B3=E4=BA=8E=E7=A1=AE=E8=AE=A4=E6=B5=8B=E8=AF=95=E5=B7=AE=E5=
+=BC=82=E7=9A=84=E9=97=AE=E9=A2=98</span><span lang=3DEN-US><o:p></o:p></spa=
+n></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><=
+p class=3DMsoNormal><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E7=83=
+=A6=E8=AF=B7=E8=B4=B5=E5=8F=B8=E6=8F=90=E4=BE=9B=E4=B8=89=E6=AC=BE=E4=B8=8D=
+=E5=90=8C=E7=9A=84=E8=86=9C=E6=9D=90=EF=BC=8C=E6=AF=8F=E4=B8=80=E6=AC=BE=E7=
+=BA=A6</span><span lang=3DEN-US>A4</span><span style=3D'font-family:=E5=AE=
+=8B=E4=BD=93'>=E5=A4=A7=E5=B0=8F=EF=BC=8C=E5=90=84=E8=A3=81=E4=B8=80=E5=8D=
+=8A=EF=BC=8C</span><span lang=3DEN-US>Norgin</span><span style=3D'font-fami=
+ly:=E5=AE=8B=E4=BD=93'>=E5=AF=B9</span><span lang=3DEN-US>A4</span><span st=
+yle=3D'font-family:=E5=AE=8B=E4=BD=93'>=E7=9A=84=E4=B8=80=E5=8D=8A=E8=86=9C=
+=E6=9D=90=E8=BF=9B=E8=A1=8C=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E6=B5=8B=E8=
+=AF=95=EF=BC=8C</span><span lang=3DEN-US>Lovepac</span><span style=3D'font-=
+family:=E5=AE=8B=E4=BD=93'>=E8=BF=9B=E8=A1=8C=E5=8F=A6=E4=B8=80=E5=8D=8A</s=
+pan><span lang=3DEN-US>A4</span><span style=3D'font-family:=E5=AE=8B=E4=BD=
+=93'>=E8=86=9C=E6=9D=90=E7=9A=84=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E6=B5=
+=8B=E8=AF=95=E3=80=82=E5=90=8C=E6=97=B6=E8=AF=B7</span><span lang=3DEN-US>N=
+orgin</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E6=8F=90=E4=BE=
+=9B=E5=AE=9E=E9=99=85=E6=B5=8B=E8=AF=95=E6=97=B6=E7=9A=84=E8=A7=86=E9=A2=91=
+=E3=80=82</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNorm=
+al><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><spa=
+n style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E6=B5=8B=E8=AF=95=E6=9D=A1=E4=
+=BB=B6=EF=BC=9A=E9=80=8F=E6=B0=94=E9=87=8F=EF=BC=8C=E5=9C=A8</span><span la=
+ng=3DEN-US>7kpa</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E6=9D=
+=A1=E4=BB=B6=E4=B8=8B=EF=BC=8C=E6=B5=8B=E8=AF=95=E6=AF=8F=E5=B9=B3=E6=96=B9=
+=E5=8E=98=E7=B1=B3=E6=AF=8F=E5=88=86=E9=92=9F=E7=9A=84=E9=80=8F=E6=B0=94=E9=
+=87=8F=EF=BC=9B=E9=98=B2=E6=B0=B4=E6=B5=8B=E8=AF=95=EF=BC=8C=E5=9C=A8</span=
+><span lang=3DEN-US>60kpa/30s</span><span style=3D'font-family:=E5=AE=8B=E4=
+=BD=93'>=E7=9A=84=E6=9D=A1=E4=BB=B6=E4=B8=8B=E8=BF=9B=E8=A1=8C=E6=B5=8B=E8=
+=AF=95</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal>=
+<span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span s=
+tyle=3D'font-family:=E5=AE=8B=E4=BD=93'>=E6=9C=89=E4=BB=BB=E4=BD=95=E9=97=
+=AE=E9=A2=98=E8=AF=B7=E9=9A=8F=E6=97=B6=E7=BB=83=E4=B9=A0</span><span lang=
+=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p=
+>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US>THX<o:p></o=
+:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></sp=
+an></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-auto=
+space:none'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Ba=
+rlow Medium";color:black'>Alex Ke <o:p></o:p></span></b></p><p class=3DMsoN=
+ormal align=3Dleft style=3D'text-align:left;text-autospace:none'><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Light";color:black'>=
+<o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text=
+-align:left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:Barlow;color:black'><img border=3D0 width=3D82 height=3D22 s=
+tyle=3D'width:.8541in;height:.2291in' id=3D"=E5=9B=BE=E7=89=87_x0020_4" src=
+=3D"cid:image001.png@01D7EB76.E2F14550"></span><span lang=3DEN-US style=3D'=
+font-size:10.0pt;font-family:"Barlow Light";color:black'><o:p></o:p></span>=
+</p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:none'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlo=
+w Medium";color:black'>L=C3=B6vepac Technology(Shenzhen) Co., Ltd<o:p></o:p=
+></span></b></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;=
+text-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-famil=
+y:"Barlow Light";color:black'>1st. 2nd. Floor, NO.3 Building, NO.1 Lirong R=
+oad, Changyi Industrial Area, <o:p></o:p></span></p><p class=3DMsoNormal al=
+ign=3Dleft style=3D'text-align:left;text-autospace:none'><span lang=3DEN-US=
+ style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>Xinshi Co=
+mmunity, Dalang Street, Longhua District,<o:p></o:p></span></p><p class=3DM=
+soNormal align=3Dleft style=3D'text-align:left;text-autospace:none'><span l=
+ang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black=
+'>Shenzhen, 518109, P.R.China<o:p></o:p></span></p><p class=3DMsoNormal ali=
+gn=3Dleft style=3D'text-align:left;text-autospace:none'><span lang=3DEN-US =
+style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>Mobile: +8=
+6 158-3130-0059<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft styl=
+e=3D'text-align:left;text-autospace:none'><span lang=3DEN-US style=3D'font-=
+size:9.0pt;font-family:"Barlow Light";color:black'>E-mail:Alex.Ke@nolato.co=
+m<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><a href=3D"h=
+ttp://www.nolato.com/"><span style=3D'font-size:9.0pt;font-family:"Barlow L=
+ight"'>www.nolato.com</span></a><o:p></o:p></span></p><p class=3DMsoNormal>=
+<span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><div><div style=3D'border:no=
+ne;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMso=
+Normal align=3Dleft style=3D'text-align:left'><b><span style=3D'font-size:1=
+1.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E4=BB=B6=E4=BA=BA<span lang=
+=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;fo=
+nt-family:=E7=AD=89=E7=BA=BF'> </span><span lang=3DEN-US><a href=3D"mailto:=
+yaoying@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>yaoying@nor-ally.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> <br></span><b><span s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E9=80=81=
+=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> 2021</span><span=
+ style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=B9=B4<span l=
+ang=3DEN-US>12</span>=E6=9C=88<span lang=3DEN-US>7</span>=E6=97=A5<span lan=
+g=3DEN-US> 10:08<br></span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US=
+>:</span></b><span lang=3DEN-US> Alex Ke &lt;</span></span><span lang=3DEN-=
+US><a href=3D"mailto:Alex.Ke@nolato.com"><span style=3D'font-size:11.0pt;fo=
+nt-family:=E7=AD=89=E7=BA=BF'>Alex.Ke@nolato.com</span></a></span><span lan=
+g=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;<br=
+></span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=
+=E6=8A=84=E9=80=81<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> Naomi Wang &lt;<=
+/span><span lang=3DEN-US><a href=3D"mailto:naomi.wang@nolato.com"><span sty=
+le=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>naomi.wang@nolato.co=
+m</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family=
+:=E7=AD=89=E7=BA=BF'>&gt;; Cindy Lin &lt;</span><span lang=3DEN-US><a href=
+=3D"mailto:cindy.lin@nolato.com"><span style=3D'font-size:11.0pt;font-famil=
+y:=E7=AD=89=E7=BA=BF'>cindy.lin@nolato.com</span></a></span><span lang=3DEN=
+-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Lader L=
+i &lt;</span><span lang=3DEN-US><a href=3D"mailto:Lader.Li@nolato.com"><spa=
+n style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Lader.Li@nolato=
+.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-fam=
+ily:=E7=AD=89=E7=BA=BF'>&gt;; Tianci Xia &lt;</span><span lang=3DEN-US><a h=
+ref=3D"mailto:Tianci.Xia@nolato.com"><span style=3D'font-size:11.0pt;font-f=
+amily:=E7=AD=89=E7=BA=BF'>Tianci.Xia@nolato.com</span></a></span><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Ke=
+vin Xing &lt;</span><span lang=3DEN-US><a href=3D"mailto:kevin.xing@nolato.=
+com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>kevin.=
+xing@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0=
+pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Sally Chen &lt;</span><span lang=
+=3DEN-US><a href=3D"mailto:sally.chen@nolato.com"><span style=3D'font-size:=
+11.0pt;font-family:=E7=AD=89=E7=BA=BF'>sally.chen@nolato.com</span></a></sp=
+an><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>&gt;; </span><span lang=3DEN-US><a href=3D"mailto:david@nor-ally.com">=
+<span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>david@nor-a=
+lly.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF'>; </span><span lang=3DEN-US><a href=3D"mailto:re=
+nyongjun@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>renyongjun@nor-ally.com</span></a></span><span lang=3DEN-US s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>; jjhuang &lt;</sp=
+an><span lang=3DEN-US><a href=3D"mailto:jjhuang@nor-ally.com"><span style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>jjhuang@nor-ally.com</=
+span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF'>&gt;<br></span><b><span style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF'>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></s=
+pan></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'> [EXTERNAL] </span><span style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF'>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=98=B2=
+=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0<sp=
+an lang=3DEN-US><o:p></o:p></span></span></p></div></div><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o=
+:p></span></p><div style=3D'border:solid #9C6500 1.0pt;padding:2.0pt 2.0pt =
+2.0pt 2.0pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;lin=
+e-height:12.0pt;background:#FFEB9C'><span lang=3DEN-US style=3D'font-size:1=
+0.0pt;color:#9C6500'>CAUTION:</span><span lang=3DEN-US style=3D'font-size:1=
+0.0pt;color:black'> This email originated from outside of the organization.=
+ Do not click links or open attachments unless you recognize the sender and=
+ know the content is safe.<o:p></o:p></span></p></div><p class=3DMsoNormal =
+align=3Dleft style=3D'text-align:left'><span lang=3DEN-US style=3D'font-siz=
+e:12.0pt;font-family:=E5=AE=8B=E4=BD=93'><o:p>&nbsp;</o:p></span></p><div><=
+p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:=E7=AD=89=E7=BA=
+=BF'>Hello Alex,<o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'f=
+ont-family:=E7=AD=89=E7=BA=BF'>=E9=82=AE=E4=BB=B6=E6=94=B6=E5=88=B0=E3=80=
+=82<span lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><sp=
+an style=3D'font-family:=E7=AD=89=E7=BA=BF'>=E6=88=91=E4=BB=AC=E7=A8=8D=E5=
+=90=8E=E5=BC=80=E5=A5=BD=E4=BC=9A=E5=90=8E=E4=BC=9A=E8=AF=A6=E7=BB=86=E5=9B=
+=9E=E7=AD=94=E8=BF=99=E5=87=A0=E4=B8=AA=E9=97=AE=E9=A2=98=EF=BC=8C=E5=B9=B6=
+=E5=90=8C=E6=97=B6=E6=8A=84=E9=80=81=E6=88=91=E4=BB=AC=E5=87=A0=E4=BD=8D=E5=
+=90=8C=E4=BA=8B=E5=9C=A8=E9=82=AE=E4=BB=B6=E4=B8=AD=E3=80=82<span lang=3DEN=
+-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US st=
+yle=3D'font-family:=E7=AD=89=E7=BA=BF'><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-family:=E7=AD=89=E7=BA=BF'><o=
+:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal><span lang=3DEN-US styl=
+e=3D'font-family:=E7=AD=89=E7=BA=BF'>B.Regards<o:p></o:p></span></p><p clas=
+s=3DMsoNormal><span lang=3DEN-US style=3D'font-family:=E7=AD=89=E7=BA=BF'>J=
+oanna Yao (</span><span style=3D'font-family:=E7=AD=89=E7=BA=BF'>=E5=A7=9A=
+=E8=8E=B9=EF=BC=89<span lang=3DEN-US><o:p></o:p></span></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-family:=E7=AD=89=E7=BA=BF'>No=
+rshine / Norgin<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-U=
+S style=3D'font-family:=E7=AD=89=E7=BA=BF'>Mobile: 86-13651809834<o:p></o:p=
+></span></p></div><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-fam=
+ily:=E7=AD=89=E7=BA=BF'><o:p>&nbsp;</o:p></span></p><div><div style=3D'bord=
+er:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left'><b><span style=3D'font-=
+size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E4=BB=B6=E4=BA=BA<spa=
+n lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF'> Alex Ke &lt;</span><span lang=3DEN-US>=
+<a href=3D"mailto:Alex.Ke@nolato.com"><span style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF'>Alex.Ke@nolato.com</span></a></span><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt; <br=
+></span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=
+=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span></b><=
+span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'=
+> 2021</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF=
+'>=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<span lang=3DEN-US>7</span>=
+=E6=97=A5<span lang=3DEN-US> 9:05<br></span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<=
+span lang=3DEN-US>:</span></b><span lang=3DEN-US> </span>=E5=A7=9A=E8=8E=B9=
+<span lang=3DEN-US> &lt;</span></span><span lang=3DEN-US><a href=3D"mailto:=
+yaoying@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>yaoying@nor-ally.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;<br></span><b><spa=
+n style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E6=8A=84=E9=80=
+=81<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> Naomi Wang &lt;</span><span lan=
+g=3DEN-US><a href=3D"mailto:naomi.wang@nolato.com"><span style=3D'font-size=
+:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>naomi.wang@nolato.com</span></a></s=
+pan><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>&gt;; Cindy Lin &lt;</span><span lang=3DEN-US><a href=3D"mailto:cin=
+dy.lin@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>cindy.lin@nolato.com</span></a></span><span lang=3DEN-US style=3D'f=
+ont-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Lader Li &lt;</span><=
+span lang=3DEN-US><a href=3D"mailto:Lader.Li@nolato.com"><span style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Lader.Li@nolato.com</span></a=
+></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>&gt;; Tianci Xia &lt;</span><span lang=3DEN-US><a href=3D"mailto=
+:Tianci.Xia@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>Tianci.Xia@nolato.com</span></a></span><span lang=3DEN-US sty=
+le=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Kevin Xing &lt=
+;</span><span lang=3DEN-US><a href=3D"mailto:kevin.xing@nolato.com"><span s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>kevin.xing@nolato.=
+com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-fami=
+ly:=E7=AD=89=E7=BA=BF'>&gt;; Sally Chen &lt;</span><span lang=3DEN-US><a hr=
+ef=3D"mailto:sally.chen@nolato.com"><span style=3D'font-size:11.0pt;font-fa=
+mily:=E7=AD=89=E7=BA=BF'>sally.chen@nolato.com</span></a></span><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;<br>=
+</span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=
+=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> </span><span sty=
+le=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=9B=9E=E5=A4=8D<s=
+pan lang=3DEN-US>: </span>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=
+=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0<span lang=3DEN-US><o:p></o:p></span></spa=
+n></p></div></div><p class=3DMsoNormal align=3Dleft style=3D'text-align:lef=
+t'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><spa=
+n lang=3DEN-US>HI Joanna<o:p></o:p></span></p><p class=3DMsoNormal><span la=
+ng=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'=
+font-family:=E5=AE=8B=E4=BD=93'>=E4=BB=A5=E4=B8=8B=E4=BF=A1=E6=81=AF=E8=AF=
+=B7=E5=B8=AE=E5=BF=99=E7=A1=AE=E8=AE=A4=EF=BC=9A</span><span lang=3DEN-US><=
+o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o=
+:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:18.0pt;text-=
+indent:-18.0pt;mso-list:l0 level1 lfo2'><![if !supportLists]><span lang=3DE=
+N-US><span style=3D'mso-list:Ignore'>1.<span style=3D'font:7.0pt "Times New=
+ Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif=
+]><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E8=AF=B7=E9=97=AE=E8=B4=
+=B5=E5=8F=B8=E9=A2=84=E8=AE=A1=E6=8F=90=E4=BE=9B=E6=A0=B7=E5=93=81=E7=9A=84=
+=E6=97=B6=E9=97=B4=E6=98=AF=E4=BD=95=E6=97=B6=EF=BC=9F</span> <span lang=3D=
+EN-US><o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-lef=
+t:18.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if !supportLists]>=
+<span lang=3DEN-US><span style=3D'mso-list:Ignore'>2.<span style=3D'font:7.=
+0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><![endif]><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E5=A6=82=E6=
+=9E=9C=E6=94=B6=E5=88=B0=E7=AC=AC=E4=B8=80=E6=89=B9=E6=A0=B7=E5=93=81=E6=B5=
+=8B=E8=AF=95=E4=B8=8D=E8=BE=BE=E6=A0=87=EF=BC=8C=E9=9C=80=E8=A6=81=E8=B4=B5=
+=E5=8F=B8=E9=87=8D=E6=96=B0=E8=B0=83=E6=95=B4=EF=BC=8C=E8=AF=B7=E9=97=AE=E8=
+=BF=99=E4=B8=AA=E8=B0=83=E6=95=B4=E7=9A=84</span><span lang=3DEN-US>LT</spa=
+n><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E9=A2=84=E8=AE=A1=E5=A4=
+=9A=E4=B9=85=EF=BC=9F</span> <span lang=3DEN-US><o:p></o:p></span></p><p cl=
+ass=3DMsoListParagraph style=3D'margin-left:18.0pt;text-indent:-18.0pt;mso-=
+list:l0 level1 lfo2'><![if !supportLists]><span lang=3DEN-US><span style=3D=
+'mso-list:Ignore'>3.<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span style=3D'fo=
+nt-family:=E5=AE=8B=E4=BD=93'>=E9=92=88=E5=AF=B9</span><span lang=3DEN-US>A=
+udi</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E9=A1=B9=E7=9B=AE=
+=E7=9A=84=E6=A0=B7=E5=93=81=E8=86=9C=E7=9A=84</span><span lang=3DEN-US>LT</=
+span><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E9=A2=84=E8=AE=A1=E5=
+=A4=9A=E4=B9=85=EF=BC=9F=E9=92=88=E5=AF=B9</span><span lang=3DEN-US>Volvo</=
+span><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E9=A1=B9=E7=9B=AE=E7=
+=9A=84=E6=A0=B7=E5=93=81=E8=86=9C=E7=9A=84</span><span lang=3DEN-US>LT</spa=
+n><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E9=A2=84=E8=AE=A1=E5=A4=
+=9A=E4=B9=85=EF=BC=9F</span><span lang=3DEN-US><o:p></o:p></span></p><p cla=
+ss=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMs=
+oNormal><span lang=3DEN-US>Thx<o:p></o:p></span></p><p class=3DMsoNormal><s=
+pan lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dl=
+eft style=3D'text-align:left;text-autospace:none'><b><span lang=3DEN-US sty=
+le=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black'>Alex Ke <o:=
+p></o:p></span></b></p><p class=3DMsoNormal align=3Dleft style=3D'text-alig=
+n:left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:10.0pt;fo=
+nt-family:"Barlow Light";color:black'><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:none'><sp=
+an lang=3DEN-US style=3D'font-size:10.0pt;font-family:Barlow;color:black'><=
+img border=3D0 width=3D82 height=3D22 style=3D'width:.8541in;height:.2291in=
+' id=3D"=E5=9B=BE=E7=89=87_x0020_3" src=3D"cid:image001.png@01D7EB76.E2F145=
+50"></span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow=
+ Light";color:black'><o:p></o:p></span></p><p class=3DMsoNormal align=3Dlef=
+t style=3D'text-align:left;text-autospace:none'><b><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black'>L=C3=B6vepac =
+Technology(Shenzhen) Co., Ltd<o:p></o:p></span></b></p><p class=3DMsoNormal=
+ align=3Dleft style=3D'text-align:left;text-autospace:none'><span lang=3DEN=
+-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>1st. 2=
+nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area, <o:p><=
+/o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;=
+text-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-famil=
+y:"Barlow Light";color:black'>Xinshi Community, Dalang Street, Longhua Dist=
+rict,<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-=
+align:left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt=
+;font-family:"Barlow Light";color:black'>Shenzhen, 518109, P.R.China<o:p></=
+o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;t=
+ext-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family=
+:"Barlow Light";color:black'>Mobile: +86 158-3130-0059<o:p></o:p></span></p=
+><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:=
+none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light=
+";color:black'>E-mail:Alex.Ke@nolato.com<o:p></o:p></span></p><p class=3DMs=
+oNormal><span lang=3DEN-US><a href=3D"http://www.nolato.com/"><span style=
+=3D'font-size:9.0pt;font-family:"Barlow Light"'>www.nolato.com</span></a><o=
+:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><div><di=
+v style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm=
+ 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><b><span =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E4=BB=
+=B6=E4=BA=BA<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> Kevin Xing <br></span=
+><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=
+=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span></b><span l=
+ang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> 2021=
+</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=
+=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<span lang=3DEN-US>2</span>=E6=
+=97=A5<span lang=3DEN-US> 18:36<br></span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<sp=
+an lang=3DEN-US>:</span></b><span lang=3DEN-US> Alex Ke &lt;</span></span><=
+span lang=3DEN-US><a href=3D"mailto:Alex.Ke@nolato.com"><span style=3D'font=
+-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Alex.Ke@nolato.com</span></a><=
+/span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>&gt;; </span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>=E5=A7=9A=E8=8E=B9<span lang=3DEN-US> &lt;</span></span><span la=
+ng=3DEN-US><a href=3D"mailto:yaoying@nor-ally.com"><span style=3D'font-size=
+:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>yaoying@nor-ally.com</span></a></sp=
+an><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>&gt;; </span><span lang=3DEN-US><a href=3D"mailto:david@nor-ally.com">=
+<span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>david@nor-a=
+lly.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF'>; </span><span lang=3DEN-US><a href=3D"mailto:re=
+nyongjun@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>renyongjun@nor-ally.com</span></a></span><span lang=3DEN-US s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'><br></span><b><spa=
+n style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E6=8A=84=E9=80=
+=81<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> Naomi Wang &lt;</span><span lan=
+g=3DEN-US><a href=3D"mailto:naomi.wang@nolato.com"><span style=3D'font-size=
+:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>naomi.wang@nolato.com</span></a></s=
+pan><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>&gt;; Cindy Lin &lt;</span><span lang=3DEN-US><a href=3D"mailto:cin=
+dy.lin@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>cindy.lin@nolato.com</span></a></span><span lang=3DEN-US style=3D'f=
+ont-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Lader Li &lt;</span><=
+span lang=3DEN-US><a href=3D"mailto:Lader.Li@nolato.com"><span style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Lader.Li@nolato.com</span></a=
+></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>&gt;; Tianci Xia &lt;</span><span lang=3DEN-US><a href=3D"mailto=
+:Tianci.Xia@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>Tianci.Xia@nolato.com</span></a></span><span lang=3DEN-US sty=
+le=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;<br></span><b><s=
+pan style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E4=B8=BB=E9=
+=A2=98<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> </span><span style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=9B=9E=E5=A4=8D<span lang=3DE=
+N-US>: </span>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=
+=AF=E8=AF=84=E4=BC=B0<span lang=3DEN-US><o:p></o:p></span></span></p></div>=
+</div><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><span lan=
+g=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'f=
+ont-family:=E5=AE=8B=E4=BD=93'>=E5=A4=A7=E5=AE=B6=E5=A5=BD</span><span lang=
+=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p=
+>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'font-family:=E5=
+=AE=8B=E4=BD=93'>=E8=AF=B7=E6=9F=A5=E6=94=B6=E9=99=84=E4=BB=B6=E6=9B=B4=E6=
+=96=B0=E7=9A=84=E8=86=9C=E6=9D=90=E4=BF=A1=E6=81=AF=EF=BC=8C=E8=B0=A2=E8=B0=
+=A2=E3=80=82</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoN=
+ormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNor=
+mal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p>=
+<p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>Best Regard=
+s<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'col=
+or:#1F497D'>Kevin Xing<o:p></o:p></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'color:#1F497D'>+86 13910312310<o:p></o:p></span></p></div=
+><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><div><=
+div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0=
+cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><b><spa=
+n style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E4=BB=
+=B6=E4=BA=BA<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> Alex Ke &lt;</span><s=
+pan lang=3DEN-US><a href=3D"mailto:Alex.Ke@nolato.com"><span style=3D'font-=
+size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Alex.Ke@nolato.com</span></a></=
+span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>&gt; <br></span><b><span style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</=
+span></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF'> 2021</span><span style=3D'font-size:11.0pt;font-family=
+:=E7=AD=89=E7=BA=BF'>=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<span la=
+ng=3DEN-US>1</span>=E6=97=A5<span lang=3DEN-US> 17:54<br></span><b>=E6=94=
+=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> </s=
+pan>=E5=A7=9A=E8=8E=B9<span lang=3DEN-US> &lt;</span></span><span lang=3DEN=
+-US><a href=3D"mailto:yaoying@nor-ally.com"><span style=3D'font-size:11.0pt=
+;font-family:=E7=AD=89=E7=BA=BF'>yaoying@nor-ally.com</span></a></span><spa=
+n lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&g=
+t;; </span><span lang=3DEN-US><a href=3D"mailto:david@nor-ally.com"><span s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>david@nor-ally.com=
+</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF'>; </span><span lang=3DEN-US><a href=3D"mailto:renyongju=
+n@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>renyongjun@nor-ally.com</span></a></span><span lang=3DEN-US style=3D'f=
+ont-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'><br></span><b><span style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E6=8A=84=E9=80=81<spa=
+n lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF'> Naomi Wang &lt;</span><span lang=3DEN-=
+US><a href=3D"mailto:naomi.wang@nolato.com"><span style=3D'font-size:11.0pt=
+;font-family:=E7=AD=89=E7=BA=BF'>naomi.wang@nolato.com</span></a></span><sp=
+an lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&=
+gt;; Kevin Xing &lt;</span><span lang=3DEN-US><a href=3D"mailto:kevin.xing@=
+nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'=
+>kevin.xing@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-si=
+ze:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Cindy Lin &lt;</span><span =
+lang=3DEN-US><a href=3D"mailto:cindy.lin@nolato.com"><span style=3D'font-si=
+ze:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>cindy.lin@nolato.com</span></a></=
+span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>&gt;; Lader Li &lt;</span><span lang=3DEN-US><a href=3D"mailto:Lade=
+r.Li@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>Lader.Li@nolato.com</span></a></span><span lang=3DEN-US style=3D'fo=
+nt-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Tianci Xia &lt;</span>=
+<span lang=3DEN-US><a href=3D"mailto:Tianci.Xia@nolato.com"><span style=3D'=
+font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Tianci.Xia@nolato.com</spa=
+n></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF'>&gt;<br></span><b><span style=3D'font-size:11.0pt;font-fam=
+ily:=E7=AD=89=E7=BA=BF'>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></span=
+></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'> </span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=98=B2=E6=B0=B4=E9=80=
+=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0<span lang=3DEN-US=
+><o:p></o:p></span></span></p></div></div><p class=3DMsoNormal align=3Dleft=
+ style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US>HI Joanna&amp;David&amp;Ren<o:p></o:=
+p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=
+=E6=88=91=E8=BF=99=E8=BE=B9=E6=9B=B4=E6=96=B0=E4=BA=86=E6=88=91=E4=BB=AC=E7=
+=9A=84=E9=9C=80=E6=B1=82=E4=BF=A1=E6=81=AF=E4=BB=A5=E5=8F=8A=E4=B9=8B=E5=89=
+=8D=E6=B5=8B=E8=AF=95</span><span lang=3DEN-US>Norgin</span><span style=3D'=
+font-family:=E5=AE=8B=E4=BD=93'>=E4=B8=A4=E6=AC=BE=E8=86=9C=E6=9D=90=E7=9A=
+=84=E6=B5=8B=E8=AF=95=E6=95=B0=E6=8D=AE=EF=BC=8C=E8=AF=B7=E6=9F=A5=E6=94=B6=
+</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US>THX<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p=
+>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-ali=
+gn:left;text-autospace:none'><b><span lang=3DEN-US style=3D'font-size:10.0p=
+t;font-family:"Barlow Medium";color:black'>Alex Ke <o:p></o:p></span></b></=
+p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace=
+:none'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Lig=
+ht";color:black'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dl=
+eft style=3D'text-align:left;text-autospace:none'><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:Barlow;color:black'><img border=3D0 width=
+=3D82 height=3D22 style=3D'width:.8541in;height:.2291in' id=3D"=E5=9B=BE=E7=
+=89=87_x0020_2" src=3D"cid:image001.png@01D7EB76.E2F14550"></span><span lan=
+g=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Light";color:black'=
+><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-alig=
+n:left;text-autospace:none'><b><span lang=3DEN-US style=3D'font-size:10.0pt=
+;font-family:"Barlow Medium";color:black'>L=C3=B6vepac Technology(Shenzhen)=
+ Co., Ltd<o:p></o:p></span></b></p><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:none'><span lang=3DEN-US style=3D'font-s=
+ize:9.0pt;font-family:"Barlow Light";color:black'>1st. 2nd. Floor, NO.3 Bui=
+lding, NO.1 Lirong Road, Changyi Industrial Area, <o:p></o:p></span></p><p =
+class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:none=
+'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";co=
+lor:black'>Xinshi Community, Dalang Street, Longhua District,<o:p></o:p></s=
+pan></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-aut=
+ospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlo=
+w Light";color:black'>Shenzhen, 518109, P.R.China<o:p></o:p></span></p><p c=
+lass=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:none'=
+><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";col=
+or:black'>Mobile: +86 158-3130-0059<o:p></o:p></span></p><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:none'><span lang=3D=
+EN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>E-ma=
+il:Alex.Ke@nolato.com<o:p></o:p></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US><a href=3D"http://www.nolato.com/"><span style=3D'font-size:9.0pt;=
+font-family:"Barlow Light"'>www.nolato.com</span></a><o:p></o:p></span></p>=
+<div><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt=
+ 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><=
+b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=
+=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> Alex Ke <br></sp=
+an><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=
+=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span></b><spa=
+n lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> 2=
+021</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=
+=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<span lang=3DEN-US>1</span>=
+=E6=97=A5<span lang=3DEN-US> 15:22<br></span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA=
+<span lang=3DEN-US>:</span></b><span lang=3DEN-US> '</span>=E5=A7=9A=E8=8E=
+=B9<span lang=3DEN-US>' &lt;</span></span><span lang=3DEN-US><a href=3D"mai=
+lto:yaoying@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF'>yaoying@nor-ally.com</span></a></span><span lang=3DEN-US s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; 'david@nor-a=
+lly.com</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>=EF=BC=9B<span lang=3DEN-US>' &lt;</span></span><span lang=3DEN-US><a =
+href=3D"mailto:david@nor-ally.com;"><span style=3D'font-size:11.0pt;font-fa=
+mily:=E7=AD=89=E7=BA=BF'>david@nor-ally.com;</span></a></span><span lang=3D=
+EN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; 'reny=
+ongjun@nor-ally.com' &lt;</span><span lang=3DEN-US><a href=3D"mailto:renyon=
+gjun@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>renyongjun@nor-ally.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;<br></span><b><spa=
+n style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E6=8A=84=E9=80=
+=81<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> Naomi Wang &lt;</span><span lan=
+g=3DEN-US><a href=3D"mailto:naomi.wang@nolato.com"><span style=3D'font-size=
+:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>naomi.wang@nolato.com</span></a></s=
+pan><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'>&gt;; Kevin Xing &lt;</span><span lang=3DEN-US><a href=3D"mailto:ke=
+vin.xing@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>kevin.xing@nolato.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Cindy Lin &lt;</=
+span><span lang=3DEN-US><a href=3D"mailto:cindy.lin@nolato.com"><span style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>cindy.lin@nolato.com</=
+span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF'>&gt;; Lader Li &lt;</span><span lang=3DEN-US><a href=3D=
+"mailto:Lader.Li@nolato.com"><span style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF'>Lader.Li@nolato.com</span></a></span><span lang=3DEN-US=
+ style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>&gt;; Tianci Xia=
+ &lt;</span><span lang=3DEN-US><a href=3D"mailto:Tianci.Xia@nolato.com"><sp=
+an style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Tianci.Xia@nol=
+ato.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF'>&gt;<br></span><b><span style=3D'font-size:11.0p=
+t;font-family:=E7=AD=89=E7=BA=BF'>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</s=
+pan></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF'> </span><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=
+=AF=E8=AF=84=E4=BC=B0<span lang=3DEN-US><o:p></o:p></span></span></p></div>=
+</div><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><span lan=
+g=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-=
+US>HI Joanna &amp; David &amp; Ren<o:p></o:p></span></p><p class=3DMsoNorma=
+l><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span=
+ style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E6=82=A8=E5=A5=BD=EF=BC=8C=E9=99=
+=84=E4=BB=B6=E6=98=AF=E6=88=91=E5=8F=B8=E9=9C=80=E8=A6=81=E7=9A=84=E5=AF=B9=
+=E5=BA=94=E7=9A=84=E8=86=9C=E6=9D=90=E6=95=B0=E6=8D=AE=EF=BC=8C=E8=BF=98=E8=
+=AF=B7=E5=86=85=E9=83=A8=E8=AF=84=E4=BC=B0=E3=80=82</span><span lang=3DEN-U=
+S><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;=
+</o:p></span></p><p class=3DMsoNormal><span style=3D'font-family:=E5=AE=8B=
+=E4=BD=93'>=E5=8F=A6=E5=A4=96=EF=BC=8C=E8=AF=B7=E8=B4=B5=E5=8F=B8=E6=8F=90=
+=E4=BE=9B=E4=B8=80=E4=B8=8B=E8=B4=B5=E5=8F=B8=E9=98=B2=E6=B0=B4=E9=80=8F=E6=
+=B0=94=E8=86=9C=E7=9A=84=E6=B5=8B=E8=AF=95=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=8C=
+=85=E6=8B=AC=E5=85=B7=E4=BD=93=E7=9A=84=E4=BB=AA=E5=99=A8=E8=AE=BE=E5=A4=87=
+=E3=80=81=E6=B5=8B=E8=AF=95=E6=96=B9=E6=B3=95=E3=80=81=E6=B5=8B=E8=AF=95=E6=
+=A0=87=E5=87=86=E3=80=82=E8=BF=98=E8=AF=B7=E4=BB=8A=E5=A4=A9=E6=8F=90=E4=BE=
+=9B=EF=BC=8C=E8=BF=99=E6=A0=B7=E6=88=91=E5=8F=B8=E6=9C=89=E6=97=B6=E9=97=B4=
+=E5=86=85=E9=83=A8=E8=AF=84=E4=BC=B0=E5=8F=8C=E6=96=B9=E5=B7=AE=E5=BC=82=EF=
+=BC=8C=E4=BB=A5=E4=BE=BF=E6=98=8E=E5=A4=A9=E4=BC=9A=E8=AE=AE=E5=81=9A=E8=AE=
+=A8=E8=AE=BA=E3=80=82</span><span lang=3DEN-US><o:p></o:p></span></p><p cla=
+ss=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMs=
+oNormal><span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=E6=82=A8=E8=BF=99=
+=E8=BE=B9=E7=A1=AE=E8=AE=A4=E5=A5=BD=E6=98=8E=E5=A4=A9=E4=B8=8B=E5=8D=88=E7=
+=9A=84=E6=97=B6=E9=97=B4=E5=90=8E=EF=BC=8C=E8=AF=B7=E5=91=8A=E7=9F=A5=E6=88=
+=91=E3=80=82</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoN=
+ormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><=
+span lang=3DEN-US>THX<o:p></o:p></span></p><p class=3DMsoNormal align=3Dlef=
+t style=3D'text-align:left;text-autospace:none'><b><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black'>Alex Ke <o:p>=
+</o:p></span></b></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:=
+left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:10.0pt;font=
+-family:"Barlow Light";color:black'><o:p>&nbsp;</o:p></span></p><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:none'><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:Barlow;color:black'><img=
+ border=3D0 width=3D82 height=3D22 style=3D'width:.8541in;height:.2291in' i=
+d=3D"=E5=9B=BE=E7=89=87_x0020_1" src=3D"cid:image001.png@01D7EB76.E2F14550"=
+></span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Li=
+ght";color:black'><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft s=
+tyle=3D'text-align:left;text-autospace:none'><b><span lang=3DEN-US style=3D=
+'font-size:10.0pt;font-family:"Barlow Medium";color:black'>L=C3=B6vepac Tec=
+hnology(Shenzhen) Co., Ltd<o:p></o:p></span></b></p><p class=3DMsoNormal al=
+ign=3Dleft style=3D'text-align:left;text-autospace:none'><span lang=3DEN-US=
+ style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>1st. 2nd.=
+ Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area, <o:p></o:=
+p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"=
+Barlow Light";color:black'>Xinshi Community, Dalang Street, Longhua Distric=
+t,<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-ali=
+gn:left;text-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;fo=
+nt-family:"Barlow Light";color:black'>Shenzhen, 518109, P.R.China<o:p></o:p=
+></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text=
+-autospace:none'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"B=
+arlow Light";color:black'>Mobile: +86 158-3130-0059<o:p></o:p></span></p><p=
+ class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:non=
+e'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";c=
+olor:black'>E-mail:Alex.Ke@nolato.com<o:p></o:p></span></p><p class=3DMsoNo=
+rmal><span lang=3DEN-US><a href=3D"http://www.nolato.com/"><span style=3D'f=
+ont-size:9.0pt;font-family:"Barlow Light"'>www.nolato.com</span></a><o:p></=
+o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></s=
+pan></p></div></div></body></html>
+------=_NextPart_002_00AA_01DC1354.DFEF1300--
+
+------=_NextPart_001_00A9_01DC1354.DFEF1300
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D7EB76.E2F14550>
+
+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
+/VegEgkRAAAAAElFTkSuQmCCAA==
+------=_NextPart_001_00A9_01DC1354.DFEF1300--
+
+------=_NextPart_000_00A8_01DC1354.DFEF1300
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;
+	name="=?utf-8?Q?Pressure_Vent_Data_211207_=E7=9A=84=E5=89=AF=E6=9C=AC.xl?=
+	=?utf-8?Q?sx?="
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="=?utf-8?Q?Pressure_Vent_Data_211207_=E7=9A=84=E5=89=AF=E6=9C=AC.xl?=
+	=?utf-8?Q?sx?="
+
+UEsDBBQABgAIAAAAIQAhjEY6cwEAAIwFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADE
+VMluwjAQvVfqP0S+VomBQ1VVBA5dji0S9ANMPCEWiW15Bgp/34lZVFUsQiD1kiix5232TH+4aupk
+CQGNs7noZh2RgC2cNnaWi6/Je/okEiRltaqdhVysAcVwcH/Xn6w9YMLVFnNREflnKbGooFGYOQ+W
+V0oXGkX8GWbSq2KuZiB7nc6jLJwlsJRSiyEG/Vco1aKm5G3FvzdKpsaK5GWzr6XKhfK+NoUiFiqX
+Vv8hSV1ZmgK0KxYNQ2foAyiNFQA1deaDYcYwBiI2hkIe5AxQ42WkW1cZV0ZhWBmPD2z9CEO7ctzV
+tu6TjyMYDclIBfpQDXuXq1p+uzCfOjfPToNcGk2MKGuUsTvdJ/jjZpTx1b2xkNZfBL5QR++fdBDf
+dZDxeX0UEeaMcaR1DXjr44+g55grFUCPibtodnMBv7FP6eDWHgXnkadHgMtT2LVqW516BoJABvbN
+eujS7xl59FwdO7SzTYM+wC3jLB38AAAA//8DAFBLAwQUAAYACAAAACEAtVUwI/QAAABMAgAACwAI
+Al9yZWxzLy5yZWxzIKIEAiigAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAKySTU/DMAyG70j8h8j31d2QEEJLd0FIuyFUfoBJ3A+1jaMkG92/
+JxwQVBqDA0d/vX78ytvdPI3qyCH24jSsixIUOyO2d62Gl/pxdQcqJnKWRnGs4cQRdtX11faZR0p5
+KHa9jyqruKihS8nfI0bT8USxEM8uVxoJE6UchhY9mYFaxk1Z3mL4rgHVQlPtrYawtzeg6pPPm3/X
+lqbpDT+IOUzs0pkVyHNiZ9mufMhsIfX5GlVTaDlpsGKecjoieV9kbMDzRJu/E/18LU6cyFIiNBL4
+Ms9HxyWg9X9atDTxy515xDcJw6vI8MmCix+o3gEAAP//AwBQSwMEFAAGAAgAAAAhABneouqfAwAA
+kwgAAA8AAAB4bC93b3JrYm9vay54bWysVU1vo0YYvlfqf0DcCTMYMKA4KxuDGilZRVlvcom0msAQ
+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
+------=_NextPart_000_00A8_01DC1354.DFEF1300--

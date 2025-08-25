@@ -1,0 +1,1589 @@
+Received: from DRNOLEXCH06.resource.local (172.20.23.75) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.23 via Mailbox Transport; Tue, 6 Jun 2023 09:56:33 +0800
+Received: from DRNOLEXCH02.resource.local (172.20.7.49) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.23; Tue, 6 Jun 2023 09:56:31 +0800
+Received: from EUR03-AM7-obe.outbound.protection.outlook.com (172.20.7.201) by
+ DRNOLEXCH02.resource.local (172.20.7.49) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.23 via Frontend Transport; Tue, 6 Jun 2023 03:56:31 +0200
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=T5OOTVAswENH8rFRPldACq2xGyGjgJN95hUEs0xDx2ilTqZjie9zb0vcqgimAlD3lj/1r4rTxI8QxlGnXnIaON0KXCyBa1yb2EaV1bGXDCaA6aikUgN1HAT9tkVeFfDdjXG+lBdjGifh0DaBG8baBE67gz3jVswgFb/1QqdILk7/FjzPsCoNM95VMVIkV7YjyYeqTWaGWkuCTd0++5rYc5hVZ8rYhRyZxH7OQAwmFVVuncWD8ymBx94XUD90T1Eejl1loFHKXOHoMeQcOcJCJ+UPZ/zOJ4nIKIdrhPG+S/jQSxQlMjtU3PNy6nXk2JOfS0/WI1vGgIowBsnM6StrEQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=HU7Y4M22FpLLU5KIkJ6Mr8Aw1m4/uO0xHrSvhUN+TA0=;
+ b=CITVSn+OORaKrJotSF4XBmLX+/OnOPij0H8gpnGVnYpbtA7vukiGlxc8n+TL8yyL+yuhmK6roWlVz1LWkZJwyiyTTIC2iIdrW3ilEtGm+5fm7sUXN3HqsWvBDPQrV2rOVG1EPXZ09KZMIwO0PqmSfKpv/B5x9aSzavUEfj8BbuZpUKkkn/ZQEXJefEiht40f/Sgfh3yKNDXvHaBxC861XP6qm2i5xOFLJ4cswC/4hNamMTRzt6KCDes1oEXgRAZQdhPaXyXjzlitRRAcTAlT2TB8YYRlrmZ+ujJufILmQXa3VNsRlDeX5YJS3jZ3pRSrOvHV8is3DTk3eybB8hxEtw==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=softfail (sender ip
+ is 185.38.181.18) smtp.rcpttodomain=nolato.com smtp.mailfrom=wlgore.com;
+ dmarc=pass (p=none sp=none pct=100) action=none header.from=wlgore.com;
+ dkim=pass (signature was verified) header.d=wlgore.com; arc=fail (47)
+Received: from AS9PR05CA0121.eurprd05.prod.outlook.com (2603:10a6:20b:497::23)
+ by DB8P189MB0651.EURP189.PROD.OUTLOOK.COM (2603:10a6:10:122::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.27; Tue, 6 Jun
+ 2023 01:56:28 +0000
+Received: from AM7EUR03FT017.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:20b:497:cafe::25) by AS9PR05CA0121.outlook.office365.com
+ (2603:10a6:20b:497::23) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.33 via Frontend
+ Transport; Tue, 6 Jun 2023 01:56:28 +0000
+Authentication-Results: spf=softfail (sender IP is 185.38.181.18)
+ smtp.mailfrom=wlgore.com; dkim=pass (signature was verified)
+ header.d=wlgore.com;dmarc=pass action=none
+ header.from=wlgore.com;compauth=pass reason=100
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ wlgore.com discourages use of 185.38.181.18 as permitted sender)
+Received: from smtp-in11.electric.net (185.38.181.18) by
+ AM7EUR03FT017.mail.protection.outlook.com (100.127.140.184) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6477.19 via Frontend Transport; Tue, 6 Jun 2023 01:56:27 +0000
+Received: from 1q6Lvs-0005JW-4E by in11i.electric.net with hostsite:2871938 (Exim 4.96)
+	(envelope-from <ldong@wlgore.com>)
+	id 1q6Lvv-0006gs-3j;
+	Mon, 05 Jun 2023 18:56:27 -0700
+Received: by emcmailer; Mon, 05 Jun 2023 18:56:27 -0700
+Received-SPF: pass (in11i.electric.net: domain of wlgore.com designates 67.231.149.59 as permitted sender) client-ip=67.231.149.59; envelope-from=ldong@wlgore.com; helo=mx0a-00186101.pphosted.com;
+Received: from mx0a-00186101.pphosted.com ([67.231.149.59])
+	by in11i.electric.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <ldong@wlgore.com>)
+	id 1q6Lvs-0005JW-4E;
+	Mon, 05 Jun 2023 18:56:24 -0700
+Received: from pps.filterd (m0312652.ppops.net [127.0.0.1])
+	by mx0b-00186101.pphosted.com (8.17.1.19/8.17.1.19) with ESMTP id 355JZl8A023397;
+	Mon, 5 Jun 2023 21:56:02 -0400
+Authentication-Results-Original: in11i.electric.net;	iprev=pass
+ (mx0a-00186101.pphosted.com) smtp.remote-ip=67.231.149.59;	spf=pass
+ smtp.mailfrom=wlgore.com;	dkim=pass header.d=wlgore.com header.s=Selector1
+ header.a=rsa-sha256;	dmarc=skipped
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=wlgore.com; h=from : to : cc :
+ subject : date : message-id : references : in-reply-to : content-type :
+ mime-version; s=Selector1;
+ bh=HU7Y4M22FpLLU5KIkJ6Mr8Aw1m4/uO0xHrSvhUN+TA0=;
+ b=fAJ4kpFAk0PWG59A995m20G8nUbtwMITkXtkmIw6kvP5SjR+R3EBNkAG8n1nT9YsbiBq
+ 7Wu//4rJ5IpOeqbzXMZfBv9K6gPIg1BhrOVblffQCDxpl0CfcUnSpYK6CYWTdenDOu2r
+ XSTDSfHlwtB9sUkQvCeESLHcRS9NWaKnwbM82bOk7Knrw1q5SIDKruCNq52e0CtXepXj
+ qCww9vhe7inzDmasP80LybY/BCfdEMExs0o6/RC0NREDajb7xBiJExWVg64ZALdV6JmH
+ MTI7V2uBBN22Gn/uK4nhGOOQGMgMumY/0vRokJP/ya3bffBxLTlfTJKNrFYLnVH+KhmL oQ== 
+Received: from usedlpapd01.wlgore.com ([157.204.84.198])
+	by mx0b-00186101.pphosted.com (PPS) with ESMTP id 3r1931ahsk-1;
+	Mon, 05 Jun 2023 21:56:01 -0400
+Received: from APC01-TYZ-obe.outbound.protection.outlook.com (unknown [104.47.110.42])
+	by Forcepoint Email with ESMTPS id 85D07963083DBFB2254E;
+	Mon,  5 Jun 2023 22:55:59 -0300 (ADT)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=KzXO9RGfy50ud5kvFjv5cjjnVKuOZcLwv1ZTpCzy65i8xrHF59+KwE7OS1AaxLWPd2iozQ1drw5yaSBr5c80PkyKwCOdN5lgHIf6Sdrksp96f/lvBo57S5WT1FatO696GxHczMTT3OAwJMs+L3vB7yPx+Y0iXUi/otw0Q4qtjK/C00FEe5iGIOVSETHQ1mNzt8N0F1ZhX9s4GFxheGULLW9I/5RcLyASs4S0YI83lbQtGHyH3Gqu//UaFG0qlYOQI51B52lS3n7VY5n6O4k97V/tdvljsZ6m0nSX0uUNxOrfVv74ZZEvVlii1twKa3GDlVtp+hALmG522F3RTAoELA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=bX7+AYJqRpmh/MaP5ZJBb67BFc6QG+ZUAOWNBjYcpUw=;
+ b=ENhMy4xdfrOIck4SowT/zjGFPTXmUjm2uUF0rYdGTIXF1BeOnkPBF0O694oX9/coS8Lgzv8vuE7l+JXMI922obhqU1x939nV5P0A3AdfByGO7vSibNDw1U6HseiW6UjBOn8HoQrAolVKcPcmK2rlNX7rR80F0QR8IdAd6l2RAQGiUmRu02WarQEds+UGYpttCz6/KJipUXz/99Sbo4cbl/6FCmbnyIqrT5n55pgjayZeaTOis8KwkP06NGSQp/ZzSZIzf0rcpKSEfbC67++lgvdZHJGQjL1TO+a1J/F0GbmW5alvkUvO7WMvRtODcKGyKhEIjgEOm4N4XraotQ7Giw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=wlgore.com; dmarc=pass action=none header.from=wlgore.com;
+ dkim=pass header.d=wlgore.com; arc=none
+Received: from TYZPR03MB7674.apcprd03.prod.outlook.com (2603:1096:400:426::10)
+ by SEZPR03MB7735.apcprd03.prod.outlook.com (2603:1096:101:12d::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.31; Tue, 6 Jun
+ 2023 01:55:52 +0000
+Received: from TYZPR03MB7674.apcprd03.prod.outlook.com
+ ([fe80::74a9:42cc:69ba:30df]) by TYZPR03MB7674.apcprd03.prod.outlook.com
+ ([fe80::74a9:42cc:69ba:30df%6]) with mapi id 15.20.6455.030; Tue, 6 Jun 2023
+ 01:55:52 +0000
+From: Libby LL Dong <ldong@wlgore.com>
+To: Andy Gu <Andy.Gu@nolato.com>
+CC: Naomi Wang <naomi.wang@nolato.com>, Sally Chen <sally.chen@nolato.com>
+Subject: =?utf-8?B?UkU6IFtFWFRFUk5BTF0gUkU6IOmYsuawtOmAj+awlOiGnOadkOaWmemcgA==?=
+ =?utf-8?B?5rGC?=
+Thread-Topic: =?utf-8?B?W0VYVEVSTkFMXSBSRTog6Ziy5rC06YCP5rCU6Iac5p2Q5paZ6ZyA5rGC?=
+Thread-Index: AdmVJc8tTkgcnQbzQKeGuQdLRtVzKwAB+ZwAAJVgR3AAAO7eUAABtk4QAAIo2H0AIMGi4A==
+Date: Tue, 6 Jun 2023 01:55:52 +0000
+Message-ID: <TYZPR03MB76745C1D14259303DE34CDD0DF52A@TYZPR03MB7674.apcprd03.prod.outlook.com>
+References: <44d6a3a4a85e44dab2778c271038f241@nolato.com>
+ <SG2PR03MB30674FF34FC0555B7078510ADF4EA@SG2PR03MB3067.apcprd03.prod.outlook.com>
+ <20377a6f29c84e1bbc894b4b0950d2be@nolato.com>
+ <TYZPR03MB76742212B7B665BBC1E4A9C9DF4DA@TYZPR03MB7674.apcprd03.prod.outlook.com>
+ <c8ee610f3e70400cafacdfd42fd538d6@nolato.com>
+ <TYZPR03MB7674CEF752DC50BF102F0A35DF4DA@TYZPR03MB7674.apcprd03.prod.outlook.com>
+In-Reply-To: <TYZPR03MB7674CEF752DC50BF102F0A35DF4DA@TYZPR03MB7674.apcprd03.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+x-ms-traffictypediagnostic: TYZPR03MB7674:EE_|SEZPR03MB7735:EE_|AM7EUR03FT017:EE_|DB8P189MB0651:EE_
+X-MS-Office365-Filtering-Correlation-Id: ece10b3f-17e9-409a-ebfe-08db66313d86
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: OMBPZtGC67Njlvh+xnM68RirbjpJL0/1/YTcjEMCSL8YoLhszoTQqqJcgC8zQ8gzCK/IlWZmrg24MZBKg2b3p80YgZEvJGDcy3NplUrwkYTy2cfnenZ8MdtrdB8P5EMVsPqEHC7gggTv+XvcJWxI8nyWOXtMwVAM6Yh4HaeZWNnXd5NqDJg7rDVJHqWszTRs9phl86jh6cqI+Vp6ZR/gh7Em3pX8g6y/D7yIrAC3dO6s9+LbdiPdGTgxrEjd8I7hV//5frWlv/aoSccSnm6dSeu7oDucvp2snFc5hf1mpgfqJCH/8bTTm5EODnvMGi1RxU9vvnjY93KIFUD+NIzVltNfnbvrUe74PSxJT5uPl28IPzvOvJ72i3mfWU5x3HYGpVhwJXUuffKyd7HlBQgy16uZq+5PW92XNjwWFWMgOon+Yx/MGeOxzWofXD2+CyatC2t2wzZK2TZdVakmIuvDRVoELPWOMbv2XuZbMjg6sdPrRgJnoVVLKHTvcs8Q+GLV5bPn1K3ELaiMhzgcB/ZyN/IT3tNtI4rZKzIFojyeSaJEeJHZUx07wrzGiTNRhU0LpYMfwKLJ86R538pwLScNsWlAHK64+4+47JRzMF+Hm6k=
+X-Forefront-Antispam-Report-Untrusted: CIP:255.255.255.255;CTRY:;LANG:zh-cn;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:TYZPR03MB7674.apcprd03.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230028)(4636009)(366004)(346002)(39850400004)(136003)(396003)(376002)(1690799014)(451199021)(54906003)(99936003)(71200400001)(66899021)(52536014)(478600001)(9326002)(5660300002)(8936002)(166002)(38070700005)(224303003)(33656002)(86362001)(2906002)(66946007)(450100002)(66446008)(4326008)(66556008)(66476007)(64756008)(6916009)(122000001)(316002)(76116006)(55016003)(38100700002)(41300700001)(26005)(66574015)(186003)(7696005)(53546011)(9686003)(6506007)(83380400001)(579004);DIR:OUT;SFP:1101;
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_001F_01DC1354.4A1AE750"
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEZPR03MB7735
+X-Proofpoint-GUID: uDGDDrkKuU-ScOHgkVIG0NOVwgPdEr0W
+X-Proofpoint-ORIG-GUID: uDGDDrkKuU-ScOHgkVIG0NOVwgPdEr0W
+X-Proofpoint-Virus-Version: vendor=baseguard
+ engine=ICAP:2.0.205,Aquarius:18.0.957,Hydra:6.0.573,FMLib:17.11.176.26
+ definitions=2023-06-05_35,2023-06-05_01,2023-05-22_02
+X-DNS-Warning: Hostname contains IP address. Possible dynamic IP.
+X-FM-OS: Linux 2.2.x-3.x
+X-FM-GeoIP: US
+X-Proto: esmtps
+X-Revdns: mx0a-00186101.pphosted.com
+X-HELO: mx0a-00186101.pphosted.com
+X-TLS: TLS1.2:ECDHE-RSA-AES256-GCM-SHA384:256
+X-Authenticated_ID:
+X-Origin-IP: 67.231.149.59
+X-Env-From: ldong@wlgore.com
+X-DKIM: pass
+X-DMARC: none
+X-VIPRE-Scanners: virus_bd;virus_clamav;spam_clamav;spam_bd;yara:1.0.5.344;urld;
+X-PolicySMART: 14849710
+X-SPAM-Status: NO, 0.0 / 5.0
+X-VIPRE-Scanners: virus_bd;virus_clamav;spam_clamav;spam_bd;yara:1.0.5.344;urld;
+X-PolicySMART: 14849710
+X-VIPRE-Scanners: virus_bd;virus_clamav;spam_clamav;spam_bd;yara:1.0.5.344;urld;
+X-PolicySMART: 14849710
+Return-Path: ldong@wlgore.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 82951467-075b-40cf-9508-31a225a9495c:0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: AM7EUR03FT017.eop-EUR03.prod.protection.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 55786861-e5b9-44f8-44e2-08db663128d4
+X-LD-Processed: 82951467-075b-40cf-9508-31a225a9495c,ExtAddr
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =?us-ascii?Q?3vZ376b502d3WYmxLEtry42PoSATxRgMOl94hoeVTdi+RRl2LxKzQ2B8pghM?=
+ =?us-ascii?Q?3zfOmtMQwTY6G1u35lAceeazVOTRf9advHC5MsKFBfADq4C5lfLFN/LeLZzm?=
+ =?us-ascii?Q?1lpYGFPERuck1qaV67mCJOGZiYHxuSRN1WebsHgoZLKNUkKiDBp7UOxDlug/?=
+ =?us-ascii?Q?+8Xd29sTS7JO98q28h4L7u96EHVQBvb10FDjYLTZ3wQjfkW2/Z2cmbqMU+nW?=
+ =?us-ascii?Q?RIXWbSUMLY/5SDh1xI/Bq/9k63BAotTVXNaJj0hm9fcFvwjGNJleRqobKEh+?=
+ =?us-ascii?Q?Tn9P7n/AXDZIrXZpL8uUb6Lu7qSNnxo1jYWhf6/N9bLXD2cL4HnDE/vo+t45?=
+ =?us-ascii?Q?ackqtS9QIVGh44ujFpqAMLyJlpKE0bThjuqieTVQK2Jo9f0YwengJvHpu7z5?=
+ =?us-ascii?Q?rYB1Rg2ir+9N/uc96KBp9OLvhUbmHo4mnXBcMzmGlQVTQWUdb2Dzu70XCb+v?=
+ =?us-ascii?Q?rQAY8OgrLsWfbwgGIKY27yHPWkn4uaYPMTZAKrNcOGSfDyhs/lqpSgzkNDpk?=
+ =?us-ascii?Q?XU9tS8JciADXTNs+FePFpFx5zxbqe8cS5aPRpXpxZ1TVEQwmBJfyrAOJUc3k?=
+ =?us-ascii?Q?OWa8fvltcckjTiWLBp3ljFPFQAcrIV73nWvlEO/SmOPmoE1p6/HrU0DYFWxQ?=
+ =?us-ascii?Q?aBK6v4M8tY41pYvrkV2r5ClC1cl6bLe4CIkt/hI7zN4m7Sk4vfWXwksnnS2e?=
+ =?us-ascii?Q?VxMayTXdFOuVzbV4n9cVuncRLY8e8bL8BND/0GrlDNMwrGKkO7y9hfo0neIM?=
+ =?us-ascii?Q?0YoG9eDmcPLKL4BrNUQlunVnGqgUV3FOIloXxHmvkcDaAnslI7IYIe7yPB67?=
+ =?us-ascii?Q?q9LqQ/MRxD427lFhfFvGxtgttaLn+owJEITo96aRJjpV0hzD1fesjFjiSL1G?=
+ =?us-ascii?Q?SDS0qDiZsRhIz0CVBina119uYXZD1O0YklB+wua3ghM4aw/3M/TjCCK1cDV2?=
+ =?us-ascii?Q?DR7jv1LA5wzvKjX554QGfg94sU70q+qzoOLzC+gKl0/m+yY4KbpA6Py/l2Xj?=
+ =?us-ascii?Q?NtEjXmuFdop4Hlfbn9qlx3M02PSrOQp5TzyKJZeftvuVDI/qRG0Dca5+zsIs?=
+ =?us-ascii?Q?nITME3pnjQ50LrutzqH/S35gocIJoTHwFRN1v85ISZ5oqFMZB3UXd9dFUwaP?=
+ =?us-ascii?Q?qC7so3zNn6CxOnm+r8IlIWRRzpB9VcLw4tvG16J+Qt5HPaGggQEHD1PXgbz5?=
+ =?us-ascii?Q?PRLRiCBCMG9EVvIarj6VillNgFr2AQKSTZgig6rNdI9Egq7v7ktbyT0Q/4we?=
+ =?us-ascii?Q?h4SMLwahLtScowJWTQBsjGjS8a13705pvKI0Z6GAsYbHPlRjRyzQIW3o3npr?=
+ =?us-ascii?Q?w2YLO+ruMKbKG31ztNN/2sTY2QJGLk5KqaMZHfCI7Tr2Fn5+kKQyfbEROEdz?=
+ =?us-ascii?Q?sSpyvPnBUO6BnT6OFpv9FfqY7nmus6zvp4nscwxYieyxSoOJ3kXGC5pupxBh?=
+ =?us-ascii?Q?2b2Qw/HGkYtFc0dpMB5bkLXnkZrEtTs3bLchhiDmI1itZPmFfQLuNdGYoxJf?=
+ =?us-ascii?Q?wcbrZkruwgUPvQcfBg9lKoZxPHcAQ8UIwRaJNwjb2PMGFrgPJggcoBaEGmKs?=
+ =?us-ascii?Q?ZMkRmdnweqTLWqxzJZlxcCBCEMdHREn26JkYIcOmT9KGwfZZlcs0fdad32Ev?=
+ =?us-ascii?Q?eJKOh2G7rFOKeeGh25G280Aa/HfF1fATRMn/LR36X6Cq?=
+X-Forefront-Antispam-Report: CIP:185.38.181.18;CTRY:SE;LANG:zh-cn;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:smtp-in11.electric.net;PTR:smtp-in11.electric.net;CAT:NONE;SFTY:9.25;SFS:(13230028)(451199021)(1690799014)(83380400001)(9686003)(6506007)(8636004)(224303003)(53546011)(26005)(66574015)(66899021)(336012)(55016003)(54906003)(166002)(5660300002)(86362001)(356005)(52536014)(450100002)(7636003)(7596003)(30864003)(1096003)(7696005)(33964004)(4326008)(58800400005)(6916009)(9326002)(33656002)(84300400001)(559001)(579004);DIR:INB;SFTY:9.25;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Jun 2023 01:56:27.3802
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: ece10b3f-17e9-409a-ebfe-08db66313d86
+X-MS-Exchange-CrossTenant-Id: 82951467-075b-40cf-9508-31a225a9495c
+X-MS-Exchange-CrossTenant-AuthSource: AM7EUR03FT017.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB8P189MB0651
+X-OrganizationHeadersPreserved: DB8P189MB0651.EURP189.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-Network-Message-Id: f54408d3-4743-4411-49d3-08db66313fc0
+X-MS-Exchange-Organization-SCL: 1
+X-CrossPremisesHeadersPromoted: DRNOLEXCH02.resource.local
+X-CrossPremisesHeadersFiltered: DRNOLEXCH02.resource.local
+X-MS-Exchange-Organization-AuthSource:
+	AM7EUR03FT017.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-OriginatorOrg: nolato.com
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.6402280
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.023
+X-MailStoreOLK-Original-Content-Type: multipart/related;
+	boundary="_006_TYZPR03MB76745C1D14259303DE34CDD0DF52ATYZPR03MB7674apcp_";
+	type="multipart/alternative"
+X-MailStoreMapiMimePostProcessor: 25.3.0.23011
+X-MailStore-Folder-UTF7: default/Outlook Sally Chen/+ZTZO9nux-/+ljJsNJAPbBSBnA-
+X-MailStore-Message-ID: <tyzpr03mb76745c1d14259303de34cdd0df52a@tyzpr03mb7674.apcprd03.prod.outlook.com>
+X-MailStore-Header-Hash: a5b4ecc56318ce54e7ea0000000462283166db08
+X-MailStore-Date: 20230606015633
+X-MailStore-ArcDate: 20250822030246
+X-MailStore-Flags: 6
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_001F_01DC1354.4A1AE750
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0020_01DC1354.4A1AE750"
+
+------=_NextPart_001_0020_01DC1354.4A1AE750
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+	Some people who received this message don't often get email from 
+ldong@wlgore.com. Learn why this is important		Hi Andy,
+
+更新报价请参考：
+
+VE82029
+MOQ 10K RMB 11.38元/片
+MOQ 25K RMB 6.23元/片
+MOQ 100K RMB 5.82元/片,
+DDP China, 含13%VAT, 100% 预付，交期4~6周。
+报价有效期至2023年7月６日。
+
+Best regards,
+
+Libby Dong
+
+From: Libby LL Dong <ldong@wlgore.com>
+Sent: Monday, June 5, 2023 6:17 PM
+To: Andy Gu <Andy.Gu@nolato.com>
+Cc: Naomi Wang <naomi.wang@nolato.com>; Sally Chen <sally.chen@nolato.com>
+Subject: Re: [EXTERNAL] RE: 防水透气膜材料需求
+
+Hi Andy,
+
+查了一下，我们目前没有内径14mm的VE8系列产品，以下VE82029的报价信息请参考！
+
+VE82029 MOQ 100K RMB 5.82元/片,
+DDP China, 含13%VAT, 100% 预付，交期4~6周。
+
+Best regards,
+
+Libby Dong
+  ________________________________
+发件人: Andy Gu <Andy.Gu@nolato.com>
+发送时间: 星期一, 六月 5, 2023 5:18 下午
+收件人: Libby LL Dong <ldong@wlgore.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Sally Chen <sally.chen@nolato.com>
+主题: RE: [EXTERNAL] RE: 防水透气膜材料需求
+
+	Warning: This email originated from outside of the organization. Do not 
+click links or open attachments unless you recognize the sender and know the 
+content is safe!
+Hi Libby，
+
+如电话沟通，请分别提供ID 20 * OD 29，ID 14 * OD 29，两个尺寸的报价。谢谢！
+有MOQ梯度价格的话，请提供不同MOQ的报价。
+
+~ ~ ~  Best Regards！~ ~ ~
+Andy Gu
+Sourcing
+
+
+Mobile :+86 181-2369-4568
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+This message and any attachment is confidential and may be covered by legal 
+professional privilege. If you have received this message in error, please 
+delete it from your system. If you need any assistance, please contact the 
+sender by return email.
+
+From: Libby LL Dong [mailto:ldong@wlgore.com]
+Sent: Monday, June 5, 2023 4:31 PM
+To: Andy Gu
+Cc: Naomi Wang; Sally Chen
+Subject: RE: [EXTERNAL] RE: 防水透气膜材料需求
+
+	Some people who received this message don't often get email from 
+ldong@wlgore.com. Learn why this is important		Hi Andy,
+
+感谢回复以下项目需求信息！
+
+我司VE8系列的标准品VE82029，外径29mm，内径为20mm，透气量和防水等级都可以满足要求。附件产品资料请参考！麻烦确认一下贵司是否能够考虑接受VE82029这款物料？谢谢！
+
+Best  regards,
+
+Libby Dong
+
+From: Andy Gu <Andy.Gu@nolato.com>
+Sent: Monday, June 5, 2023 3:58 PM
+To: Libby LL Dong <ldong@wlgore.com>
+Cc: Naomi Wang <naomi.wang@nolato.com>; Sally Chen <sally.chen@nolato.com>
+Subject: RE: [EXTERNAL] RE: 防水透气膜材料需求
+
+	Warning: This email originated from outside of the organization. Do not 
+click links or open attachments unless you recognize the sender and know the 
+content is safe!
+Hi Libby，
+
+项目信息以及产品尺寸如下，请尽快安排评估报价，谢谢！
+
+项目名称：HVA
+客户名称：Husqvarna
+产品名称：AIR FILTER
+防水等级：同时满足IP64和IP67、透气量满足3300 ml/min/cm²@70mbar
+需求尺寸：ID 14 * OD 29
+项目预估需求量：200K/年~400K/年
+产品周期：2年
+项目量产排程：暂无
+下单地点：深圳
+生产组装地：深圳
+
+
+~ ~ ~  Best Regards！~ ~ ~
+Andy Gu
+Sourcing
+
+
+Mobile :+86 181-2369-4568
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+This message and any attachment is confidential and may be covered by legal 
+professional privilege. If you have received this message in error, please 
+delete it from your system. If you need any assistance, please contact the 
+sender by return email.
+
+From: Libby LL Dong [mailto:ldong@wlgore.com]
+Sent: Friday, June 2, 2023 4:46 PM
+To: Andy Gu
+Cc: Naomi Wang
+Subject: [EXTERNAL] RE: 防水透气膜材料需求
+
+	Some people who received this message don't often get email from 
+ldong@wlgore.com. Learn why this is important		CAUTION: This email 
+originated from outside of the Nolato Group organization. Do not click links 
+or open attachments unless you recognize the sender and know the content is 
+safe.
+
+Hi Andy,
+
+感谢您对戈尔产品的兴趣与垂询！
+
+VE8是我们的一个产品系列，我们的防水膜不出售原材料，只出售模切后的成品，用于客户直接安装使用。
+
+因此还需要请您确认所需要的具体产品型号或者是产品尺寸，也可以提供以下项目需求信息，以便我们提供进一步的产品和服务，谢谢！
+
+項目名稱( Project Name) :
+客戶名稱( Customer Name ) :
+產品名稱( Device ) :
+防水等級( IP Rating ) :
+需求尺寸( Size ID___x OD__) :
+項目預估需求量( Est. volume ) : 年用量
+產品周期(Life cycle0：
+項目量產排程( MP schedule ) : (工廠備料用)
+下單地點：
+交易幣別(Currency): USD,  RMB?
+生產組裝地
+
+Best regards,
+
+Libby Dong
+Account Manager/Mobile Electronics
+ldong@wlgore.com
+T +86-755-2531 6429
+MP: +86 136 1304 1070
+W.L. Gore & Associates (Shenzhen) Co., Ltd
+Together, improving life
+Shenzhen Gaoxinqi Strategic Emerging Industrial Park,
+Baoan District,
+Shenzhen, P.R.China
+gore.com.cn
+From: Andy Gu <Andy.Gu@nolato.com>
+Sent: Friday, June 2, 2023 3:47 PM
+To: Libby LL Dong <ldong@wlgore.com>
+Cc: Naomi Wang <naomi.wang@nolato.com>
+Subject: 防水透气膜材料需求
+
+	Warning: This email originated from outside of the organization. Do not 
+click links or open attachments unless you recognize the sender and know the 
+content is safe!
+Hi Libby，
+
+客户最新咨询有关贵司防水透气膜材料，请提供如下材料的报价以及最新TDS，谢谢！
+VE8，防水透气膜
+
+报价需包含如下信息：供货尺寸Size（长宽厚）、交货期L/T、最低起订量MOQ、未税单价（如是含税需注明税率）；
+
+如有疑问，请提出！
+
+
+~ ~ ~  Best Regards！~ ~ ~
+Andy Gu
+Sourcing
+
+
+Mobile :+86 181-2369-4568
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+This message and any attachment is confidential and may be covered by legal 
+professional privilege. If you have received this message in error, please 
+delete it from your system. If you need any assistance, please contact the 
+sender by return email.
+
+
+
+For information about our privacy practices, see our Privacy Notice
+This email may contain trade secrets or privileged, undisclosed or otherwise 
+confidential information. If you have received this email in error, you are 
+hereby notified that any review, copying or distribution of it is strictly 
+prohibited. Please inform us immediately and destroy the original 
+transmittal. Thank you for your cooperation.
+
+
+For information about our privacy practices, see our Privacy Notice
+This email may contain trade secrets or privileged, undisclosed or otherwise 
+confidential information. If you have received this email in error, you are 
+hereby notified that any review, copying or distribution of it is strictly 
+prohibited. Please inform us immediately and destroy the original 
+transmittal. Thank you for your cooperation.
+
+
+
+For information about our privacy practices, see our Privacy Notice
+
+
+This email may contain trade secrets or privileged, undisclosed or otherwise 
+confidential information. If you have received this email in error, you are 
+hereby notified that any review, copying or distribution of it is strictly 
+prohibited. Please inform us immediately and destroy the original 
+transmittal. Thank you for your cooperation.
+
+
+------=_NextPart_001_0020_01DC1354.4A1AE750
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:SimSun;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:DengXian;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+=09{font-family:Verdana;
+=09panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+=09{font-family:Tahoma;
+=09panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+=09{font-family:wf_segoe-ui_normal;
+=09panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+=09{font-family:"Microsoft YaHei";
+=09panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+=09{font-family:"\@Microsoft YaHei";}
+@font-face
+=09{font-family:"\@SimSun";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"\@DengXian";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0in;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:blue;
+=09text-decoration:underline;}
+p.default, li.default, div.default
+=09{mso-style-name:default;
+=09mso-margin-top-alt:auto;
+=09margin-right:0in;
+=09mso-margin-bottom-alt:auto;
+=09margin-left:0in;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;}
+span.apple-converted-space
+=09{mso-style-name:apple-converted-space;}
+span.EmailStyle21
+=09{mso-style-type:personal-reply;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page WordSection1
+=09{size:8.5in 11.0in;
+=09margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:brea=
+k-word">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"cellpadding:0;border:0;cellspacing:0;display:table;width:100%;table-la=
+yout:fixed;border-collapse:seperate;float:none;" align=3D"left">
+<tbody style=3D"display:block;">
+<tr>
+<td valign=3D"middle" width=3D"1px" bgcolor=3D"#A6A6A6" cellpadding=3D"7px =
+2px 7px 2px" style=3D"padding:7px 2px 7px 2px;background-color:#A6A6A6;vali=
+gn:middle">
+</td>
+<td valign=3D"middle" width=3D"100%" bgcolor=3D"#EAEAEA" cellpadding=3D"7px=
+ 5px 7px 15px" color=3D"#212121" style=3D"width:100%;background-color:#EAEA=
+EA;padding:7px 5px 7px 15px;font-family:wf_segoe-ui_normal,Segoe UI,Segoe W=
+P,Tahoma,Arial, sans-serif;font-size:12px;font-weight:normal;color:#212121;=
+text-align:left;word-wrap:break-word;">
+<div>Some people who received this message don't often get email from ldong=
+@wlgore.com.
+<a href=3D"https://aka.ms/LearnAboutSenderIdentification">Learn why this is=
+ important</a></div>
+</td>
+<td valign=3D"middle" align=3D"left" width=3D"75px" bgcolor=3D"#EAEAEA" cel=
+lpadding=3D"7px 5px 7px 5px" color=3D"#212121" style=3D"width:75px;backgrou=
+nd-color:#EAEAEA;padding:7px 5px 7px 5px;font-family:wf_segoe-ui_normal,Seg=
+oe UI,Segoe WP,Tahoma,Arial, sans-serif;font-size:12px;font-weight:normal;c=
+olor:#212121;text-align:left;word-wrap:break-word;align:left">
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hi Andy,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=
+=E6=9B=B4=E6=96=B0=E6=8A=A5=E4=BB=B7=E8=AF=B7=E5=8F=82=E8=80=83=EF=BC=9A</s=
+pan><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"default" style=3D"margin:0in">VE82029 <o:p></o:p></p>
+<p class=3D"default" style=3D"margin:0in">MOQ 10K RMB 11.38<span lang=3D"ZH=
+-CN" style=3D"font-family:SimSun">=E5=85=83</span>/<span lang=3D"ZH-CN" sty=
+le=3D"font-family:SimSun">=E7=89=87</span><span style=3D"font-family:SimSun=
+"><o:p></o:p></span></p>
+<p class=3D"default" style=3D"margin:0in">MOQ 25K RMB 6.23<span lang=3D"ZH-=
+CN" style=3D"font-family:SimSun">=E5=85=83</span>/<span lang=3D"ZH-CN" styl=
+e=3D"font-family:SimSun">=E7=89=87</span><o:p></o:p></p>
+<p class=3D"default" style=3D"margin:0in">MOQ 100K RMB 5.82<span lang=3D"ZH=
+-CN" style=3D"font-family:SimSun">=E5=85=83</span>/<span lang=3D"ZH-CN" sty=
+le=3D"font-family:SimSun">=E7=89=87</span>,<span style=3D"font-family:&quot=
+;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"default" style=3D"margin:0in">DDP China,<span class=3D"apple-co=
+nverted-space">&nbsp;</span><span lang=3D"ZH-CN" style=3D"font-family:SimSu=
+n">=E5=90=AB</span>13%VAT, 100%<span class=3D"apple-converted-space">&nbsp;=
+</span><span lang=3D"ZH-CN" style=3D"font-family:SimSun">=E9=A2=84=E4=BB=98=
+=EF=BC=8C=E4=BA=A4=E6=9C=9F</span>4=7E6<span lang=3D"ZH-CN" style=3D"font-f=
+amily:SimSun">=E5=91=A8=E3=80=82</span><span style=3D"font-family:SimSun"><=
+o:p></o:p></span></p>
+<p class=3D"default" style=3D"margin:0in"><span lang=3D"ZH-CN" style=3D"fon=
+t-family:SimSun">=E6=8A=A5=E4=BB=B7=E6=9C=89=E6=95=88=E6=9C=9F=E8=87=B3</sp=
+an><span style=3D"font-family:SimSun">2023<span lang=3D"ZH-CN">=E5=B9=B4</s=
+pan>7<span lang=3D"ZH-CN">=E6=9C=88=EF=BC=96=E6=97=A5=E3=80=82</span><o:p><=
+/o:p></span></p>
+<p class=3D"default" style=3D"margin:0in"><span style=3D"font-family:SimSun=
+"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal">Best regards,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Libby Dong&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Libby LL Dong &lt;ldong@wlgore.com&gt; =
+<br>
+<b>Sent:</b> Monday, June 5, 2023 6:17 PM<br>
+<b>To:</b> Andy Gu &lt;Andy.Gu@nolato.com&gt;<br>
+<b>Cc:</b> Naomi Wang &lt;naomi.wang@nolato.com&gt;; Sally Chen &lt;sally.c=
+hen@nolato.com&gt;<br>
+<b>Subject:</b> Re: [EXTERNAL] RE: <span lang=3D"ZH-CN" style=3D"font-famil=
+y:&quot;Microsoft YaHei&quot;,sans-serif">
+=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E6=9D=90=E6=96=99=E9=9C=80=E6=
+=B1=82</span><o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">Hi Andy,<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"ZH-CN" style=3D"font-family:&quot;Micr=
+osoft YaHei&quot;,sans-serif">=E6=9F=A5=E4=BA=86=E4=B8=80=E4=B8=8B=EF=BC=8C=
+=E6=88=91=E4=BB=AC=E7=9B=AE=E5=89=8D=E6=B2=A1=E6=9C=89=E5=86=85=E5=BE=84</s=
+pan>14mm<span lang=3D"ZH-CN" style=3D"font-family:&quot;Microsoft YaHei&quo=
+t;,sans-serif">=E7=9A=84</span>VE8<span lang=3D"ZH-CN" style=3D"font-family=
+:&quot;Microsoft YaHei&quot;,sans-serif">=E7=B3=BB=E5=88=97=E4=BA=A7=E5=93=
+=81=EF=BC=8C=E4=BB=A5=E4=B8=8B</span>VE82029<span lang=3D"ZH-CN" style=3D"f=
+ont-family:&quot;Microsoft YaHei&quot;,sans-serif">=E7=9A=84=E6=8A=A5=E4=BB=
+=B7=E4=BF=A1=E6=81=AF=E8=AF=B7=E5=8F=82=E8=80=83=EF=BC=81</span><o:p></o:p>=
+</p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"default" style=3D"margin:0in">VE82029 MOQ 100K RMB 5.82<span la=
+ng=3D"ZH-CN" style=3D"font-family:SimSun">=E5=85=83</span>/<span lang=3D"ZH=
+-CN" style=3D"font-family:SimSun">=E7=89=87</span>,<span style=3D"font-fami=
+ly:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"default" style=3D"margin:0in">DDP China,<span class=3D"apple-co=
+nverted-space">&nbsp;</span><span lang=3D"ZH-CN" style=3D"font-family:SimSu=
+n">=E5=90=AB</span>13%VAT, 100%<span class=3D"apple-converted-space">&nbsp;=
+</span><span lang=3D"ZH-CN" style=3D"font-family:SimSun">=E9=A2=84=E4=BB=98=
+=EF=BC=8C=E4=BA=A4=E6=9C=9F</span>4=7E6<span lang=3D"ZH-CN" style=3D"font-f=
+amily:SimSun">=E5=91=A8=E3=80=82</span><span style=3D"font-family:&quot;Tim=
+es New Roman&quot;,serif"><o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Best regards,<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Libby Dong&nbsp;<o:p></o:p></p>
+</div>
+<div id=3D"mail-editor-reference-message-container">
+<div class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<hr size=3D"2" width=3D"98%" align=3D"center">
+</div>
+<div id=3D"divRplyFwdMsg">
+<p class=3D"MsoNormal"><b><span lang=3D"ZH-CN" style=3D"font-family:&quot;M=
+icrosoft YaHei&quot;,sans-serif">=E5=8F=91=E4=BB=B6=E4=BA=BA</span></b><b>:=
+</b> Andy Gu &lt;<a href=3D"mailto:Andy.Gu@nolato.com">Andy.Gu@nolato.com</=
+a>&gt;<br>
+<b><span lang=3D"ZH-CN" style=3D"font-family:&quot;Microsoft YaHei&quot;,sa=
+ns-serif">=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4</span></b><b>:</b>
+<span lang=3D"ZH-CN" style=3D"font-family:&quot;Microsoft YaHei&quot;,sans-=
+serif">=E6=98=9F=E6=9C=9F=E4=B8=80</span>, <span lang=3D"ZH-CN" style=3D"fo=
+nt-family:&quot;Microsoft YaHei&quot;,sans-serif">
+=E5=85=AD=E6=9C=88</span> 5, 2023 5:18 <span lang=3D"ZH-CN" style=3D"font-f=
+amily:&quot;Microsoft YaHei&quot;,sans-serif">
+=E4=B8=8B=E5=8D=88</span><br>
+<b><span lang=3D"ZH-CN" style=3D"font-family:&quot;Microsoft YaHei&quot;,sa=
+ns-serif">=E6=94=B6=E4=BB=B6=E4=BA=BA</span></b><b>:</b> Libby LL Dong &lt;=
+<a href=3D"mailto:ldong@wlgore.com">ldong@wlgore.com</a>&gt;<br>
+<b><span lang=3D"ZH-CN" style=3D"font-family:&quot;Microsoft YaHei&quot;,sa=
+ns-serif">=E6=8A=84=E9=80=81</span></b><b>:</b> Naomi Wang &lt;<a href=3D"m=
+ailto:naomi.wang@nolato.com">naomi.wang@nolato.com</a>&gt;; Sally Chen &lt;=
+<a href=3D"mailto:sally.chen@nolato.com">sally.chen@nolato.com</a>&gt;<br>=
+
+<b><span lang=3D"ZH-CN" style=3D"font-family:&quot;Microsoft YaHei&quot;,sa=
+ns-serif">=E4=B8=BB=E9=A2=98</span></b><b>:</b> RE: [EXTERNAL] RE:
+<span lang=3D"ZH-CN" style=3D"font-family:&quot;Microsoft YaHei&quot;,sans-=
+serif">=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E6=9D=90=E6=96=99=E9=
+=9C=80=E6=B1=82</span><o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" width=3D"100%" style=3D"width:100.0%">
+<tbody>
+<tr>
+<td style=3D"background:#FFB900;padding:5.0pt 2.0pt 5.0pt 2.0pt"></td>
+<td width=3D"100%" style=3D"width:100.0%;background:#FFF8E5;padding:5.0pt 4=
+.0pt 5.0pt 12.0pt">
+<div>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;color:#222222">Warning:</span></b><span =
+style=3D"font-size:10.0pt;color:#222222"> This email originated from outsid=
+e of the organization. Do not click links or open attachments unless you re=
+cognize the sender and know the content
+ is safe! <o:p></o:p></span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">Hi Libby</span><span lan=
+g=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;color:black">=EF=
+=BC=8C</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E5=A6=82=E7=94=B5=E8=AF=9D=E6=B2=9F=E9=80=9A=EF=BC=8C=E8=AF=B7=
+=E5=88=86=E5=88=AB=E6=8F=90=E4=BE=9B</span><span style=3D"font-size:10.5pt;=
+color:black">ID 20 * OD 29</span><span lang=3D"ZH-CN" style=3D"font-size:10=
+.5pt;font-family:SimSun;color:black">=EF=BC=8C</span><span style=3D"font-si=
+ze:10.5pt;color:black">ID
+ 14 * OD 29</span><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-famil=
+y:SimSun;color:black">=EF=BC=8C=E4=B8=A4=E4=B8=AA=E5=B0=BA=E5=AF=B8=E7=9A=
+=84=E6=8A=A5=E4=BB=B7=E3=80=82=E8=B0=A2=E8=B0=A2=EF=BC=81</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E6=9C=89</span><span style=3D"font-size:10.5pt;color:black">MOQ<=
+/span><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E6=A2=AF=E5=BA=A6=E4=BB=B7=E6=A0=BC=E7=9A=84=E8=AF=9D=EF=BC=8C=
+=E8=AF=B7=E6=8F=90=E4=BE=9B=E4=B8=8D=E5=90=8C</span><span style=3D"font-siz=
+e:10.5pt;color:black">MOQ</span><span lang=3D"ZH-CN" style=3D"font-size:10.=
+5pt;font-family:SimSun;color:black">=E7=9A=84=E6=8A=A5=E4=BB=B7=E3=80=82</s=
+pan><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">=7E =7E =7E&nbsp; Best Regards</span><span lang=3D"ZH-CN=
+" style=3D"font-size:10.0pt;font-family:SimSun;color:#404040">=EF=BC=81</sp=
+an><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:#404040">=7E
+ =7E =7E </span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans=
+-serif;color:#404040">Andy Gu
+</span></b><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">Sourcing</span><span style=3D"font-size:10.5pt"><o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">&nbsp;</span><span style=3D"font-size:10.5pt"><o:p></o:p=
+></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040"><img border=3D"0" width=3D"82" height=3D"22" style=3D"wi=
+dth:.8541in;height:.2291in" id=3D"Picture_x0020_2" src=3D"cid:image001.png@=
+01D9985D.12342CD0"></span><span style=3D"font-size:10.5pt"><o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">Mobile :&#43;86 181-2369-4568
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">=7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =
+=7E
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:black">This me=
+ssage and any attachment is confidential and may be covered by legal profes=
+sional privilege. If you have received this message in error, please delete=
+ it from your system. If you need any
+ assistance, please contact the sender by return email.</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,sans-serif">From:</span></b><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Tahoma&quot;,sans-serif"> Libby LL Dong [<a href=3D"mailto=
+:ldong@wlgore.com">mailto:ldong@wlgore.com</a>]
+<br>
+<b>Sent:</b> Monday, June 5, 2023 4:31 PM<br>
+<b>To:</b> Andy Gu<br>
+<b>Cc:</b> Naomi Wang; Sally Chen<br>
+<b>Subject:</b> RE: [EXTERNAL] RE: </span><span lang=3D"ZH-CN" style=3D"fon=
+t-size:10.0pt;font-family:SimSun">=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=
+=86=9C=E6=9D=90=E6=96=99=E9=9C=80=E6=B1=82</span><span style=3D"font-size:1=
+0.5pt"><o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt">&nbsp;<o:p></o:p></=
+span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" width=3D"100%" style=3D"width:100.0%">
+<tbody>
+<tr>
+<td style=3D"background:#A6A6A6;padding:5.25pt 1.5pt 5.25pt 1.5pt"></td>
+<td width=3D"100%" style=3D"width:100.0%;background:#EAEAEA;padding:5.25pt =
+3.75pt 5.25pt 11.25pt">
+<div>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:9.0pt;font-family:&quot;wf_segoe-ui_normal&quot;,s=
+erif;color:#212121">Some people who received this message don't often get e=
+mail from
+<a href=3D"mailto:ldong@wlgore.com">ldong@wlgore.com</a>. <a href=3D"https:=
+//urldefense.com/v3/__https:/aka.ms/LearnAboutSenderIdentification__;!!MIVp=
+Ws_L!sfJ2Iw0zyOO-O-f4xFdNFs_njWt2h4yICmBCFo7U-ttkbDHTymRM76MQBtwbe_xVGoHgKE=
+YDyK-zCg$">
+Learn why this is important</a></span><span style=3D"font-size:10.5pt"><o:p=
+></o:p></span></p>
+</div>
+</td>
+<td width=3D"75" style=3D"width:56.25pt;background:#EAEAEA;padding:5.25pt 3=
+.75pt 5.25pt 3.75pt">
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">Hi Andy,<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E6=84=9F=E8=B0=
+=A2=E5=9B=9E=E5=A4=8D=E4=BB=A5=E4=B8=8B=E9=A1=B9=E7=9B=AE=E9=9C=80=E6=B1=82=
+=E4=BF=A1=E6=81=AF=EF=BC=81</span><span lang=3D"ZH-CN">
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"default" style=3D"margin:0in"><span lang=3D"ZH-CN" style=3D"fon=
+t-family:SimSun;color:black">=E6=88=91=E5=8F=B8</span><span style=3D"color:=
+black">VE8</span><span lang=3D"ZH-CN" style=3D"font-family:SimSun;color:bla=
+ck">=E7=B3=BB=E5=88=97=E7=9A=84=E6=A0=87=E5=87=86=E5=93=81</span><span styl=
+e=3D"color:black">VE82029</span><span lang=3D"ZH-CN" style=3D"font-family:S=
+imSun;color:black">=EF=BC=8C=E5=A4=96=E5=BE=84</span><span style=3D"color:b=
+lack">29mm</span><span lang=3D"ZH-CN" style=3D"font-family:SimSun;color:bla=
+ck">=EF=BC=8C=E5=86=85=E5=BE=84=E4=B8=BA</span><span style=3D"color:black">=
+20mm</span><span lang=3D"ZH-CN" style=3D"font-family:SimSun;color:black">=
+=EF=BC=8C=E9=80=8F=E6=B0=94=E9=87=8F=E5=92=8C=E9=98=B2=E6=B0=B4=E7=AD=89=E7=
+=BA=A7=E9=83=BD=E5=8F=AF=E4=BB=A5=E6=BB=A1=E8=B6=B3=E8=A6=81=E6=B1=82=E3=80=
+=82=E9=99=84=E4=BB=B6=E4=BA=A7=E5=93=81=E8=B5=84=E6=96=99=E8=AF=B7=E5=8F=82=
+=E8=80=83=EF=BC=81=E9=BA=BB=E7=83=A6=E7=A1=AE=E8=AE=A4=E4=B8=80=E4=B8=8B=E8=
+=B4=B5=E5=8F=B8=E6=98=AF=E5=90=A6=E8=83=BD=E5=A4=9F=E8=80=83=E8=99=91=E6=8E=
+=A5=E5=8F=97</span><span style=3D"color:black">VE82029</span><span lang=3D"=
+ZH-CN" style=3D"font-family:SimSun;color:black">=E8=BF=99=E6=AC=BE=E7=89=A9=
+=E6=96=99=EF=BC=9F=E8=B0=A2=E8=B0=A2=EF=BC=81</span><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:black"><o:p></=
+o:p></span></p>
+<p class=3D"default" style=3D"margin:0in"><span style=3D"color:black">&nbsp=
+;</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&q=
+uot;,serif;color:black"><o:p></o:p></span></p>
+<p class=3D"default" style=3D"margin:0in"><span style=3D"color:black">Best&=
+nbsp; regards,</span><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;,serif;color:black"><o:p></o:p></span></p>
+<p class=3D"default" style=3D"margin:0in"><span style=3D"color:black">&nbsp=
+;</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&q=
+uot;,serif;color:black"><o:p></o:p></span></p>
+<p class=3D"default" style=3D"margin:0in"><span style=3D"color:black">Libby=
+ Dong</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Rom=
+an&quot;,serif;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Andy Gu &lt;<a href=3D"mailto:Andy.Gu@n=
+olato.com">Andy.Gu@nolato.com</a>&gt;
+<br>
+<b>Sent:</b> Monday, June 5, 2023 3:58 PM<br>
+<b>To:</b> Libby LL Dong &lt;<a href=3D"mailto:ldong@wlgore.com">ldong@wlgo=
+re.com</a>&gt;<br>
+<b>Cc:</b> Naomi Wang &lt;<a href=3D"mailto:naomi.wang@nolato.com">naomi.wa=
+ng@nolato.com</a>&gt;; Sally Chen &lt;<a href=3D"mailto:sally.chen@nolato.c=
+om">sally.chen@nolato.com</a>&gt;<br>
+<b>Subject:</b> RE: [EXTERNAL] RE: <span lang=3D"ZH-CN" style=3D"font-famil=
+y:&quot;Microsoft YaHei&quot;,sans-serif">
+=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E6=9D=90=E6=96=99=E9=9C=80=E6=
+=B1=82</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt">&nbsp;<o:p></o:p></=
+span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" width=3D"100%" style=3D"width:100.0%">
+<tbody>
+<tr>
+<td style=3D"background:#FFB900;padding:5.0pt 2.0pt 5.0pt 2.0pt"></td>
+<td width=3D"100%" style=3D"width:100.0%;background:#FFF8E5;padding:5.0pt 4=
+.0pt 5.0pt 12.0pt">
+<div>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;color:#222222">Warning:</span></b><span =
+style=3D"font-size:10.0pt;color:#222222"> This email originated from outsid=
+e of the organization. Do not click links or open attachments unless you re=
+cognize the sender and know the content
+ is safe! </span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></=
+span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">Hi Libby</span><span lan=
+g=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;color:black">=EF=
+=BC=8C</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E9=A1=B9=E7=9B=AE=E4=BF=A1=E6=81=AF=E4=BB=A5=E5=8F=8A=E4=BA=A7=
+=E5=93=81=E5=B0=BA=E5=AF=B8=E5=A6=82=E4=B8=8B=EF=BC=8C=E8=AF=B7=E5=B0=BD=E5=
+=BF=AB=E5=AE=89=E6=8E=92=E8=AF=84=E4=BC=B0=E6=8A=A5=E4=BB=B7=EF=BC=8C=E8=B0=
+=A2=E8=B0=A2=EF=BC=81</span><span style=3D"font-size:10.5pt"><o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E9=A1=B9=E7=9B=AE=E5=90=8D=E7=A7=B0=EF=BC=9A</span><span style=
+=3D"font-size:10.5pt;color:black">HVA</span><span style=3D"font-size:10.5pt=
+"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E5=AE=A2=E6=88=B7=E5=90=8D=E7=A7=B0=EF=BC=9A</span><span style=
+=3D"font-size:10.5pt;color:black">Husqvarna</span><span style=3D"font-size:=
+10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E4=BA=A7=E5=93=81=E5=90=8D=E7=A7=B0=EF=BC=9A</span><span style=
+=3D"font-size:10.5pt;color:black">AIR FILTER</span><span style=3D"font-size=
+:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E9=98=B2=E6=B0=B4=E7=AD=89=E7=BA=A7=EF=BC=9A=E5=90=8C=E6=97=B6=
+=E6=BB=A1=E8=B6=B3</span><span style=3D"font-size:10.5pt;color:black">IP64<=
+/span><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E5=92=8C</span><span style=3D"font-size:10.5pt;color:black">IP67=
+</span><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;co=
+lor:black">=E3=80=81=E9=80=8F=E6=B0=94=E9=87=8F=E6=BB=A1=E8=B6=B3</span><sp=
+an style=3D"font-size:10.5pt;color:black">3300
+ ml/min/cm=C2=B2@70mbar</span><span style=3D"font-size:10.5pt"><o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E9=9C=80=E6=B1=82=E5=B0=BA=E5=AF=B8=EF=BC=9A</span><span style=
+=3D"font-size:10.5pt;color:black">ID 14 * OD 29</span><span style=3D"font-s=
+ize:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E9=A1=B9=E7=9B=AE=E9=A2=84=E4=BC=B0=E9=9C=80=E6=B1=82=E9=87=8F=
+=EF=BC=9A</span><span style=3D"font-size:10.5pt;color:black">200K/</span><s=
+pan lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;color:black=
+">=E5=B9=B4</span><span style=3D"font-size:10.5pt;color:black">=7E400K/</sp=
+an><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;color:=
+black">=E5=B9=B4</span><span style=3D"font-size:10.5pt"><o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E4=BA=A7=E5=93=81=E5=91=A8=E6=9C=9F=EF=BC=9A</span><span style=
+=3D"font-size:10.5pt;color:black">2</span><span lang=3D"ZH-CN" style=3D"fon=
+t-size:10.5pt;font-family:SimSun;color:black">=E5=B9=B4</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E9=A1=B9=E7=9B=AE=E9=87=8F=E4=BA=A7=E6=8E=92=E7=A8=8B=EF=BC=9A=
+=E6=9A=82=E6=97=A0</span><span style=3D"font-size:10.5pt"><o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E4=B8=8B=E5=8D=95=E5=9C=B0=E7=82=B9=EF=BC=9A=E6=B7=B1=E5=9C=B3</=
+span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E7=94=9F=E4=BA=A7=E7=BB=84=E8=A3=85=E5=9C=B0=EF=BC=9A=E6=B7=B1=
+=E5=9C=B3</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">=7E =7E =7E&nbsp; Best Regards</span><span lang=3D"ZH-CN=
+" style=3D"font-size:10.0pt;font-family:SimSun;color:#404040">=EF=BC=81</sp=
+an><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:#404040">=7E
+ =7E =7E </span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans=
+-serif;color:#404040">Andy Gu
+</span></b><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">Sourcing</span><span style=3D"font-size:10.5pt"><o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">&nbsp;</span><span style=3D"font-size:10.5pt"><o:p></o:p=
+></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040"><img border=3D"0" width=3D"82" height=3D"22" style=3D"wi=
+dth:.8541in;height:.2291in" id=3D"Picture_x0020_1" src=3D"cid:image001.png@=
+01D9985D.12342CD0"></span><span style=3D"font-size:10.5pt"><o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">Mobile :&#43;86 181-2369-4568
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">=7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =
+=7E
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:black">This me=
+ssage and any attachment is confidential and may be covered by legal profes=
+sional privilege. If you have received this message in error, please delete=
+ it from your system. If you need any
+ assistance, please contact the sender by return email.</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,sans-serif">From:</span></b><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Tahoma&quot;,sans-serif"> Libby LL Dong [</span><span styl=
+e=3D"font-size:10.5pt"><a href=3D"mailto:ldong@wlgore.com"><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif">mailto:ldong@wlg=
+ore.com</span></a></span><span style=3D"font-size:10.0pt;font-family:&quot;=
+Tahoma&quot;,sans-serif">]
+<br>
+<b>Sent:</b> Friday, June 2, 2023 4:46 PM<br>
+<b>To:</b> Andy Gu<br>
+<b>Cc:</b> Naomi Wang<br>
+<b>Subject:</b> [EXTERNAL] RE: </span><span lang=3D"ZH-CN" style=3D"font-si=
+ze:10.0pt;font-family:SimSun">=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=
+=E6=9D=90=E6=96=99=E9=9C=80=E6=B1=82</span><span style=3D"font-size:10.5pt"=
+><o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt">&nbsp;<o:p></o:p></=
+span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" width=3D"100%" style=3D"width:100.0%">
+<tbody>
+<tr>
+<td style=3D"background:#A6A6A6;padding:5.25pt 1.5pt 5.25pt 1.5pt"></td>
+<td width=3D"100%" style=3D"width:100.0%;background:#EAEAEA;padding:5.25pt =
+3.75pt 5.25pt 11.25pt">
+<div>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<span style=3D"font-size:9.0pt;font-family:&quot;wf_segoe-ui_normal&quot;,s=
+erif;color:#212121">Some people who received this message don't often get e=
+mail from
+</span><span style=3D"font-size:10.5pt;color:black"><a href=3D"mailto:ldong=
+@wlgore.com"><span style=3D"font-size:9.0pt;font-family:&quot;wf_segoe-ui_n=
+ormal&quot;,serif">ldong@wlgore.com</span></a></span><span style=3D"font-si=
+ze:9.0pt;font-family:&quot;wf_segoe-ui_normal&quot;,serif;color:#212121">.=
+
+</span><span style=3D"font-size:10.5pt;color:black"><a href=3D"https://urld=
+efense.com/v3/__https:/aka.ms/LearnAboutSenderIdentification__;!!MIVpWs_L!o=
+JSKn_WErNNTen-emtIUJyF38o2j4smzah7B9IvQZIVX65uGIfjGOGoRUf-ajNm84YO5gpOLTk9X=
+Nw$"><span style=3D"font-size:9.0pt;font-family:&quot;wf_segoe-ui_normal&qu=
+ot;,serif">Learn
+ why this is important</span></a></span><span style=3D"font-size:10.5pt"><o=
+:p></o:p></span></p>
+</div>
+</td>
+<td width=3D"75" style=3D"width:56.25pt;background:#EAEAEA;padding:5.25pt 3=
+.75pt 5.25pt 3.75pt">
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<div style=3D"border:solid #9C6500 1.0pt;padding:2.0pt 2.0pt 2.0pt 2.0pt">=
+
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;background:red"><span st=
+yle=3D"font-size:10.0pt;color:white">CAUTION: This email originated from ou=
+tside of the Nolato Group organization. Do not click links or open attachme=
+nts unless you recognize the sender and
+ know the content is safe.</span><span style=3D"font-size:10.5pt"><o:p></o:=
+p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SimSun">=
+&nbsp;</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">Hi Andy,<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E6=84=9F=E8=B0=
+=A2=E6=82=A8=E5=AF=B9=E6=88=88=E5=B0=94=E4=BA=A7=E5=93=81=E7=9A=84=E5=85=B4=
+=E8=B6=A3=E4=B8=8E=E5=9E=82=E8=AF=A2=EF=BC=81</span><span style=3D"font-siz=
+e:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">VE8<span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E6=98=AF=E6=
+=88=91=E4=BB=AC=E7=9A=84=E4=B8=80=E4=B8=AA=E4=BA=A7=E5=93=81=E7=B3=BB=E5=88=
+=97=EF=BC=8C=E6=88=91=E4=BB=AC=E7=9A=84=E9=98=B2=E6=B0=B4=E8=86=9C=E4=B8=8D=
+=E5=87=BA=E5=94=AE=E5=8E=9F=E6=9D=90=E6=96=99=EF=BC=8C=E5=8F=AA=E5=87=BA=E5=
+=94=AE=E6=A8=A1=E5=88=87=E5=90=8E=E7=9A=84=E6=88=90=E5=93=81=EF=BC=8C=E7=94=
+=A8=E4=BA=8E=E5=AE=A2=E6=88=B7=E7=9B=B4=E6=8E=A5=E5=AE=89=E8=A3=85=E4=BD=BF=
+=E7=94=A8=E3=80=82</span><span style=3D"font-size:10.5pt"><o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E5=9B=A0=E6=AD=
+=A4=E8=BF=98=E9=9C=80=E8=A6=81=E8=AF=B7=E6=82=A8=E7=A1=AE=E8=AE=A4=E6=89=80=
+=E9=9C=80=E8=A6=81=E7=9A=84=E5=85=B7=E4=BD=93=E4=BA=A7=E5=93=81=E5=9E=8B=E5=
+=8F=B7=E6=88=96=E8=80=85=E6=98=AF=E4=BA=A7=E5=93=81=E5=B0=BA=E5=AF=B8=EF=BC=
+=8C=E4=B9=9F=E5=8F=AF=E4=BB=A5=E6=8F=90=E4=BE=9B=E4=BB=A5=E4=B8=8B=E9=A1=B9=
+=E7=9B=AE=E9=9C=80=E6=B1=82=E4=BF=A1=E6=81=AF=EF=BC=8C=E4=BB=A5=E4=BE=BF=E6=
+=88=91=E4=BB=AC=E6=8F=90=E4=BE=9B=E8=BF=9B=E4=B8=80=E6=AD=A5=E7=9A=84=E4=BA=
+=A7=E5=93=81=E5=92=8C=E6=9C=8D=E5=8A=A1=EF=BC=8C=E8=B0=A2=E8=B0=A2=EF=BC=81=
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E9=A0=85=E7=9B=
+=AE=E5=90=8D=E7=A8=B1</span>( Project Name) :
+<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E5=AE=A2=E6=88=
+=B6=E5=90=8D=E7=A8=B1</span>( Customer Name ) :
+<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E7=94=A2=E5=93=
+=81=E5=90=8D=E7=A8=B1</span>( Device ) :
+<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E9=98=B2=E6=B0=
+=B4=E7=AD=89=E7=B4=9A</span>( IP Rating ) :
+<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E9=9C=80=E6=B1=
+=82=E5=B0=BA=E5=AF=B8</span>( Size ID___x OD__) :&nbsp;
+<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E9=A0=85=E7=9B=
+=AE=E9=A0=90=E4=BC=B0=E9=9C=80=E6=B1=82=E9=87=8F</span>( Est. volume ) :
+<span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E5=B9=B4=E7=94=A8=E9=
+=87=8F</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E7=94=A2=E5=93=
+=81=E5=91=A8=E6=9C=9F</span>(Life cycle0<span lang=3D"ZH-CN" style=3D"font-=
+family:DengXian">=EF=BC=9A</span><span lang=3D"ZH-CN">
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E9=A0=85=E7=9B=
+=AE=E9=87=8F=E7=94=A2=E6=8E=92=E7=A8=8B</span>( MP schedule ) : (<span lang=
+=3D"ZH-CN" style=3D"font-family:DengXian">=E5=B7=A5=E5=BB=A0=E5=82=99=E6=96=
+=99=E7=94=A8</span>)
+<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E4=B8=8B=E5=96=
+=AE=E5=9C=B0=E9=BB=9E=EF=BC=9A</span><span style=3D"font-size:10.5pt"><o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E4=BA=A4=E6=98=
+=93=E5=B9=A3=E5=88=A5</span>(Currency): USD,&nbsp; RMB?<span style=3D"font-=
+size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-family:DengXian">=E7=94=9F=E7=94=
+=A2=E7=B5=84=E8=A3=9D=E5=9C=B0</span><span style=3D"font-size:10.5pt"><o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">Best regards,<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>=
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph">&nbsp;<span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;text-align:justify;tex=
+t-justify:inter-ideograph">
+<span style=3D"font-size:10.5pt">Libby Dong <br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans=
+-serif;color:black;border:none windowtext 1.0pt;padding:0in;background:whit=
+e">Account Manager/</span><span style=3D"font-size:10.5pt;color:black;borde=
+r:none windowtext 1.0pt;padding:0in;background:white">Mobile
+ Electronics</span><span style=3D"font-size:10.5pt;color:black;background:w=
+hite"><br>
+</span><span style=3D"font-size:10.5pt"><a href=3D"mailto:ldong@wlgore.com"=
+><span style=3D"color:#0563C1;border:none windowtext 1.0pt;padding:0in;back=
+ground:white">ldong@wlgore.com</span></a><span style=3D"color:black;backgro=
+und:white"><br>
+</span></span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quo=
+t;,sans-serif;color:black;border:none windowtext 1.0pt;padding:0in;backgrou=
+nd:white">T&nbsp;</span><span style=3D"font-size:10.5pt;color:black;border:=
+none windowtext 1.0pt;padding:0in;background:white">&#43;86-755-2531
+ 6429</span><span style=3D"font-size:10.5pt"> <br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans=
+-serif;color:black;border:none windowtext 1.0pt;padding:0in;background:whit=
+e">MP: &#43;86 136 1304 1070</span><span style=3D"font-size:10.5pt;color:bl=
+ack;background:white"><br>
+</span><b><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,s=
+ans-serif;color:red;border:none windowtext 1.0pt;padding:0in;background:whi=
+te">W.L. Gore &amp; Associates (Shenzhen) Co., Ltd</span></b><span style=3D=
+"font-size:10.5pt;color:black;background:white"><br>
+</span><b><i><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot=
+;,sans-serif;color:black;border:none windowtext 1.0pt;padding:0in;backgroun=
+d:white">Together, improving life</span></i></b><span style=3D"font-size:10=
+.5pt;color:black;background:white"><br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:black;border:none windowtext 1.0pt;padding:0in;background:white"=
+>Shenzhen Gaoxinqi Strategic Emerging Industrial Park,&nbsp;</span><span st=
+yle=3D"font-size:10.5pt;color:black;background:white"><br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:black;border:none windowtext 1.0pt;padding:0in;background:white"=
+>Baoan District,&nbsp;</span><span style=3D"font-size:10.5pt;color:black;ba=
+ckground:white"><br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:black;border:none windowtext 1.0pt;padding:0in;background:white"=
+>Shenzhen, P.R.China&nbsp;</span><span style=3D"font-size:10.5pt">
+<br>
+</span><b><u><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,=
+sans-serif;color:black;border:none windowtext 1.0pt;padding:0in;background:=
+white">gore.com.cn</span></u></b><span style=3D"font-size:10.5pt">
+<o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b>From:</b> Andy Gu &lt;<span style=3D"font-size:10=
+.5pt"><a href=3D"mailto:Andy.Gu@nolato.com"><span style=3D"font-size:11.0pt=
+">Andy.Gu@nolato.com</span></a></span>&gt;
+<br>
+<b>Sent:</b> Friday, June 2, 2023 3:47 PM<br>
+<b>To:</b> Libby LL Dong &lt;<span style=3D"font-size:10.5pt"><a href=3D"ma=
+ilto:ldong@wlgore.com"><span style=3D"font-size:11.0pt">ldong@wlgore.com</s=
+pan></a></span>&gt;<br>
+<b>Cc:</b> Naomi Wang &lt;<span style=3D"font-size:10.5pt"><a href=3D"mailt=
+o:naomi.wang@nolato.com"><span style=3D"font-size:11.0pt">naomi.wang@nolato=
+.com</span></a></span>&gt;<br>
+<b>Subject:</b> <span lang=3D"ZH-CN" style=3D"font-family:SimSun">=E9=98=B2=
+=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E6=9D=90=E6=96=99=E9=9C=80=E6=B1=82</s=
+pan><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt">&nbsp;<o:p></o:p></=
+span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" width=3D"100%" style=3D"width:100.0%">
+<tbody>
+<tr>
+<td style=3D"background:#FFB900;padding:5.0pt 2.0pt 5.0pt 2.0pt"></td>
+<td width=3D"100%" style=3D"width:100.0%;background:#FFF8E5;padding:5.0pt 4=
+.0pt 5.0pt 12.0pt">
+<div>
+<p class=3D"MsoNormal" style=3D"mso-element:frame;mso-element-frame-hspace:=
+2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-el=
+ement-anchor-horizontal:column;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;font-family:SimSun;color:#222222">Warnin=
+g:</span></b><span style=3D"font-size:10.0pt;font-family:SimSun;color:#2222=
+22"> This email originated from outside of the organization. Do not click l=
+inks or open attachments unless you
+ recognize the sender and know the content is safe! </span><span style=3D"f=
+ont-size:10.5pt"><o:p></o:p></span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SimSun">=
+&nbsp;</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">Hi Libby</span><span lan=
+g=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;color:black">=EF=
+=BC=8C</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E5=AE=A2=E6=88=B7=E6=9C=80=E6=96=B0=E5=92=A8=E8=AF=A2=E6=9C=89=
+=E5=85=B3=E8=B4=B5=E5=8F=B8=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E6=
+=9D=90=E6=96=99=EF=BC=8C=E8=AF=B7=E6=8F=90=E4=BE=9B=E5=A6=82=E4=B8=8B=E6=9D=
+=90=E6=96=99=E7=9A=84=E6=8A=A5=E4=BB=B7=E4=BB=A5=E5=8F=8A=E6=9C=80=E6=96=B0=
+</span><span style=3D"font-size:10.5pt;color:black">TDS</span><span lang=3D=
+"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;color:black">=EF=BC=8C=
+=E8=B0=A2=E8=B0=A2=EF=BC=81</span><span style=3D"font-size:10.5pt"><o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt">VE8</span><span lang=3D"ZH-CN" style=
+=3D"font-size:10.5pt;font-family:SimSun">=EF=BC=8C=E9=98=B2=E6=B0=B4=E9=80=
+=8F=E6=B0=94=E8=86=9C</span><span style=3D"font-size:10.5pt"><o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E6=8A=A5=E4=BB=B7=E9=9C=80=E5=8C=85=E5=90=AB=E5=A6=82=E4=B8=8B=
+=E4=BF=A1=E6=81=AF=EF=BC=9A=E4=BE=9B=E8=B4=A7=E5=B0=BA=E5=AF=B8</span><span=
+ style=3D"font-size:10.5pt;color:black">Size</span><span lang=3D"ZH-CN" sty=
+le=3D"font-size:10.5pt;font-family:SimSun;color:black">=EF=BC=88=E9=95=BF=
+=E5=AE=BD=E5=8E=9A=EF=BC=89=E3=80=81=E4=BA=A4=E8=B4=A7=E6=9C=9F</span><span=
+ style=3D"font-size:10.5pt;color:black">L/T</span><span lang=3D"ZH-CN" styl=
+e=3D"font-size:10.5pt;font-family:SimSun;color:black">=E3=80=81=E6=9C=80=E4=
+=BD=8E=E8=B5=B7=E8=AE=A2=E9=87=8F</span><span style=3D"font-size:10.5pt;col=
+or:black">MOQ</span><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-fam=
+ily:SimSun;color:black">=E3=80=81=E6=9C=AA=E7=A8=8E=E5=8D=95=E4=BB=B7=EF=BC=
+=88=E5=A6=82=E6=98=AF=E5=90=AB=E7=A8=8E=E9=9C=80=E6=B3=A8=E6=98=8E=E7=A8=8E=
+=E7=8E=87=EF=BC=89=EF=BC=9B</span><span style=3D"font-size:10.5pt"><o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;font-family:SimSun;color:black">&nbsp=
+;</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span lang=3D"ZH-CN" style=3D"font-size:10.5pt;font-family:SimSun;col=
+or:black">=E5=A6=82=E6=9C=89=E7=96=91=E9=97=AE=EF=BC=8C=E8=AF=B7=E6=8F=90=
+=E5=87=BA=EF=BC=81</span><span style=3D"font-size:10.5pt"><o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt;color:black">&nbsp;</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">=7E =7E =7E&nbsp; Best Regards</span><span lang=3D"ZH-CN=
+" style=3D"font-size:10.0pt;font-family:SimSun;color:#404040">=EF=BC=81</sp=
+an><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:#404040">=7E
+ =7E =7E </span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans=
+-serif;color:#404040">Andy Gu
+</span></b><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">Sourcing</span><span style=3D"font-size:10.5pt"><o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">&nbsp;</span><span style=3D"font-size:10.5pt"><o:p></o:p=
+></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040"><img border=3D"0" width=3D"82" height=3D"22" style=3D"wi=
+dth:.8541in;height:.2291in" id=3D"=E5=9B=BE=E7=89=87_x0020_1" src=3D"cid:im=
+age001.png@01D9985D.12342CD0" alt=3D"=E8=AF=B4=E6=98=8E: cid:image001.png@0=
+1D608F8.B4430110"></span><span style=3D"font-size:10.5pt"><o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">Mobile :&#43;86 181-2369-4568
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#404040">=7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =7E =
+=7E
+</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:black">This me=
+ssage and any attachment is confidential and may be covered by legal profes=
+sional privilege. If you have received this message in error, please delete=
+ it from your system. If you need any
+ assistance, please contact the sender by return email.</span><span style=
+=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;text-justify:inter-ideog=
+raph"><span style=3D"font-size:10.5pt">&nbsp;<o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"border:solid windowtext 1.0pt;padding=
+:0in"><img border=3D"0" width=3D"100" height=3D"100" style=3D"width:1.0416i=
+n;height:1.0416in" id=3D"Picture_x0020_3" src=3D"cid:image002.jpg@01D9985D.=
+12342CD0" alt=3D"=E5=9B=BE=E5=83=8F=E5=B7=B2=E8=A2=AB=E5=8F=91=E4=BB=B6=E4=
+=BA=BA=E5=88=A0=E9=99=A4=E3=80=82"></span><span style=3D"font-size:10.5pt">=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SimSun;b=
+order:solid windowtext 1.0pt;padding:0in"><img border=3D"0" width=3D"100" h=
+eight=3D"100" style=3D"width:1.0416in;height:1.0416in" id=3D"Picture_x0020_=
+4" src=3D"cid:image002.jpg@01D9985D.12342CD0" alt=3D"=E5=9B=BE=E5=83=8F=E5=
+=B7=B2=E8=A2=AB=E5=8F=91=E4=BB=B6=E4=BA=BA=E5=88=A0=E9=99=A4=E3=80=82 logo"=
+></span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SimSun">=
+For information about our privacy practices, see our
+</span><span style=3D"font-size:10.5pt"><a href=3D"https://urldefense.com/v=
+3/__https:/www.gore.com/privacy__;!!MIVpWs_L!oJSKn_WErNNTen-emtIUJyF38o2j4s=
+mzah7B9IvQZIVX65uGIfjGOGoRUf-ajNm84YO5gpOYcBtW2g$"><span style=3D"font-size=
+:12.0pt;font-family:SimSun">Privacy Notice
+</span></a><o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SimSun">=
+This email may contain trade secrets or privileged, undisclosed or otherwis=
+e confidential information. If you have received this email in error, you a=
+re hereby notified that any review,
+ copying or distribution of it is strictly prohibited. Please inform us imm=
+ediately and destroy the original transmittal. Thank you for your cooperati=
+on.</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"border:solid windowtext 1.0pt;padding=
+:0in"><img border=3D"0" width=3D"1" height=3D"1" style=3D"width:.0104in;hei=
+ght:.0104in" id=3D"Picture_x0020_7" src=3D"cid:image003.jpg@01D9985D.12342C=
+D0" alt=3D"=E5=9B=BE=E5=83=8F=E5=B7=B2=E8=A2=AB=E5=8F=91=E4=BB=B6=E4=BA=BA=
+=E5=88=A0=E9=99=A4=E3=80=82"></span><span style=3D"font-size:10.5pt"><o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SimSun;b=
+order:solid windowtext 1.0pt;padding:0in"><img border=3D"0" width=3D"100" h=
+eight=3D"100" style=3D"width:1.0416in;height:1.0416in" id=3D"Picture_x0020_=
+8" src=3D"cid:image002.jpg@01D9985D.12342CD0" alt=3D"=E5=9B=BE=E5=83=8F=E5=
+=B7=B2=E8=A2=AB=E5=8F=91=E4=BB=B6=E4=BA=BA=E5=88=A0=E9=99=A4=E3=80=82 logo"=
+></span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SimSun">=
+For information about our privacy practices, see our
+<a href=3D"https://urldefense.com/v3/__https:/www.gore.com/privacy__;!!MIVp=
+Ws_L!sfJ2Iw0zyOO-O-f4xFdNFs_njWt2h4yICmBCFo7U-ttkbDHTymRM76MQBtwbe_xVGoHgKE=
+YTAXO44w$">
+Privacy Notice </a></span><span style=3D"font-size:10.5pt"><o:p></o:p></spa=
+n></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SimSun">=
+This email may contain trade secrets or privileged, undisclosed or otherwis=
+e confidential information. If you have received this email in error, you a=
+re hereby notified that any review,
+ copying or distribution of it is strictly prohibited. Please inform us imm=
+ediately and destroy the original transmittal. Thank you for your cooperati=
+on.</span><span style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img src=3D"https://www.gore.com/sites/g/files/ypyipe116/files/2022-01/GORE=
+-Logo-Email-Signature_0.png" ;alt=3D"logo">
+<br>
+<div></div>
+For information about our privacy practices, see our <a href=3D"https://www=
+.gore.com/privacy">
+Privacy Notice </a><br>
+<div></div>
+<div>This email may contain trade secrets or privileged, undisclosed or oth=
+erwise confidential information. If you have received this email in error, =
+you are hereby notified that any review, copying or distribution of it is s=
+trictly prohibited. Please inform
+ us immediately and destroy the original transmittal. Thank you for your co=
+operation.<br>
+</div>
+</div>
+</body>
+</html>
+
+------=_NextPart_001_0020_01DC1354.4A1AE750--
+
+------=_NextPart_000_001F_01DC1354.4A1AE750
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D9985D.12342CD0>
+
+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
+/VegEgkRAAAAAElFTkSuQmCCAA==
+------=_NextPart_000_001F_01DC1354.4A1AE750
+Content-Type: image/jpeg;
+	name="image002.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image002.jpg@01D9985D.12342CD0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABkAGQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigD//2Q==
+------=_NextPart_000_001F_01DC1354.4A1AE750
+Content-Type: image/jpeg;
+	name="image003.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image003.jpg@01D9985D.12342CD0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/wAALCAABAAEBAREA/8QAHwAAAQUBAQEB
+AQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1Fh
+ByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZ
+WmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/9oACAEBAAA/APZK/9k=
+------=_NextPart_000_001F_01DC1354.4A1AE750--

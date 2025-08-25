@@ -1,0 +1,988 @@
+Received: from DRNOLEXCH06.resource.local (172.20.23.75) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2375.17 via Mailbox Transport; Tue, 7 Dec 2021 10:08:19 +0800
+Received: from DRNOLEXCH01.resource.local (172.20.7.48) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2375.17; Tue, 7 Dec 2021 10:08:18 +0800
+Received: from EUR04-DB3-obe.outbound.protection.outlook.com (172.20.7.201) by
+ DRNOLEXCH01.resource.local (172.20.7.48) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2375.7
+ via Frontend Transport; Tue, 7 Dec 2021 03:08:17 +0100
+Received: from AM5PR0101CA0004.eurprd01.prod.exchangelabs.com
+ (2603:10a6:206:16::17) by DBBP189MB1211.EURP189.PROD.OUTLOOK.COM
+ (2603:10a6:10:1ef::24) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4755.21; Tue, 7 Dec
+ 2021 02:08:06 +0000
+Received: from VE1EUR03FT025.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:206:16:cafe::dc) by AM5PR0101CA0004.outlook.office365.com
+ (2603:10a6:206:16::17) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4755.16 via Frontend
+ Transport; Tue, 7 Dec 2021 02:08:05 +0000
+Authentication-Results: spf=fail (sender IP is 185.38.181.13)
+ smtp.mailfrom=nor-ally.com; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=none header.from=nor-ally.com;compauth=none
+ reason=405
+Received-SPF: Fail (protection.outlook.com: domain of nor-ally.com does not
+ designate 185.38.181.13 as permitted sender) receiver=protection.outlook.com;
+ client-ip=185.38.181.13; helo=smtp-in11.electric.net;
+Received: from smtp-in11.electric.net (185.38.181.13) by
+ VE1EUR03FT025.mail.protection.outlook.com (10.152.18.74) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4755.13 via Frontend Transport; Tue, 7 Dec 2021 02:08:04 +0000
+Received: from 1muPtg-0004Oc-5w by in11f.electric.net with hostsite:2871938 (Exim 4.94.2)
+	(envelope-from <yaoying@nor-ally.com>)
+	id 1muPtj-0004a4-5x; Mon, 06 Dec 2021 18:08:03 -0800
+Received: by emcmailer; Mon, 06 Dec 2021 18:08:03 -0800
+Received: from mail-m2835.qiye.163.com ([103.74.28.35])
+	by in11f.electric.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <yaoying@nor-ally.com>)
+	id 1muPtg-0004Oc-5w; Mon, 06 Dec 2021 18:08:01 -0800
+Received: from LAPTOPR60JDOHU (unknown [222.67.1.59])
+	by mail-m2835.qiye.163.com (Hmail) with ESMTPA id 519ED8A00EA;
+	Tue,  7 Dec 2021 10:07:50 +0800 (CST)
+Authentication-Results-Original: in11f.electric.net;	iprev=pass
+ (mail-m2835.qiye.163.com) smtp.remote-ip=103.74.28.35;	spf=(invalid)
+ smtp.mailfrom=nor-ally.com;	dmarc=skipped
+From: <yaoying@nor-ally.com>
+To: 'Alex Ke' <Alex.Ke@nolato.com>
+CC: 'Naomi Wang' <naomi.wang@nolato.com>, 'Cindy Lin' <cindy.lin@nolato.com>,
+	'Lader Li' <Lader.Li@nolato.com>, 'Tianci Xia' <Tianci.Xia@nolato.com>,
+	'Kevin Xing' <kevin.xing@nolato.com>, 'Sally Chen' <sally.chen@nolato.com>,
+	<david@nor-ally.com>, <renyongjun@nor-ally.com>, jjhuang
+	<jjhuang@nor-ally.com>
+References: <9e43ae96302441cead94c8b4bfd3dd14@nolato.com> <5857db196b77409a80efaf184bbe994d@nolato.com> <302862e824394bac83ddd56cb841c7e0@nolato.com> <74ba61ee433f4a9ea3cd287c8d141f66@nolato.com>
+In-Reply-To: <74ba61ee433f4a9ea3cd287c8d141f66@nolato.com>
+Subject: =?gb2312?B?W0VYVEVSTkFMXSC72Li0OiC3wMuuzbjG+MSk0MXPosbAucA=?=
+Date: Tue, 7 Dec 2021 10:07:49 +0800
+Message-ID: <000e01d7eb0f$3ca804c0$b5f80e40$@nor-ally.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_00C2_01DC1354.FB1DB140"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQGg36Nxi6UmLyVfvEcYwkhEy5WqFADGUS3DA63yOXICO51E46xe3xJA
+Content-Language: zh-cn
+X-HM-Spam-Status: e1kfGhgUHx5ZQUtXWQgPGg8OCBgUHx5ZQUlOS1dZCBgUCR5ZQVlLVUtZV1
+	kWDxoPAgseWUFZKDYvK1lXWShZQUlCN1dZLVlBSVdZDwkaFQgSH1lBWUJPQ05WSUhIH0pOTkJPQ0
+	keVRkRExYaEhckFA4PWVdZFhoPEhUdFFlBWVVLWQY+
+X-HM-Sender-Digest: e1kMHhlZQR0aFwgeV1kSHx4VD1lBWUc6Nxg6Vio6DDI6MB0YCUlKSk8B
+	CD8aCwJVSlVKTUhDQ09JQ0xKT09DVTMWGhIXVQIaFAISFRw7FRQJVhoXFwJVGBQWRVlXWRILWUFZ
+	SUlJVU1MVUpVTkJZV1kIAVlBT01KQ083Bg++
+X-HM-Tid: 0a7d92a5ab97841dkuqw519ed8a00ea
+X-FM-OS: Linux 2.2.x-3.x
+X-FM-GeoIP: CN
+X-Proto: esmtps
+X-Revdns: mail-m2835.qiye.163.com
+X-HELO: mail-m2835.qiye.163.com
+X-TLS: TLS1.2:ECDHE-RSA-AES256-GCM-SHA384:256
+X-Authenticated_ID:
+X-Origin-IP: 103.74.28.35
+X-Env-From: yaoying@nor-ally.com
+X-DKIM:
+X-DMARC: none
+X-Virus-Status: Scanned by VirusSMART (c)
+X-PolicySMART: 14849710
+X-SPAM-Status: NO, 0.0 / 4.0
+X-PolicySMART: 14849710
+X-PolicySMART: 14849710
+X-PolicySMART: 14849710
+X-PolicySMART: 14849710
+X-PolicySMART: 14849710
+X-PolicySMART: 14849710
+Return-Path: yaoying@nor-ally.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 82951467-075b-40cf-9508-31a225a9495c:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 1cf70189-2166-45dd-2008-08d9b9266764
+X-MS-TrafficTypeDiagnostic: DBBP189MB1211:EE_
+X-LD-Processed: 82951467-075b-40cf-9508-31a225a9495c,ExtAddr
+X-MS-Oob-TLC-OOBClassifiers: OLM:1728;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =?us-ascii?Q?ShR4O+TU3jrkqLVpB+c6tCunp5GtObciIZnEeMn9gus/PJatlR1yBxVnWz44?=
+ =?us-ascii?Q?kFARK/MrGei4kF1+2s4CYkr5Jhzu7ttltW4Ou9wa69AYMUgMoK3TT04YYAYO?=
+ =?us-ascii?Q?Oh1hQKO5RsRSmgD1Y0BeScar+5I2GZKZTCjS9BdLitaJ5EUATpVT5KYuAPjb?=
+ =?us-ascii?Q?mgA1PpkRrU8yRwDJMBak/z+YALWhNy6OXz6WOd9shoMohHrWtKPCgSsOE2qU?=
+ =?us-ascii?Q?bsVhFH7pllsoLdg4bSxxP7HTMmUBqTst5evxq8tpzKVPus04qKelTX8256RQ?=
+ =?us-ascii?Q?/YfoBE8chd5eKOSUQUCzpbbQlS+VexfYvGkQoVFdYD1tFETtAcFboZqOBI5O?=
+ =?us-ascii?Q?SNJe/BmYrn+QScp2yjkhRmFCH/gHA0OeeH5uUlinIMeeiDgWE5Xu/oTZg3iq?=
+ =?us-ascii?Q?4P0yW5ykYKZEFg9iA/YkblZ2vnFGCUg/ZP3SZmzKo5tXYq0Je6Y26BkXYsJn?=
+ =?us-ascii?Q?UP3GRp5TX/4BdUK99ZrUt+ebbDlZwlJXv0QT3PhKjrnU6qT2X6KXp5tV/6Qv?=
+ =?us-ascii?Q?qbQNylOJ0pT/2nbUD80hBzQk73rcjzcy3+j0R3oFYL4Tu1jsNE3YgOtLXu67?=
+ =?us-ascii?Q?yXIR0PmL1t6DT1zAW7+7hDW4bW1MN9dXX/BaXcEOWX86je8gAgTK1VX3ReBg?=
+ =?us-ascii?Q?j7Jowp59S5GZaOw1hqKPPGOf54NVkuYgkiYS9dcWJ7JtXg229zAh3/WYpnxo?=
+ =?us-ascii?Q?fFDPNs6n7mh/pmtAXwgd6Rt6NDpyN88y/p3AlsECpnBgOCMWB3M8Y/Nf+KST?=
+ =?us-ascii?Q?wAQ/Q+zT5lskIxptgNVI9CHQtqxDkzmWbc5gvcoQMOBnM4lxGbbxuCklE/47?=
+ =?us-ascii?Q?t4MIvG6KlBkxHE28harRqk3Hpfi2K2kPWeUZI9V3ZDLVMZzYLcVfjDCRhW5W?=
+ =?us-ascii?Q?WX6EpbB5moa7GkArYesyD6QilvqpBIJEY6aGidKGPMcqhk+wCM3twxmE312b?=
+ =?us-ascii?Q?ZtGz6OepMvxfmDsvepqbo4QtVB8IITQxxGwyVgjDLYuPMYogj7WoXIA69toh?=
+ =?us-ascii?Q?IlSFyE1FuUeyNwvC7Q9ttPQfXehfu5Pqa0wKviDdrzn2ZuKiJGsnlmEWo1ft?=
+ =?us-ascii?Q?O0vFV3l4NmU2vaLCZFbCrsizfvkSNquG0PBVmZ21/+q0eXj5j14VtV14bgaU?=
+ =?us-ascii?Q?xew20DLllYtZ8DQfl4FvMl46ZSn+m0Y6ujsrnUtVgd2jWfm0Qu75srilWWCK?=
+ =?us-ascii?Q?0inlYslDtN5Oa6MCrFCdaGRvrfrBvvOMO2YZxwiLC1+IzbBRP28pQ6fka6b3?=
+ =?us-ascii?Q?i8dq96z/eOyOva2mA6xTqlmAXVhVD+JPVvap8krGVWQTl891JGdayrnaOfmi?=
+ =?us-ascii?Q?W0Qkf+61RJb9n8G9QeQ43f+66OWSa505/TMQxZLMsZiQjLUgIAYsWTYozex/?=
+ =?us-ascii?Q?kKUvTWMgVz/KzVojJIeuslKpAdkbCJa+cNLiVBSsnvnMu938rc9D6E+/NVF1?=
+ =?us-ascii?Q?c5cLOyK4h+JZfAjTenfYuf1d2I0fUPu+dy9o+fvlGk1zhRM5rLCRuea+/jOh?=
+ =?us-ascii?Q?pNF41gxk3KjIMW7tgJ5hEefm7UW+3goZ2PfVmFrNPuLZiE2N+XRG0YjqR5xl?=
+ =?us-ascii?Q?d0HYAX4dfoJ+vVGXfrTq5Uq6YWPQNVIuhbHNCJr1p1LyNIwF3T8BHd5/DdZP?=
+ =?us-ascii?Q?vGmHR4ok/F82fv9MDvwIlF851QiBsYhm4vu55FD/JamI5b742EHkgY8xmA08?=
+ =?us-ascii?Q?W20LnPoNz+Eqa+fRZShKPdvj0bByOLKjS6IOqiWIdEV8qUzA609UvwcQto1s?=
+ =?us-ascii?Q?658Q6kFtNA=3D=3D?=
+X-Forefront-Antispam-Report: CIP:185.38.181.13;CTRY:SE;LANG:zh-cn;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:smtp-in11.electric.net;PTR:smtp-in11.electric.net;CAT:NONE;SFS:(33964004)(336012)(224303003)(107886003)(26005)(4326008)(36756003)(6966003)(5660300002)(58800400005)(22186003)(6916009)(15974865002)(86362001)(1420700001)(2616005)(356005)(7636003)(7596003)(44736005)(450100002)(54906003)(1096003)(166002)(956004)(66574015)(2876002);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Dec 2021 02:08:04.4001
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1cf70189-2166-45dd-2008-08d9b9266764
+X-MS-Exchange-CrossTenant-Id: 82951467-075b-40cf-9508-31a225a9495c
+X-MS-Exchange-CrossTenant-AuthSource: VE1EUR03FT025.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DBBP189MB1211
+X-OrganizationHeadersPreserved: DBBP189MB1211.EURP189.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-Network-Message-Id: d9f33f33-89ad-47c6-6eb8-08d9b9266f1d
+X-MS-Exchange-Organization-SCL: 1
+X-CrossPremisesHeadersPromoted: DRNOLEXCH01.resource.local
+X-CrossPremisesHeadersFiltered: DRNOLEXCH01.resource.local
+X-MS-Exchange-Organization-AuthSource:
+	VE1EUR03FT025.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-OriginatorOrg: nolato.com
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.3449665
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2375.017
+X-MailStoreOLK-Original-Content-Type: multipart/related;
+	boundary="----=_NextPart_000_000F_01D7EB52.4ACFD8A0"
+X-MailStoreMapiMimePostProcessor: 25.3.0.23011
+X-MailStore-Folder-UTF7: default/Outlook Sally Chen/+ZTZO9nux-/+ljJsNJAPbBSBnA-
+X-MailStore-Message-ID: <000e01d7eb0f$3ca804c0$b5f80e40$@nor-ally.com>
+X-MailStore-Header-Hash: 4b48493dde877b278e8300008008345e26b9d908
+X-MailStore-Date: 20211207020820
+X-MailStore-ArcDate: 20250822030743
+X-MailStore-Flags: 6
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_00C2_01DC1354.FB1DB140
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_00C3_01DC1354.FB1DB140"
+
+------=_NextPart_001_00C3_01DC1354.FB1DB140
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+CAUTION: This email originated from outside of the organization. Do not 
+click links or open attachments unless you recognize the sender and know the 
+content is safe.
+
+
+
+Hello Alex,
+邮件收到。
+我们稍后开好会后会详细回答这几个问题，并同时抄送我们几位同事在邮件中。
+
+
+B.Regards
+Joanna Yao (姚莹）
+Norshine / Norgin
+Mobile: 86-13651809834
+
+发件人: Alex Ke <Alex.Ke@nolato.com>
+发送时间: 2021年12月7日 9:05
+收件人: 姚莹 <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+HI Joanna
+
+以下信息请帮忙确认：
+
+1.      请问贵司预计提供样品的时间是何时？
+2.      如果收到第一批样品测试不达标，需要贵司重新调整，请问这个调整的LT预计多久？
+3.      针对Audi项目的样品膜的LT预计多久？针对Volvo项目的样品膜的LT预计多久？ 
+
+
+Thx
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+
+
+发件人: Kevin Xing
+发送时间: 2021年12月2日 18:36
+收件人: Alex Ke <Alex.Ke@nolato.com>; 姚莹 <yaoying@nor-ally.com>; 
+david@nor-ally.com; renyongjun@nor-ally.com
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+大家好
+
+请查收附件更新的膜材信息，谢谢。
+
+
+Best Regards
+Kevin Xing
++86 13910312310
+
+发件人: Alex Ke <Alex.Ke@nolato.com>
+发送时间: 2021年12月1日 17:54
+收件人: 姚莹 <yaoying@nor-ally.com>; david@nor-ally.com; 
+renyongjun@nor-ally.com
+抄送: Naomi Wang <naomi.wang@nolato.com>; Kevin Xing 
+<kevin.xing@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; Lader Li 
+<Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+HI Joanna&David&Ren
+
+我这边更新了我们的需求信息以及之前测试Norgin两款膜材的测试数据，请查收
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+发件人: Alex Ke
+发送时间: 2021年12月1日 15:22
+收件人: '姚莹' <yaoying@nor-ally.com>; 'david@nor-ally.com；' 
+<david@nor-ally.com;>; 'renyongjun@nor-ally.com' <renyongjun@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Kevin Xing 
+<kevin.xing@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; Lader Li 
+<Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 防水透气膜信息评估
+
+HI Joanna & David & Ren
+
+您好，附件是我司需要的对应的膜材数据，还请内部评估。
+
+另外，请贵司提供一下贵司防水透气膜的测试信息，包括具体的仪器设备、测试方法、测试标准。还请今天提供，这样我司有时间内部评估双方差异，以便明天会议做讨论。
+
+您这边确认好明天下午的时间后，请告知我。
+
+THX
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+------=_NextPart_001_00C3_01DC1354.FB1DB140
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:=E5=AE=8B=E4=BD=93;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:=E7=AD=89=E7=BA=BF;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+=09{font-family:"\@=E5=AE=8B=E4=BD=93";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Barlow;}
+@font-face
+=09{font-family:"\@=E7=AD=89=E7=BA=BF";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"Barlow Light";}
+@font-face
+=09{font-family:"Barlow Medium";}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0cm;
+=09text-align:justify;
+=09text-justify:inter-ideograph;
+=09font-size:10.5pt;
+=09font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:blue;
+=09text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+=09{mso-style-priority:34;
+=09margin:0cm;
+=09text-align:justify;
+=09text-justify:inter-ideograph;
+=09text-indent:21.0pt;
+=09font-size:10.5pt;
+=09font-family:"Calibri",sans-serif;}
+span.EmailStyle22
+=09{mso-style-type:personal-compose;
+=09font-family:=E7=AD=89=E7=BA=BF;
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page WordSection1
+=09{size:612.0pt 792.0pt;
+=09margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+/* List Definitions */
+@list l0
+=09{mso-list-id:1772243662;
+=09mso-list-type:hybrid;
+=09mso-list-template-ids:1383131584 -41895604 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:18.0pt;
+=09text-indent:-18.0pt;}
+@list l0:level2
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%2\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:42.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level3
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:63.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level4
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:84.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level5
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%5\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:105.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level6
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:126.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level7
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:147.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level8
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%8\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:168.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level9
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:189.0pt;
+=09text-indent:-21.0pt;}
+ol
+=09{margin-bottom:0cm;}
+ul
+=09{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"ZH-CN" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:brea=
+k-word;text-justify-trim:punctuation">
+<p></p>
+<div style=3D"background-color:#FFEB9C; width:100%; border-style: solid; bo=
+rder-color:#9C6500; border-width:1pt; padding:2pt; font-size:10pt; line-hei=
+ght:12pt; font-family:'Calibri'; color:Black; text-align: left;">
+<span style=3D"color:#9C6500" ;font-weight:bold;=3D"">CAUTION:</span> This =
+email originated from outside of the organization. Do not click links or op=
+en attachments unless you recognize the sender and know the content is safe=
+.</div>
+<br>
+<p></p>
+<div>
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:=E7=AD=89=
+=E7=BA=BF">Hello Alex,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E7=AD=89=E7=BA=BF">=E9=
+=82=AE=E4=BB=B6=E6=94=B6=E5=88=B0=E3=80=82<span lang=3D"EN-US"><o:p></o:p><=
+/span></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E7=AD=89=E7=BA=BF">=E6=
+=88=91=E4=BB=AC=E7=A8=8D=E5=90=8E=E5=BC=80=E5=A5=BD=E4=BC=9A=E5=90=8E=E4=BC=
+=9A=E8=AF=A6=E7=BB=86=E5=9B=9E=E7=AD=94=E8=BF=99=E5=87=A0=E4=B8=AA=E9=97=AE=
+=E9=A2=98=EF=BC=8C=E5=B9=B6=E5=90=8C=E6=97=B6=E6=8A=84=E9=80=81=E6=88=91=E4=
+=BB=AC=E5=87=A0=E4=BD=8D=E5=90=8C=E4=BA=8B=E5=9C=A8=E9=82=AE=E4=BB=B6=E4=B8=
+=AD=E3=80=82<span lang=3D"EN-US"><o:p></o:p></span></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:=E7=AD=89=
+=E7=BA=BF"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:=E7=AD=89=
+=E7=BA=BF"><o:p>&nbsp;</o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:=E7=AD=89=
+=E7=BA=BF">B.Regards<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:=E7=AD=89=
+=E7=BA=BF">Joanna Yao (</span><span style=3D"font-family:=E7=AD=89=E7=BA=BF=
+">=E5=A7=9A=E8=8E=B9=EF=BC=89<span lang=3D"EN-US"><o:p></o:p></span></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:=E7=AD=89=
+=E7=BA=BF">Norshine / Norgin<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:=E7=AD=89=
+=E7=BA=BF">Mobile: 86-13651809834</span><span lang=3D"EN-US" style=3D"font-=
+family:=E7=AD=89=E7=BA=BF"><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-family:=E7=AD=89=
+=E7=BA=BF"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left"><b><span st=
+yle=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=E5=8F=91=E4=BB=B6=
+=E4=BA=BA<span lang=3D"EN-US">:</span></span></b><span lang=3D"EN-US" style=
+=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF"> Alex Ke &lt;Alex.Ke@n=
+olato.com&gt;
+<br>
+</span><b><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=
+=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3D"EN-US">:</span></span></b=
+><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF"> 2021</span><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF">=E5=B9=B4<span lang=3D"EN-US">12</span>=E6=9C=88<span lang=3D"EN-US=
+">7</span>=E6=97=A5<span lang=3D"EN-US">
+ 9:05<br>
+</span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3D"EN-US">:</span></b><span=
+ lang=3D"EN-US"> </span>=E5=A7=9A=E8=8E=B9<span lang=3D"EN-US"> &lt;yaoying=
+@nor-ally.com&gt;<br>
+</span><b>=E6=8A=84=E9=80=81<span lang=3D"EN-US">:</span></b><span lang=3D"=
+EN-US"> Naomi Wang &lt;naomi.wang@nolato.com&gt;; Cindy Lin &lt;cindy.lin@n=
+olato.com&gt;; Lader Li &lt;Lader.Li@nolato.com&gt;; Tianci Xia &lt;Tianci.=
+Xia@nolato.com&gt;; Kevin Xing &lt;kevin.xing@nolato.com&gt;; Sally Chen &l=
+t;sally.chen@nolato.com&gt;<br>
+</span><b>=E4=B8=BB=E9=A2=98<span lang=3D"EN-US">:</span></b><span lang=3D"=
+EN-US"> </span>=E5=9B=9E=E5=A4=8D<span lang=3D"EN-US">:
+</span>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=
+=AF=84=E4=BC=B0<span lang=3D"EN-US"><o:p></o:p></span></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left"><span lang=
+=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">HI Joanna<o:p></o:p></span></p>=
+
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E5=AE=8B=E4=BD=93">=E4=
+=BB=A5=E4=B8=8B=E4=BF=A1=E6=81=AF=E8=AF=B7=E5=B8=AE=E5=BF=99=E7=A1=AE=E8=AE=
+=A4=EF=BC=9A</span><span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:18.0pt;text-indent:-18.0=
+pt;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span lang=3D"EN-US"><span style=3D"mso-list:Ignore">1=
+.<span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-family:=E5=AE=8B=E4=BD=
+=93">=E8=AF=B7=E9=97=AE=E8=B4=B5=E5=8F=B8=E9=A2=84=E8=AE=A1=E6=8F=90=E4=BE=
+=9B=E6=A0=B7=E5=93=81=E7=9A=84=E6=97=B6=E9=97=B4=E6=98=AF=E4=BD=95=E6=97=B6=
+=EF=BC=9F</span>
+<span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:18.0pt;text-indent:-18.0=
+pt;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span lang=3D"EN-US"><span style=3D"mso-list:Ignore">2=
+.<span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-family:=E5=AE=8B=E4=BD=
+=93">=E5=A6=82=E6=9E=9C=E6=94=B6=E5=88=B0=E7=AC=AC=E4=B8=80=E6=89=B9=E6=A0=
+=B7=E5=93=81=E6=B5=8B=E8=AF=95=E4=B8=8D=E8=BE=BE=E6=A0=87=EF=BC=8C=E9=9C=80=
+=E8=A6=81=E8=B4=B5=E5=8F=B8=E9=87=8D=E6=96=B0=E8=B0=83=E6=95=B4=EF=BC=8C=E8=
+=AF=B7=E9=97=AE=E8=BF=99=E4=B8=AA=E8=B0=83=E6=95=B4=E7=9A=84</span><span la=
+ng=3D"EN-US">LT</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93">=E9=A2=
+=84=E8=AE=A1=E5=A4=9A=E4=B9=85=EF=BC=9F</span>
+<span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoListParagraph" style=3D"margin-left:18.0pt;text-indent:-18.0=
+pt;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span lang=3D"EN-US"><span style=3D"mso-list:Ignore">3=
+.<span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-family:=E5=AE=8B=E4=BD=
+=93">=E9=92=88=E5=AF=B9</span><span lang=3D"EN-US">Audi</span><span style=
+=3D"font-family:=E5=AE=8B=E4=BD=93">=E9=A1=B9=E7=9B=AE=E7=9A=84=E6=A0=B7=E5=
+=93=81=E8=86=9C=E7=9A=84</span><span lang=3D"EN-US">LT</span><span style=3D=
+"font-family:=E5=AE=8B=E4=BD=93">=E9=A2=84=E8=AE=A1=E5=A4=9A=E4=B9=85=EF=BC=
+=9F=E9=92=88=E5=AF=B9</span><span lang=3D"EN-US">Volvo</span><span style=3D=
+"font-family:=E5=AE=8B=E4=BD=93">=E9=A1=B9=E7=9B=AE=E7=9A=84=E6=A0=B7=E5=93=
+=81=E8=86=9C=E7=9A=84</span><span lang=3D"EN-US">LT</span><span style=3D"fo=
+nt-family:=E5=AE=8B=E4=BD=93">=E9=A2=84=E8=AE=A1=E5=A4=9A=E4=B9=85=EF=BC=9F=
+</span><span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Thx<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><b><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quo=
+t;Barlow Medium&quot;;color:black">Alex Ke
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;B=
+arlow Light&quot;;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:Barlow;=
+color:black"><img width=3D"82" height=3D"22" style=3D"width:.8583in;height:=
+.225in" id=3D"=E5=9B=BE=E7=89=87_x0020_3" src=3D"cid:image001.png@01D7EB52.=
+30A58B00"></span><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family=
+:&quot;Barlow Light&quot;;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><b><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quo=
+t;Barlow Medium&quot;;color:black">L=C3=B6vepac Technology(Shenzhen) Co., L=
+td<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">1st. 2nd. Floor, NO.3 Building, NO.1 Lirong R=
+oad, Changyi Industrial Area,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Xinshi Community, Dalang Street, Longhua Dist=
+rict,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Shenzhen, 518109, P.R.China<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Mobile: &#43;86 158-3130-0059<o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">E-mail:Alex.Ke@nolato.com<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><u><span lang=3D"EN-US" style=3D"font-size:9.0pt;fon=
+t-family:&quot;Barlow Light&quot;;color:#0E2EB8"><a href=3D"http://www.nola=
+to.com/">www.nolato.com</a></span></u><span lang=3D"EN-US"><o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left"><b><span st=
+yle=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=E5=8F=91=E4=BB=B6=
+=E4=BA=BA<span lang=3D"EN-US">:</span></span></b><span lang=3D"EN-US" style=
+=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF"> Kevin Xing
+<br>
+</span><b><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=
+=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3D"EN-US">:</span></span></b=
+><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF"> 2021</span><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF">=E5=B9=B4<span lang=3D"EN-US">12</span>=E6=9C=88<span lang=3D"EN-US=
+">2</span>=E6=97=A5<span lang=3D"EN-US">
+ 18:36<br>
+</span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3D"EN-US">:</span></b><span=
+ lang=3D"EN-US"> Alex Ke &lt;<a href=3D"mailto:Alex.Ke@nolato.com">Alex.Ke@=
+nolato.com</a>&gt;;
+</span>=E5=A7=9A=E8=8E=B9<span lang=3D"EN-US"> &lt;<a href=3D"mailto:yaoyin=
+g@nor-ally.com">yaoying@nor-ally.com</a>&gt;;
+<a href=3D"mailto:david@nor-ally.com">david@nor-ally.com</a>; <a href=3D"ma=
+ilto:renyongjun@nor-ally.com">
+renyongjun@nor-ally.com</a><br>
+</span><b>=E6=8A=84=E9=80=81<span lang=3D"EN-US">:</span></b><span lang=3D"=
+EN-US"> Naomi Wang &lt;<a href=3D"mailto:naomi.wang@nolato.com">naomi.wang@=
+nolato.com</a>&gt;; Cindy Lin &lt;<a href=3D"mailto:cindy.lin@nolato.com">c=
+indy.lin@nolato.com</a>&gt;; Lader Li &lt;<a href=3D"mailto:Lader.Li@nolato=
+.com">Lader.Li@nolato.com</a>&gt;;
+ Tianci Xia &lt;<a href=3D"mailto:Tianci.Xia@nolato.com">Tianci.Xia@nolato.=
+com</a>&gt;<br>
+</span><b>=E4=B8=BB=E9=A2=98<span lang=3D"EN-US">:</span></b><span lang=3D"=
+EN-US"> </span>=E5=9B=9E=E5=A4=8D<span lang=3D"EN-US">:
+</span>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=
+=AF=84=E4=BC=B0<span lang=3D"EN-US"><o:p></o:p></span></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left"><span lang=
+=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E5=AE=8B=E4=BD=93">=E5=
+=A4=A7=E5=AE=B6=E5=A5=BD</span><span lang=3D"EN-US"><o:p></o:p></span></p>=
+
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E5=AE=8B=E4=BD=93">=E8=
+=AF=B7=E6=9F=A5=E6=94=B6=E9=99=84=E4=BB=B6=E6=9B=B4=E6=96=B0=E7=9A=84=E8=86=
+=9C=E6=9D=90=E4=BF=A1=E6=81=AF=EF=BC=8C=E8=B0=A2=E8=B0=A2=E3=80=82</span><s=
+pan lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:#1F497D"><o:p>&n=
+bsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:#1F497D">Best Re=
+gards<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:#1F497D">Kevin X=
+ing<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:#1F497D">&#43;86=
+ 13910312310<o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left"><b><span st=
+yle=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=E5=8F=91=E4=BB=B6=
+=E4=BA=BA<span lang=3D"EN-US">:</span></span></b><span lang=3D"EN-US" style=
+=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF"> Alex Ke &lt;</span><s=
+pan lang=3D"EN-US"><a href=3D"mailto:Alex.Ke@nolato.com"><span style=3D"fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">Alex.Ke@nolato.com</span></a>=
+</span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF">&gt;
+<br>
+</span><b><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=
+=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3D"EN-US">:</span></span></b=
+><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF"> 2021</span><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF">=E5=B9=B4<span lang=3D"EN-US">12</span>=E6=9C=88<span lang=3D"EN-US=
+">1</span>=E6=97=A5<span lang=3D"EN-US">
+ 17:54<br>
+</span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3D"EN-US">:</span></b><span=
+ lang=3D"EN-US"> </span>=E5=A7=9A=E8=8E=B9<span lang=3D"EN-US"> &lt;</span>=
+</span><span lang=3D"EN-US"><a href=3D"mailto:yaoying@nor-ally.com"><span s=
+tyle=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">yaoying@nor-ally.c=
+om</span></a></span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-fam=
+ily:=E7=AD=89=E7=BA=BF">&gt;;
+</span><span lang=3D"EN-US"><a href=3D"mailto:david@nor-ally.com"><span sty=
+le=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">david@nor-ally.com</=
+span></a></span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF">;
+</span><span lang=3D"EN-US"><a href=3D"mailto:renyongjun@nor-ally.com"><spa=
+n style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">renyongjun@nor-=
+ally.com</span></a></span><span lang=3D"EN-US" style=3D"font-size:11.0pt;fo=
+nt-family:=E7=AD=89=E7=BA=BF"><br>
+</span><b><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=
+=E6=8A=84=E9=80=81<span lang=3D"EN-US">:</span></span></b><span lang=3D"EN-=
+US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF"> Naomi Wang &=
+lt;</span><span lang=3D"EN-US"><a href=3D"mailto:naomi.wang@nolato.com"><sp=
+an style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">naomi.wang@nol=
+ato.com</span></a></span><span lang=3D"EN-US" style=3D"font-size:11.0pt;fon=
+t-family:=E7=AD=89=E7=BA=BF">&gt;;
+ Kevin Xing &lt;</span><span lang=3D"EN-US"><a href=3D"mailto:kevin.xing@no=
+lato.com"><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">k=
+evin.xing@nolato.com</span></a></span><span lang=3D"EN-US" style=3D"font-si=
+ze:11.0pt;font-family:=E7=AD=89=E7=BA=BF">&gt;; Cindy Lin &lt;</span><span =
+lang=3D"EN-US"><a href=3D"mailto:cindy.lin@nolato.com"><span style=3D"font-=
+size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">cindy.lin@nolato.com</span></a>=
+</span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF">&gt;;
+ Lader Li &lt;</span><span lang=3D"EN-US"><a href=3D"mailto:Lader.Li@nolato=
+.com"><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">Lader=
+.Li@nolato.com</span></a></span><span lang=3D"EN-US" style=3D"font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF">&gt;; Tianci Xia &lt;</span><span lang=
+=3D"EN-US"><a href=3D"mailto:Tianci.Xia@nolato.com"><span style=3D"font-siz=
+e:11.0pt;font-family:=E7=AD=89=E7=BA=BF">Tianci.Xia@nolato.com</span></a></=
+span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF">&gt;<br>
+</span><b><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=
+=E4=B8=BB=E9=A2=98<span lang=3D"EN-US">:</span></span></b><span lang=3D"EN-=
+US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">
+</span><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=E5=
+=9B=9E=E5=A4=8D<span lang=3D"EN-US">: </span>
+=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=
+=BC=B0<span lang=3D"EN-US"><o:p></o:p></span></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left"><span lang=
+=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">HI Joanna&amp;David&amp;Ren<o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E5=AE=8B=E4=BD=93">=E6=
+=88=91=E8=BF=99=E8=BE=B9=E6=9B=B4=E6=96=B0=E4=BA=86=E6=88=91=E4=BB=AC=E7=9A=
+=84=E9=9C=80=E6=B1=82=E4=BF=A1=E6=81=AF=E4=BB=A5=E5=8F=8A=E4=B9=8B=E5=89=8D=
+=E6=B5=8B=E8=AF=95</span><span lang=3D"EN-US">Norgin</span><span style=3D"f=
+ont-family:=E5=AE=8B=E4=BD=93">=E4=B8=A4=E6=AC=BE=E8=86=9C=E6=9D=90=E7=9A=
+=84=E6=B5=8B=E8=AF=95=E6=95=B0=E6=8D=AE=EF=BC=8C=E8=AF=B7=E6=9F=A5=E6=94=B6=
+</span><span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">THX<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><b><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quo=
+t;Barlow Medium&quot;;color:black">Alex Ke
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;B=
+arlow Light&quot;;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:Barlow;=
+color:black"><img border=3D"0" width=3D"82" height=3D"22" style=3D"width:.8=
+583in;height:.225in" id=3D"=E5=9B=BE=E7=89=87_x0020_2" src=3D"cid:image001.=
+png@01D7EB52.30A58B00"></span><span lang=3D"EN-US" style=3D"font-size:10.0p=
+t;font-family:&quot;Barlow Light&quot;;color:black"><o:p></o:p></span></p>=
+
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><b><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quo=
+t;Barlow Medium&quot;;color:black">L=C3=B6vepac Technology(Shenzhen) Co., L=
+td<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">1st. 2nd. Floor, NO.3 Building, NO.1 Lirong R=
+oad, Changyi Industrial Area,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Xinshi Community, Dalang Street, Longhua Dist=
+rict,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Shenzhen, 518109, P.R.China<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Mobile: &#43;86 158-3130-0059<o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">E-mail:Alex.Ke@nolato.com<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><a href=3D"http://www.nolato.co=
+m/"><span style=3D"font-size:9.0pt;font-family:&quot;Barlow Light&quot;">ww=
+w.nolato.com</span></a><o:p></o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left"><b><span st=
+yle=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=E5=8F=91=E4=BB=B6=
+=E4=BA=BA<span lang=3D"EN-US">:</span></span></b><span lang=3D"EN-US" style=
+=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF"> Alex Ke
+<br>
+</span><b><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=
+=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3D"EN-US">:</span></span></b=
+><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF"> 2021</span><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF">=E5=B9=B4<span lang=3D"EN-US">12</span>=E6=9C=88<span lang=3D"EN-US=
+">1</span>=E6=97=A5<span lang=3D"EN-US">
+ 15:22<br>
+</span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3D"EN-US">:</span></b><span=
+ lang=3D"EN-US"> '</span>=E5=A7=9A=E8=8E=B9<span lang=3D"EN-US">' &lt;</spa=
+n></span><span lang=3D"EN-US"><a href=3D"mailto:yaoying@nor-ally.com"><span=
+ style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">yaoying@nor-ally=
+.com</span></a></span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-f=
+amily:=E7=AD=89=E7=BA=BF">&gt;;
+ 'david@nor-ally.com</span><span style=3D"font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF">=EF=BC=9B<span lang=3D"EN-US">' &lt;</span></span><span la=
+ng=3D"EN-US"><a href=3D"mailto:david@nor-ally.com;"><span style=3D"font-siz=
+e:11.0pt;font-family:=E7=AD=89=E7=BA=BF">david@nor-ally.com;</span></a></sp=
+an><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF">&gt;;
+ 'renyongjun@nor-ally.com' &lt;</span><span lang=3D"EN-US"><a href=3D"mailt=
+o:renyongjun@nor-ally.com"><span style=3D"font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF">renyongjun@nor-ally.com</span></a></span><span lang=3D"EN-=
+US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">&gt;<br>
+</span><b><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=
+=E6=8A=84=E9=80=81<span lang=3D"EN-US">:</span></span></b><span lang=3D"EN-=
+US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF"> Naomi Wang &=
+lt;</span><span lang=3D"EN-US"><a href=3D"mailto:naomi.wang@nolato.com"><sp=
+an style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">naomi.wang@nol=
+ato.com</span></a></span><span lang=3D"EN-US" style=3D"font-size:11.0pt;fon=
+t-family:=E7=AD=89=E7=BA=BF">&gt;;
+ Kevin Xing &lt;</span><span lang=3D"EN-US"><a href=3D"mailto:kevin.xing@no=
+lato.com"><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">k=
+evin.xing@nolato.com</span></a></span><span lang=3D"EN-US" style=3D"font-si=
+ze:11.0pt;font-family:=E7=AD=89=E7=BA=BF">&gt;; Cindy Lin &lt;</span><span =
+lang=3D"EN-US"><a href=3D"mailto:cindy.lin@nolato.com"><span style=3D"font-=
+size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">cindy.lin@nolato.com</span></a>=
+</span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF">&gt;;
+ Lader Li &lt;</span><span lang=3D"EN-US"><a href=3D"mailto:Lader.Li@nolato=
+.com"><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">Lader=
+.Li@nolato.com</span></a></span><span lang=3D"EN-US" style=3D"font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF">&gt;; Tianci Xia &lt;</span><span lang=
+=3D"EN-US"><a href=3D"mailto:Tianci.Xia@nolato.com"><span style=3D"font-siz=
+e:11.0pt;font-family:=E7=AD=89=E7=BA=BF">Tianci.Xia@nolato.com</span></a></=
+span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF">&gt;<br>
+</span><b><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=
+=E4=B8=BB=E9=A2=98<span lang=3D"EN-US">:</span></span></b><span lang=3D"EN-=
+US" style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">
+</span><span style=3D"font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF">=E9=
+=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=
+=B0<span lang=3D"EN-US"><o:p></o:p></span></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left"><span lang=
+=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">HI Joanna &amp; David &amp; Ren=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E5=AE=8B=E4=BD=93">=E6=
+=82=A8=E5=A5=BD=EF=BC=8C=E9=99=84=E4=BB=B6=E6=98=AF=E6=88=91=E5=8F=B8=E9=9C=
+=80=E8=A6=81=E7=9A=84=E5=AF=B9=E5=BA=94=E7=9A=84=E8=86=9C=E6=9D=90=E6=95=B0=
+=E6=8D=AE=EF=BC=8C=E8=BF=98=E8=AF=B7=E5=86=85=E9=83=A8=E8=AF=84=E4=BC=B0=E3=
+=80=82</span><span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E5=AE=8B=E4=BD=93">=E5=
+=8F=A6=E5=A4=96=EF=BC=8C=E8=AF=B7=E8=B4=B5=E5=8F=B8=E6=8F=90=E4=BE=9B=E4=B8=
+=80=E4=B8=8B=E8=B4=B5=E5=8F=B8=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=
+=E7=9A=84=E6=B5=8B=E8=AF=95=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=8C=85=E6=8B=AC=E5=
+=85=B7=E4=BD=93=E7=9A=84=E4=BB=AA=E5=99=A8=E8=AE=BE=E5=A4=87=E3=80=81=E6=B5=
+=8B=E8=AF=95=E6=96=B9=E6=B3=95=E3=80=81=E6=B5=8B=E8=AF=95=E6=A0=87=E5=87=86=
+=E3=80=82=E8=BF=98=E8=AF=B7=E4=BB=8A=E5=A4=A9=E6=8F=90=E4=BE=9B=EF=BC=8C=E8=
+=BF=99=E6=A0=B7=E6=88=91=E5=8F=B8=E6=9C=89=E6=97=B6=E9=97=B4=E5=86=85=E9=83=
+=A8=E8=AF=84=E4=BC=B0=E5=8F=8C=E6=96=B9=E5=B7=AE=E5=BC=82=EF=BC=8C=E4=BB=A5=
+=E4=BE=BF=E6=98=8E=E5=A4=A9=E4=BC=9A=E8=AE=AE=E5=81=9A=E8=AE=A8=E8=AE=BA=E3=
+=80=82</span><span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:=E5=AE=8B=E4=BD=93">=E6=
+=82=A8=E8=BF=99=E8=BE=B9=E7=A1=AE=E8=AE=A4=E5=A5=BD=E6=98=8E=E5=A4=A9=E4=B8=
+=8B=E5=8D=88=E7=9A=84=E6=97=B6=E9=97=B4=E5=90=8E=EF=BC=8C=E8=AF=B7=E5=91=8A=
+=E7=9F=A5=E6=88=91=E3=80=82</span><span lang=3D"EN-US"><o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">THX<o:p></o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><b><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quo=
+t;Barlow Medium&quot;;color:black">Alex Ke
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;B=
+arlow Light&quot;;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:Barlow;=
+color:black"><img border=3D"0" width=3D"82" height=3D"22" style=3D"width:.8=
+583in;height:.225in" id=3D"=E5=9B=BE=E7=89=87_x0020_1" src=3D"cid:image001.=
+png@01D7EB52.30A58B00"></span><span lang=3D"EN-US" style=3D"font-size:10.0p=
+t;font-family:&quot;Barlow Light&quot;;color:black"><o:p></o:p></span></p>=
+
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><b><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quo=
+t;Barlow Medium&quot;;color:black">L=C3=B6vepac Technology(Shenzhen) Co., L=
+td<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">1st. 2nd. Floor, NO.3 Building, NO.1 Lirong R=
+oad, Changyi Industrial Area,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Xinshi Community, Dalang Street, Longhua Dist=
+rict,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Shenzhen, 518109, P.R.China<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">Mobile: &#43;86 158-3130-0059<o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Ba=
+rlow Light&quot;;color:black">E-mail:Alex.Ke@nolato.com<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><a href=3D"http://www.nolato.co=
+m/"><span style=3D"font-size:9.0pt;font-family:&quot;Barlow Light&quot;">ww=
+w.nolato.com</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+</div>
+</div>
+</body>
+</html>
+
+------=_NextPart_001_00C3_01DC1354.FB1DB140--
+
+------=_NextPart_000_00C2_01DC1354.FB1DB140
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D7EB52.30A58B00>
+
+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
+/VegEgkRAAAAAElFTkSuQmCCAA==
+------=_NextPart_000_00C2_01DC1354.FB1DB140--

@@ -1,0 +1,796 @@
+Received: from DRNOLEXCH07.resource.local (172.20.23.76) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2375.17 via Mailbox Transport; Thu, 9 Dec 2021 12:47:41 +0800
+Received: from DRNOLEXCH06.resource.local (172.20.23.75) by
+ DRNOLEXCH07.resource.local (172.20.23.76) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2375.17; Thu, 9 Dec 2021 12:47:41 +0800
+Received: from DRNOLEXCH06.resource.local ([fe80::1559:f5b:c745:9f48]) by
+ DRNOLEXCH06.resource.local ([fe80::1559:f5b:c745:9f48%5]) with mapi id
+ 15.01.2375.017; Thu, 9 Dec 2021 12:47:41 +0800
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0072_01DC1354.A45F1E70"
+Content-Transfer-Encoding: binary
+From: Kevin Xing <kevin.xing@nolato.com>
+To: Sally Chen <sally.chen@nolato.com>
+Subject: =?utf-8?B?6L2s5Y+ROiBOb3JnaW4gYW5kIEVQVEZF?=
+Thread-Topic: Norgin and EPTFE
+Thread-Index: AdfhrdVjzzYbF2M9SRG79uYe4NwVgwAAA9hgAAL424AABFLncAK7K8CQ
+Date: Thu, 9 Dec 2021 12:47:41 +0800
+Message-ID: <f69f5816eeb64eea818985bb0a25ffbe@nolato.com>
+References: <7ec7f3ce5325439887a3a90679930357@nolato.com>
+ <dd6f43e53bd443e1ac41ba6759a54f22@nolato.com>
+ <9c24f13f98d34d8f9b69c7c6a556a391@nolato.com>
+In-Reply-To: <9c24f13f98d34d8f9b69c7c6a556a391@nolato.com>
+Accept-Language: zh-CN, sv-SE, en-US
+Content-Language: zh-CN
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator: <f69f5816eeb64eea818985bb0a25ffbe@nolato.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: DRNOLEXCH06.resource.local
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [172.20.23.62]
+X-MS-Exchange-Organization-Network-Message-Id: a905d913-fa5c-43de-3c9d-08d9bacf08b5
+Return-Path: kevin.xing@nolato.com
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.5231033
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2375.017
+X-MailStoreOLK-Original-Content-Type: application/ms-tnef; name="winmail.dat"
+X-MailStoreMapiMimePostProcessor: 25.3.0.23011
+X-MailStore-Folder-UTF7: default/Outlook Sally Chen/+ZTZO9nux-/+ljJsNJAPbBSBnA-
+X-MailStore-Message-ID: <f69f5816eeb64eea818985bb0a25ffbe@nolato.com>
+X-MailStore-Header-Hash: e0a4a5b850617b79ec39000080944e08cfbad908
+X-MailStore-Date: 20211209044742
+X-MailStore-ArcDate: 20250822030517
+X-MailStore-Flags: 4
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0072_01DC1354.A45F1E70
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Norgin Shanghai Information
+
+
+Best Regards
+Kevin Xing
++86 13910312310
+
+发件人: Dan Wong <Dan.wong@nolato.com>
+发送时间: 2021年11月25日 15:08
+收件人: Kevin Xing <kevin.xing@nolato.com>; Naomi Wang 
+<naomi.wang@nolato.com>; Alex Ke <Alex.Ke@nolato.com>; Tianci Xia 
+<Tianci.Xia@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; Lader Li 
+<Lader.Li@nolato.com>
+主题: RE: Norgin and EPTFE
+
+从第一点开始，Naomi主导拿个方案出来
+第四点内部梳理也开始，和Norgin的设备与方法先对一下。
+
+From: Kevin Xing
+Sent: 2021年11月25日 13:05
+To: Dan Wong <Dan.wong@nolato.com>; Naomi Wang <naomi.wang@nolato.com>; Alex 
+Ke <Alex.Ke@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Cindy Lin 
+<cindy.lin@nolato.com>; Lader Li <Lader.Li@nolato.com>
+Subject: 回复: Norgin and EPTFE
+
+好的Dan，我先了解一下。
+
+
+Best Regards
+Kevin Xing
++86 13910312310
+
+发件人: Dan Wong <Dan.wong@nolato.com>
+发送时间: 2021年11月25日 11:41
+收件人: Naomi Wang <naomi.wang@nolato.com>; Alex Ke <Alex.Ke@nolato.com>; 
+Kevin Xing <kevin.xing@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; 
+Cindy Lin <cindy.lin@nolato.com>; Lader Li <Lader.Li@nolato.com>
+主题: FW: Norgin and EPTFE
+
+Alex, 故事这么写。
+
+Kevin, 考虑到未来这方面可能是重点，我需要你介入和天赐一起看这块。
+
+请Cindy带队，建立起所有Membrane的质检标准和能力，并与Norgin一起统一构建。
+
+Br/Dan
+
+From: Dan Wong
+Sent: 2021年11月25日 11:38
+To: Namwei Liew <Namwei.Liew@nolato.com>; Mattias Bengtsson 
+<mattias.bengtsson@nolato.com>; Naomi Wang <naomi.wang@nolato.com>
+Cc: Jörgen Karlsson <jorgen.karlsson@nolato.com>
+Subject: Norgin and EPTFE
+
+Norgin Shanghai
+China PTFE membrane for textile，PTFE membrane for air filtration，Laminated 
+membrane，PTFE membrane for liquid filtration Manufacturers, Suppliers and 
+Factory - Shanghai Norgin Membrane Tech Co.,Ltd.
+
+*  Fluorine materials development started in 1940s, and Dupont released 
+Teflon late that decade.
+*  Fluorine material science study started in Shanghai Organic Fluorine 
+Materials Research Institute, which established in mid-1970’s
+*  Shanghai Organic Fluorine Materials Research Institute had two research 
+subjects, 1) Tetrafluoroethylene TFE, and 2) Fluor rubber
+
+*  Norgin founder, Mr. Joy Huang, born 1963, local Shanghainese graduated 
+from East China University of Science and Technology, majored in Polymer 
+Materials
+*  All major technicians in Norgin all from the same major at the same 
+university above, located in Shanghai.
+*  After Mr Joy Huang graduated, in the old Chinese political system, he 
+become an government administration role in Shanghai Chemical Industry 
+Bureau in late 1980’s
+*  Since 1996, Joy Huang started to be rotated to a big Shanghai stated 
+owned chemical enterprise as GM
+*  In 1999, Joy Huang became the GM of Shanghai Huayi 3F New Material 
+Co.,Ltd Shanghai Huayi 3F New Materials Co., Ltd. (sh3f.com)
+
+*  Shanghai 3F has been focused on fluoropolymers (PTFE, PVDF, FKM, etc.) 
+and fluorine fine chemicals etc.
+*  Shanghai 3F had a joint venture with Gore US from late 1990s till 2016, 
+Joy Huang was the chairman of that 3F/Gore company.
+*  The reason why Gore teamed up with 3F is: Dupont as Gore’s main PTFE 
+supplier, didn’t really invest any resources in the development of PTFE 
+resin, Gore’s volume was nothing in Dupont’s priorities.
+*  Shanghai 3F has undertaken the TFE/PTEF development mission for China, 
+which could cooperate with Gore for those missed early researches which Gore 
+could not get support from Dupont.
+*  Joy Huang thus visited multiple Gore facilities in US, but he never got 
+into any real Gore’s core material technology, the JV just 
+did/paid/delivered whatever research Gore requested.
+
+*  Joy Huang left Shanghai 3F and founded Norgin 2005, he was fed up with 
+the government and stated-owned enterprise system.
+*  Except Norgin Shanghai, Joy Huang has another factory in Suzhou, focusing 
+on the PTFE wear resistance addictive for the polymer resin/compound 
+industry
+*  According to Joy Huang, all Sabic Asian factories are using his wear 
+resistance addictive, nearly single source
+*  I have witnessed two EPTFE production lines yesterday in Norgin, 30 
+meters long expand to 2m width, one is running production.
+*  Joy Huang says if annual consumption will be 100,000 sqm from us, it will 
+take only 10 days production.
+
+*  There are dozens of EPTFE lines in China, as PTFE compound requests some 
+rare formula ingredient materials, supplied by very few payers in the game 
+and Joy knows them all.
+*  Joy never heard SINAN, he is highly suspicious they are manufacturing 
+EPTFE by above sources, but he knows Voir, the vent manufacturer.
+*  Norgin has two main business: Fabric for special clothing in Europe 
+(military/fireman etc), and Gas/Liquid filtering.
+*  Norgin tried to enter consumer electronics business since 2015 but not 
+successful at all, Norgin would like continue to do so if we could help, to 
+balance his product mix and capacity.
+*  The reasons Joy believe for such an unsuccessful development in Consumer 
+Electronics are:
+*  Converters does not really know membrane
+*  Gaps between Norgin / Converters / Customers, very difficult to 
+understand the application failure root causes, testing criteria are 
+different, each parties are on different page for true application needs
+*  Norgin as a small player, cannot really get into leading customer vendor 
+pool, lack of channels and requested a very long lead time.
+
+That’s all what we can offer to Norgin, where Joy became very positive to 
+our ideas.
+
+Actions
+1.          Further reviews on current Audi/Volvo membrane requests (Norgin 
+believe it is feasible technically), hopefully form technical conclusions 
+within 2 weeks
+2.         If positive, establish an application panel among NB/LC/Norgin, 
+scan existing main application and work out technical roadmap by 2-3 months
+3.         Lovepac will supply Norgin some membrane samples, Norgin will do 
+reverse engineering study, in parallel
+4.         Lovepac and Norgin will form a team to align and standardize all 
+membrane testing criteria and equipment
+
+If all above get progressed in a desirable way, I will bring Jorgen and Joy 
+together for a future cooperation setup discussion.
+
+Br/Dan
+
+
+
+------=_NextPart_000_0072_01DC1354.A45F1E70
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dutf-8"><meta name=3DGenerator content=3D"Microsoft=
+ Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:Wingdings;
+=09panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+=09{font-family:=E5=AE=8B=E4=BD=93;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:=E7=AD=89=E7=BA=BF;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+=09{font-family:"\@=E5=AE=8B=E4=BD=93";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"\@=E7=AD=89=E7=BA=BF";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Barlow;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0cm;
+=09text-align:justify;
+=09text-justify:inter-ideograph;
+=09font-size:10.5pt;
+=09font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:#0563C1;
+=09text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+=09{mso-style-priority:34;
+=09margin:0cm;
+=09text-align:justify;
+=09text-justify:inter-ideograph;
+=09text-indent:21.0pt;
+=09font-size:10.5pt;
+=09font-family:"Calibri",sans-serif;}
+span.EmailStyle22
+=09{mso-style-type:personal-reply;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page WordSection1
+=09{size:612.0pt 792.0pt;
+=09margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+/* List Definitions */
+@list l0
+=09{mso-list-id:1499534777;
+=09mso-list-type:hybrid;
+=09mso-list-template-ids:692885032 67698703 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:21.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level2
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%2\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:42.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level3
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:63.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level4
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:84.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level5
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%5\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:105.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level6
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:126.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level7
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:147.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level8
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%8\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:168.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level9
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:189.0pt;
+=09text-indent:-21.0pt;}
+@list l1
+=09{mso-list-id:1803959229;
+=09mso-list-type:hybrid;
+=09mso-list-template-ids:-274925176 67698689 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=AC;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:21.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+@list l1:level2
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=AE;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:42.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+@list l1:level3
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=B5;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:63.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+@list l1:level4
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=AC;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:84.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+@list l1:level5
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=AE;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:105.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+@list l1:level6
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=B5;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:126.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+@list l1:level7
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=AC;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:147.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+@list l1:level8
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=AE;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:168.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+@list l1:level9
+=09{mso-level-number-format:bullet;
+=09mso-level-text:=EF=81=B5;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:189.0pt;
+=09text-indent:-21.0pt;
+=09font-family:Wingdings;}
+ol
+=09{margin-bottom:0cm;}
+ul
+=09{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DZH-CN link=3D"#0563C1=
+" vlink=3D"#954F72" style=3D'word-wrap:break-word;text-justify-trim:punctua=
+tion'><div class=3DWordSection1><p class=3DMsoNormal><span lang=3DEN-US>Nor=
+gin Shanghai Information<o:p></o:p></span></p><p class=3DMsoNormal><span la=
+ng=3DEN-US><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'color:#1F497D'>Best Regards<o:p></o:p></=
+span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>Ke=
+vin Xing<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'color:#1F497D'>+86 13910312310<o:p></o:p></span></p></div><p class=3DMs=
+oNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><div><div style=3D'b=
+order:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p cla=
+ss=3DMsoNormal align=3Dleft style=3D'text-align:left'><b><span style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E4=BB=B6=E4=BA=BA<s=
+pan lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:1=
+1.0pt;font-family:=E7=AD=89=E7=BA=BF'> Dan Wong &lt;Dan.wong@nolato.com&gt;=
+ <br></span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span>=
+</b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF'> 2021</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>=E5=B9=B4<span lang=3DEN-US>11</span>=E6=9C=88<span lang=3DEN-US=
+>25</span>=E6=97=A5<span lang=3DEN-US> 15:08<br></span><b>=E6=94=B6=E4=BB=
+=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> Kevin Xing &=
+lt;kevin.xing@nolato.com&gt;; Naomi Wang &lt;naomi.wang@nolato.com&gt;; Ale=
+x Ke &lt;Alex.Ke@nolato.com&gt;; Tianci Xia &lt;Tianci.Xia@nolato.com&gt;; =
+Cindy Lin &lt;cindy.lin@nolato.com&gt;; Lader Li &lt;Lader.Li@nolato.com&gt=
+;<br></span><b>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></b><span lang=
+=3DEN-US> RE: Norgin and EPTFE<o:p></o:p></span></span></p></div></div><p c=
+lass=3DMsoNormal align=3Dleft style=3D'text-align:left'><span lang=3DEN-US>=
+<o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'font-family=
+:=E5=AE=8B=E4=BD=93;color:#1F497D'>=E4=BB=8E=E7=AC=AC=E4=B8=80=E7=82=B9=E5=
+=BC=80=E5=A7=8B=EF=BC=8C</span><span lang=3DEN-US style=3D'font-family:Barl=
+ow;color:#1F497D'>Naomi</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93=
+;color:#1F497D'>=E4=B8=BB=E5=AF=BC=E6=8B=BF=E4=B8=AA=E6=96=B9=E6=A1=88=E5=
+=87=BA=E6=9D=A5</span><span lang=3DEN-US style=3D'font-family:Barlow;color:=
+#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-fam=
+ily:=E5=AE=8B=E4=BD=93;color:#1F497D'>=E7=AC=AC=E5=9B=9B=E7=82=B9=E5=86=85=
+=E9=83=A8=E6=A2=B3=E7=90=86=E4=B9=9F=E5=BC=80=E5=A7=8B=EF=BC=8C=E5=92=8C</s=
+pan><span lang=3DEN-US style=3D'font-family:Barlow;color:#1F497D'>Norgin</s=
+pan><span style=3D'font-family:=E5=AE=8B=E4=BD=93;color:#1F497D'>=E7=9A=84=
+=E8=AE=BE=E5=A4=87=E4=B8=8E=E6=96=B9=E6=B3=95=E5=85=88=E5=AF=B9=E4=B8=80=E4=
+=B8=8B=E3=80=82</span><span lang=3DEN-US style=3D'font-family:Barlow;color:=
+#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US styl=
+e=3D'font-family:Barlow;color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><di=
+v style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm=
+ 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><b><span =
+lang=3DEN-US style=3D'font-size:11.0pt'>From:</span></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt'> Kevin Xing <br><b>Sent:</b> 2021</span><span st=
+yle=3D'font-size:11.0pt;font-family:=E5=AE=8B=E4=BD=93'>=E5=B9=B4</span><sp=
+an lang=3DEN-US style=3D'font-size:11.0pt'>11</span><span style=3D'font-siz=
+e:11.0pt;font-family:=E5=AE=8B=E4=BD=93'>=E6=9C=88</span><span lang=3DEN-US=
+ style=3D'font-size:11.0pt'>25</span><span style=3D'font-size:11.0pt;font-f=
+amily:=E5=AE=8B=E4=BD=93'>=E6=97=A5</span><span lang=3DEN-US style=3D'font-=
+size:11.0pt'> 13:05<br><b>To:</b> Dan Wong &lt;<a href=3D"mailto:Dan.wong@n=
+olato.com">Dan.wong@nolato.com</a>&gt;; Naomi Wang &lt;<a href=3D"mailto:na=
+omi.wang@nolato.com">naomi.wang@nolato.com</a>&gt;; Alex Ke &lt;<a href=3D"=
+mailto:Alex.Ke@nolato.com">Alex.Ke@nolato.com</a>&gt;; Tianci Xia &lt;<a hr=
+ef=3D"mailto:Tianci.Xia@nolato.com">Tianci.Xia@nolato.com</a>&gt;; Cindy Li=
+n &lt;<a href=3D"mailto:cindy.lin@nolato.com">cindy.lin@nolato.com</a>&gt;;=
+ Lader Li &lt;<a href=3D"mailto:Lader.Li@nolato.com">Lader.Li@nolato.com</a=
+>&gt;<br><b>Subject:</b> </span><span style=3D'font-size:11.0pt;font-family=
+:=E5=AE=8B=E4=BD=93'>=E5=9B=9E=E5=A4=8D</span><span lang=3DEN-US style=3D'f=
+ont-size:11.0pt'>: Norgin and EPTFE<o:p></o:p></span></p></div></div><p cla=
+ss=3DMsoNormal align=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o=
+:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'font-family:=
+=E5=AE=8B=E4=BD=93'>=E5=A5=BD=E7=9A=84</span><span lang=3DEN-US>Dan</span><=
+span style=3D'font-family:=E5=AE=8B=E4=BD=93'>=EF=BC=8C=E6=88=91=E5=85=88=
+=E4=BA=86=E8=A7=A3=E4=B8=80=E4=B8=8B=E3=80=82</span><span lang=3DEN-US><o:p=
+></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p>=
+</span></p><div><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F4=
+97D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US st=
+yle=3D'color:#1F497D'>Best Regards<o:p></o:p></span></p><p class=3DMsoNorma=
+l><span lang=3DEN-US style=3D'color:#1F497D'>Kevin Xing<o:p></o:p></span></=
+p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>+86 13910=
+312310<o:p></o:p></span></p></div><p class=3DMsoNormal><span lang=3DEN-US><=
+o:p>&nbsp;</o:p></span></p><div><div style=3D'border:none;border-top:solid =
+#E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left'><b><span style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF'>=E5=8F=91=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span><=
+/span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'> Dan Wong &lt;<a href=3D"mailto:Dan.wong@nolato.com">Dan.wong=
+@nolato.com</a>&gt; <br></span><b><span style=3D'font-size:11.0pt;font-fami=
+ly:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-=
+US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-fam=
+ily:=E7=AD=89=E7=BA=BF'> 2021</span><span style=3D'font-size:11.0pt;font-fa=
+mily:=E7=AD=89=E7=BA=BF'>=E5=B9=B4<span lang=3DEN-US>11</span>=E6=9C=88<spa=
+n lang=3DEN-US>25</span>=E6=97=A5<span lang=3DEN-US> 11:41<br></span><b>=E6=
+=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> =
+Naomi Wang &lt;<a href=3D"mailto:naomi.wang@nolato.com">naomi.wang@nolato.c=
+om</a>&gt;; Alex Ke &lt;<a href=3D"mailto:Alex.Ke@nolato.com">Alex.Ke@nolat=
+o.com</a>&gt;; Kevin Xing &lt;<a href=3D"mailto:kevin.xing@nolato.com">kevi=
+n.xing@nolato.com</a>&gt;; Tianci Xia &lt;<a href=3D"mailto:Tianci.Xia@nola=
+to.com">Tianci.Xia@nolato.com</a>&gt;; Cindy Lin &lt;<a href=3D"mailto:cind=
+y.lin@nolato.com">cindy.lin@nolato.com</a>&gt;; Lader Li &lt;<a href=3D"mai=
+lto:Lader.Li@nolato.com">Lader.Li@nolato.com</a>&gt;<br></span><b>=E4=B8=BB=
+=E9=A2=98<span lang=3DEN-US>:</span></b><span lang=3DEN-US> FW: Norgin and =
+EPTFE<o:p></o:p></span></span></p></div></div><p class=3DMsoNormal align=3D=
+left style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:Barlow;colo=
+r:#1F497D'>Alex, </span><span style=3D'font-family:=E5=AE=8B=E4=BD=93;color=
+:#1F497D'>=E6=95=85=E4=BA=8B=E8=BF=99=E4=B9=88=E5=86=99=E3=80=82</span><spa=
+n lang=3DEN-US style=3D'font-family:Barlow;color:#1F497D'><o:p></o:p></span=
+></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:Barlow;co=
+lor:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'font-family:Barlow;color:#1F497D'>Kevin, </span><span style=
+=3D'font-family:=E5=AE=8B=E4=BD=93;color:#1F497D'>=E8=80=83=E8=99=91=E5=88=
+=B0=E6=9C=AA=E6=9D=A5=E8=BF=99=E6=96=B9=E9=9D=A2=E5=8F=AF=E8=83=BD=E6=98=AF=
+=E9=87=8D=E7=82=B9=EF=BC=8C=E6=88=91=E9=9C=80=E8=A6=81=E4=BD=A0=E4=BB=8B=E5=
+=85=A5=E5=92=8C=E5=A4=A9=E8=B5=90=E4=B8=80=E8=B5=B7=E7=9C=8B=E8=BF=99=E5=9D=
+=97=E3=80=82</span><span lang=3DEN-US style=3D'font-family:Barlow;color:#1F=
+497D'><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-family:Barlow;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoNormal><span style=3D'font-family:=E5=AE=8B=E4=BD=93;color:#1F497D'>=
+=E8=AF=B7</span><span lang=3DEN-US style=3D'font-family:Barlow;color:#1F497=
+D'>Cindy</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93;color:#1F497D'=
+>=E5=B8=A6=E9=98=9F=EF=BC=8C=E5=BB=BA=E7=AB=8B=E8=B5=B7=E6=89=80=E6=9C=89</=
+span><span lang=3DEN-US style=3D'font-family:Barlow;color:#1F497D'>Membrane=
+</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93;color:#1F497D'>=E7=9A=
+=84=E8=B4=A8=E6=A3=80=E6=A0=87=E5=87=86=E5=92=8C=E8=83=BD=E5=8A=9B=EF=BC=8C=
+=E5=B9=B6=E4=B8=8E</span><span lang=3DEN-US style=3D'font-family:Barlow;col=
+or:#1F497D'>Norgin</span><span style=3D'font-family:=E5=AE=8B=E4=BD=93;colo=
+r:#1F497D'>=E4=B8=80=E8=B5=B7=E7=BB=9F=E4=B8=80=E6=9E=84=E5=BB=BA=E3=80=82<=
+/span><span lang=3DEN-US style=3D'font-family:Barlow;color:#1F497D'><o:p></=
+o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family=
+:Barlow;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><sp=
+an lang=3DEN-US style=3D'font-family:Barlow;color:#1F497D'>Br/Dan<o:p></o:p=
+></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:Ba=
+rlow;color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div style=3D'border:n=
+one;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMs=
+oNormal align=3Dleft style=3D'text-align:left'><b><span lang=3DEN-US style=
+=3D'font-size:11.0pt'>From:</span></b><span lang=3DEN-US style=3D'font-size=
+:11.0pt'> Dan Wong <br><b>Sent:</b> 2021</span><span style=3D'font-size:11.=
+0pt;font-family:=E5=AE=8B=E4=BD=93'>=E5=B9=B4</span><span lang=3DEN-US styl=
+e=3D'font-size:11.0pt'>11</span><span style=3D'font-size:11.0pt;font-family=
+:=E5=AE=8B=E4=BD=93'>=E6=9C=88</span><span lang=3DEN-US style=3D'font-size:=
+11.0pt'>25</span><span style=3D'font-size:11.0pt;font-family:=E5=AE=8B=E4=
+=BD=93'>=E6=97=A5</span><span lang=3DEN-US style=3D'font-size:11.0pt'> 11:3=
+8<br><b>To:</b> Namwei Liew &lt;<a href=3D"mailto:Namwei.Liew@nolato.com">N=
+amwei.Liew@nolato.com</a>&gt;; Mattias Bengtsson &lt;<a href=3D"mailto:matt=
+ias.bengtsson@nolato.com">mattias.bengtsson@nolato.com</a>&gt;; Naomi Wang =
+&lt;<a href=3D"mailto:naomi.wang@nolato.com">naomi.wang@nolato.com</a>&gt;<=
+br><b>Cc:</b> J=C3=B6rgen Karlsson &lt;<a href=3D"mailto:jorgen.karlsson@no=
+lato.com">jorgen.karlsson@nolato.com</a>&gt;<br><b>Subject:</b> Norgin and =
+EPTFE<o:p></o:p></span></p></div></div><p class=3DMsoNormal align=3Dleft st=
+yle=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p c=
+lass=3DMsoNormal><span lang=3DEN-US style=3D'font-family:Barlow'>Norgin Sha=
+nghai<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><a href=
+=3D"http://www.norgin.com.cn/">China PTFE membrane for textile<span lang=3D=
+EN-US style=3D'font-family:=E5=AE=8B=E4=BD=93'><span lang=3DEN-US>=EF=BC=8C=
+</span></span>PTFE membrane for air filtration<span lang=3DEN-US style=3D'f=
+ont-family:=E5=AE=8B=E4=BD=93'><span lang=3DEN-US>=EF=BC=8C</span></span>La=
+minated membrane<span lang=3DEN-US style=3D'font-family:=E5=AE=8B=E4=BD=93'=
+><span lang=3DEN-US>=EF=BC=8C</span></span>PTFE membrane for liquid filtrat=
+ion Manufacturers, Suppliers and Factory - Shanghai Norgin Membrane Tech Co=
+.,Ltd.</a><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:2=
+1.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><sp=
+an lang=3DEN-US style=3D'font-family:Wingdings'><span style=3D'mso-list:Ign=
+ore'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></s=
+pan><![endif]><span lang=3DEN-US style=3D'font-family:Barlow'>Fluorine mate=
+rials development started in 1940s, and Dupont released Teflon late that de=
+cade.<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left=
+:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><=
+span lang=3DEN-US style=3D'font-family:Wingdings'><span style=3D'mso-list:I=
+gnore'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span><=
+/span><![endif]><span lang=3DEN-US style=3D'font-family:Barlow'>Fluorine ma=
+terial science study started in <u>Shanghai Organic Fluorine Materials Rese=
+arch Institute</u>, which established in mid-1970=E2=80=99s<o:p></o:p></spa=
+n></p><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;text-indent:-=
+21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=3DEN-US sty=
+le=3D'font-family:Wingdings'><span style=3D'mso-list:Ignore'>l<span style=
+=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><u>=
+<span lang=3DEN-US style=3D'font-family:Barlow'>Shanghai Organic Fluorine M=
+aterials Research Institute</span></u><span lang=3DEN-US style=3D'font-fami=
+ly:Barlow'> had two research subjects, 1)</span><span lang=3DEN-US style=3D=
+'font-family:"Arial",sans-serif;color:#333333;background:#F9F9F9'> </span><=
+span lang=3DEN-US style=3D'font-family:Barlow'>Tetrafluoroethylene TFE, and=
+ 2) Fluor rubber<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-=
+US style=3D'font-family:Barlow'><o:p>&nbsp;</o:p></span></p><p class=3DMsoL=
+istParagraph style=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 le=
+vel1 lfo2'><![if !supportLists]><span lang=3DEN-US style=3D'font-family:Win=
+gdings'><span style=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times N=
+ew Roman"'>&nbsp; </span></span></span><![endif]><span lang=3DEN-US style=
+=3D'font-family:Barlow'>Norgin founder, Mr. Joy Huang, born 1963, local Sha=
+nghainese graduated from <u>East China University of Science and Technology=
+</u>, majored in Polymer Materials<o:p></o:p></span></p><p class=3DMsoListP=
+aragraph style=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 level1=
+ lfo2'><![if !supportLists]><span lang=3DEN-US style=3D'font-family:Wingdin=
+gs'><span style=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times New R=
+oman"'>&nbsp; </span></span></span><![endif]><span lang=3DEN-US style=3D'fo=
+nt-family:Barlow'>All major technicians in Norgin all from the same major a=
+t the same university above, located in Shanghai.<o:p></o:p></span></p><p c=
+lass=3DMsoListParagraph style=3D'margin-left:21.0pt;text-indent:-21.0pt;mso=
+-list:l1 level1 lfo2'><![if !supportLists]><span lang=3DEN-US style=3D'font=
+-family:Wingdings'><span style=3D'mso-list:Ignore'>l<span style=3D'font:7.0=
+pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span lang=3DEN=
+-US style=3D'font-family:Barlow'>After Mr Joy Huang graduated, in the old C=
+hinese political system, he become an government administration role in<u> =
+Shanghai Chemical Industry Bureau</u> in late 1980=E2=80=99s<o:p></o:p></sp=
+an></p><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;text-indent:=
+-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=3DEN-US st=
+yle=3D'font-family:Wingdings'><span style=3D'mso-list:Ignore'>l<span style=
+=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><sp=
+an lang=3DEN-US style=3D'font-family:Barlow'>Since 1996, Joy Huang started =
+to be rotated to a big Shanghai stated owned chemical enterprise as GM<o:p>=
+</o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;te=
+xt-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=
+=3DEN-US style=3D'font-family:Wingdings'><span style=3D'mso-list:Ignore'>l<=
+span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![=
+endif]><span lang=3DEN-US style=3D'font-family:Barlow'>In 1999, Joy Huang b=
+ecame the GM of<u> Shanghai Huayi 3F New Material Co.,Ltd</u> </span><span =
+lang=3DEN-US><a href=3D"http://www.sh3f.com/en/index.aspx">Shanghai Huayi 3=
+F New Materials Co., Ltd. (sh3f.com)</a></span><span lang=3DEN-US style=3D'=
+font-family:Barlow'><o:p></o:p></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'font-family:Barlow'><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoListParagraph style=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-lis=
+t:l1 level1 lfo2'><![if !supportLists]><span lang=3DEN-US style=3D'font-fam=
+ily:Wingdings'><span style=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "=
+Times New Roman"'>&nbsp; </span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-family:Barlow'>Shanghai 3F has been focused on fluoropolymers=
+ (PTFE, PVDF, FKM, etc.) and fluorine fine chemicals etc.<o:p></o:p></span>=
+</p><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;text-indent:-21=
+.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=3DEN-US style=
+=3D'font-family:Wingdings'><span style=3D'mso-list:Ignore'>l<span style=3D'=
+font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span l=
+ang=3DEN-US style=3D'font-family:Barlow'>Shanghai 3F had a joint venture wi=
+th Gore US from late 1990s till 2016, Joy Huang was the chairman of that 3F=
+/Gore company.<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'ma=
+rgin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !suppor=
+tLists]><span lang=3DEN-US style=3D'font-family:Wingdings'><span style=3D'm=
+so-list:Ignore'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </span=
+></span></span><![endif]><span lang=3DEN-US style=3D'font-family:Barlow'>Th=
+e reason why Gore teamed up with 3F is: Dupont as Gore=E2=80=99s main PTFE =
+supplier, didn=E2=80=99t really invest any resources in the development of =
+PTFE resin, Gore=E2=80=99s volume was nothing in Dupont=E2=80=99s prioritie=
+s.<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:21=
+.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><spa=
+n lang=3DEN-US style=3D'font-family:Wingdings'><span style=3D'mso-list:Igno=
+re'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></sp=
+an><![endif]><span lang=3DEN-US style=3D'font-family:Barlow'>Shanghai 3F ha=
+s undertaken the TFE/PTEF development mission for China, which could cooper=
+ate with Gore for those missed early researches which Gore could not get su=
+pport from Dupont.<o:p></o:p></span></p><p class=3DMsoListParagraph style=
+=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !=
+supportLists]><span lang=3DEN-US style=3D'font-family:Wingdings'><span styl=
+e=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US style=3D'font-family:Barl=
+ow'>Joy Huang thus visited multiple Gore facilities in US, but he never got=
+ into any real Gore=E2=80=99s core material technology, the JV just did/pai=
+d/delivered whatever research Gore requested.<o:p></o:p></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-family:Barlow'><o:p>&nbsp;</o=
+:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;text-=
+indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=3DE=
+N-US style=3D'font-family:Wingdings'><span style=3D'mso-list:Ignore'>l<span=
+ style=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endi=
+f]><span lang=3DEN-US style=3D'font-family:Barlow'>Joy Huang left Shanghai =
+3F and founded Norgin 2005, he was fed up with the government and stated-ow=
+ned enterprise system.<o:p></o:p></span></p><p class=3DMsoListParagraph sty=
+le=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if=
+ !supportLists]><span lang=3DEN-US style=3D'font-family:Wingdings'><span st=
+yle=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp=
+; </span></span></span><![endif]><span lang=3DEN-US style=3D'font-family:Ba=
+rlow'>Except Norgin Shanghai, Joy Huang has another factory in Suzhou, focu=
+sing on the PTFE wear resistance addictive for the polymer resin/compound i=
+ndustry<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-le=
+ft:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]=
+><span lang=3DEN-US style=3D'font-family:Wingdings'><span style=3D'mso-list=
+:Ignore'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span=
+></span><![endif]><span lang=3DEN-US style=3D'font-family:Barlow'>According=
+ to Joy Huang, all Sabic Asian factories are using his wear resistance addi=
+ctive, nearly single source<o:p></o:p></span></p><p class=3DMsoListParagrap=
+h style=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'>=
+<![if !supportLists]><span lang=3DEN-US style=3D'font-family:Wingdings'><sp=
+an style=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times New Roman"'>=
+&nbsp; </span></span></span><![endif]><span lang=3DEN-US style=3D'font-fami=
+ly:Barlow'>I have witnessed two EPTFE production lines yesterday in Norgin,=
+ 30 meters long expand to 2m width, one is running production.<o:p></o:p></=
+span></p><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;text-inden=
+t:-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=3DEN-US =
+style=3D'font-family:Wingdings'><span style=3D'mso-list:Ignore'>l<span styl=
+e=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><s=
+pan lang=3DEN-US style=3D'font-family:Barlow'>Joy Huang says if annual cons=
+umption will be 100,000 sqm from us, it will take only 10 days production.<=
+o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-=
+family:Barlow'><o:p>&nbsp;</o:p></span></p><p class=3DMsoListParagraph styl=
+e=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if =
+!supportLists]><span lang=3DEN-US style=3D'font-family:Wingdings'><span sty=
+le=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;=
+ </span></span></span><![endif]><span lang=3DEN-US style=3D'font-family:Bar=
+low'>There are dozens of EPTFE lines in China, as PTFE compound requests so=
+me rare formula ingredient materials, supplied by very few payers in the ga=
+me and Joy knows them all.<o:p></o:p></span></p><p class=3DMsoListParagraph=
+ style=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><=
+![if !supportLists]><span lang=3DEN-US style=3D'font-family:Wingdings'><spa=
+n style=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp; </span></span></span><![endif]><span lang=3DEN-US style=3D'font-famil=
+y:Barlow'>Joy never heard SINAN, he is highly suspicious they are manufactu=
+ring EPTFE by above sources, but he knows Voir, the vent manufacturer. <o:p=
+></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;t=
+ext-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span lang=
+=3DEN-US style=3D'font-family:Wingdings'><span style=3D'mso-list:Ignore'>l<=
+span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![=
+endif]><span lang=3DEN-US style=3D'font-family:Barlow'>Norgin has two main =
+business: Fabric for special clothing in Europe (military/fireman etc), and=
+ Gas/Liquid filtering.<o:p></o:p></span></p><p class=3DMsoListParagraph sty=
+le=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo2'><![if=
+ !supportLists]><span lang=3DEN-US style=3D'font-family:Wingdings'><span st=
+yle=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times New Roman"'>&nbsp=
+; </span></span></span><![endif]><span lang=3DEN-US style=3D'font-family:Ba=
+rlow'>Norgin tried to enter consumer electronics business since 2015 but no=
+t successful at all, Norgin would like continue to do so if we could help, =
+to balance his product mix and capacity.<o:p></o:p></span></p><p class=3DMs=
+oListParagraph style=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l1 =
+level1 lfo2'><![if !supportLists]><span lang=3DEN-US style=3D'font-family:W=
+ingdings'><span style=3D'mso-list:Ignore'>l<span style=3D'font:7.0pt "Times=
+ New Roman"'>&nbsp; </span></span></span><![endif]><span lang=3DEN-US style=
+=3D'font-family:Barlow'>The reasons Joy believe for such an unsuccessful de=
+velopment in Consumer Electronics are:<o:p></o:p></span></p><p class=3DMsoL=
+istParagraph style=3D'margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 le=
+vel2 lfo2'><![if !supportLists]><span lang=3DEN-US style=3D'font-family:Win=
+gdings'><span style=3D'mso-list:Ignore'>n<span style=3D'font:7.0pt "Times N=
+ew Roman"'>&nbsp; </span></span></span><![endif]><span lang=3DEN-US style=
+=3D'font-family:Barlow'>Converters does not really know membrane<o:p></o:p>=
+</span></p><p class=3DMsoListParagraph style=3D'margin-left:42.0pt;text-ind=
+ent:-21.0pt;mso-list:l1 level2 lfo2'><![if !supportLists]><span lang=3DEN-U=
+S style=3D'font-family:Wingdings'><span style=3D'mso-list:Ignore'>n<span st=
+yle=3D'font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]>=
+<span lang=3DEN-US style=3D'font-family:Barlow'>Gaps between Norgin / Conve=
+rters / Customers, very difficult to understand the application failure roo=
+t causes, testing criteria are different, each parties are on different pag=
+e for true application needs <o:p></o:p></span></p><p class=3DMsoListParagr=
+aph style=3D'margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level2 lfo2=
+'><![if !supportLists]><span lang=3DEN-US style=3D'font-family:Wingdings'><=
+span style=3D'mso-list:Ignore'>n<span style=3D'font:7.0pt "Times New Roman"=
+'>&nbsp; </span></span></span><![endif]><span lang=3DEN-US style=3D'font-fa=
+mily:Barlow'>Norgin as a small player, cannot really get into leading custo=
+mer vendor pool, lack of channels and requested a very long lead time.<o:p>=
+</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-fami=
+ly:Barlow'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN=
+-US style=3D'font-family:Barlow'>That=E2=80=99s all what we can offer to No=
+rgin, where Joy became very positive to our ideas.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:Barlow'><o:p>&nbs=
+p;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-fa=
+mily:Barlow'>Actions<o:p></o:p></span></p><p class=3DMsoListParagraph style=
+=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-list:l0 level1 lfo4'><![if !=
+supportLists]><span lang=3DEN-US style=3D'font-family:Barlow'><span style=
+=3D'mso-list:Ignore'>1.<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![end=
+if]><span lang=3DEN-US style=3D'font-family:Barlow'>Further reviews on curr=
+ent Audi/Volvo membrane requests (Norgin believe it is feasible technically=
+), hopefully form technical conclusions within 2 weeks<o:p></o:p></span></p=
+><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;text-indent:-21.0p=
+t;mso-list:l0 level1 lfo4'><![if !supportLists]><span lang=3DEN-US style=3D=
+'font-family:Barlow'><span style=3D'mso-list:Ignore'>2.<span style=3D'font:=
+7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <=
+/span></span></span><![endif]><span lang=3DEN-US style=3D'font-family:Barlo=
+w'>If positive, establish an application panel among NB/LC/Norgin, scan exi=
+sting main application and work out technical roadmap by 2-3 months<o:p></o=
+:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:21.0pt;text-=
+indent:-21.0pt;mso-list:l0 level1 lfo4'><![if !supportLists]><span lang=3DE=
+N-US style=3D'font-family:Barlow'><span style=3D'mso-list:Ignore'>3.<span s=
+tyle=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp; </span></span></span><![endif]><span lang=3DEN-US style=3D'font=
+-family:Barlow'>Lovepac will supply Norgin some membrane samples, Norgin wi=
+ll do reverse engineering study, in parallel<o:p></o:p></span></p><p class=
+=3DMsoListParagraph style=3D'margin-left:21.0pt;text-indent:-21.0pt;mso-lis=
+t:l0 level1 lfo4'><![if !supportLists]><span lang=3DEN-US style=3D'font-fam=
+ily:Barlow'><span style=3D'mso-list:Ignore'>4.<span style=3D'font:7.0pt "Ti=
+mes New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></s=
+pan></span><![endif]><span lang=3DEN-US style=3D'font-family:Barlow'>Lovepa=
+c and Norgin will form a team to align and standardize all membrane testing=
+ criteria and equipment<o:p></o:p></span></p><p class=3DMsoNormal><span lan=
+g=3DEN-US style=3D'font-family:Barlow'><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-family:Barlow'>If all above g=
+et progressed in a desirable way, I will bring Jorgen and Joy together for =
+a future cooperation setup discussion.<o:p></o:p></span></p><p class=3DMsoN=
+ormal><span lang=3DEN-US style=3D'font-family:Barlow'><o:p>&nbsp;</o:p></sp=
+an></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:Barlow'=
+>Br/Dan<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-family:Barlow'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><s=
+pan lang=3DEN-US style=3D'font-family:Barlow'><o:p>&nbsp;</o:p></span></p><=
+/div></body></html>
+------=_NextPart_000_0072_01DC1354.A45F1E70--

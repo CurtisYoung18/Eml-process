@@ -1,0 +1,2508 @@
+Received: from DRNOLEXCH06.resource.local (172.20.23.75) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2375.17 via Mailbox Transport; Wed, 8 Dec 2021 10:58:21 +0800
+Received: from DRNOLEXCH06.resource.local (172.20.23.75) by
+ DRNOLEXCH06.resource.local (172.20.23.75) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2375.17; Wed, 8 Dec 2021 10:58:21 +0800
+Received: from DRNOLEXCH06.resource.local ([fe80::1559:f5b:c745:9f48]) by
+ DRNOLEXCH06.resource.local ([fe80::1559:f5b:c745:9f48%5]) with mapi id
+ 15.01.2375.017; Wed, 8 Dec 2021 10:58:21 +0800
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0084_01DC1354.B8D6AE90"
+Content-Transfer-Encoding: binary
+From: Kevin Xing <kevin.xing@nolato.com>
+To: jjhuang <jjhuang@nor-ally.com>, Lader Li <Lader.Li@nolato.com>, Alex Ke
+	<Alex.Ke@nolato.com>, Joanna Yao <yaoying@nor-ally.com>
+CC: Naomi Wang <naomi.wang@nolato.com>, Cindy Lin <cindy.lin@nolato.com>,
+	Tianci Xia <Tianci.Xia@nolato.com>, Sally Chen <sally.chen@nolato.com>,
+	=?utf-8?B?6YOt5Y2r5Lic?= <david@nor-ally.com>, =?utf-8?B?5Lu75rC45Yab?=
+	<renyongjun@nor-ally.com>, =?utf-8?B?6buE5rW35p2+?= <huanghs@nor-ally.com>
+Subject: =?utf-8?B?5Zue5aSNOiBSRTogW0VYVEVSTkFMXSDlm57lpI06IOmYsuawtOmAj+awlA==?=
+ =?utf-8?B?6Iac5L+h5oGv6K+E5Lyw?=
+Thread-Topic: =?utf-8?B?UkU6IFtFWFRFUk5BTF0g5Zue5aSNOiDpmLLmsLTpgI/msJTohpzkv6Hmga8=?=
+ =?utf-8?B?6K+E5Lyw?=
+Thread-Index: AQHX65Ixq7kWMUNi8UK/Ug8mfXK9fqwn3plw
+Date: Wed, 8 Dec 2021 10:58:20 +0800
+Message-ID: <f35067209f6f459ab4b3f5efdf8efbca@nolato.com>
+References: <9e43ae96302441cead94c8b4bfd3dd14@nolato.com>,
+ 	<5857db196b77409a80efaf184bbe994d@nolato.com>,
+ 	<302862e824394bac83ddd56cb841c7e0@nolato.com>,
+ 	<74ba61ee433f4a9ea3cd287c8d141f66@nolato.com>,
+ 	<000e01d7eb0f$3ca804c0$b5f80e40$@nor-ally.com>,
+ 	<64c3ac4b97184ae587fe627cf0344961@nolato.com>,
+ 	<1b68aaf26d9343c7b9d9db5eab249b4d@nolato.com>,
+ 	<48ff3cf9fc2342c09cdeb115c7f5731b@nolato.com>,
+ 	<2021120715485084881726@nor-ally.com>,
+ 	<164a784980cc40fc9a38094ffa2e984b@nolato.com>,
+ 	<90e6566ec9f342b2b193db1428aef7a7@nolato.com>
+ <2021120801444074468422@nor-ally.com>
+In-Reply-To: <2021120801444074468422@nor-ally.com>
+Accept-Language: zh-CN, sv-SE, en-US
+Content-Language: zh-CN
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator: <f35067209f6f459ab4b3f5efdf8efbca@nolato.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: DRNOLEXCH06.resource.local
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [172.20.23.62]
+X-MS-Exchange-Organization-Network-Message-Id: e2b258e0-c861-4614-3537-08d9b9f697d8
+Return-Path: kevin.xing@nolato.com
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.5580671
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2375.017
+X-MailStoreOLK-Original-Content-Type: application/ms-tnef; name="winmail.dat"
+X-MailStoreMapiMimePostProcessor: 25.3.0.23011
+X-MailStore-Folder-UTF7: default/Outlook Sally Chen/+ZTZO9nux-/+ljJsNJAPbBSBnA-
+X-MailStore-Message-ID: <f35067209f6f459ab4b3f5efdf8efbca@nolato.com>
+X-MailStore-Header-Hash: 3f8950795ff363ee721e000000ae3b97f6b9d908
+X-MailStore-Date: 20211208025821
+X-MailStore-ArcDate: 20250822030552
+X-MailStore-Flags: 6
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0084_01DC1354.B8D6AE90
+Content-Type: multipart/related;
+	boundary="----=_NextPart_001_0085_01DC1354.B8D6AE90"
+
+------=_NextPart_001_0085_01DC1354.B8D6AE90
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_002_0086_01DC1354.B8D6AE90"
+
+------=_NextPart_002_0086_01DC1354.B8D6AE90
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+你好 黄总
+
+关于两个项目的需求我又与客户确认了一遍。
+
+具体请参见附件要求，这里我再给您明确一下，有什么问题随时沟通。
+
+1.  奥迪项目膜材要求:
+膜材透气量>1500ml/min/cm2
+防水要求IP68(60kpa/30s)
+      厚度要求>0.1mm
+      客户组装条件：220℃/10s(热熔到注塑件上)
+
+2.  沃尔沃项目膜材要求：
+膜材透气量>1500ml/min/cm2
+防水要求IP68(10kpa/60mins)
+厚度要求>0.1mm
+客户组装条件：220℃/10s(热熔到注塑件上)
+拒油等级为8级
+
+
+按照以上条件客户接受有支撑的膜材，因为你们选择的支撑材料和透气性等问题，需要你们综合评估最终膜材达到以上要求需要匹配的支撑材料。
+如果评估一款材料有风险建议每个项目同时开发2-3款来作选择，谢谢。
+
+
+Best Regards
+Kevin Xing
++86 13910312310
+
+发件人: jjhuang <jjhuang@nor-ally.com>
+发送时间: 2021年12月8日 1:45
+收件人: Lader Li <Lader.Li@nolato.com>; Kevin Xing <kevin.xing@nolato.com>; 
+Alex Ke <Alex.Ke@nolato.com>; Joanna Yao <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Tianci Xia <Tianci.Xia@nolato.com>; Sally Chen <sally.chen@nolato.com>; 郭卫东 
+ <david@nor-ally.com>; 任永军 <renyongjun@nor-ally.com>; 黄海松 
+<huanghs@nor-ally.com>
+主题: Re: RE: [EXTERNAL] 回复: 防水透气膜信息评估
+
+各位，
+综合目前技术信息看，产品的技术要求和我们上次视频会议时发生了比较大的变化，我总结如下，请各位指正。
+1，奥迪项目，膜材要求：防水，60kpa/30s，透气>1500ml/min/cm2（12月1日的信息是>500mm/min/cm2)，厚度要求>0.1mm；疏水即可。可以确认该产品要求是有支撑的膜材（原膜厚度一般不会超过0.03mm）。支撑材料耐温要求220度/10s。由于原膜经复合后透气损失大约30-40%之间，因此原膜要求在60kpa/30s条件下透气需要大于2500mm/min/cm2。我们现成产品列表中似乎还没有类似产品，我们会尽快评估并试制产品用于双方检测校准。
+2，沃尔沃项目，膜材要求：防水，10kpa/60min，透气>1500ml/min/cm2（12月1日信息是>520ml/min/cm2），厚度要求>0.1mm，疏油8级。可以确认该产品为有支撑的膜材。原膜透气要求也是>2500ml/min/cm2；由于疏油处理的耐水压损失按我们的经验会损失30%，因此该产品原膜耐水压设计需要达到20kpa/60min；该产品数据近似我们现有的NPE6813-P50/NPE6815-P50。
+3，如果以上技术数据总结是正确的，那我们就按上述要求试制样品共双方检测。但是我们明白，上述技术要求颇为挑战。我们会尽力而为。
+黄炯炯
+
+  ________________________________
+jjhuang
+
+发件人： Lader Li
+发送时间： 2021-12-07 16:50
+收件人： Kevin Xing; jjhuang; Alex Ke; 姚 莹
+抄送： Naomi Wang; Cindy Lin; Tianci Xia; Sally Chen; 郭卫东; 任永军
+主题： RE: 回复: [EXTERNAL] 回复: 防水透气膜信息评估
+Hi  黄总，
+FYI
+
+发件人: jjhuang <jjhuang@nor-ally.com>
+发送时间: 2021年12月7日 15:49
+收件人: Alex Ke <Alex.Ke@nolato.com>; 姚 莹 <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>; 郭卫东 
+<david@nor-ally.com>; 任永军 <renyongjun@nor-ally.com>
+主题: Re: 回复: [EXTERNAL] 回复: 防水透气膜信息评估
+
+Alex,；
+今天上午我们专门会议讨论贵方需求和试样问题。有这样几个意见共参考：
+1，        发现最新附表中奥迪项目产品的透气量也调整为1500ml/min.cm2，我们暂时无法判断可行性。因为在沃尔沃项目中透气量调整为1500时，耐水压是10kpa/60分钟，差异很大。
+---两个项目根据阀体的尺寸和透气量要求核算的膜材透气量均为1500ml/min.cm2；因为Volvo项目今天接到阀体透气量更新所以调整膜材的透气量为＞1500ml/min.cm2；因为是两个不同的项目所以水压测试需求的时间和压力不同，可以根据最新的表格要求开发。
+2，        膜材厚度若为0.1mm以上，则肯定是有支撑材料，我们俗称复贴膜。原膜经复合后，透气量会有损失，所以我们要明确技术指标是针对复合后产品，还是原膜。
+---模切的厚度我们是基于客户组装的方案提出的，目前Audi项目膜材厚度低于0.1mm组装方面容易变形褶皱；我们表格中给的透气量是对整体膜材本身的要求。
+是否需要增加复贴膜需要你们评估， Audi项目客户的组装热压温度是220℃，所以膜材本身需要有耐温220℃/10s的要求。
+3，        我们不建议使用随意选取膜材进行测试评价和测试校准，因为不同用途的膜材结构不同，评价方法手段也不同，张冠李戴会失真。所以我们会在双方沟通明白上述标准需求后，设计一款基本可以中的的产品予以测试评估和双方测试校准。那样，即便数据稍有差池，调整会比较快。
+--充分理解您那边的顾虑。我们提出这个要求只是想对比下双方测试设备和测试方法的差异。最终肯定是要在客户， Lovepac, 贵司之间达成一致的评估方法和测试方法。
+4，        我们不建议采用A4纸作为对照检测膜材，因为A4纸大小平板膜在快递、拆封、实验室制样过程中很容易受损，所以我们会建议使用80mm宽小卷，我们在同一卷前端做测试，贵方收到建材后，适当剔除外层膜后进行检测。
+---可以用小卷方式。
+5，我们目前聚焦奥迪需要的产品，原膜、无复合、无疏油处理要求，我们内部定名为ND8010，相关技术指标会很快出来。
+6，我们明白贵方需求后，出样品时间大约3周，再次调整时间可以控制在2周内。
+以上，请指教。
+黄炯炯
+
+
+  ________________________________
+jjhuang
+
+发件人： Alex Ke
+发送时间： 2021-12-07 14:33
+收件人： yaoying@nor-ally.com
+抄送： Naomi Wang; Cindy Lin; Lader Li; Tianci Xia; Kevin Xing; Sally Chen; 
+david@nor-ally.com; renyongjun@nor-ally.com; jjhuang
+主题： 回复: [EXTERNAL] 回复: 防水透气膜信息评估
+HI Joanna
+
+如沟通，Volvo项目的透气量有更新，透气膜的透气标准更新为：＞1500ml/min/cm²，详情请见附件
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+发件人: Alex Ke
+发送时间: 2021年12月7日 13:38
+收件人: 'yaoying@nor-ally.com' <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>; 
+'david@nor-ally.com' <david@nor-ally.com>; 'renyongjun@nor-ally.com' 
+<renyongjun@nor-ally.com>; 'jjhuang' <jjhuang@nor-ally.com>
+主题: 回复: [EXTERNAL] 回复: 防水透气膜信息评估
+
+HI Joanna
+
+关于Audi以及Volvo的膜材“贴合无纺布”需求不是必要的，只要能够满足透气防水，温度，以及厚度要求就可以。
+
+另，如沟通，上午邮件让贵司提供三款膜材双方先来测试一下，是基于贵司现有的膜材就可以，就是为了确定双方测试的数据差异，和Audi/Volvo的需求无关（Audi/Volvo的需求参考我们之前发的表格信息）。还请近期安排出。
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+
+发件人: Alex Ke
+发送时间: 2021年12月7日 10:29
+收件人: 'yaoying@nor-ally.com' <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>; 
+david@nor-ally.com; renyongjun@nor-ally.com; jjhuang <jjhuang@nor-ally.com>
+主题: 回复: [EXTERNAL] 回复: 防水透气膜信息评估
+
+HI Joanna
+
+关于确认测试差异的问题
+
+烦请贵司提供三款不同的膜材，每一款约A4大小，各裁一半，Norgin对A4的一半膜材进行防水透气测试，Lovepac进行另一半A4膜材的防水透气测试。同时请Norgin提供实际测试时的视频。
+
+测试条件：透气量，在7kpa条件下，测试每平方厘米每分钟的透气量；防水测试，在60kpa/30s的条件下进行测试
+
+有任何问题请随时练习
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+发件人: yaoying@nor-ally.com
+发送时间: 2021年12月7日 10:08
+收件人: Alex Ke <Alex.Ke@nolato.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>; 
+david@nor-ally.com; renyongjun@nor-ally.com; jjhuang <jjhuang@nor-ally.com>
+主题: [EXTERNAL] 回复: 防水透气膜信息评估
+
+CAUTION: This email originated from outside of the organization. Do not 
+click links or open attachments unless you recognize the sender and know the 
+content is safe.
+
+Hello Alex,
+邮件收到。
+我们稍后开好会后会详细回答这几个问题，并同时抄送我们几位同事在邮件中。
+
+
+B.Regards
+Joanna Yao (姚莹）
+Norshine / Norgin
+Mobile: 86-13651809834
+
+发件人: Alex Ke <Alex.Ke@nolato.com>
+发送时间: 2021年12月7日 9:05
+收件人: 姚莹 <yaoying@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>; Kevin 
+Xing <kevin.xing@nolato.com>; Sally Chen <sally.chen@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+HI Joanna
+
+以下信息请帮忙确认：
+
+1.       请问贵司预计提供样品的时间是何时？
+2.       如果收到第一批样品测试不达标，需要贵司重新调整，请问这个调整的LT预计多久？
+3.       针对Audi项目的样品膜的LT预计多久？针对Volvo项目的样品膜的LT预计多久？ 
+
+
+Thx
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+
+
+发件人: Kevin Xing
+发送时间: 2021年12月2日 18:36
+收件人: Alex Ke <Alex.Ke@nolato.com>; 姚莹 <yaoying@nor-ally.com>; 
+david@nor-ally.com; renyongjun@nor-ally.com
+抄送: Naomi Wang <naomi.wang@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; 
+Lader Li <Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+大家好
+
+请查收附件更新的膜材信息，谢谢。
+
+
+Best Regards
+Kevin Xing
++86 13910312310
+
+发件人: Alex Ke <Alex.Ke@nolato.com>
+发送时间: 2021年12月1日 17:54
+收件人: 姚莹 <yaoying@nor-ally.com>; david@nor-ally.com; 
+renyongjun@nor-ally.com
+抄送: Naomi Wang <naomi.wang@nolato.com>; Kevin Xing 
+<kevin.xing@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; Lader Li 
+<Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 回复: 防水透气膜信息评估
+
+HI Joanna&David&Ren
+
+我这边更新了我们的需求信息以及之前测试Norgin两款膜材的测试数据，请查收
+
+THX
+
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+发件人: Alex Ke
+发送时间: 2021年12月1日 15:22
+收件人: '姚莹' <yaoying@nor-ally.com>; 'david@nor-ally.com；' 
+<david@nor-ally.com;>; 'renyongjun@nor-ally.com' <renyongjun@nor-ally.com>
+抄送: Naomi Wang <naomi.wang@nolato.com>; Kevin Xing 
+<kevin.xing@nolato.com>; Cindy Lin <cindy.lin@nolato.com>; Lader Li 
+<Lader.Li@nolato.com>; Tianci Xia <Tianci.Xia@nolato.com>
+主题: 防水透气膜信息评估
+
+HI Joanna & David & Ren
+
+您好，附件是我司需要的对应的膜材数据，还请内部评估。
+
+另外，请贵司提供一下贵司防水透气膜的测试信息，包括具体的仪器设备、测试方法、测试标准。还请今天提供，这样我司有时间内部评估双方差异，以便明天会议做讨论。
+
+您这边确认好明天下午的时间后，请告知我。
+
+THX
+Alex Ke
+
+
+Lövepac Technology(Shenzhen) Co., Ltd
+1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area,
+Xinshi Community, Dalang Street, Longhua District,
+Shenzhen, 518109, P.R.China
+Mobile: +86 158-3130-0059
+E-mail:Alex.Ke@nolato.com
+www.nolato.com
+
+
+------=_NextPart_002_0086_01DC1354.B8D6AE90
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dutf-8"><meta name=3DGenerator content=3D"Microsoft=
+ Word 15 (filtered medium)"><!--[if !mso]><style>v\:* {behavior:url(#defaul=
+t#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:=E5=AE=8B=E4=BD=93;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:=E7=AD=89=E7=BA=BF;
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+=09{font-family:Verdana;
+=09panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+=09{font-family:"\@=E5=AE=8B=E4=BD=93";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:Barlow;}
+@font-face
+=09{font-family:"Barlow Light";}
+@font-face
+=09{font-family:"Barlow Medium";}
+@font-face
+=09{font-family:"\@=E7=AD=89=E7=BA=BF";
+=09panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+=09{font-family:"Microsoft YaHei UI";
+=09panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+=09{font-family:"\@Microsoft YaHei UI";
+=09panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+=09{font-family:Tahoma;
+=09panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0cm;
+=09font-size:12.0pt;
+=09font-family:=E5=AE=8B=E4=BD=93;}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:blue;
+=09text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:purple;
+=09text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+=09{mso-style-priority:34;
+=09margin:0cm;
+=09font-size:12.0pt;
+=09font-family:=E5=AE=8B=E4=BD=93;}
+p.msonormal0, li.msonormal0, div.msonormal0
+=09{mso-style-name:msonormal;
+=09margin:0cm;
+=09font-size:12.0pt;
+=09font-family:=E5=AE=8B=E4=BD=93;}
+span.EmailStyle20
+=09{mso-style-type:personal-reply;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page WordSection1
+=09{size:612.0pt 792.0pt;
+=09margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+/* List Definitions */
+@list l0
+=09{mso-list-id:902787560;
+=09mso-list-type:hybrid;
+=09mso-list-template-ids:1593836770 664990000 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+=09{mso-level-text:%1=EF=BC=8C;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:18.0pt;
+=09text-indent:-18.0pt;}
+@list l0:level2
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%2\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:42.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level3
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:63.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level4
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:84.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level5
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%5\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:105.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level6
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:126.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level7
+=09{mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:147.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level8
+=09{mso-level-number-format:alpha-lower;
+=09mso-level-text:"%8\)";
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:left;
+=09margin-left:168.0pt;
+=09text-indent:-21.0pt;}
+@list l0:level9
+=09{mso-level-number-format:roman-lower;
+=09mso-level-tab-stop:none;
+=09mso-level-number-position:right;
+=09margin-left:189.0pt;
+=09text-indent:-21.0pt;}
+ol
+=09{margin-bottom:0cm;}
+ul
+=09{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DZH-CN link=3Dblue vli=
+nk=3Dpurple style=3D'word-wrap:break-word'><div class=3DWordSection1><p cla=
+ss=3DMsoNormal><span style=3D'font-size:10.5pt'>=E4=BD=A0=E5=A5=BD</span><s=
+pan style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'> </span><sp=
+an style=3D'font-size:10.5pt'>=E9=BB=84=E6=80=BB</span><span lang=3DEN-US s=
+tyle=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'><o:p></o:p></spa=
+n></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;fon=
+t-family:"Calibri",sans-serif'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNo=
+rmal><span style=3D'font-size:10.5pt'>=E5=85=B3=E4=BA=8E=E4=B8=A4=E4=B8=AA=
+=E9=A1=B9=E7=9B=AE=E7=9A=84=E9=9C=80=E6=B1=82=E6=88=91=E5=8F=88=E4=B8=8E=E5=
+=AE=A2=E6=88=B7=E7=A1=AE=E8=AE=A4=E4=BA=86=E4=B8=80=E9=81=8D=E3=80=82</span=
+><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-se=
+rif'><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D=
+'font-size:10.5pt;font-family:"Calibri",sans-serif'><o:p>&nbsp;</o:p></span=
+></p><p class=3DMsoNormal><span style=3D'font-size:10.5pt'>=E5=85=B7=E4=BD=
+=93=E8=AF=B7=E5=8F=82=E8=A7=81=E9=99=84=E4=BB=B6=E8=A6=81=E6=B1=82=EF=BC=8C=
+=E8=BF=99=E9=87=8C=E6=88=91=E5=86=8D=E7=BB=99=E6=82=A8=E6=98=8E=E7=A1=AE=E4=
+=B8=80=E4=B8=8B=EF=BC=8C=E6=9C=89=E4=BB=80=E4=B9=88=E9=97=AE=E9=A2=98=E9=9A=
+=8F=E6=97=B6=E6=B2=9F=E9=80=9A=E3=80=82</span><span lang=3DEN-US style=3D'f=
+ont-size:10.5pt;font-family:"Calibri",sans-serif'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:=
+"Calibri",sans-serif'><o:p>&nbsp;</o:p></span></p><ol style=3D'margin-top:0=
+cm' start=3D1 type=3D1><li class=3DMsoListParagraph style=3D'margin-left:-1=
+8.0pt;mso-list:l0 level1 lfo1'><span style=3D'font-size:10.5pt'>=E5=A5=A5=
+=E8=BF=AA=E9=A1=B9=E7=9B=AE=E8=86=9C=E6=9D=90=E8=A6=81=E6=B1=82</span><span=
+ lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'>:=
+<o:p></o:p></span></li></ol><p class=3DMsoListParagraph style=3D'margin-lef=
+t:18.0pt'><span style=3D'font-size:10.5pt'>=E8=86=9C=E6=9D=90=E9=80=8F=E6=
+=B0=94=E9=87=8F</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-fam=
+ily:"Calibri",sans-serif'>&gt;1500ml/min/cm2<o:p></o:p></span></p><p class=
+=3DMsoListParagraph style=3D'margin-left:18.0pt'><span style=3D'font-size:1=
+0.5pt'>=E9=98=B2=E6=B0=B4=E8=A6=81=E6=B1=82</span><span lang=3DEN-US style=
+=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'>IP68(60kpa/30s)<o:p>=
+</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size=
+:10.5pt;font-family:"Calibri",sans-serif'> =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0</span><span style=3D'font-size:10.5pt'>=E5=8E=9A=E5=BA=A6=E8=A6=81=
+=E6=B1=82</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"C=
+alibri",sans-serif'>&gt;0.1mm<o:p></o:p></span></p><p class=3DMsoNormal><sp=
+an lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'=
+> =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0</span><span style=3D'font-size:10.5p=
+t'>=E5=AE=A2=E6=88=B7=E7=BB=84=E8=A3=85=E6=9D=A1=E4=BB=B6=EF=BC=9A</span><s=
+pan lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif=
+'>220</span><span style=3D'font-size:10.5pt'>=E2=84=83</span><span lang=3DE=
+N-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'>/10s(</spa=
+n><span style=3D'font-size:10.5pt'>=E7=83=AD=E7=86=94=E5=88=B0=E6=B3=A8=E5=
+=A1=91=E4=BB=B6=E4=B8=8A</span><span lang=3DEN-US style=3D'font-size:10.5pt=
+;font-family:"Calibri",sans-serif'>)<o:p></o:p></span></p><p class=3DMsoNor=
+mal><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans=
+-serif'><o:p>&nbsp;</o:p></span></p><ol style=3D'margin-top:0cm' start=3D2 =
+type=3D1><li class=3DMsoListParagraph style=3D'margin-left:-18.0pt;mso-list=
+:l0 level1 lfo1'><span style=3D'font-size:10.5pt'>=E6=B2=83=E5=B0=94=E6=B2=
+=83=E9=A1=B9=E7=9B=AE=E8=86=9C=E6=9D=90=E8=A6=81=E6=B1=82=EF=BC=9A</span><s=
+pan lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif=
+'><o:p></o:p></span></li></ol><p class=3DMsoListParagraph style=3D'margin-l=
+eft:18.0pt'><span style=3D'font-size:10.5pt'>=E8=86=9C=E6=9D=90=E9=80=8F=E6=
+=B0=94=E9=87=8F</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-fam=
+ily:"Calibri",sans-serif'>&gt;1500ml/min/cm2<o:p></o:p></span></p><p class=
+=3DMsoListParagraph style=3D'margin-left:18.0pt'><span style=3D'font-size:1=
+0.5pt'>=E9=98=B2=E6=B0=B4=E8=A6=81=E6=B1=82</span><span lang=3DEN-US style=
+=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'>IP68(10kpa/60mins)<o=
+:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:18.0pt=
+'><span style=3D'font-size:10.5pt'>=E5=8E=9A=E5=BA=A6=E8=A6=81=E6=B1=82</sp=
+an><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-=
+serif'>&gt;0.1mm<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'=
+margin-left:18.0pt'><span style=3D'font-size:10.5pt'>=E5=AE=A2=E6=88=B7=E7=
+=BB=84=E8=A3=85=E6=9D=A1=E4=BB=B6=EF=BC=9A</span><span lang=3DEN-US style=
+=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;background:yellow;mso=
+-highlight:yellow'>220</span><span style=3D'font-size:10.5pt;background:yel=
+low;mso-highlight:yellow'>=E2=84=83</span><span lang=3DEN-US style=3D'font-=
+size:10.5pt;font-family:"Calibri",sans-serif;background:yellow;mso-highligh=
+t:yellow'>/10s(</span><span style=3D'font-size:10.5pt;background:yellow;mso=
+-highlight:yellow'>=E7=83=AD=E7=86=94=E5=88=B0=E6=B3=A8=E5=A1=91=E4=BB=B6=
+=E4=B8=8A</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"C=
+alibri",sans-serif;background:yellow;mso-highlight:yellow'>)</span><span la=
+ng=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'><o:p=
+></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:18.0pt'>=
+<span style=3D'font-size:10.5pt'>=E6=8B=92=E6=B2=B9=E7=AD=89=E7=BA=A7=E4=B8=
+=BA</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri=
+",sans-serif'>8</span><span style=3D'font-size:10.5pt'>=E7=BA=A7</span><spa=
+n lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'>=
+<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:18.0=
+pt'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans=
+-serif'><o:p>&nbsp;</o:p></span></p><p class=3DMsoListParagraph style=3D'ma=
+rgin-left:18.0pt'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:=
+"Calibri",sans-serif'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><spa=
+n style=3D'font-size:10.5pt'>=E6=8C=89=E7=85=A7=E4=BB=A5=E4=B8=8A=E6=9D=A1=
+=E4=BB=B6=E5=AE=A2=E6=88=B7=E6=8E=A5=E5=8F=97=E6=9C=89=E6=94=AF=E6=92=91=E7=
+=9A=84=E8=86=9C=E6=9D=90=EF=BC=8C=E5=9B=A0=E4=B8=BA=E4=BD=A0=E4=BB=AC=E9=80=
+=89=E6=8B=A9=E7=9A=84=E6=94=AF=E6=92=91=E6=9D=90=E6=96=99=E5=92=8C=E9=80=8F=
+=E6=B0=94=E6=80=A7=E7=AD=89=E9=97=AE=E9=A2=98=EF=BC=8C=E9=9C=80=E8=A6=81=E4=
+=BD=A0=E4=BB=AC=E7=BB=BC=E5=90=88=E8=AF=84=E4=BC=B0=E6=9C=80=E7=BB=88=E8=86=
+=9C=E6=9D=90=E8=BE=BE=E5=88=B0=E4=BB=A5=E4=B8=8A=E8=A6=81=E6=B1=82=E9=9C=80=
+=E8=A6=81=E5=8C=B9=E9=85=8D=E7=9A=84=E6=94=AF=E6=92=91=E6=9D=90=E6=96=99=E3=
+=80=82</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Cali=
+bri",sans-serif'><o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'=
+font-size:10.5pt'>=E5=A6=82=E6=9E=9C=E8=AF=84=E4=BC=B0=E4=B8=80=E6=AC=BE=E6=
+=9D=90=E6=96=99=E6=9C=89=E9=A3=8E=E9=99=A9=E5=BB=BA=E8=AE=AE=E6=AF=8F=E4=B8=
+=AA=E9=A1=B9=E7=9B=AE=E5=90=8C=E6=97=B6=E5=BC=80=E5=8F=91</span><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'>2-3</s=
+pan><span style=3D'font-size:10.5pt'>=E6=AC=BE=E6=9D=A5=E4=BD=9C=E9=80=89=
+=E6=8B=A9=EF=BC=8C=E8=B0=A2=E8=B0=A2=E3=80=82</span><span lang=3DEN-US styl=
+e=3D'font-size:10.5pt;font-family:"Calibri",sans-serif'><o:p></o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;font-f=
+amily:"Calibri",sans-serif'><o:p>&nbsp;</o:p></span></p><div><p class=3DMso=
+Normal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:#=
+1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal style=3D'text-alig=
+n:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-si=
+ze:10.5pt;font-family:"Calibri",sans-serif;color:#1F497D'>Best Regards<o:p>=
+</o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-just=
+ify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-fami=
+ly:"Calibri",sans-serif;color:#1F497D'>Kevin Xing<o:p></o:p></span></p><p c=
+lass=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'>=
+<span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-ser=
+if;color:#1F497D'>+86 13910312310<o:p></o:p></span></p></div><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",s=
+ans-serif'><o:p>&nbsp;</o:p></span></p><div><div style=3D'border:none;borde=
+r-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><=
+b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>=E5=8F=91=
+=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'> jjhuang &lt;jjhu=
+ang@nor-ally.com&gt; <br></span><b><span style=3D'font-size:11.0pt;font-fam=
+ily:=E7=AD=89=E7=BA=BF'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN=
+-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-fa=
+mily:=E7=AD=89=E7=BA=BF'> 2021</span><span style=3D'font-size:11.0pt;font-f=
+amily:=E7=AD=89=E7=BA=BF'>=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<sp=
+an lang=3DEN-US>8</span>=E6=97=A5<span lang=3DEN-US> 1:45<br></span><b>=E6=
+=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> =
+Lader Li &lt;Lader.Li@nolato.com&gt;; Kevin Xing &lt;kevin.xing@nolato.com&=
+gt;; Alex Ke &lt;Alex.Ke@nolato.com&gt;; Joanna Yao &lt;yaoying@nor-ally.co=
+m&gt;<br></span><b>=E6=8A=84=E9=80=81<span lang=3DEN-US>:</span></b><span l=
+ang=3DEN-US> Naomi Wang &lt;naomi.wang@nolato.com&gt;; Cindy Lin &lt;cindy.=
+lin@nolato.com&gt;; Tianci Xia &lt;Tianci.Xia@nolato.com&gt;; Sally Chen &l=
+t;sally.chen@nolato.com&gt;; </span>=E9=83=AD=E5=8D=AB=E4=B8=9C<span lang=
+=3DEN-US> &lt;david@nor-ally.com&gt;; </span>=E4=BB=BB=E6=B0=B8=E5=86=9B<sp=
+an lang=3DEN-US> &lt;renyongjun@nor-ally.com&gt;; </span>=E9=BB=84=E6=B5=B7=
+=E6=9D=BE<span lang=3DEN-US> &lt;huanghs@nor-ally.com&gt;<br></span><b>=E4=
+=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></b><span lang=3DEN-US> Re: RE: [=
+EXTERNAL] </span>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=98=B2=E6=
+=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0<span =
+lang=3DEN-US><o:p></o:p></span></span></p></div></div><p class=3DMsoNormal>=
+<span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal><s=
+pan style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:black'>=E5=
+=90=84=E4=BD=8D=EF=BC=8C<span lang=3DEN-US><o:p></o:p></span></span></p></d=
+iv><div><p class=3DMsoNormal><span style=3D'font-family:"Microsoft YaHei UI=
+",sans-serif;color:black'>=E7=BB=BC=E5=90=88=E7=9B=AE=E5=89=8D=E6=8A=80=E6=
+=9C=AF=E4=BF=A1=E6=81=AF=E7=9C=8B=EF=BC=8C=E4=BA=A7=E5=93=81=E7=9A=84=E6=8A=
+=80=E6=9C=AF=E8=A6=81=E6=B1=82=E5=92=8C=E6=88=91=E4=BB=AC=E4=B8=8A=E6=AC=A1=
+=E8=A7=86=E9=A2=91=E4=BC=9A=E8=AE=AE=E6=97=B6=E5=8F=91=E7=94=9F=E4=BA=86=E6=
+=AF=94=E8=BE=83=E5=A4=A7=E7=9A=84=E5=8F=98=E5=8C=96=EF=BC=8C=E6=88=91=E6=80=
+=BB=E7=BB=93=E5=A6=82=E4=B8=8B=EF=BC=8C=E8=AF=B7=E5=90=84=E4=BD=8D=E6=8C=87=
+=E6=AD=A3=E3=80=82<span lang=3DEN-US><o:p></o:p></span></span></p></div><di=
+v><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Microsoft Y=
+aHei UI",sans-serif;color:black'>1</span><span style=3D'font-family:"Micros=
+oft YaHei UI",sans-serif;color:black'>=EF=BC=8C=E5=A5=A5=E8=BF=AA=E9=A1=B9=
+=E7=9B=AE=EF=BC=8C=E8=86=9C=E6=9D=90=E8=A6=81=E6=B1=82=EF=BC=9A=E9=98=B2=E6=
+=B0=B4=EF=BC=8C<span lang=3DEN-US>60kpa/30s</span>=EF=BC=8C=E9=80=8F=E6=B0=
+=94<span lang=3DEN-US>&gt;1500ml/min/cm2</span>=EF=BC=88<span lang=3DEN-US>=
+12</span>=E6=9C=88<span lang=3DEN-US>1</span>=E6=97=A5=E7=9A=84=E4=BF=A1=E6=
+=81=AF=E6=98=AF<span lang=3DEN-US>&gt;500mm/min/cm2)</span>=EF=BC=8C=E5=8E=
+=9A=E5=BA=A6=E8=A6=81=E6=B1=82<span lang=3DEN-US>&gt;0.1mm</span>=EF=BC=9B=
+=E7=96=8F=E6=B0=B4=E5=8D=B3=E5=8F=AF=E3=80=82=E5=8F=AF=E4=BB=A5=E7=A1=AE=E8=
+=AE=A4=E8=AF=A5=E4=BA=A7=E5=93=81=E8=A6=81=E6=B1=82=E6=98=AF=E6=9C=89=E6=94=
+=AF=E6=92=91=E7=9A=84=E8=86=9C=E6=9D=90=EF=BC=88=E5=8E=9F=E8=86=9C=E5=8E=9A=
+=E5=BA=A6=E4=B8=80=E8=88=AC=E4=B8=8D=E4=BC=9A=E8=B6=85=E8=BF=87<span lang=
+=3DEN-US>0.03mm</span>=EF=BC=89=E3=80=82=E6=94=AF=E6=92=91=E6=9D=90=E6=96=
+=99=E8=80=90=E6=B8=A9=E8=A6=81=E6=B1=82<span lang=3DEN-US>220</span>=E5=BA=
+=A6<span lang=3DEN-US>/10s</span>=E3=80=82=E7=94=B1=E4=BA=8E=E5=8E=9F=E8=86=
+=9C=E7=BB=8F=E5=A4=8D=E5=90=88=E5=90=8E=E9=80=8F=E6=B0=94=E6=8D=9F=E5=A4=B1=
+=E5=A4=A7=E7=BA=A6<span lang=3DEN-US>30-40%</span>=E4=B9=8B=E9=97=B4=EF=BC=
+=8C=E5=9B=A0=E6=AD=A4=E5=8E=9F=E8=86=9C=E8=A6=81=E6=B1=82=E5=9C=A8<span lan=
+g=3DEN-US>60kpa/30s</span>=E6=9D=A1=E4=BB=B6=E4=B8=8B=E9=80=8F=E6=B0=94=E9=
+=9C=80=E8=A6=81=E5=A4=A7=E4=BA=8E<span lang=3DEN-US>2500mm/min/cm2</span>=
+=E3=80=82=E6=88=91=E4=BB=AC=E7=8E=B0=E6=88=90=E4=BA=A7=E5=93=81=E5=88=97=E8=
+=A1=A8=E4=B8=AD=E4=BC=BC=E4=B9=8E=E8=BF=98=E6=B2=A1=E6=9C=89=E7=B1=BB=E4=BC=
+=BC=E4=BA=A7=E5=93=81=EF=BC=8C=E6=88=91=E4=BB=AC=E4=BC=9A=E5=B0=BD=E5=BF=AB=
+=E8=AF=84=E4=BC=B0=E5=B9=B6=E8=AF=95=E5=88=B6=E4=BA=A7=E5=93=81=E7=94=A8=E4=
+=BA=8E=E5=8F=8C=E6=96=B9=E6=A3=80=E6=B5=8B=E6=A0=A1=E5=87=86=E3=80=82<span =
+lang=3DEN-US><o:p></o:p></span></span></p></div><div><p class=3DMsoNormal><=
+span lang=3DEN-US style=3D'font-family:"Microsoft YaHei UI",sans-serif;colo=
+r:black'>2</span><span style=3D'font-family:"Microsoft YaHei UI",sans-serif=
+;color:black'>=EF=BC=8C=E6=B2=83=E5=B0=94=E6=B2=83=E9=A1=B9=E7=9B=AE=EF=BC=
+=8C=E8=86=9C=E6=9D=90=E8=A6=81=E6=B1=82=EF=BC=9A=E9=98=B2=E6=B0=B4=EF=BC=8C=
+<span lang=3DEN-US>10kpa/60min</span>=EF=BC=8C=E9=80=8F=E6=B0=94<span lang=
+=3DEN-US>&gt;1500ml/min/cm2</span>=EF=BC=88<span lang=3DEN-US>12</span>=E6=
+=9C=88<span lang=3DEN-US>1</span>=E6=97=A5=E4=BF=A1=E6=81=AF=E6=98=AF<span =
+lang=3DEN-US>&gt;520ml/min/cm2</span>=EF=BC=89=EF=BC=8C=E5=8E=9A=E5=BA=A6=
+=E8=A6=81=E6=B1=82<span lang=3DEN-US>&gt;0.1mm</span>=EF=BC=8C=E7=96=8F=E6=
+=B2=B9<span lang=3DEN-US>8</span>=E7=BA=A7=E3=80=82=E5=8F=AF=E4=BB=A5=E7=A1=
+=AE=E8=AE=A4=E8=AF=A5=E4=BA=A7=E5=93=81=E4=B8=BA=E6=9C=89=E6=94=AF=E6=92=91=
+=E7=9A=84=E8=86=9C=E6=9D=90=E3=80=82=E5=8E=9F=E8=86=9C=E9=80=8F=E6=B0=94=E8=
+=A6=81=E6=B1=82=E4=B9=9F=E6=98=AF<span lang=3DEN-US>&gt;2500ml/min/cm2</spa=
+n>=EF=BC=9B=E7=94=B1=E4=BA=8E=E7=96=8F=E6=B2=B9=E5=A4=84=E7=90=86=E7=9A=84=
+=E8=80=90=E6=B0=B4=E5=8E=8B=E6=8D=9F=E5=A4=B1=E6=8C=89=E6=88=91=E4=BB=AC=E7=
+=9A=84=E7=BB=8F=E9=AA=8C=E4=BC=9A=E6=8D=9F=E5=A4=B1<span lang=3DEN-US>30%</=
+span>=EF=BC=8C=E5=9B=A0=E6=AD=A4=E8=AF=A5=E4=BA=A7=E5=93=81=E5=8E=9F=E8=86=
+=9C=E8=80=90=E6=B0=B4=E5=8E=8B=E8=AE=BE=E8=AE=A1=E9=9C=80=E8=A6=81=E8=BE=BE=
+=E5=88=B0<span lang=3DEN-US>20kpa/60min</span>=EF=BC=9B=E8=AF=A5=E4=BA=A7=
+=E5=93=81=E6=95=B0=E6=8D=AE=E8=BF=91=E4=BC=BC=E6=88=91=E4=BB=AC=E7=8E=B0=E6=
+=9C=89=E7=9A=84<span lang=3DEN-US>NPE6813-P50/NPE6815-P50</span>=E3=80=82<s=
+pan lang=3DEN-US><o:p></o:p></span></span></p></div><div><p class=3DMsoNorm=
+al><span lang=3DEN-US style=3D'font-family:"Microsoft YaHei UI",sans-serif;=
+color:black'>3</span><span style=3D'font-family:"Microsoft YaHei UI",sans-s=
+erif;color:black'>=EF=BC=8C=E5=A6=82=E6=9E=9C=E4=BB=A5=E4=B8=8A=E6=8A=80=E6=
+=9C=AF=E6=95=B0=E6=8D=AE=E6=80=BB=E7=BB=93=E6=98=AF=E6=AD=A3=E7=A1=AE=E7=9A=
+=84=EF=BC=8C=E9=82=A3=E6=88=91=E4=BB=AC=E5=B0=B1=E6=8C=89=E4=B8=8A=E8=BF=B0=
+=E8=A6=81=E6=B1=82=E8=AF=95=E5=88=B6=E6=A0=B7=E5=93=81=E5=85=B1=E5=8F=8C=E6=
+=96=B9=E6=A3=80=E6=B5=8B=E3=80=82=E4=BD=86=E6=98=AF=E6=88=91=E4=BB=AC=E6=98=
+=8E=E7=99=BD=EF=BC=8C=E4=B8=8A=E8=BF=B0=E6=8A=80=E6=9C=AF=E8=A6=81=E6=B1=82=
+=E9=A2=87=E4=B8=BA=E6=8C=91=E6=88=98=E3=80=82=E6=88=91=E4=BB=AC=E4=BC=9A=E5=
+=B0=BD=E5=8A=9B=E8=80=8C=E4=B8=BA=E3=80=82<span lang=3DEN-US><o:p></o:p></s=
+pan></span></p></div><div><p class=3DMsoNormal><span style=3D'font-family:"=
+Microsoft YaHei UI",sans-serif;color:black'>=E9=BB=84=E7=82=AF=E7=82=AF<spa=
+n lang=3DEN-US><o:p></o:p></span></span></p></div><div><p class=3DMsoNormal=
+><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Microsoft YaHei =
+UI",sans-serif;color:black'><o:p>&nbsp;</o:p></span></p></div><div class=3D=
+MsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Microso=
+ft YaHei UI",sans-serif;color:black'><hr size=3D1 width=3D210 style=3D'widt=
+h:157.5pt' noshade style=3D'color:#B5C4DF' align=3Dleft></span></div><div><=
+div style=3D'margin-left:7.5pt;margin-top:7.5pt;margin-right:7.5pt;margin-b=
+ottom:7.5pt'><div><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-siz=
+e:10.0pt;font-family:"Verdana",sans-serif;color:black'>jjhuang<o:p></o:p></=
+span></p></div></div></div><blockquote style=3D'margin-left:24.0pt'><div><p=
+ class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;font-family=
+:"Microsoft YaHei UI",sans-serif;color:black'>&nbsp;<o:p></o:p></span></p><=
+/div><div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt=
+ 0cm 0cm 0cm'><div><div><p class=3DMsoNormal style=3D'background:#EFEFEF'><=
+b><span style=3D'font-size:9.0pt;font-family:"Microsoft YaHei UI",sans-seri=
+f;color:black'>=E5=8F=91=E4=BB=B6=E4=BA=BA=EF=BC=9A</span></b><span lang=3D=
+EN-US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:black'=
+>&nbsp;<a href=3D"mailto:Lader.Li@nolato.com">Lader Li</a><o:p></o:p></span=
+></p></div><div><p class=3DMsoNormal style=3D'background:#EFEFEF'><b><span =
+style=3D'font-size:9.0pt;font-family:"Microsoft YaHei UI",sans-serif;color:=
+black'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4=EF=BC=9A</span></b><span lang=
+=3DEN-US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:bla=
+ck'>&nbsp;2021-12-07&nbsp;16:50<o:p></o:p></span></p></div><div><p class=3D=
+MsoNormal style=3D'background:#EFEFEF'><b><span style=3D'font-size:9.0pt;fo=
+nt-family:"Microsoft YaHei UI",sans-serif;color:black'>=E6=94=B6=E4=BB=B6=
+=E4=BA=BA=EF=BC=9A</span></b><span lang=3DEN-US style=3D'font-size:9.0pt;fo=
+nt-family:"Tahoma",sans-serif;color:black'>&nbsp;<a href=3D"mailto:kevin.xi=
+ng@nolato.com">Kevin Xing</a>; <a href=3D"mailto:jjhuang@nor-ally.com">jjhu=
+ang</a>; <a href=3D"mailto:Alex.Ke@nolato.com">Alex Ke</a>; <a href=3D"mail=
+to:yaoying@nor-ally.com"><span lang=3DEN-US style=3D'font-family:"Microsoft=
+ YaHei UI",sans-serif'><span lang=3DEN-US>=E5=A7=9A</span></span><span lang=
+=3DEN-US><span lang=3DEN-US> </span></span><span lang=3DEN-US style=3D'font=
+-family:"Microsoft YaHei UI",sans-serif'><span lang=3DEN-US>=E8=8E=B9</span=
+></span></a><o:p></o:p></span></p></div><div><p class=3DMsoNormal style=3D'=
+background:#EFEFEF'><b><span style=3D'font-size:9.0pt;font-family:"Microsof=
+t YaHei UI",sans-serif;color:black'>=E6=8A=84=E9=80=81=EF=BC=9A</span></b><=
+span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;=
+color:black'>&nbsp;<a href=3D"mailto:naomi.wang@nolato.com">Naomi Wang</a>;=
+ <a href=3D"mailto:cindy.lin@nolato.com">Cindy Lin</a>; <a href=3D"mailto:T=
+ianci.Xia@nolato.com">Tianci Xia</a>; <a href=3D"mailto:sally.chen@nolato.c=
+om">Sally Chen</a>; <a href=3D"mailto:david@nor-ally.com"><span lang=3DEN-U=
+S style=3D'font-family:"Microsoft YaHei UI",sans-serif'><span lang=3DEN-US>=
+=E9=83=AD=E5=8D=AB=E4=B8=9C</span></span></a>; <a href=3D"mailto:renyongjun=
+@nor-ally.com"><span lang=3DEN-US style=3D'font-family:"Microsoft YaHei UI"=
+,sans-serif'><span lang=3DEN-US>=E4=BB=BB=E6=B0=B8=E5=86=9B</span></span></=
+a><o:p></o:p></span></p></div><div><p class=3DMsoNormal style=3D'background=
+:#EFEFEF'><b><span style=3D'font-size:9.0pt;font-family:"Microsoft YaHei UI=
+",sans-serif;color:black'>=E4=B8=BB=E9=A2=98=EF=BC=9A</span></b><span lang=
+=3DEN-US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:bla=
+ck'>&nbsp;RE: </span><span style=3D'font-size:9.0pt;font-family:"Microsoft =
+YaHei UI",sans-serif;color:black'>=E5=9B=9E=E5=A4=8D</span><span lang=3DEN-=
+US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:black'>: =
+[EXTERNAL] </span><span style=3D'font-size:9.0pt;font-family:"Microsoft YaH=
+ei UI",sans-serif;color:black'>=E5=9B=9E=E5=A4=8D</span><span lang=3DEN-US =
+style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:black'>: </s=
+pan><span style=3D'font-size:9.0pt;font-family:"Microsoft YaHei UI",sans-se=
+rif;color:black'>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=
+=81=AF=E8=AF=84=E4=BC=B0</span><span lang=3DEN-US style=3D'font-size:9.0pt;=
+font-family:"Tahoma",sans-serif;color:black'><o:p></o:p></span></p></div></=
+div></div><div><div><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-s=
+ize:10.5pt;font-family:"Calibri",sans-serif;color:#1F497D'>Hi &nbsp;</span>=
+<span style=3D'font-size:10.5pt;color:#1F497D'>=E9=BB=84=E6=80=BB=EF=BC=8C<=
+/span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p cla=
+ss=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;color:#1F497D'>=
+FYI</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p=
+ class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;color:#1F49=
+7D'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span=
+></p><div><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:=
+3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><b><span style=3D'font-size:11.0pt;=
+font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=8F=91=E4=BB=B6=E4=BA=BA<spa=
+n lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> jjhuang &lt;<a href=3D"mai=
+lto:jjhuang@nor-ally.com">jjhuang@nor-ally.com</a>&gt; <br></span><b><span =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=
+=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span></b><spa=
+n lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;col=
+or:black'> 2021</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF;color:black'>=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<span =
+lang=3DEN-US>7</span>=E6=97=A5<span lang=3DEN-US> 15:49<br></span><b>=E6=94=
+=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> Ale=
+x Ke &lt;<a href=3D"mailto:Alex.Ke@nolato.com">Alex.Ke@nolato.com</a>&gt;; =
+</span>=E5=A7=9A =E8=8E=B9<span lang=3DEN-US> &lt;<a href=3D"mailto:yaoying=
+@nor-ally.com">yaoying@nor-ally.com</a>&gt;<br></span><b>=E6=8A=84=E9=80=81=
+<span lang=3DEN-US>:</span></b><span lang=3DEN-US> Naomi Wang &lt;<a href=
+=3D"mailto:naomi.wang@nolato.com">naomi.wang@nolato.com</a>&gt;; Cindy Lin =
+&lt;<a href=3D"mailto:cindy.lin@nolato.com">cindy.lin@nolato.com</a>&gt;; L=
+ader Li &lt;<a href=3D"mailto:Lader.Li@nolato.com">Lader.Li@nolato.com</a>&=
+gt;; Tianci Xia &lt;<a href=3D"mailto:Tianci.Xia@nolato.com">Tianci.Xia@nol=
+ato.com</a>&gt;; Kevin Xing &lt;<a href=3D"mailto:kevin.xing@nolato.com">ke=
+vin.xing@nolato.com</a>&gt;; Sally Chen &lt;<a href=3D"mailto:sally.chen@no=
+lato.com">sally.chen@nolato.com</a>&gt;; </span>=E9=83=AD=E5=8D=AB=E4=B8=9C=
+<span lang=3DEN-US> &lt;<a href=3D"mailto:david@nor-ally.com">david@nor-all=
+y.com</a>&gt;; </span>=E4=BB=BB=E6=B0=B8=E5=86=9B<span lang=3DEN-US> &lt;<a=
+ href=3D"mailto:renyongjun@nor-ally.com">renyongjun@nor-ally.com</a>&gt;<br=
+></span><b>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></b><span lang=3DEN=
+-US> Re: </span>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: [EXTERNAL] </span>=
+=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=98=B2=E6=B0=B4=E9=80=8F=
+=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0</span><span lang=3DE=
+N-US style=3D'color:black'><o:p></o:p></span></p></div></div><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p></span></p=
+><div><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Microso=
+ft YaHei UI",sans-serif;color:black'>Alex,</span><span style=3D'font-family=
+:"Microsoft YaHei UI",sans-serif;color:black'>=EF=BC=9B</span><span lang=3D=
+EN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p class=3DMso=
+Normal><span style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:bla=
+ck'>=E4=BB=8A=E5=A4=A9=E4=B8=8A=E5=8D=88=E6=88=91=E4=BB=AC=E4=B8=93=E9=97=
+=A8=E4=BC=9A=E8=AE=AE=E8=AE=A8=E8=AE=BA=E8=B4=B5=E6=96=B9=E9=9C=80=E6=B1=82=
+=E5=92=8C=E8=AF=95=E6=A0=B7=E9=97=AE=E9=A2=98=E3=80=82=E6=9C=89=E8=BF=99=E6=
+=A0=B7=E5=87=A0=E4=B8=AA=E6=84=8F=E8=A7=81=E5=85=B1=E5=8F=82=E8=80=83=EF=BC=
+=9A</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></=
+div><div><p class=3DMsoListParagraph style=3D'text-indent:-36.0pt'><span la=
+ng=3DEN-US style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:black=
+'>1</span><span style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:=
+black'>=EF=BC=8C</span><span lang=3DEN-US style=3D'font-size:7.0pt;font-fam=
+ily:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; </span><span style=3D'font-family:"Microsoft YaHei UI",sans-serif;=
+color:black'>=E5=8F=91=E7=8E=B0=E6=9C=80=E6=96=B0=E9=99=84=E8=A1=A8=E4=B8=
+=AD<b>=E5=A5=A5=E8=BF=AA=E9=A1=B9=E7=9B=AE=E4=BA=A7=E5=93=81=E7=9A=84=E9=80=
+=8F=E6=B0=94=E9=87=8F=E4=B9=9F=E8=B0=83=E6=95=B4=E4=B8=BA<span lang=3DEN-US=
+>1500ml/min.cm2</span></b>=EF=BC=8C=E6=88=91=E4=BB=AC=E6=9A=82=E6=97=B6=E6=
+=97=A0=E6=B3=95=E5=88=A4=E6=96=AD=E5=8F=AF=E8=A1=8C=E6=80=A7=E3=80=82=E5=9B=
+=A0=E4=B8=BA=E5=9C=A8=E6=B2=83=E5=B0=94=E6=B2=83=E9=A1=B9=E7=9B=AE=E4=B8=AD=
+=E9=80=8F=E6=B0=94=E9=87=8F=E8=B0=83=E6=95=B4=E4=B8=BA<span lang=3DEN-US>15=
+00</span>=E6=97=B6=EF=BC=8C=E8=80=90=E6=B0=B4=E5=8E=8B=E6=98=AF<span lang=
+=3DEN-US>10kpa/60</span>=E5=88=86=E9=92=9F=EF=BC=8C=E5=B7=AE=E5=BC=82=E5=BE=
+=88=E5=A4=A7=E3=80=82</span><span lang=3DEN-US style=3D'color:black'><o:p><=
+/o:p></span></p><p class=3DMsoListParagraph><span lang=3DEN-US style=3D'fon=
+t-family:"Microsoft YaHei UI",sans-serif;color:black;background:yellow;mso-=
+highlight:yellow'>---</span><span style=3D'font-family:"Microsoft YaHei UI"=
+,sans-serif;color:black;background:yellow;mso-highlight:yellow'>=E4=B8=A4=
+=E4=B8=AA=E9=A1=B9=E7=9B=AE=E6=A0=B9=E6=8D=AE=E9=98=80=E4=BD=93=E7=9A=84=E5=
+=B0=BA=E5=AF=B8=E5=92=8C=E9=80=8F=E6=B0=94=E9=87=8F=E8=A6=81=E6=B1=82=E6=A0=
+=B8=E7=AE=97=E7=9A=84=E8=86=9C=E6=9D=90=E9=80=8F=E6=B0=94=E9=87=8F=E5=9D=87=
+=E4=B8=BA<b><span lang=3DEN-US>1500ml/min.cm2</span>=EF=BC=9B</b>=E5=9B=A0=
+=E4=B8=BA<span lang=3DEN-US>Volvo</span>=E9=A1=B9=E7=9B=AE=E4=BB=8A=E5=A4=
+=A9=E6=8E=A5=E5=88=B0=E9=98=80=E4=BD=93=E9=80=8F=E6=B0=94=E9=87=8F=E6=9B=B4=
+=E6=96=B0=E6=89=80=E4=BB=A5=E8=B0=83=E6=95=B4=E8=86=9C=E6=9D=90=E7=9A=84=E9=
+=80=8F=E6=B0=94=E9=87=8F=E4=B8=BA<b>=EF=BC=9E<span lang=3DEN-US>1500ml/min.=
+cm2</span>=EF=BC=9B</b>=E5=9B=A0=E4=B8=BA=E6=98=AF=E4=B8=A4=E4=B8=AA=E4=B8=
+=8D=E5=90=8C=E7=9A=84=E9=A1=B9=E7=9B=AE=E6=89=80=E4=BB=A5=E6=B0=B4=E5=8E=8B=
+=E6=B5=8B=E8=AF=95=E9=9C=80=E6=B1=82=E7=9A=84=E6=97=B6=E9=97=B4=E5=92=8C=E5=
+=8E=8B=E5=8A=9B=E4=B8=8D=E5=90=8C=EF=BC=8C=E5=8F=AF=E4=BB=A5=E6=A0=B9=E6=8D=
+=AE=E6=9C=80=E6=96=B0=E7=9A=84=E8=A1=A8=E6=A0=BC=E8=A6=81=E6=B1=82=E5=BC=80=
+=E5=8F=91=E3=80=82</span><span lang=3DEN-US style=3D'color:black'><o:p></o:=
+p></span></p></div><div><p class=3DMsoListParagraph style=3D'text-indent:-3=
+6.0pt'><span lang=3DEN-US style=3D'font-family:"Microsoft YaHei UI",sans-se=
+rif;color:black'>2</span><span style=3D'font-family:"Microsoft YaHei UI",sa=
+ns-serif;color:black'>=EF=BC=8C</span><span lang=3DEN-US style=3D'font-size=
+:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp; </span><span style=3D'font-family:"Microsoft YaHei =
+UI",sans-serif;color:black'>=E8=86=9C=E6=9D=90=E5=8E=9A=E5=BA=A6=E8=8B=A5=
+=E4=B8=BA<span lang=3DEN-US>0.1mm</span>=E4=BB=A5=E4=B8=8A=EF=BC=8C=E5=88=
+=99=E8=82=AF=E5=AE=9A=E6=98=AF=E6=9C=89=E6=94=AF=E6=92=91=E6=9D=90=E6=96=99=
+=EF=BC=8C=E6=88=91=E4=BB=AC=E4=BF=97=E7=A7=B0=E5=A4=8D=E8=B4=B4=E8=86=9C=E3=
+=80=82=E5=8E=9F=E8=86=9C=E7=BB=8F=E5=A4=8D=E5=90=88=E5=90=8E=EF=BC=8C=E9=80=
+=8F=E6=B0=94=E9=87=8F=E4=BC=9A=E6=9C=89=E6=8D=9F=E5=A4=B1=EF=BC=8C=E6=89=80=
+=E4=BB=A5=E6=88=91=E4=BB=AC=E8=A6=81=E6=98=8E=E7=A1=AE=E6=8A=80=E6=9C=AF=E6=
+=8C=87=E6=A0=87=E6=98=AF=E9=92=88=E5=AF=B9=E5=A4=8D=E5=90=88=E5=90=8E=E4=BA=
+=A7=E5=93=81=EF=BC=8C=E8=BF=98=E6=98=AF=E5=8E=9F=E8=86=9C=E3=80=82</span><s=
+pan lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMso=
+ListParagraph><span lang=3DEN-US style=3D'font-family:"Microsoft YaHei UI",=
+sans-serif;color:black;background:yellow;mso-highlight:yellow'>---</span><s=
+pan style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:black;backgr=
+ound:yellow;mso-highlight:yellow'>=E6=A8=A1=E5=88=87=E7=9A=84=E5=8E=9A=E5=
+=BA=A6=E6=88=91=E4=BB=AC=E6=98=AF=E5=9F=BA=E4=BA=8E=E5=AE=A2=E6=88=B7=E7=BB=
+=84=E8=A3=85=E7=9A=84=E6=96=B9=E6=A1=88=E6=8F=90=E5=87=BA=E7=9A=84=EF=BC=8C=
+=E7=9B=AE=E5=89=8D<span lang=3DEN-US>Audi</span>=E9=A1=B9=E7=9B=AE=E8=86=9C=
+=E6=9D=90=E5=8E=9A=E5=BA=A6=E4=BD=8E=E4=BA=8E<span lang=3DEN-US>0.1mm</span=
+>=E7=BB=84=E8=A3=85=E6=96=B9=E9=9D=A2=E5=AE=B9=E6=98=93=E5=8F=98=E5=BD=A2=
+=E8=A4=B6=E7=9A=B1=EF=BC=9B=E6=88=91=E4=BB=AC=E8=A1=A8=E6=A0=BC=E4=B8=AD=E7=
+=BB=99=E7=9A=84=E9=80=8F=E6=B0=94=E9=87=8F=E6=98=AF=E5=AF=B9=E6=95=B4=E4=BD=
+=93=E8=86=9C=E6=9D=90=E6=9C=AC=E8=BA=AB=E7=9A=84=E8=A6=81=E6=B1=82=E3=80=82=
+</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p cl=
+ass=3DMsoListParagraph><span style=3D'font-family:"Microsoft YaHei UI",sans=
+-serif;color:black;background:yellow;mso-highlight:yellow'>=E6=98=AF=E5=90=
+=A6=E9=9C=80=E8=A6=81=E5=A2=9E=E5=8A=A0=E5=A4=8D=E8=B4=B4=E8=86=9C=E9=9C=80=
+=E8=A6=81=E4=BD=A0=E4=BB=AC=E8=AF=84=E4=BC=B0=EF=BC=8C<span lang=3DEN-US> A=
+udi</span>=E9=A1=B9=E7=9B=AE=E5=AE=A2=E6=88=B7=E7=9A=84=E7=BB=84=E8=A3=85=
+=E7=83=AD=E5=8E=8B=E6=B8=A9=E5=BA=A6=E6=98=AF<span lang=3DEN-US>220</span>=
+=E2=84=83=EF=BC=8C=E6=89=80=E4=BB=A5=E8=86=9C=E6=9D=90=E6=9C=AC=E8=BA=AB=E9=
+=9C=80=E8=A6=81=E6=9C=89=E8=80=90=E6=B8=A9<span lang=3DEN-US>220</span>=E2=
+=84=83<span lang=3DEN-US>/10s</span>=E7=9A=84=E8=A6=81=E6=B1=82=E3=80=82</s=
+pan><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><d=
+iv><p class=3DMsoListParagraph style=3D'text-indent:-36.0pt'><span lang=3DE=
+N-US style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:black'>3</s=
+pan><span style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:black'=
+>=EF=BC=8C</span><span lang=3DEN-US style=3D'font-size:7.0pt;font-family:"T=
+imes New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </span><span style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:=
+black'>=E6=88=91=E4=BB=AC=E4=B8=8D=E5=BB=BA=E8=AE=AE=E4=BD=BF=E7=94=A8=E9=
+=9A=8F=E6=84=8F=E9=80=89=E5=8F=96=E8=86=9C=E6=9D=90=E8=BF=9B=E8=A1=8C=E6=B5=
+=8B=E8=AF=95=E8=AF=84=E4=BB=B7=E5=92=8C=E6=B5=8B=E8=AF=95=E6=A0=A1=E5=87=86=
+=EF=BC=8C=E5=9B=A0=E4=B8=BA=E4=B8=8D=E5=90=8C=E7=94=A8=E9=80=94=E7=9A=84=E8=
+=86=9C=E6=9D=90=E7=BB=93=E6=9E=84=E4=B8=8D=E5=90=8C=EF=BC=8C=E8=AF=84=E4=BB=
+=B7=E6=96=B9=E6=B3=95=E6=89=8B=E6=AE=B5=E4=B9=9F=E4=B8=8D=E5=90=8C=EF=BC=8C=
+=E5=BC=A0=E5=86=A0=E6=9D=8E=E6=88=B4=E4=BC=9A=E5=A4=B1=E7=9C=9F=E3=80=82=E6=
+=89=80=E4=BB=A5=E6=88=91=E4=BB=AC=E4=BC=9A=E5=9C=A8=E5=8F=8C=E6=96=B9=E6=B2=
+=9F=E9=80=9A=E6=98=8E=E7=99=BD=E4=B8=8A=E8=BF=B0=E6=A0=87=E5=87=86=E9=9C=80=
+=E6=B1=82=E5=90=8E=EF=BC=8C=E8=AE=BE=E8=AE=A1=E4=B8=80=E6=AC=BE=E5=9F=BA=E6=
+=9C=AC=E5=8F=AF=E4=BB=A5=E4=B8=AD=E7=9A=84=E7=9A=84=E4=BA=A7=E5=93=81=E4=BA=
+=88=E4=BB=A5=E6=B5=8B=E8=AF=95=E8=AF=84=E4=BC=B0=E5=92=8C=E5=8F=8C=E6=96=B9=
+=E6=B5=8B=E8=AF=95=E6=A0=A1=E5=87=86=E3=80=82=E9=82=A3=E6=A0=B7=EF=BC=8C=E5=
+=8D=B3=E4=BE=BF=E6=95=B0=E6=8D=AE=E7=A8=8D=E6=9C=89=E5=B7=AE=E6=B1=A0=EF=BC=
+=8C=E8=B0=83=E6=95=B4=E4=BC=9A=E6=AF=94=E8=BE=83=E5=BF=AB=E3=80=82</span><s=
+pan lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMso=
+ListParagraph><span lang=3DEN-US style=3D'font-family:"Microsoft YaHei UI",=
+sans-serif;color:black;background:yellow;mso-highlight:yellow'>--</span><sp=
+an style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:#1F497D;backg=
+round:yellow;mso-highlight:yellow'>=E5=85=85=E5=88=86=E7=90=86=E8=A7=A3=E6=
+=82=A8=E9=82=A3=E8=BE=B9=E7=9A=84=E9=A1=BE=E8=99=91=E3=80=82=E6=88=91=E4=BB=
+=AC=E6=8F=90=E5=87=BA=E8=BF=99=E4=B8=AA=E8=A6=81=E6=B1=82=E5=8F=AA=E6=98=AF=
+=E6=83=B3=E5=AF=B9=E6=AF=94=E4=B8=8B=E5=8F=8C=E6=96=B9=E6=B5=8B=E8=AF=95=E8=
+=AE=BE=E5=A4=87=E5=92=8C=E6=B5=8B=E8=AF=95=E6=96=B9=E6=B3=95=E7=9A=84=E5=B7=
+=AE=E5=BC=82=E3=80=82=E6=9C=80=E7=BB=88=E8=82=AF=E5=AE=9A=E6=98=AF=E8=A6=81=
+=E5=9C=A8=E5=AE=A2=E6=88=B7=EF=BC=8C</span><span style=3D'font-family:"Micr=
+osoft YaHei UI",sans-serif;color:#1F497D'> <span lang=3DEN-US style=3D'back=
+ground:yellow;mso-highlight:yellow'>Lovepac, </span><span style=3D'backgrou=
+nd:yellow;mso-highlight:yellow'>=E8=B4=B5=E5=8F=B8=E4=B9=8B=E9=97=B4=E8=BE=
+=BE=E6=88=90=E4=B8=80=E8=87=B4=E7=9A=84=E8=AF=84=E4=BC=B0=E6=96=B9=E6=B3=95=
+=E5=92=8C=E6=B5=8B=E8=AF=95=E6=96=B9=E6=B3=95=E3=80=82</span></span><span l=
+ang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p class=
+=3DMsoListParagraph style=3D'text-indent:-36.0pt'><span lang=3DEN-US style=
+=3D'font-family:"Microsoft YaHei UI",sans-serif;color:black'>4</span><span =
+style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:black'>=EF=BC=8C=
+</span><span lang=3DEN-US style=3D'font-size:7.0pt;font-family:"Times New R=
+oman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>=
+<span style=3D'font-family:"Microsoft YaHei UI",sans-serif;color:black'>=E6=
+=88=91=E4=BB=AC=E4=B8=8D=E5=BB=BA=E8=AE=AE=E9=87=87=E7=94=A8<span lang=3DEN=
+-US>A4</span>=E7=BA=B8=E4=BD=9C=E4=B8=BA=E5=AF=B9=E7=85=A7=E6=A3=80=E6=B5=
+=8B=E8=86=9C=E6=9D=90=EF=BC=8C=E5=9B=A0=E4=B8=BA<span lang=3DEN-US>A4</span=
+>=E7=BA=B8=E5=A4=A7=E5=B0=8F=E5=B9=B3=E6=9D=BF=E8=86=9C=E5=9C=A8=E5=BF=AB=
+=E9=80=92=E3=80=81=E6=8B=86=E5=B0=81=E3=80=81=E5=AE=9E=E9=AA=8C=E5=AE=A4=E5=
+=88=B6=E6=A0=B7=E8=BF=87=E7=A8=8B=E4=B8=AD=E5=BE=88=E5=AE=B9=E6=98=93=E5=8F=
+=97=E6=8D=9F=EF=BC=8C=E6=89=80=E4=BB=A5=E6=88=91=E4=BB=AC=E4=BC=9A=E5=BB=BA=
+=E8=AE=AE=E4=BD=BF=E7=94=A8<span lang=3DEN-US>80mm</span>=E5=AE=BD=E5=B0=8F=
+=E5=8D=B7=EF=BC=8C=E6=88=91=E4=BB=AC=E5=9C=A8=E5=90=8C=E4=B8=80=E5=8D=B7=E5=
+=89=8D=E7=AB=AF=E5=81=9A=E6=B5=8B=E8=AF=95=EF=BC=8C=E8=B4=B5=E6=96=B9=E6=94=
+=B6=E5=88=B0=E5=BB=BA=E6=9D=90=E5=90=8E=EF=BC=8C=E9=80=82=E5=BD=93=E5=89=94=
+=E9=99=A4=E5=A4=96=E5=B1=82=E8=86=9C=E5=90=8E=E8=BF=9B=E8=A1=8C=E6=A3=80=E6=
+=B5=8B=E3=80=82</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p><=
+/span></p><p class=3DMsoListParagraph><span lang=3DEN-US style=3D'font-fami=
+ly:"Microsoft YaHei UI",sans-serif;color:black;background:yellow;mso-highli=
+ght:yellow'>---</span><span style=3D'font-family:"Microsoft YaHei UI",sans-=
+serif;color:#1F497D;background:yellow;mso-highlight:yellow'>=E5=8F=AF=E4=BB=
+=A5=E7=94=A8=E5=B0=8F=E5=8D=B7=E6=96=B9=E5=BC=8F=E3=80=82</span><span lang=
+=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p class=3D=
+MsoNormal><span lang=3DEN-US style=3D'font-family:"Microsoft YaHei UI",sans=
+-serif;color:black'>5</span><span style=3D'font-family:"Microsoft YaHei UI"=
+,sans-serif;color:black'>=EF=BC=8C=E6=88=91=E4=BB=AC=E7=9B=AE=E5=89=8D=E8=
+=81=9A=E7=84=A6=E5=A5=A5=E8=BF=AA=E9=9C=80=E8=A6=81=E7=9A=84=E4=BA=A7=E5=93=
+=81=EF=BC=8C=E5=8E=9F=E8=86=9C=E3=80=81=E6=97=A0=E5=A4=8D=E5=90=88=E3=80=81=
+=E6=97=A0=E7=96=8F=E6=B2=B9=E5=A4=84=E7=90=86=E8=A6=81=E6=B1=82=EF=BC=8C=E6=
+=88=91=E4=BB=AC=E5=86=85=E9=83=A8=E5=AE=9A=E5=90=8D=E4=B8=BA<span lang=3DEN=
+-US>ND8010</span>=EF=BC=8C=E7=9B=B8=E5=85=B3=E6=8A=80=E6=9C=AF=E6=8C=87=E6=
+=A0=87=E4=BC=9A=E5=BE=88=E5=BF=AB=E5=87=BA=E6=9D=A5=E3=80=82</span><span la=
+ng=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Microsoft YaHei UI",s=
+ans-serif;color:black'>6</span><span style=3D'font-family:"Microsoft YaHei =
+UI",sans-serif;color:black'>=EF=BC=8C=E6=88=91=E4=BB=AC=E6=98=8E=E7=99=BD=
+=E8=B4=B5=E6=96=B9=E9=9C=80=E6=B1=82=E5=90=8E=EF=BC=8C=E5=87=BA=E6=A0=B7=E5=
+=93=81=E6=97=B6=E9=97=B4=E5=A4=A7=E7=BA=A6<span lang=3DEN-US>3</span>=E5=91=
+=A8=EF=BC=8C=E5=86=8D=E6=AC=A1=E8=B0=83=E6=95=B4=E6=97=B6=E9=97=B4=E5=8F=AF=
+=E4=BB=A5=E6=8E=A7=E5=88=B6=E5=9C=A8<span lang=3DEN-US>2</span>=E5=91=A8=E5=
+=86=85=E3=80=82</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p><=
+/span></p></div><div><p class=3DMsoNormal><span style=3D'font-family:"Micro=
+soft YaHei UI",sans-serif;color:black'>=E4=BB=A5=E4=B8=8A=EF=BC=8C=E8=AF=B7=
+=E6=8C=87=E6=95=99=E3=80=82</span><span lang=3DEN-US style=3D'color:black'>=
+<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span style=3D'font-f=
+amily:"Microsoft YaHei UI",sans-serif;color:black'>=E9=BB=84=E7=82=AF=E7=82=
+=AF</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></=
+div><div><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;=
+font-family:"Microsoft YaHei UI",sans-serif;color:black'>&nbsp;</span><span=
+ lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p cla=
+ss=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Mi=
+crosoft YaHei UI",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US s=
+tyle=3D'color:black'><o:p></o:p></span></p></div><div><div><div class=3DMso=
+Normal><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Microsoft =
+YaHei UI",sans-serif;color:black'><hr size=3D1 width=3D210 style=3D'width:1=
+57.5pt' noshade style=3D'color:#A0A0A0' align=3Dleft></span></div></div></d=
+iv><div><div style=3D'margin-left:7.5pt;margin-top:7.5pt;margin-right:7.5pt=
+;margin-bottom:7.5pt'><div><p class=3DMsoNormal><span lang=3DEN-US style=3D=
+'font-size:10.0pt;font-family:"Verdana",sans-serif;color:black'>jjhuang</sp=
+an><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div></d=
+iv></div><blockquote style=3D'margin-left:24.0pt'><div><p class=3DMsoNormal=
+><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Microsoft YaHei =
+UI",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:=
+black'><o:p></o:p></span></p></div><div style=3D'border:none;border-top:sol=
+id #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm'><div><div><p class=3DMsoNormal =
+style=3D'background:#EFEFEF;background-position:initial initial;background-=
+repeat:initial initial'><b><span style=3D'font-size:9.0pt;font-family:"Micr=
+osoft YaHei UI",sans-serif;color:black'>=E5=8F=91=E4=BB=B6=E4=BA=BA=EF=BC=
+=9A</span></b><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Taho=
+ma",sans-serif;color:black'>&nbsp;<a href=3D"mailto:Alex.Ke@nolato.com">Ale=
+x Ke</a></span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span><=
+/p></div><div><p class=3DMsoNormal style=3D'background:#EFEFEF;background-p=
+osition:initial initial;background-repeat:initial initial'><b><span style=
+=3D'font-size:9.0pt;font-family:"Microsoft YaHei UI",sans-serif;color:black=
+'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4=EF=BC=9A</span></b><span lang=3DEN-U=
+S style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:black'>&nb=
+sp;2021-12-07&nbsp;14:33</span><span lang=3DEN-US style=3D'color:black'><o:=
+p></o:p></span></p></div><div><p class=3DMsoNormal style=3D'background:#EFE=
+FEF;background-position:initial initial;background-repeat:initial initial'>=
+<b><span style=3D'font-size:9.0pt;font-family:"Microsoft YaHei UI",sans-ser=
+if;color:black'>=E6=94=B6=E4=BB=B6=E4=BA=BA=EF=BC=9A</span></b><span lang=
+=3DEN-US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:bla=
+ck'>&nbsp;<a href=3D"mailto:yaoying@nor-ally.com">yaoying@nor-ally.com</a><=
+/span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div>=
+<div><p class=3DMsoNormal style=3D'background:#EFEFEF;background-position:i=
+nitial initial;background-repeat:initial initial'><b><span style=3D'font-si=
+ze:9.0pt;font-family:"Microsoft YaHei UI",sans-serif;color:black'>=E6=8A=84=
+=E9=80=81=EF=BC=9A</span></b><span lang=3DEN-US style=3D'font-size:9.0pt;fo=
+nt-family:"Tahoma",sans-serif;color:black'>&nbsp;<a href=3D"mailto:naomi.wa=
+ng@nolato.com">Naomi Wang</a>; <a href=3D"mailto:cindy.lin@nolato.com">Cind=
+y Lin</a>; <a href=3D"mailto:Lader.Li@nolato.com">Lader Li</a>; <a href=3D"=
+mailto:Tianci.Xia@nolato.com">Tianci Xia</a>; <a href=3D"mailto:kevin.xing@=
+nolato.com">Kevin Xing</a>; <a href=3D"mailto:sally.chen@nolato.com">Sally =
+Chen</a>; <a href=3D"mailto:david@nor-ally.com">david@nor-ally.com</a>; <a =
+href=3D"mailto:renyongjun@nor-ally.com">renyongjun@nor-ally.com</a>; <a hre=
+f=3D"mailto:jjhuang@nor-ally.com">jjhuang</a></span><span lang=3DEN-US styl=
+e=3D'color:black'><o:p></o:p></span></p></div><div><p class=3DMsoNormal sty=
+le=3D'background:#EFEFEF;background-position:initial initial;background-rep=
+eat:initial initial'><b><span style=3D'font-size:9.0pt;font-family:"Microso=
+ft YaHei UI",sans-serif;color:black'>=E4=B8=BB=E9=A2=98=EF=BC=9A</span></b>=
+<span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif=
+;color:black'>&nbsp;</span><span style=3D'font-size:9.0pt;font-family:"Micr=
+osoft YaHei UI",sans-serif;color:black'>=E5=9B=9E=E5=A4=8D</span><span lang=
+=3DEN-US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:bla=
+ck'>: [EXTERNAL] </span><span style=3D'font-size:9.0pt;font-family:"Microso=
+ft YaHei UI",sans-serif;color:black'>=E5=9B=9E=E5=A4=8D</span><span lang=3D=
+EN-US style=3D'font-size:9.0pt;font-family:"Tahoma",sans-serif;color:black'=
+>: </span><span style=3D'font-size:9.0pt;font-family:"Microsoft YaHei UI",s=
+ans-serif;color:black'>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=
+=A1=E6=81=AF=E8=AF=84=E4=BC=B0</span><span lang=3DEN-US style=3D'color:blac=
+k'><o:p></o:p></span></p></div></div></div><div><div><p class=3DMsoNormal s=
+tyle=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US=
+ style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>HI=
+ Joanna</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></=
+p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideog=
+raph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sa=
+ns-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'=
+><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;tex=
+t-justify:inter-ideograph'><span style=3D'font-size:10.5pt;color:black'>=E5=
+=A6=82=E6=B2=9F=E9=80=9A=EF=BC=8C</span><span lang=3DEN-US style=3D'font-si=
+ze:10.5pt;font-family:"Calibri",sans-serif;color:black'>Volvo</span><span s=
+tyle=3D'font-size:10.5pt;color:black'>=E9=A1=B9=E7=9B=AE=E7=9A=84=E9=80=8F=
+=E6=B0=94=E9=87=8F=E6=9C=89=E6=9B=B4=E6=96=B0=EF=BC=8C=E9=80=8F=E6=B0=94=E8=
+=86=9C=E7=9A=84=E9=80=8F=E6=B0=94=E6=A0=87=E5=87=86=E6=9B=B4=E6=96=B0=E4=B8=
+=BA=EF=BC=9A=EF=BC=9E</span><span lang=3DEN-US style=3D'font-size:10.5pt;fo=
+nt-family:"Calibri",sans-serif;color:black'>1500ml/min/cm</span><span style=
+=3D'font-size:10.5pt;color:black'>=C2=B2=EF=BC=8C=E8=AF=A6=E6=83=85=E8=AF=
+=B7=E8=A7=81=E9=99=84=E4=BB=B6</span><span lang=3DEN-US style=3D'color:blac=
+k'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;t=
+ext-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;f=
+ont-family:"Calibri",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-U=
+S style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D=
+'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=
+=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>THX</spa=
+n><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;c=
+olor:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:=
+p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:=
+inter-ideograph'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Barlow Medium";color:black'>Alex Ke </span></b><span lang=3DEN-US style=
+=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-a=
+lign:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font=
+-size:10.0pt;font-family:"Barlow Light";color:black'>&nbsp;</span><span lan=
+g=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-U=
+S style=3D'font-size:10.0pt;font-family:Barlow;color:black'><img border=3D0=
+ width=3D82 height=3D22 style=3D'width:.8541in;height:.2291in' id=3D"=E5=9B=
+=BE=E7=89=87_x0020_6" src=3D"cid:image001.png@01D7EC1F.4129AAB0"></span><sp=
+an lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoN=
+ormal style=3D'text-align:justify;text-justify:inter-ideograph'><b><span la=
+ng=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Medium";color:blac=
+k'>L=C3=B6vepac Technology(Shenzhen) Co., Ltd</span></b><span lang=3DEN-US =
+style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D't=
+ext-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D=
+'font-size:9.0pt;font-family:"Barlow Light";color:black'>1st. 2nd. Floor, N=
+O.3 Building, NO.1 Lirong Road, Changyi Industrial Area, </span><span lang=
+=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal s=
+tyle=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US=
+ style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>Xinshi Co=
+mmunity, Dalang Street, Longhua District,</span><span lang=3DEN-US style=3D=
+'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-alig=
+n:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-si=
+ze:9.0pt;font-family:"Barlow Light";color:black'>Shenzhen, 518109, P.R.Chin=
+a</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p c=
+lass=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'>=
+<span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";colo=
+r:black'>Mobile: +86 158-3130-0059</span><span lang=3DEN-US style=3D'color:=
+black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justi=
+fy;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:9.0p=
+t;font-family:"Barlow Light";color:black'>E-mail:Alex.Ke@nolato.com</span><=
+span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMs=
+oNormal style=3D'text-align:justify;text-justify:inter-ideograph'><u><span =
+lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:#0E2=
+EB8'><a href=3D"http://www.nolato.com/">www.nolato.com</a></span></u><span =
+lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNorm=
+al style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DE=
+N-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black=
+'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span><=
+/p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideo=
+graph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",s=
+ans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black=
+'><o:p></o:p></span></p><div><div style=3D'border:none;border-top:solid #E1=
+E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal style=3D'text-al=
+ign:justify;text-justify:inter-ideograph'><b><span style=3D'font-size:11.0p=
+t;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=8F=91=E4=BB=B6=E4=BA=BA<s=
+pan lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:1=
+1.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> Alex Ke <br></span><b><s=
+pan style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=
+=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span></b><=
+span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;=
+color:black'> 2021</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF;color:black'>=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<sp=
+an lang=3DEN-US>7</span>=E6=97=A5<span lang=3DEN-US> 13:38<br></span><b>=E6=
+=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> =
+'yaoying@nor-ally.com' &lt;<a href=3D"mailto:yaoying@nor-ally.com">yaoying@=
+nor-ally.com</a>&gt;<br></span><b>=E6=8A=84=E9=80=81<span lang=3DEN-US>:</s=
+pan></b><span lang=3DEN-US> Naomi Wang &lt;<a href=3D"mailto:naomi.wang@nol=
+ato.com">naomi.wang@nolato.com</a>&gt;; Cindy Lin &lt;<a href=3D"mailto:cin=
+dy.lin@nolato.com">cindy.lin@nolato.com</a>&gt;; Lader Li &lt;<a href=3D"ma=
+ilto:Lader.Li@nolato.com">Lader.Li@nolato.com</a>&gt;; Tianci Xia &lt;<a hr=
+ef=3D"mailto:Tianci.Xia@nolato.com">Tianci.Xia@nolato.com</a>&gt;; Kevin Xi=
+ng &lt;<a href=3D"mailto:kevin.xing@nolato.com">kevin.xing@nolato.com</a>&g=
+t;; Sally Chen &lt;<a href=3D"mailto:sally.chen@nolato.com">sally.chen@nola=
+to.com</a>&gt;; 'david@nor-ally.com' &lt;<a href=3D"mailto:david@nor-ally.c=
+om">david@nor-ally.com</a>&gt;; 'renyongjun@nor-ally.com' &lt;<a href=3D"ma=
+ilto:renyongjun@nor-ally.com">renyongjun@nor-ally.com</a>&gt;; 'jjhuang' &l=
+t;<a href=3D"mailto:jjhuang@nor-ally.com">jjhuang@nor-ally.com</a>&gt;<br><=
+/span><b>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></b><span lang=3DEN-U=
+S> </span>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: [EXTERNAL] </span>=E5=9B=
+=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=
+=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0</span><span lang=3DEN-US s=
+tyle=3D'color:black'><o:p></o:p></span></p></div></div><p class=3DMsoNormal=
+ style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-=
+US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>=
+&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",san=
+s-serif;color:black'>HI Joanna</span><span lang=3DEN-US style=3D'color:blac=
+k'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;t=
+ext-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;f=
+ont-family:"Calibri",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-U=
+S style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D=
+'text-align:justify;text-justify:inter-ideograph'><span style=3D'font-size:=
+10.5pt;color:black'>=E5=85=B3=E4=BA=8E</span><span lang=3DEN-US style=3D'fo=
+nt-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>Audi</span><sp=
+an style=3D'font-size:10.5pt;color:black'>=E4=BB=A5=E5=8F=8A</span><span la=
+ng=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color=
+:black'>Volvo</span><span style=3D'font-size:10.5pt;color:black'>=E7=9A=84=
+=E8=86=9C=E6=9D=90=E2=80=9C=E8=B4=B4=E5=90=88=E6=97=A0=E7=BA=BA=E5=B8=83=E2=
+=80=9D=E9=9C=80=E6=B1=82=E4=B8=8D=E6=98=AF=E5=BF=85=E8=A6=81=E7=9A=84=EF=BC=
+=8C=E5=8F=AA=E8=A6=81=E8=83=BD=E5=A4=9F=E6=BB=A1=E8=B6=B3=E9=80=8F=E6=B0=94=
+=E9=98=B2=E6=B0=B4=EF=BC=8C=E6=B8=A9=E5=BA=A6=EF=BC=8C=E4=BB=A5=E5=8F=8A=E5=
+=8E=9A=E5=BA=A6=E8=A6=81=E6=B1=82=E5=B0=B1=E5=8F=AF=E4=BB=A5=E3=80=82</span=
+><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3D=
+MsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><span l=
+ang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;colo=
+r:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p><=
+/span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:int=
+er-ideograph'><span style=3D'font-size:10.5pt;color:black'>=E5=8F=A6=EF=BC=
+=8C=E5=A6=82=E6=B2=9F=E9=80=9A=EF=BC=8C=E4=B8=8A=E5=8D=88=E9=82=AE=E4=BB=B6=
+=E8=AE=A9=E8=B4=B5=E5=8F=B8=E6=8F=90=E4=BE=9B=E4=B8=89=E6=AC=BE=E8=86=9C=E6=
+=9D=90=E5=8F=8C=E6=96=B9=E5=85=88=E6=9D=A5=E6=B5=8B=E8=AF=95=E4=B8=80=E4=B8=
+=8B=EF=BC=8C=E6=98=AF=E5=9F=BA=E4=BA=8E=E8=B4=B5=E5=8F=B8=E7=8E=B0=E6=9C=89=
+=E7=9A=84=E8=86=9C=E6=9D=90=E5=B0=B1=E5=8F=AF=E4=BB=A5=EF=BC=8C=E5=B0=B1=E6=
+=98=AF=E4=B8=BA=E4=BA=86=E7=A1=AE=E5=AE=9A=E5=8F=8C=E6=96=B9=E6=B5=8B=E8=AF=
+=95=E7=9A=84=E6=95=B0=E6=8D=AE=E5=B7=AE=E5=BC=82=EF=BC=8C=E5=92=8C</span><s=
+pan lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif=
+;color:black'>Audi/Volvo</span><span style=3D'font-size:10.5pt;color:black'=
+>=E7=9A=84=E9=9C=80=E6=B1=82=E6=97=A0=E5=85=B3=EF=BC=88</span><span lang=3D=
+EN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:blac=
+k'>Audi/Volvo</span><span style=3D'font-size:10.5pt;color:black'>=E7=9A=84=
+=E9=9C=80=E6=B1=82=E5=8F=82=E8=80=83=E6=88=91=E4=BB=AC=E4=B9=8B=E5=89=8D=E5=
+=8F=91=E7=9A=84=E8=A1=A8=E6=A0=BC=E4=BF=A1=E6=81=AF=EF=BC=89=E3=80=82=E8=BF=
+=98=E8=AF=B7=E8=BF=91=E6=9C=9F=E5=AE=89=E6=8E=92=E5=87=BA=E3=80=82</span><s=
+pan lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMso=
+Normal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:b=
+lack'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></sp=
+an></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-=
+ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibr=
+i",sans-serif;color:black'>THX</span><span lang=3DEN-US style=3D'color:blac=
+k'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;t=
+ext-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;f=
+ont-family:"Calibri",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-U=
+S style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D=
+'text-align:justify;text-justify:inter-ideograph'><b><span lang=3DEN-US sty=
+le=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black'>Alex Ke </s=
+pan></b><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p c=
+lass=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'>=
+<span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Light";col=
+or:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p>=
+</span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:in=
+ter-ideograph'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:Bar=
+low;color:black'><img border=3D0 width=3D82 height=3D22 style=3D'width:.854=
+1in;height:.2291in' id=3D"=E5=9B=BE=E7=89=87_x0020_5" src=3D"cid:image001.p=
+ng@01D7EC1F.4129AAB0"></span><span lang=3DEN-US style=3D'color:black'><o:p>=
+</o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-just=
+ify:inter-ideograph'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-f=
+amily:"Barlow Medium";color:black'>L=C3=B6vepac Technology(Shenzhen) Co., L=
+td</span></b><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light"=
+;color:black'>1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Ind=
+ustrial Area, </span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inte=
+r-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlo=
+w Light";color:black'>Xinshi Community, Dalang Street, Longhua District,</s=
+pan><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:bl=
+ack'>Shenzhen, 518109, P.R.China</span><span lang=3DEN-US style=3D'color:bl=
+ack'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify=
+;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;=
+font-family:"Barlow Light";color:black'>Mobile: +86 158-3130-0059</span><sp=
+an lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoN=
+ormal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>E=
+-mail:Alex.Ke@nolato.com</span><span lang=3DEN-US style=3D'color:black'><o:=
+p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-ju=
+stify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-fa=
+mily:"Calibri",sans-serif;color:black'><a href=3D"http://www.nolato.com/"><=
+span style=3D'font-size:9.0pt;font-family:"Barlow Light"'>www.nolato.com</s=
+pan></a></span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span><=
+/p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideo=
+graph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",s=
+ans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black=
+'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;te=
+xt-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;fo=
+nt-family:"Calibri",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US=
+ style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'=
+text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=
+=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>&nbsp;</=
+span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><div><d=
+iv style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0c=
+m 0cm'><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-=
+ideograph'><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF;color:black'>=E5=8F=91=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></sp=
+an></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF;color:black'> Alex Ke <br></span><b><span style=3D'font-size:11.0=
+pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=8F=91=E9=80=81=E6=97=B6=
+=E9=97=B4<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'=
+font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> 2021</span><s=
+pan style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=
+=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<span lang=3DEN-US>7</span>=
+=E6=97=A5<span lang=3DEN-US> 10:29<br></span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA=
+<span lang=3DEN-US>:</span></b><span lang=3DEN-US> 'yaoying@nor-ally.com' &=
+lt;</span></span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"=
+Calibri",sans-serif;color:black'><a href=3D"mailto:yaoying@nor-ally.com"><s=
+pan style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>yaoying@nor-a=
+lly.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF;color:black'>&gt;<br></span><b><span style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E6=8A=84=E9=80=
+=81<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> Naomi Wang &lt;</sp=
+an><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-=
+serif;color:black'><a href=3D"mailto:naomi.wang@nolato.com"><span style=3D'=
+font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>naomi.wang@nolato.com</spa=
+n></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF;color:black'>&gt;; Cindy Lin &lt;</span><span lang=3DEN-US =
+style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><a =
+href=3D"mailto:cindy.lin@nolato.com"><span style=3D'font-size:11.0pt;font-f=
+amily:=E7=AD=89=E7=BA=BF'>cindy.lin@nolato.com</span></a></span><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:bla=
+ck'>&gt;; Lader Li &lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt;=
+font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:Lader.Li@no=
+lato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>L=
+ader.Li@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size:1=
+1.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Tianci Xia &lt;</sp=
+an><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-=
+serif;color:black'><a href=3D"mailto:Tianci.Xia@nolato.com"><span style=3D'=
+font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Tianci.Xia@nolato.com</spa=
+n></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF;color:black'>&gt;; Kevin Xing &lt;</span><span lang=3DEN-US=
+ style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><a=
+ href=3D"mailto:kevin.xing@nolato.com"><span style=3D'font-size:11.0pt;font=
+-family:=E7=AD=89=E7=BA=BF'>kevin.xing@nolato.com</span></a></span><span la=
+ng=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:b=
+lack'>&gt;; Sally Chen &lt;</span><span lang=3DEN-US style=3D'font-size:10.=
+5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:sally.c=
+hen@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>sally.chen@nolato.com</span></a></span><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; </span><spa=
+n lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;c=
+olor:black'><a href=3D"mailto:david@nor-ally.com"><span style=3D'font-size:=
+11.0pt;font-family:=E7=AD=89=E7=BA=BF'>david@nor-ally.com</span></a></span>=
+<span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF=
+;color:black'>; </span><span lang=3DEN-US style=3D'font-size:10.5pt;font-fa=
+mily:"Calibri",sans-serif;color:black'><a href=3D"mailto:renyongjun@nor-all=
+y.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>reny=
+ongjun@nor-ally.com</span></a></span><span lang=3DEN-US style=3D'font-size:=
+11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>; jjhuang &lt;</span><sp=
+an lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;=
+color:black'><a href=3D"mailto:jjhuang@nor-ally.com"><span style=3D'font-si=
+ze:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>jjhuang@nor-ally.com</span></a></=
+span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF;color:black'>&gt;<br></span><b><span style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF;color:black'>=E4=B8=BB=E9=A2=98<span lang=3DEN-US=
+>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-famil=
+y:=E7=AD=89=E7=BA=BF;color:black'> </span><span style=3D'font-size:11.0pt;f=
+ont-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=9B=9E=E5=A4=8D<span lang=3DE=
+N-US>: [EXTERNAL] </span>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=
+=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=
+=B0</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></=
+div></div><p class=3DMsoNormal style=3D'text-align:justify;text-justify:int=
+er-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Cal=
+ibri",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'colo=
+r:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:jus=
+tify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10=
+.5pt;font-family:"Calibri",sans-serif;color:black'>HI Joanna</span><span la=
+ng=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal=
+ style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-=
+US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>=
+&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph'><span style=3D'font-size:10.5pt;color:black'>=E5=85=B3=E4=BA=8E=E7=A1=
+=AE=E8=AE=A4=E6=B5=8B=E8=AF=95=E5=B7=AE=E5=BC=82=E7=9A=84=E9=97=AE=E9=A2=98=
+</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p cl=
+ass=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><=
+span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-seri=
+f;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p><=
+/o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justi=
+fy:inter-ideograph'><span style=3D'font-size:10.5pt;color:black'>=E7=83=A6=
+=E8=AF=B7=E8=B4=B5=E5=8F=B8=E6=8F=90=E4=BE=9B=E4=B8=89=E6=AC=BE=E4=B8=8D=E5=
+=90=8C=E7=9A=84=E8=86=9C=E6=9D=90=EF=BC=8C=E6=AF=8F=E4=B8=80=E6=AC=BE=E7=BA=
+=A6</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri=
+",sans-serif;color:black'>A4</span><span style=3D'font-size:10.5pt;color:bl=
+ack'>=E5=A4=A7=E5=B0=8F=EF=BC=8C=E5=90=84=E8=A3=81=E4=B8=80=E5=8D=8A=EF=BC=
+=8C</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri=
+",sans-serif;color:black'>Norgin</span><span style=3D'font-size:10.5pt;colo=
+r:black'>=E5=AF=B9</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-=
+family:"Calibri",sans-serif;color:black'>A4</span><span style=3D'font-size:=
+10.5pt;color:black'>=E7=9A=84=E4=B8=80=E5=8D=8A=E8=86=9C=E6=9D=90=E8=BF=9B=
+=E8=A1=8C=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E6=B5=8B=E8=AF=95=EF=BC=8C</s=
+pan><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans=
+-serif;color:black'>Lovepac</span><span style=3D'font-size:10.5pt;color:bla=
+ck'>=E8=BF=9B=E8=A1=8C=E5=8F=A6=E4=B8=80=E5=8D=8A</span><span lang=3DEN-US =
+style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>A4<=
+/span><span style=3D'font-size:10.5pt;color:black'>=E8=86=9C=E6=9D=90=E7=9A=
+=84=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E6=B5=8B=E8=AF=95=E3=80=82=E5=90=8C=
+=E6=97=B6=E8=AF=B7</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-=
+family:"Calibri",sans-serif;color:black'>Norgin</span><span style=3D'font-s=
+ize:10.5pt;color:black'>=E6=8F=90=E4=BE=9B=E5=AE=9E=E9=99=85=E6=B5=8B=E8=AF=
+=95=E6=97=B6=E7=9A=84=E8=A7=86=E9=A2=91=E3=80=82</span><span lang=3DEN-US s=
+tyle=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'te=
+xt-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'=
+font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>&nbsp;</span=
+><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3D=
+MsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><span s=
+tyle=3D'font-size:10.5pt;color:black'>=E6=B5=8B=E8=AF=95=E6=9D=A1=E4=BB=B6=
+=EF=BC=9A=E9=80=8F=E6=B0=94=E9=87=8F=EF=BC=8C=E5=9C=A8</span><span lang=3DE=
+N-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black=
+'>7kpa</span><span style=3D'font-size:10.5pt;color:black'>=E6=9D=A1=E4=BB=
+=B6=E4=B8=8B=EF=BC=8C=E6=B5=8B=E8=AF=95=E6=AF=8F=E5=B9=B3=E6=96=B9=E5=8E=98=
+=E7=B1=B3=E6=AF=8F=E5=88=86=E9=92=9F=E7=9A=84=E9=80=8F=E6=B0=94=E9=87=8F=EF=
+=BC=9B=E9=98=B2=E6=B0=B4=E6=B5=8B=E8=AF=95=EF=BC=8C=E5=9C=A8</span><span la=
+ng=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color=
+:black'>60kpa/30s</span><span style=3D'font-size:10.5pt;color:black'>=E7=9A=
+=84=E6=9D=A1=E4=BB=B6=E4=B8=8B=E8=BF=9B=E8=A1=8C=E6=B5=8B=E8=AF=95</span><s=
+pan lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMso=
+Normal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:b=
+lack'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></sp=
+an></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-=
+ideograph'><span style=3D'font-size:10.5pt;color:black'>=E6=9C=89=E4=BB=BB=
+=E4=BD=95=E9=97=AE=E9=A2=98=E8=AF=B7=E9=9A=8F=E6=97=B6=E7=BB=83=E4=B9=A0</s=
+pan><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;c=
+olor:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:=
+p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:=
+inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"=
+Calibri",sans-serif;color:black'>THX</span><span lang=3DEN-US style=3D'colo=
+r:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:jus=
+tify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10=
+.5pt;font-family:"Calibri",sans-serif;color:black'>&nbsp;</span><span lang=
+=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal s=
+tyle=3D'text-align:justify;text-justify:inter-ideograph'><b><span lang=3DEN=
+-US style=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black'>Alex=
+ Ke </span></b><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span><=
+/p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideo=
+graph'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Lig=
+ht";color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p=
+></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-jus=
+tify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fam=
+ily:Barlow;color:black'><img border=3D0 width=3D82 height=3D22 style=3D'wid=
+th:.8541in;height:.2291in' id=3D"=E5=9B=BE=E7=89=87_x0020_4" src=3D"cid:ima=
+ge001.png@01D7EC1F.4129AAB0"></span><span lang=3DEN-US style=3D'color:black=
+'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;te=
+xt-justify:inter-ideograph'><b><span lang=3DEN-US style=3D'font-size:10.0pt=
+;font-family:"Barlow Medium";color:black'>L=C3=B6vepac Technology(Shenzhen)=
+ Co., Ltd</span></b><span lang=3DEN-US style=3D'color:black'><o:p></o:p></s=
+pan></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter=
+-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow=
+ Light";color:black'>1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Chan=
+gyi Industrial Area, </span><span lang=3DEN-US style=3D'color:black'><o:p><=
+/o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justi=
+fy:inter-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family=
+:"Barlow Light";color:black'>Xinshi Community, Dalang Street, Longhua Distr=
+ict,</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><=
+p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograp=
+h'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";c=
+olor:black'>Shenzhen, 518109, P.R.China</span><span lang=3DEN-US style=3D'c=
+olor:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:=
+justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size=
+:9.0pt;font-family:"Barlow Light";color:black'>Mobile: +86 158-3130-0059</s=
+pan><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:bl=
+ack'>E-mail:Alex.Ke@nolato.com</span><span lang=3DEN-US style=3D'color:blac=
+k'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;t=
+ext-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;f=
+ont-family:"Calibri",sans-serif;color:black'><a href=3D"http://www.nolato.c=
+om/"><span style=3D'font-size:9.0pt;font-family:"Barlow Light"'>www.nolato.=
+com</span></a></span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inte=
+r-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Cali=
+bri",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color=
+:black'><o:p></o:p></span></p><div><div style=3D'border:none;border-top:sol=
+id #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal style=3D't=
+ext-align:justify;text-justify:inter-ideograph'><b><span style=3D'font-size=
+:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=8F=91=E4=BB=B6=E4=
+=BA=BA<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> </span><span lan=
+g=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:=
+black'><a href=3D"mailto:yaoying@nor-ally.com"><span style=3D'font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF'>yaoying@nor-ally.com</span></a></span><=
+span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;=
+color:black'> <br></span><b><span style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF;color:black'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=
+=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;fo=
+nt-family:=E7=AD=89=E7=BA=BF;color:black'> 2021</span><span style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=B9=B4<span lang=
+=3DEN-US>12</span>=E6=9C=88<span lang=3DEN-US>7</span>=E6=97=A5<span lang=
+=3DEN-US> 10:08<br></span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>=
+:</span></b><span lang=3DEN-US> Alex Ke &lt;</span></span><span lang=3DEN-U=
+S style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><=
+a href=3D"mailto:Alex.Ke@nolato.com"><span style=3D'font-size:11.0pt;font-f=
+amily:=E7=AD=89=E7=BA=BF'>Alex.Ke@nolato.com</span></a></span><span lang=3D=
+EN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'=
+>&gt;<br></span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF;color:black'>=E6=8A=84=E9=80=81<span lang=3DEN-US>:</span></span></b=
+><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF;color:black'> Naomi Wang &lt;</span><span lang=3DEN-US style=3D'font-si=
+ze:10.5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:n=
+aomi.wang@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>naomi.wang@nolato.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Cind=
+y Lin &lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"=
+Calibri",sans-serif;color:black'><a href=3D"mailto:cindy.lin@nolato.com"><s=
+pan style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>cindy.lin@nol=
+ato.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Lader Li &lt;</span><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:b=
+lack'><a href=3D"mailto:Lader.Li@nolato.com"><span style=3D'font-size:11.0p=
+t;font-family:=E7=AD=89=E7=BA=BF'>Lader.Li@nolato.com</span></a></span><spa=
+n lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;col=
+or:black'>&gt;; Tianci Xia &lt;</span><span lang=3DEN-US style=3D'font-size=
+:10.5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:Tia=
+nci.Xia@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>Tianci.Xia@nolato.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Kevi=
+n Xing &lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:=
+"Calibri",sans-serif;color:black'><a href=3D"mailto:kevin.xing@nolato.com">=
+<span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>kevin.xing@=
+nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;fo=
+nt-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Sally Chen &lt;</span><span=
+ lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;co=
+lor:black'><a href=3D"mailto:sally.chen@nolato.com"><span style=3D'font-siz=
+e:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>sally.chen@nolato.com</span></a></=
+span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF;color:black'>&gt;; </span><span lang=3DEN-US style=3D'font-size:10.5=
+pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:david@no=
+r-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'=
+>david@nor-ally.com</span></a></span><span lang=3DEN-US style=3D'font-size:=
+11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>; </span><span lang=3DEN=
+-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'=
+><a href=3D"mailto:renyongjun@nor-ally.com"><span style=3D'font-size:11.0pt=
+;font-family:=E7=AD=89=E7=BA=BF'>renyongjun@nor-ally.com</span></a></span><=
+span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;=
+color:black'>; jjhuang &lt;</span><span lang=3DEN-US style=3D'font-size:10.=
+5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:jjhuang=
+@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>jjhuang@nor-ally.com</span></a></span><span lang=3DEN-US style=3D'font=
+-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;<br></span><b>=
+<span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'=
+>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US=
+ style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> [EX=
+TERNAL] </span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF;color:black'>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=98=B2=E6=
+=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0</span=
+><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div></div=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",san=
+s-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'>=
+<o:p></o:p></span></p><div style=3D'border:solid #9C6500 1.0pt;padding:2.0p=
+t 2.0pt 2.0pt 2.0pt'><p class=3DMsoNormal style=3D'text-align:justify;text-=
+justify:inter-ideograph;line-height:12.0pt;background:#FFEB9C;background-po=
+sition:initial initial;background-repeat:initial initial'><span lang=3DEN-U=
+S style=3D'font-size:10.0pt;font-family:"Calibri",sans-serif;color:#9C6500'=
+>CAUTION:</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"C=
+alibri",sans-serif;color:black'> This email originated from outside of the =
+organization. Do not click links or open attachments unless you recognize t=
+he sender and know the content is safe.</span><span lang=3DEN-US style=3D'c=
+olor:black'><o:p></o:p></span></p></div><p class=3DMsoNormal style=3D'text-=
+align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'col=
+or:black'>&nbsp;<o:p></o:p></span></p><div><p class=3DMsoNormal style=3D'te=
+xt-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'=
+font-size:10.5pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>Hello Alex,</s=
+pan><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n style=3D'font-size:10.5pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E9=
+=82=AE=E4=BB=B6=E6=94=B6=E5=88=B0=E3=80=82</span><span lang=3DEN-US style=
+=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-a=
+lign:justify;text-justify:inter-ideograph'><span style=3D'font-size:10.5pt;=
+font-family:=E7=AD=89=E7=BA=BF;color:black'>=E6=88=91=E4=BB=AC=E7=A8=8D=E5=
+=90=8E=E5=BC=80=E5=A5=BD=E4=BC=9A=E5=90=8E=E4=BC=9A=E8=AF=A6=E7=BB=86=E5=9B=
+=9E=E7=AD=94=E8=BF=99=E5=87=A0=E4=B8=AA=E9=97=AE=E9=A2=98=EF=BC=8C=E5=B9=B6=
+=E5=90=8C=E6=97=B6=E6=8A=84=E9=80=81=E6=88=91=E4=BB=AC=E5=87=A0=E4=BD=8D=E5=
+=90=8C=E4=BA=8B=E5=9C=A8=E9=82=AE=E4=BB=B6=E4=B8=AD=E3=80=82</span><span la=
+ng=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal=
+ style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-=
+US style=3D'font-size:10.5pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&n=
+bsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><=
+p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograp=
+h'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:=E7=AD=89=E7=BA=
+=BF;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p=
+></o:p></span></p><div><p class=3DMsoNormal style=3D'text-align:justify;tex=
+t-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;fon=
+t-family:=E7=AD=89=E7=BA=BF;color:black'>B.Regards</span><span lang=3DEN-US=
+ style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'=
+text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=
+=3D'font-size:10.5pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>Joanna Yao=
+ (</span><span style=3D'font-size:10.5pt;font-family:=E7=AD=89=E7=BA=BF;col=
+or:black'>=E5=A7=9A=E8=8E=B9=EF=BC=89</span><span lang=3DEN-US style=3D'col=
+or:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:ju=
+stify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:1=
+0.5pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>Norshine / Norgin</span><=
+span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMs=
+oNormal style=3D'text-align:justify;text-justify:inter-ideograph'><span lan=
+g=3DEN-US style=3D'font-size:10.5pt;font-family:=E7=AD=89=E7=BA=BF;color:bl=
+ack'>Mobile: 86-13651809834</span><span lang=3DEN-US style=3D'color:black'>=
+<o:p></o:p></span></p></div><p class=3DMsoNormal style=3D'text-align:justif=
+y;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5p=
+t;font-family:=E7=AD=89=E7=BA=BF;color:black'>&nbsp;</span><span lang=3DEN-=
+US style=3D'color:black'><o:p></o:p></span></p><div><div style=3D'border:no=
+ne;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMso=
+Normal style=3D'text-align:justify;text-justify:inter-ideograph'><b><span s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=8F=
+=91=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></span></b><span lang=3DEN-=
+US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> A=
+lex Ke &lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:=
+"Calibri",sans-serif;color:black'><a href=3D"mailto:Alex.Ke@nolato.com"><sp=
+an style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Alex.Ke@nolato=
+.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-fam=
+ily:=E7=AD=89=E7=BA=BF;color:black'>&gt; <br></span><b><span style=3D'font-=
+size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=8F=91=E9=80=81=
+=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> 2021=
+</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color=
+:black'>=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<span lang=3DEN-US>7<=
+/span>=E6=97=A5<span lang=3DEN-US> 9:05<br></span><b>=E6=94=B6=E4=BB=B6=E4=
+=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> </span>=E5=A7=9A=
+=E8=8E=B9<span lang=3DEN-US> &lt;</span></span><span lang=3DEN-US style=3D'=
+font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"m=
+ailto:yaoying@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF'>yaoying@nor-ally.com</span></a></span><span lang=3DEN-US s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;<b=
+r></span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;=
+color:black'>=E6=8A=84=E9=80=81<span lang=3DEN-US>:</span></span></b><span =
+lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color=
+:black'> Naomi Wang &lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt=
+;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:naomi.wang=
+@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF=
+'>naomi.wang@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Cindy Lin &lt;=
+</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",s=
+ans-serif;color:black'><a href=3D"mailto:cindy.lin@nolato.com"><span style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>cindy.lin@nolato.com</=
+span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF;color:black'>&gt;; Lader Li &lt;</span><span lang=3DEN-U=
+S style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><=
+a href=3D"mailto:Lader.Li@nolato.com"><span style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF'>Lader.Li@nolato.com</span></a></span><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:bla=
+ck'>&gt;; Tianci Xia &lt;</span><span lang=3DEN-US style=3D'font-size:10.5p=
+t;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:Tianci.Xi=
+a@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>Tianci.Xia@nolato.com</span></a></span><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Kevin Xing =
+&lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibr=
+i",sans-serif;color:black'><a href=3D"mailto:kevin.xing@nolato.com"><span s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>kevin.xing@nolato.=
+com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-fami=
+ly:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Sally Chen &lt;</span><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:b=
+lack'><a href=3D"mailto:sally.chen@nolato.com"><span style=3D'font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF'>sally.chen@nolato.com</span></a></span>=
+<span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF=
+;color:black'>&gt;<br></span><b><span style=3D'font-size:11.0pt;font-family=
+:=E7=AD=89=E7=BA=BF;color:black'>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</sp=
+an></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=
+=AD=89=E7=BA=BF;color:black'> </span><span style=3D'font-size:11.0pt;font-f=
+amily:=E7=AD=89=E7=BA=BF;color:black'>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>=
+: </span>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=
+=AF=84=E4=BC=B0</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p><=
+/span></p></div></div><p class=3DMsoNormal style=3D'text-align:justify;text=
+-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font=
+-family:"Calibri",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US s=
+tyle=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'te=
+xt-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'=
+font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>HI Joanna</s=
+pan><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;c=
+olor:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:=
+p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:=
+inter-ideograph'><span style=3D'font-size:10.5pt;color:black'>=E4=BB=A5=E4=
+=B8=8B=E4=BF=A1=E6=81=AF=E8=AF=B7=E5=B8=AE=E5=BF=99=E7=A1=AE=E8=AE=A4=EF=BC=
+=9A</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p=
+ class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-s=
+erif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:=
+p></o:p></span></p><p class=3DMsoListParagraph style=3D'text-align:justify;=
+text-justify:inter-ideograph;text-indent:21.0pt'><span lang=3DEN-US style=
+=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>1.</span=
+><span lang=3DEN-US style=3D'font-size:7.0pt;font-family:"Times New Roman",=
+serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=
+=3D'font-size:10.5pt;color:black'>=E8=AF=B7=E9=97=AE=E8=B4=B5=E5=8F=B8=E9=
+=A2=84=E8=AE=A1=E6=8F=90=E4=BE=9B=E6=A0=B7=E5=93=81=E7=9A=84=E6=97=B6=E9=97=
+=B4=E6=98=AF=E4=BD=95=E6=97=B6=EF=BC=9F</span><span style=3D'font-size:10.5=
+pt;font-family:"Calibri",sans-serif;color:black'> </span><span lang=3DEN-US=
+ style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoListParagraph st=
+yle=3D'text-align:justify;text-justify:inter-ideograph;text-indent:21.0pt'>=
+<span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-ser=
+if;color:black'>2.</span><span lang=3DEN-US style=3D'font-size:7.0pt;font-f=
+amily:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp; </span><span style=3D'font-size:10.5pt;color:black'>=E5=A6=82=E6=9E=9C=
+=E6=94=B6=E5=88=B0=E7=AC=AC=E4=B8=80=E6=89=B9=E6=A0=B7=E5=93=81=E6=B5=8B=E8=
+=AF=95=E4=B8=8D=E8=BE=BE=E6=A0=87=EF=BC=8C=E9=9C=80=E8=A6=81=E8=B4=B5=E5=8F=
+=B8=E9=87=8D=E6=96=B0=E8=B0=83=E6=95=B4=EF=BC=8C=E8=AF=B7=E9=97=AE=E8=BF=99=
+=E4=B8=AA=E8=B0=83=E6=95=B4=E7=9A=84</span><span lang=3DEN-US style=3D'font=
+-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>LT</span><span s=
+tyle=3D'font-size:10.5pt;color:black'>=E9=A2=84=E8=AE=A1=E5=A4=9A=E4=B9=85=
+=EF=BC=9F</span><span style=3D'font-size:10.5pt;font-family:"Calibri",sans-=
+serif;color:black'> </span><span lang=3DEN-US style=3D'color:black'><o:p></=
+o:p></span></p><p class=3DMsoListParagraph style=3D'text-align:justify;text=
+-justify:inter-ideograph;text-indent:21.0pt'><span lang=3DEN-US style=3D'fo=
+nt-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>3.</span><span=
+ lang=3DEN-US style=3D'font-size:7.0pt;font-family:"Times New Roman",serif;=
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=3D'fon=
+t-size:10.5pt;color:black'>=E9=92=88=E5=AF=B9</span><span lang=3DEN-US styl=
+e=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>Audi</s=
+pan><span style=3D'font-size:10.5pt;color:black'>=E9=A1=B9=E7=9B=AE=E7=9A=
+=84=E6=A0=B7=E5=93=81=E8=86=9C=E7=9A=84</span><span lang=3DEN-US style=3D'f=
+ont-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>LT</span><spa=
+n style=3D'font-size:10.5pt;color:black'>=E9=A2=84=E8=AE=A1=E5=A4=9A=E4=B9=
+=85=EF=BC=9F=E9=92=88=E5=AF=B9</span><span lang=3DEN-US style=3D'font-size:=
+10.5pt;font-family:"Calibri",sans-serif;color:black'>Volvo</span><span styl=
+e=3D'font-size:10.5pt;color:black'>=E9=A1=B9=E7=9B=AE=E7=9A=84=E6=A0=B7=E5=
+=93=81=E8=86=9C=E7=9A=84</span><span lang=3DEN-US style=3D'font-size:10.5pt=
+;font-family:"Calibri",sans-serif;color:black'>LT</span><span style=3D'font=
+-size:10.5pt;color:black'>=E9=A2=84=E8=AE=A1=E5=A4=9A=E4=B9=85=EF=BC=9F</sp=
+an><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;c=
+olor:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:=
+p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:=
+inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"=
+Calibri",sans-serif;color:black'>Thx</span><span lang=3DEN-US style=3D'colo=
+r:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:jus=
+tify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10=
+.5pt;font-family:"Calibri",sans-serif;color:black'>&nbsp;</span><span lang=
+=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal s=
+tyle=3D'text-align:justify;text-justify:inter-ideograph'><b><span lang=3DEN=
+-US style=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black'>Alex=
+ Ke </span></b><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span><=
+/p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideo=
+graph'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Lig=
+ht";color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p=
+></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-jus=
+tify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fam=
+ily:Barlow;color:black'><img border=3D0 width=3D82 height=3D22 style=3D'wid=
+th:.8541in;height:.2291in' id=3D"=E5=9B=BE=E7=89=87_x0020_3" src=3D"cid:ima=
+ge001.png@01D7EC1F.4129AAB0"></span><span lang=3DEN-US style=3D'color:black=
+'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;te=
+xt-justify:inter-ideograph'><b><span lang=3DEN-US style=3D'font-size:10.0pt=
+;font-family:"Barlow Medium";color:black'>L=C3=B6vepac Technology(Shenzhen)=
+ Co., Ltd</span></b><span lang=3DEN-US style=3D'color:black'><o:p></o:p></s=
+pan></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter=
+-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow=
+ Light";color:black'>1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Chan=
+gyi Industrial Area, </span><span lang=3DEN-US style=3D'color:black'><o:p><=
+/o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justi=
+fy:inter-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family=
+:"Barlow Light";color:black'>Xinshi Community, Dalang Street, Longhua Distr=
+ict,</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><=
+p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograp=
+h'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";c=
+olor:black'>Shenzhen, 518109, P.R.China</span><span lang=3DEN-US style=3D'c=
+olor:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:=
+justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size=
+:9.0pt;font-family:"Barlow Light";color:black'>Mobile: +86 158-3130-0059</s=
+pan><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:bl=
+ack'>E-mail:Alex.Ke@nolato.com</span><span lang=3DEN-US style=3D'color:blac=
+k'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;t=
+ext-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;f=
+ont-family:"Calibri",sans-serif;color:black'><a href=3D"http://www.nolato.c=
+om/"><span style=3D'font-size:9.0pt;font-family:"Barlow Light"'>www.nolato.=
+com</span></a></span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inte=
+r-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Cali=
+bri",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color=
+:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:just=
+ify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.=
+5pt;font-family:"Calibri",sans-serif;color:black'>&nbsp;</span><span lang=
+=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal s=
+tyle=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US=
+ style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>&n=
+bsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><=
+p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograp=
+h'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-=
+serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o=
+:p></o:p></span></p><div><div style=3D'border:none;border-top:solid #E1E1E1=
+ 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal style=3D'text-align:=
+justify;text-justify:inter-ideograph'><b><span style=3D'font-size:11.0pt;fo=
+nt-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=8F=91=E4=BB=B6=E4=BA=BA<span =
+lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.0p=
+t;font-family:=E7=AD=89=E7=BA=BF;color:black'> Kevin Xing <br></span><b><sp=
+an style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=
+=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></span></b><=
+span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;=
+color:black'> 2021</span><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF;color:black'>=E5=B9=B4<span lang=3DEN-US>12</span>=E6=9C=88<sp=
+an lang=3DEN-US>2</span>=E6=97=A5<span lang=3DEN-US> 18:36<br></span><b>=E6=
+=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span lang=3DEN-US> =
+Alex Ke &lt;</span></span><span lang=3DEN-US style=3D'font-size:10.5pt;font=
+-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:Alex.Ke@nolato.=
+com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Alex.K=
+e@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;=
+font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; </span><span style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=A7=9A=E8=8E=
+=B9<span lang=3DEN-US> &lt;</span></span><span lang=3DEN-US style=3D'font-s=
+ize:10.5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:=
+yaoying@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF'>yaoying@nor-ally.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; </sp=
+an><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-=
+serif;color:black'><a href=3D"mailto:david@nor-ally.com"><span style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>david@nor-ally.com</span></a>=
+</span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF;color:black'>; </span><span lang=3DEN-US style=3D'font-size:10.5p=
+t;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:renyongju=
+n@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>renyongjun@nor-ally.com</span></a></span><span lang=3DEN-US style=3D'f=
+ont-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'><br></span><b><=
+span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=
+=E6=8A=84=E9=80=81<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> Naom=
+i Wang &lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:=
+"Calibri",sans-serif;color:black'><a href=3D"mailto:naomi.wang@nolato.com">=
+<span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>naomi.wang@=
+nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;fo=
+nt-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Cindy Lin &lt;</span><span =
+lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;col=
+or:black'><a href=3D"mailto:cindy.lin@nolato.com"><span style=3D'font-size:=
+11.0pt;font-family:=E7=AD=89=E7=BA=BF'>cindy.lin@nolato.com</span></a></spa=
+n><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF;color:black'>&gt;; Lader Li &lt;</span><span lang=3DEN-US style=3D'font=
+-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailt=
+o:Lader.Li@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>Lader.Li@nolato.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Tian=
+ci Xia &lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:=
+"Calibri",sans-serif;color:black'><a href=3D"mailto:Tianci.Xia@nolato.com">=
+<span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Tianci.Xia@=
+nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;fo=
+nt-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;<br></span><b><span style=3D'=
+font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E4=B8=BB=E9=
+=A2=98<span lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> </span><span sty=
+le=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=9B=
+=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=
+=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0</span><span lang=3DEN-US s=
+tyle=3D'color:black'><o:p></o:p></span></p></div></div><p class=3DMsoNormal=
+ style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-=
+US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>=
+&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph'><span style=3D'font-size:10.5pt;color:black'>=E5=A4=A7=E5=AE=B6=E5=A5=
+=BD</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p=
+ class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph=
+'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-s=
+erif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:=
+p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-ju=
+stify:inter-ideograph'><span style=3D'font-size:10.5pt;color:black'>=E8=AF=
+=B7=E6=9F=A5=E6=94=B6=E9=99=84=E4=BB=B6=E6=9B=B4=E6=96=B0=E7=9A=84=E8=86=9C=
+=E6=9D=90=E4=BF=A1=E6=81=AF=EF=BC=8C=E8=B0=A2=E8=B0=A2=E3=80=82</span><span=
+ lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNor=
+mal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3D=
+EN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:blac=
+k'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span>=
+</p><div><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inte=
+r-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Cali=
+bri",sans-serif;color:#1F497D'>&nbsp;</span><span lang=3DEN-US style=3D'col=
+or:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:ju=
+stify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:1=
+0.5pt;font-family:"Calibri",sans-serif;color:#1F497D'>Best Regards</span><s=
+pan lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMso=
+Normal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:#=
+1F497D'>Kevin Xing</span><span lang=3DEN-US style=3D'color:black'><o:p></o:=
+p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:=
+inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"=
+Calibri",sans-serif;color:#1F497D'>+86 13910312310</span><span lang=3DEN-US=
+ style=3D'color:black'><o:p></o:p></span></p></div><p class=3DMsoNormal sty=
+le=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US s=
+tyle=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>&nbs=
+p;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><di=
+v><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0c=
+m 0cm 0cm'><p class=3DMsoNormal style=3D'text-align:justify;text-justify:in=
+ter-ideograph'><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF;color:black'>=E5=8F=91=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span><=
+/span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF;color:black'> Alex Ke &lt;</span><span lang=3DEN-US style=3D'f=
+ont-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"ma=
+ilto:Alex.Ke@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>Alex.Ke@nolato.com</span></a></span><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt; <br><=
+/span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;col=
+or:black'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<span lang=3DEN-US>:</span></=
+span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF;color:black'> 2021</span><span style=3D'font-size:11.0pt;font-fam=
+ily:=E7=AD=89=E7=BA=BF;color:black'>=E5=B9=B4<span lang=3DEN-US>12</span>=
+=E6=9C=88<span lang=3DEN-US>1</span>=E6=97=A5<span lang=3DEN-US> 17:54<br><=
+/span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></b><span la=
+ng=3DEN-US> </span>=E5=A7=9A=E8=8E=B9<span lang=3DEN-US> &lt;</span></span>=
+<span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-ser=
+if;color:black'><a href=3D"mailto:yaoying@nor-ally.com"><span style=3D'font=
+-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>yaoying@nor-ally.com</span></a=
+></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=
+=E7=BA=BF;color:black'>&gt;; </span><span lang=3DEN-US style=3D'font-size:1=
+0.5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:david=
+@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>david@nor-ally.com</span></a></span><span lang=3DEN-US style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>; </span><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:b=
+lack'><a href=3D"mailto:renyongjun@nor-ally.com"><span style=3D'font-size:1=
+1.0pt;font-family:=E7=AD=89=E7=BA=BF'>renyongjun@nor-ally.com</span></a></s=
+pan><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=
+=BA=BF;color:black'><br></span><b><span style=3D'font-size:11.0pt;font-fami=
+ly:=E7=AD=89=E7=BA=BF;color:black'>=E6=8A=84=E9=80=81<span lang=3DEN-US>:</=
+span></span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF;color:black'> Naomi Wang &lt;</span><span lang=3DEN-US s=
+tyle=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><a h=
+ref=3D"mailto:naomi.wang@nolato.com"><span style=3D'font-size:11.0pt;font-f=
+amily:=E7=AD=89=E7=BA=BF'>naomi.wang@nolato.com</span></a></span><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:bla=
+ck'>&gt;; Kevin Xing &lt;</span><span lang=3DEN-US style=3D'font-size:10.5p=
+t;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:kevin.xin=
+g@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>kevin.xing@nolato.com</span></a></span><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Cindy Lin &=
+lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri=
+",sans-serif;color:black'><a href=3D"mailto:cindy.lin@nolato.com"><span sty=
+le=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>cindy.lin@nolato.com=
+</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF;color:black'>&gt;; Lader Li &lt;</span><span lang=3DEN-U=
+S style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><=
+a href=3D"mailto:Lader.Li@nolato.com"><span style=3D'font-size:11.0pt;font-=
+family:=E7=AD=89=E7=BA=BF'>Lader.Li@nolato.com</span></a></span><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:bla=
+ck'>&gt;; Tianci Xia &lt;</span><span lang=3DEN-US style=3D'font-size:10.5p=
+t;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:Tianci.Xi=
+a@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=
+=BF'>Tianci.Xia@nolato.com</span></a></span><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;<br></span><b=
+><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black=
+'>=E4=B8=BB=E9=A2=98<span lang=3DEN-US>:</span></span></b><span lang=3DEN-U=
+S style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> </=
+span><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:b=
+lack'>=E5=9B=9E=E5=A4=8D<span lang=3DEN-US>: </span>=E9=98=B2=E6=B0=B4=E9=
+=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0</span><span la=
+ng=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div></div><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;c=
+olor:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:=
+p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:=
+inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"=
+Calibri",sans-serif;color:black'>HI Joanna&amp;David&amp;Ren</span><span la=
+ng=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal=
+ style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-=
+US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>=
+&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph'><span style=3D'font-size:10.5pt;color:black'>=E6=88=91=E8=BF=99=E8=BE=
+=B9=E6=9B=B4=E6=96=B0=E4=BA=86=E6=88=91=E4=BB=AC=E7=9A=84=E9=9C=80=E6=B1=82=
+=E4=BF=A1=E6=81=AF=E4=BB=A5=E5=8F=8A=E4=B9=8B=E5=89=8D=E6=B5=8B=E8=AF=95</s=
+pan><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans=
+-serif;color:black'>Norgin</span><span style=3D'font-size:10.5pt;color:blac=
+k'>=E4=B8=A4=E6=AC=BE=E8=86=9C=E6=9D=90=E7=9A=84=E6=B5=8B=E8=AF=95=E6=95=B0=
+=E6=8D=AE=EF=BC=8C=E8=AF=B7=E6=9F=A5=E6=94=B6</span><span lang=3DEN-US styl=
+e=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-=
+align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'fon=
+t-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>&nbsp;</span><s=
+pan lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMso=
+Normal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:b=
+lack'>THX</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span>=
+</p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ide=
+ograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",=
+sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:blac=
+k'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;t=
+ext-justify:inter-ideograph'><b><span lang=3DEN-US style=3D'font-size:10.0p=
+t;font-family:"Barlow Medium";color:black'>Alex Ke </span></b><span lang=3D=
+EN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal styl=
+e=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US st=
+yle=3D'font-size:10.0pt;font-family:"Barlow Light";color:black'>&nbsp;</spa=
+n><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:10.0pt;font-family:Barlow;color:black'><i=
+mg border=3D0 width=3D82 height=3D22 style=3D'width:.8541in;height:.2291in'=
+ id=3D"=E5=9B=BE=E7=89=87_x0020_2" src=3D"cid:image001.png@01D7EC1F.4129AAB=
+0"></span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p=
+ class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph=
+'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Mediu=
+m";color:black'>L=C3=B6vepac Technology(Shenzhen) Co., Ltd</span></b><span =
+lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNorm=
+al style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DE=
+N-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>1st. =
+2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Industrial Area, </spa=
+n><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:bl=
+ack'>Xinshi Community, Dalang Street, Longhua District,</span><span lang=3D=
+EN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal styl=
+e=3D'text-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US st=
+yle=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>Shenzhen, 51=
+8109, P.R.China</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p><=
+/span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:int=
+er-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barl=
+ow Light";color:black'>Mobile: +86 158-3130-0059</span><span lang=3DEN-US s=
+tyle=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'te=
+xt-align:justify;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'=
+font-size:9.0pt;font-family:"Barlow Light";color:black'>E-mail:Alex.Ke@nola=
+to.com</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",san=
+s-serif;color:black'><a href=3D"http://www.nolato.com/"><span style=3D'font=
+-size:9.0pt;font-family:"Barlow Light"'>www.nolato.com</span></a></span><sp=
+an lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><div><div style=
+=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><=
+p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograp=
+h'><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:=
+black'>=E5=8F=91=E4=BB=B6=E4=BA=BA<span lang=3DEN-US>:</span></span></b><sp=
+an lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;co=
+lor:black'> Alex Ke <br></span><b><span style=3D'font-size:11.0pt;font-fami=
+ly:=E7=AD=89=E7=BA=BF;color:black'>=E5=8F=91=E9=80=81=E6=97=B6=E9=97=B4<spa=
+n lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.=
+0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'> 2021</span><span style=3D'=
+font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E5=B9=B4<span=
+ lang=3DEN-US>12</span>=E6=9C=88<span lang=3DEN-US>1</span>=E6=97=A5<span l=
+ang=3DEN-US> 15:22<br></span><b>=E6=94=B6=E4=BB=B6=E4=BA=BA<span lang=3DEN-=
+US>:</span></b><span lang=3DEN-US> '</span>=E5=A7=9A=E8=8E=B9<span lang=3DE=
+N-US>' &lt;</span></span><span lang=3DEN-US style=3D'font-size:10.5pt;font-=
+family:"Calibri",sans-serif;color:black'><a href=3D"mailto:yaoying@nor-ally=
+.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>yaoyi=
+ng@nor-ally.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0=
+pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; 'david@nor-ally.com</s=
+pan><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:bl=
+ack'>=EF=BC=9B<span lang=3DEN-US>' &lt;</span></span><span lang=3DEN-US sty=
+le=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'><a hre=
+f=3D"mailto:david@nor-ally.com;"><span style=3D'font-size:11.0pt;font-famil=
+y:=E7=AD=89=E7=BA=BF'>david@nor-ally.com;</span></a></span><span lang=3DEN-=
+US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&g=
+t;; 'renyongjun@nor-ally.com' &lt;</span><span lang=3DEN-US style=3D'font-s=
+ize:10.5pt;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:=
+renyongjun@nor-ally.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=
+=89=E7=BA=BF'>renyongjun@nor-ally.com</span></a></span><span lang=3DEN-US s=
+tyle=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;<b=
+r></span><b><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;=
+color:black'>=E6=8A=84=E9=80=81<span lang=3DEN-US>:</span></span></b><span =
+lang=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color=
+:black'> Naomi Wang &lt;</span><span lang=3DEN-US style=3D'font-size:10.5pt=
+;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:naomi.wang=
+@nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF=
+'>naomi.wang@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Kevin Xing &lt=
+;</span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",=
+sans-serif;color:black'><a href=3D"mailto:kevin.xing@nolato.com"><span styl=
+e=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>kevin.xing@nolato.com=
+</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF;color:black'>&gt;; Cindy Lin &lt;</span><span lang=3DEN-=
+US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:black'>=
+<a href=3D"mailto:cindy.lin@nolato.com"><span style=3D'font-size:11.0pt;fon=
+t-family:=E7=AD=89=E7=BA=BF'>cindy.lin@nolato.com</span></a></span><span la=
+ng=3DEN-US style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:b=
+lack'>&gt;; Lader Li &lt;</span><span lang=3DEN-US style=3D'font-size:10.5p=
+t;font-family:"Calibri",sans-serif;color:black'><a href=3D"mailto:Lader.Li@=
+nolato.com"><span style=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'=
+>Lader.Li@nolato.com</span></a></span><span lang=3DEN-US style=3D'font-size=
+:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>&gt;; Tianci Xia &lt;</=
+span><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",san=
+s-serif;color:black'><a href=3D"mailto:Tianci.Xia@nolato.com"><span style=
+=3D'font-size:11.0pt;font-family:=E7=AD=89=E7=BA=BF'>Tianci.Xia@nolato.com<=
+/span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:=
+=E7=AD=89=E7=BA=BF;color:black'>&gt;<br></span><b><span style=3D'font-size:=
+11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E4=B8=BB=E9=A2=98<span =
+lang=3DEN-US>:</span></span></b><span lang=3DEN-US style=3D'font-size:11.0p=
+t;font-family:=E7=AD=89=E7=BA=BF;color:black'> </span><span style=3D'font-s=
+ize:11.0pt;font-family:=E7=AD=89=E7=BA=BF;color:black'>=E9=98=B2=E6=B0=B4=
+=E9=80=8F=E6=B0=94=E8=86=9C=E4=BF=A1=E6=81=AF=E8=AF=84=E4=BC=B0</span><span=
+ lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div></div><p cl=
+ass=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><=
+span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-seri=
+f;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p><=
+/o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justi=
+fy:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-famil=
+y:"Calibri",sans-serif;color:black'>HI Joanna &amp; David &amp; Ren</span><=
+span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMs=
+oNormal style=3D'text-align:justify;text-justify:inter-ideograph'><span lan=
+g=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:=
+black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></s=
+pan></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter=
+-ideograph'><span style=3D'font-size:10.5pt;color:black'>=E6=82=A8=E5=A5=BD=
+=EF=BC=8C=E9=99=84=E4=BB=B6=E6=98=AF=E6=88=91=E5=8F=B8=E9=9C=80=E8=A6=81=E7=
+=9A=84=E5=AF=B9=E5=BA=94=E7=9A=84=E8=86=9C=E6=9D=90=E6=95=B0=E6=8D=AE=EF=BC=
+=8C=E8=BF=98=E8=AF=B7=E5=86=85=E9=83=A8=E8=AF=84=E4=BC=B0=E3=80=82</span><s=
+pan lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMso=
+Normal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:b=
+lack'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></sp=
+an></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-=
+ideograph'><span style=3D'font-size:10.5pt;color:black'>=E5=8F=A6=E5=A4=96=
+=EF=BC=8C=E8=AF=B7=E8=B4=B5=E5=8F=B8=E6=8F=90=E4=BE=9B=E4=B8=80=E4=B8=8B=E8=
+=B4=B5=E5=8F=B8=E9=98=B2=E6=B0=B4=E9=80=8F=E6=B0=94=E8=86=9C=E7=9A=84=E6=B5=
+=8B=E8=AF=95=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=8C=85=E6=8B=AC=E5=85=B7=E4=BD=93=
+=E7=9A=84=E4=BB=AA=E5=99=A8=E8=AE=BE=E5=A4=87=E3=80=81=E6=B5=8B=E8=AF=95=E6=
+=96=B9=E6=B3=95=E3=80=81=E6=B5=8B=E8=AF=95=E6=A0=87=E5=87=86=E3=80=82=E8=BF=
+=98=E8=AF=B7=E4=BB=8A=E5=A4=A9=E6=8F=90=E4=BE=9B=EF=BC=8C=E8=BF=99=E6=A0=B7=
+=E6=88=91=E5=8F=B8=E6=9C=89=E6=97=B6=E9=97=B4=E5=86=85=E9=83=A8=E8=AF=84=E4=
+=BC=B0=E5=8F=8C=E6=96=B9=E5=B7=AE=E5=BC=82=EF=BC=8C=E4=BB=A5=E4=BE=BF=E6=98=
+=8E=E5=A4=A9=E4=BC=9A=E8=AE=AE=E5=81=9A=E8=AE=A8=E8=AE=BA=E3=80=82</span><s=
+pan lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMso=
+Normal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",sans-serif;color:b=
+lack'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></sp=
+an></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-=
+ideograph'><span style=3D'font-size:10.5pt;color:black'>=E6=82=A8=E8=BF=99=
+=E8=BE=B9=E7=A1=AE=E8=AE=A4=E5=A5=BD=E6=98=8E=E5=A4=A9=E4=B8=8B=E5=8D=88=E7=
+=9A=84=E6=97=B6=E9=97=B4=E5=90=8E=EF=BC=8C=E8=AF=B7=E5=91=8A=E7=9F=A5=E6=88=
+=91=E3=80=82</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></sp=
+an></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-=
+ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibr=
+i",sans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:b=
+lack'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justif=
+y;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5p=
+t;font-family:"Calibri",sans-serif;color:black'>THX</span><span lang=3DEN-U=
+S style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D=
+'text-align:justify;text-justify:inter-ideograph'><b><span lang=3DEN-US sty=
+le=3D'font-size:10.0pt;font-family:"Barlow Medium";color:black'>Alex Ke </s=
+pan></b><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p c=
+lass=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'>=
+<span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Barlow Light";col=
+or:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p>=
+</span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:in=
+ter-ideograph'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:Bar=
+low;color:black'><img border=3D0 width=3D82 height=3D22 style=3D'width:.854=
+1in;height:.2291in' id=3D"=E5=9B=BE=E7=89=87_x0020_1" src=3D"cid:image001.p=
+ng@01D7EC1F.4129AAB0"></span><span lang=3DEN-US style=3D'color:black'><o:p>=
+</o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-just=
+ify:inter-ideograph'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-f=
+amily:"Barlow Medium";color:black'>L=C3=B6vepac Technology(Shenzhen) Co., L=
+td</span></b><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light"=
+;color:black'>1st. 2nd. Floor, NO.3 Building, NO.1 Lirong Road, Changyi Ind=
+ustrial Area, </span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inte=
+r-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlo=
+w Light";color:black'>Xinshi Community, Dalang Street, Longhua District,</s=
+pan><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideograph'><spa=
+n lang=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:bl=
+ack'>Shenzhen, 518109, P.R.China</span><span lang=3DEN-US style=3D'color:bl=
+ack'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify=
+;text-justify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:9.0pt;=
+font-family:"Barlow Light";color:black'>Mobile: +86 158-3130-0059</span><sp=
+an lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoN=
+ormal style=3D'text-align:justify;text-justify:inter-ideograph'><span lang=
+=3DEN-US style=3D'font-size:9.0pt;font-family:"Barlow Light";color:black'>E=
+-mail:Alex.Ke@nolato.com</span><span lang=3DEN-US style=3D'color:black'><o:=
+p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justify;text-ju=
+stify:inter-ideograph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-fa=
+mily:"Calibri",sans-serif;color:black'><a href=3D"http://www.nolato.com/"><=
+span style=3D'font-size:9.0pt;font-family:"Barlow Light"'>www.nolato.com</s=
+pan></a></span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span><=
+/p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideo=
+graph'><span lang=3DEN-US style=3D'font-size:10.5pt;font-family:"Calibri",s=
+ans-serif;color:black'>&nbsp;</span><span lang=3DEN-US style=3D'color:black=
+'><o:p></o:p></span></p></div></div></div></blockquote></div></div></blockq=
+uote></div></body></html>
+------=_NextPart_002_0086_01DC1354.B8D6AE90--
+
+------=_NextPart_001_0085_01DC1354.B8D6AE90
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D7EC1F.4129AAB0>
+
+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
+/VegEgkRAAAAAElFTkSuQmCCAA==
+------=_NextPart_001_0085_01DC1354.B8D6AE90--
+
+------=_NextPart_000_0084_01DC1354.B8D6AE90
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;
+	name="Pressure Vent Data 211208.xlsx"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="Pressure Vent Data 211208.xlsx"
+
+UEsDBBQABgAIAAAAIQAhjEY6cwEAAIwFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADE
+VMluwjAQvVfqP0S+VomBQ1VVBA5dji0S9ANMPCEWiW15Bgp/34lZVFUsQiD1kiix5232TH+4aupk
+CQGNs7noZh2RgC2cNnaWi6/Je/okEiRltaqdhVysAcVwcH/Xn6w9YMLVFnNREflnKbGooFGYOQ+W
+V0oXGkX8GWbSq2KuZiB7nc6jLJwlsJRSiyEG/Vco1aKm5G3FvzdKpsaK5GWzr6XKhfK+NoUiFiqX
+Vv8hSV1ZmgK0KxYNQ2foAyiNFQA1deaDYcYwBiI2hkIe5AxQ42WkW1cZV0ZhWBmPD2z9CEO7ctzV
+tu6TjyMYDclIBfpQDXuXq1p+uzCfOjfPToNcGk2MKGuUsTvdJ/jjZpTx1b2xkNZfBL5QR++fdBDf
+dZDxeX0UEeaMcaR1DXjr44+g55grFUCPibtodnMBv7FP6eDWHgXnkadHgMtT2LVqW516BoJABvbN
+eujS7xl59FwdO7SzTYM+wC3jLB38AAAA//8DAFBLAwQUAAYACAAAACEAtVUwI/QAAABMAgAACwAI
+Al9yZWxzLy5yZWxzIKIEAiigAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAKySTU/DMAyG70j8h8j31d2QEEJLd0FIuyFUfoBJ3A+1jaMkG92/
+JxwQVBqDA0d/vX78ytvdPI3qyCH24jSsixIUOyO2d62Gl/pxdQcqJnKWRnGs4cQRdtX11faZR0p5
+KHa9jyqruKihS8nfI0bT8USxEM8uVxoJE6UchhY9mYFaxk1Z3mL4rgHVQlPtrYawtzeg6pPPm3/X
+lqbpDT+IOUzs0pkVyHNiZ9mufMhsIfX5GlVTaDlpsGKecjoieV9kbMDzRJu/E/18LU6cyFIiNBL4
+Ms9HxyWg9X9atDTxy515xDcJw6vI8MmCix+o3gEAAP//AwBQSwMEFAAGAAgAAAAhAFNZvaSnAwAA
+oAgAAA8AAAB4bC93b3JrYm9vay54bWysVU1vo0YYvlfqf0DcCTMYMKA4K5sPNVISRVlvcrEUTWAI
+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
+AAAAAAAAAAAA9ikAAHhsL3dvcmtzaGVldHMvX3JlbHMvc2hlZXQxLnhtbC5yZWxzUEsBAi0AFAAG
+AAgAAAAhABPELBPCAAAAQgEAACMAAAAAAAAAAAAAAAAA+CoAAHhsL3dvcmtzaGVldHMvX3JlbHMv
+c2hlZXQyLnhtbC5yZWxzUEsBAi0AFAAGAAgAAAAhABnWgq8sBAAAIBAAACcAAAAAAAAAAAAAAAAA
++ysAAHhsL3ByaW50ZXJTZXR0aW5ncy9wcmludGVyU2V0dGluZ3MxLmJpblBLAQItABQABgAIAAAA
+IQCSxIPd/wMAACAQAAAnAAAAAAAAAAAAAAAAAGwwAAB4bC9wcmludGVyU2V0dGluZ3MvcHJpbnRl
+clNldHRpbmdzMi5iaW5QSwECLQAUAAYACAAAACEA76FDjU8BAABiAgAAEQAAAAAAAAAAAAAAAACw
+NAAAZG9jUHJvcHMvY29yZS54bWxQSwECLQAUAAYACAAAACEAyP/giLoBAAA3AwAAEAAAAAAAAAAA
+AAAAAAA2NwAAZG9jUHJvcHMvYXBwLnhtbFBLBQYAAAAADwAPABIEAAAmOgAAAAA=
+------=_NextPart_000_0084_01DC1354.B8D6AE90--
