@@ -51,7 +51,7 @@ def main():
     
     # 初始化session state
     if 'current_step' not in st.session_state:
-        st.session_state.current_step = "🏠 首页概览"
+        st.session_state.current_step = "首页概览"
     
     # 侧边栏导航
     with st.sidebar:
@@ -104,15 +104,15 @@ def main():
                 st.info(f"⏸️ {step}")
     
     # 主内容区域
-    if current_step == "🏠 首页概览":
+    if current_step == "首页概览":
         show_homepage()
-    elif current_step == "📤 邮件上传":
+    elif current_step == "邮件上传":
         show_upload_page()
-    elif current_step == "🔧 数据清洗":
+    elif current_step == "数据清洗":
         show_cleaning_page()
-    elif current_step == "🤖 LLM处理":
+    elif current_step == "LLM处理":
         show_llm_processing_page()
-    elif current_step == "📊 结果查看":
+    elif current_step == "结果查看":
         show_results_page()
     elif "预留" in current_step:
         show_future_features_page(current_step)
@@ -192,10 +192,10 @@ def show_homepage():
     5. **💬 智能问答** - 基于邮件内容提供项目经验查询
     
     ### 🚀 快速开始
-    1. 点击 **"📤 邮件上传"** 开始上传您的EML邮件文件
-    2. 使用 **"🔧 数据清洗"** 功能去除重复内容
-    3. 通过 **"🤖 LLM处理"** 提取结构化信息
-    4. 在 **"📊 结果查看"** 中查看处理结果
+    1. 点击 **"邮件上传"** 开始上传您的EML邮件文件
+    2. 使用 **"数据清洗"** 功能去除重复内容
+    3. 通过 **"LLM处理"** 提取结构化信息
+    4. 在 **"结果查看"** 中查看处理结果
     """)
     
     # 最近活动
@@ -215,7 +215,7 @@ def show_homepage():
         st.info("💡 这是起始页面")
     with col3:
         if st.button("➡️ 开始使用", help="前往邮件上传页面", type="primary", key="home_start_btn"):
-            st.session_state.current_step = "📤 邮件上传"
+            st.session_state.current_step = "邮件上传"
             st.rerun()
 
 def show_upload_page():
@@ -271,7 +271,7 @@ def show_upload_page():
     col1, col2, col3 = st.columns([1, 2, 1])
     with col1:
         if st.button("⬅️ 上一步", help="返回首页概览", key="upload_prev_btn"):
-            st.session_state.current_step = "🏠 首页概览"
+            st.session_state.current_step = "首页概览"
             st.rerun()
     with col3:
         if st.button("➡️ 下一步", help="前往数据清洗页面", key="upload_next_btn"):
@@ -279,7 +279,7 @@ def show_upload_page():
             upload_files = count_files(CONFIG["upload_dir"], "*.eml")
             demo_files = count_files("Eml", "*.eml")
             if upload_files > 0 or demo_files > 0:
-                st.session_state.current_step = "🔧 数据清洗"
+                st.session_state.current_step = "数据清洗"
                 st.rerun()
             else:
                 st.warning("⚠️ 请先上传邮件文件再进入下一步")
@@ -312,14 +312,14 @@ def show_cleaning_page():
     col1, col2, col3 = st.columns([1, 2, 1])
     with col1:
         if st.button("⬅️ 上一步", help="返回邮件上传页面", key="cleaning_prev_btn"):
-            st.session_state.current_step = "📤 邮件上传"
+            st.session_state.current_step = "邮件上传"
             st.rerun()
     with col3:
         if st.button("➡️ 下一步", help="前往LLM处理页面", key="cleaning_next_btn"):
             # 检查是否有处理结果
             processed_files = count_files(CONFIG["processed_dir"], "*.md")
             if processed_files > 0:
-                st.session_state.current_step = "🤖 LLM处理"
+                st.session_state.current_step = "LLM处理"
                 st.rerun()
             else:
                 st.warning("⚠️ 请先完成数据清洗再进入下一步")
@@ -426,11 +426,11 @@ def show_llm_processing_page():
     col1, col2, col3 = st.columns([1, 2, 1])
     with col1:
         if st.button("⬅️ 上一步", help="返回数据清洗页面", key="llm_prev_btn"):
-            st.session_state.current_step = "🔧 数据清洗"
+            st.session_state.current_step = "数据清洗"
             st.rerun()
     with col3:
         if st.button("➡️ 下一步", help="前往结果查看页面", key="llm_next_btn"):
-            st.session_state.current_step = "📊 结果查看"
+            st.session_state.current_step = "结果查看"
             st.rerun()
 
 def show_results_page():
@@ -473,7 +473,7 @@ def show_results_page():
     col1, col2, col3 = st.columns([1, 2, 1])
     with col1:
         if st.button("⬅️ 上一步", help="返回LLM处理页面", key="results_prev_btn"):
-            st.session_state.current_step = "🤖 LLM处理"
+            st.session_state.current_step = "LLM处理"
             st.rerun()
     with col3:
         st.info("💡 这是最后一个处理步骤")
