@@ -6,13 +6,19 @@
 
 ## 🚀 快速部署指南
 
-### 1. 克隆代码
+### 1. 环境准备
+**如果没有安装 Python：**
+- 访问 [Python官网](https://www.python.org/downloads/) 下载并安装 Python 3.8+
+- 安装时勾选 "Add Python to PATH" 选项
+- 验证安装：在命令行运行 `python --version`
+
+### 2. 克隆代码
 ```bash
 git clone https://github.com/CurtisYoung18/Eml_process_platform.git
 cd Eml_process_platform
 ```
 
-### 2. 创建虚拟环境（推荐）
+### 3. 创建虚拟环境（推荐）
 ```bash
 # 创建虚拟环境
 python -m venv venv
@@ -24,19 +30,19 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. 安装依赖
+### 4. 安装依赖
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. 配置环境变量（API Key）
+### 5. 配置环境变量（API Key）
 在项目根目录下创建 `.env` 文件（已自动生成，可直接修改）：
 ```
 GPTBOTS_API_KEY=你的GPTBots_API_Key
 ```
 > **注意**：API Key 仅存放于 .env 文件，切勿提交到 GitHub。
 
-### 5. 启动应用
+### 6. 启动应用
 推荐使用启动脚本：
 ```bash
 python run_app.py
@@ -46,7 +52,7 @@ python run_app.py
 streamlit run app.py
 ```
 
-### 6. 访问平台
+### 7. 访问平台
 浏览器打开 http://localhost:8501
 
 ---
