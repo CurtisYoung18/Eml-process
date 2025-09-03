@@ -12,20 +12,31 @@ git clone https://github.com/CurtisYoung18/Eml_process_platform.git
 cd Eml_process_platform
 ```
 
-### 2. 安装依赖
-建议使用虚拟环境（如 venv_new/）
+### 2. 创建虚拟环境（推荐）
+```bash
+# 创建虚拟环境
+python -m venv venv
+
+# 激活虚拟环境
+# Windows:
+venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. 安装依赖
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. 配置环境变量（API Key）
+### 4. 配置环境变量（API Key）
 在项目根目录下创建 `.env` 文件（已自动生成，可直接修改）：
 ```
 GPTBOTS_API_KEY=你的GPTBots_API_Key
 ```
 > **注意**：API Key 仅存放于 .env 文件，切勿提交到 GitHub。
 
-### 4. 启动应用
+### 5. 启动应用
 推荐使用启动脚本：
 ```bash
 python run_app.py
@@ -35,7 +46,7 @@ python run_app.py
 streamlit run app.py
 ```
 
-### 5. 访问平台
+### 6. 访问平台
 浏览器打开 http://localhost:8501
 
 ---
