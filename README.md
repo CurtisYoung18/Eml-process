@@ -1,184 +1,99 @@
 # 📧 邮件知识库管理系统
 
-基于Streamlit构建的本地部署邮件处理和知识库管理应用。
+本项目是基于 Streamlit 的本地邮件处理与知识库管理平台，支持邮件上传、去重清洗、AI结构化处理与结果浏览。
 
-## 🚀 快速启动
+---
 
-### 方法一：使用启动脚本（推荐）
+## 🚀 快速部署指南
+
+### 1. 克隆代码
+```bash
+git clone https://github.com/CurtisYoung18/Eml_process_platform.git
+cd Eml_process_platform
+```
+
+### 2. 安装依赖
+建议使用虚拟环境（如 venv_new/）
+```bash
+pip install -r requirements.txt
+```
+
+### 3. 配置环境变量（API Key）
+在项目根目录下创建 `.env` 文件（已自动生成，可直接修改）：
+```
+GPTBOTS_API_KEY=你的GPTBots_API_Key
+```
+> **注意**：API Key 仅存放于 .env 文件，切勿提交到 GitHub。
+
+### 4. 启动应用
+推荐使用启动脚本：
 ```bash
 python run_app.py
 ```
-
-### 方法二：手动启动
+或手动启动：
 ```bash
-# 安装依赖
-pip install -r requirements.txt
-
-# 启动应用
 streamlit run app.py
 ```
 
-## 📋 功能特性
+### 5. 访问平台
+浏览器打开 http://localhost:8501
 
-### ✅ 已实现功能
-- **🏠 首页概览** - 系统状态监控和快速导航
-- **📤 邮件上传** - 支持单文件、批量文件夹、自定义路径上传
-- **🔧 数据清洗** - 邮件去重和内容清理（接口已预留）
-- **🤖 LLM处理** - GPTBots API集成和处理流程（接口已预留）
-- **📊 结果查看** - 处理结果浏览和文件管理
+---
 
-### 🔮 规划功能
-- **📚 知识库管理** - 集成GPTBots知识库API
-- **💬 智能问答** - 基于RAG的邮件内容问答系统
+## ⚙️ 主要配置项说明
 
-## 🏗️ 系统架构
+所有主要配置均在 `app.py` 顶部的 `CONFIG` 字典中：
+```python
+CONFIG = {
+    "app_title": "📧 邮件知识库管理系统",
+    "version": "v1.0.0",
+    "upload_dir": "eml_process/uploads",      # 上传目录
+    "output_dir": "eml_process/output",       # 中间输出目录
+    "processed_dir": "eml_process/processed", # 清洗结果目录
+    "final_dir": "eml_process/final_output"   # LLM处理结果目录
+}
+```
+如需更改邮件存放、输出等目录，直接修改此处路径。
+
+### API Key 配置
+- 默认从 `.env` 文件读取 `GPTBOTS_API_KEY`。
+- 也可在界面手动输入临时 Key（仅本次会话有效）。
+
+---
+
+## 📁 目录结构简述
 
 ```
-📧 邮件知识库管理系统
-├── 📤 邮件上传模块
-│   ├── 单文件上传
-│   ├── 批量文件夹扫描
-│   └── 自定义路径配置
-├── 🔧 数据清洗模块
-│   ├── 邮件去重算法
-│   ├── 内容提取
-│   └── Markdown格式输出
-├── 🤖 LLM处理模块
-│   ├── GPTBots API集成
-│   ├── 结构化信息提取
-│   └── 批处理管理
-└── 📊 结果管理模块
-    ├── 文件浏览器
-    ├── 内容预览
-    └── 下载导出
+Eml_process_platform/
+├── app.py                # 主应用入口
+├── run_app.py            # 启动脚本
+├── requirements.txt      # 依赖列表
+├── .env                  # API Key（需手动配置）
+├── eml_process/          # 邮件数据与处理结果（已被 .gitignore 忽略）
+│   ├── uploads/          # 上传邮件
+│   ├── output/           # 中间文件
+│   ├── processed/        # 清洗后Markdown
+│   └── final_output/     # LLM处理结果
+├── Eml/                  # 示例邮件（不上传）
+├── venv_new/             # 虚拟环境（不上传）
+└── ...
 ```
 
-## 📁 目录结构
+---
 
-```
-LovePacTest/
-├── app.py                    # 主应用文件
-├── run_app.py                # 启动脚本
-├── requirements.txt          # 依赖配置
-├── gptbots_api.py           # GPTBots API封装
-├── 项目实施指南.md           # 项目开发指南
-├── eml_process/             # 邮件处理工作区
-│   ├── uploads/             # 上传文件目录
-│   ├── output/              # 中间输出目录
-│   ├── processed/           # 清洗结果目录
-│   └── final_output/        # 最终处理结果目录
-├── eml2json/                # 邮件处理参考代码
-│   ├── emailprocess.py      # 去重算法实现
-│   └── processed_emails2.json # 处理结果示例
-├── Eml/                     # 示例邮件文件（51封）
-├── venv_new/                # Python虚拟环境
-└── activity.log             # 系统活动日志
-```
+## 🛠️ 常见问题
 
-## ⚙️ 配置说明
+- **如何更换API Key？**
+  - 修改 `.env` 文件中的 `GPTBOTS_API_KEY`，重启应用即可。
+- **如何更改邮件/结果存放目录？**
+  - 修改 `app.py` 顶部 `CONFIG` 字典中的路径。
+- **数据/结果为什么没上传到GitHub？**
+  - 邮件数据、处理结果、虚拟环境、API密钥等均已在 `.gitignore` 忽略，确保数据安全。
+- **eml2json 目录有用吗？**
+  - 该目录为历史参考代码，主程序未调用，无需上传。
 
-### API配置
-- **GPTBots API Key**: `app-OelZGmC6OrlA5EB2SG3Frglh`
-- **API端点**: 新加坡数据中心 (sg)
-
-### 目录配置
-- **上传目录**: `eml_process/uploads/` - 存放原始EML邮件文件
-- **中间目录**: `eml_process/output/` - 存放中间处理文件
-- **处理目录**: `eml_process/processed/` - 存放清洗后的Markdown文件
-- **输出目录**: `eml_process/final_output/` - 存放LLM处理后的最终结果
-
-## 🔧 使用流程
-
-1. **启动系统**
-   ```bash
-   python run_app.py
-   ```
-
-2. **上传邮件**
-   - 访问 http://localhost:8501
-   - 选择"📤 邮件上传"
-   - 上传EML格式邮件文件
-
-3. **数据清洗**
-   - 选择"🔧 数据清洗"
-   - 开始清洗处理（自动去重）
-   - 查看生成的Markdown文件
-
-4. **LLM处理**
-   - 选择"🤖 LLM处理"
-   - 配置API节点（sg/cn/th）和API Key
-   - 测试API连接
-   - 开始智能信息提取
-
-5. **查看结果**
-   - 选择"📊 结果查看"
-   - 浏览LLM处理结果
-   - 下载最终输出文件
-
-## 🛠️ 技术栈
-
-- **前端界面**: Streamlit
-- **邮件处理**: Python email库
-- **AI处理**: GPTBots API
-- **文件管理**: pathlib, pandas
-- **数据格式**: JSON, Markdown
-
-## 📝 开发计划
-
-### 第一阶段 ✅
-- [x] Streamlit基础平台搭建
-- [x] 用户界面设计
-- [x] 文件上传功能
-- [x] 系统架构搭建
-
-### 第二阶段 ✅
-- [x] EML文件解析实现 (`email_cleaner.py`)
-- [x] 邮件去重算法集成 (51封 -> 20封，压缩率60.8%)
-- [x] Markdown文件生成 (包含源文件名和重复文件列表)
-
-### 第三阶段 ✅
-- [x] 邮件清洗功能集成到Streamlit平台
-- [x] 动态状态监控和进度显示
-- [x] 完整的用户交互界面（上传、处理、结果展示）
-- [x] 处理报告下载和文件管理功能
-- [x] 100%内容包含去重算法优化
-- [x] 全页面导航按钮（上一步/下一步）
-- [x] Session状态管理和页面跳转
-- [x] 文件内容预览功能（点击文件名展开查看）
-- [x] 相对路径显示优化
-- [x] Session状态管理优化（修复页面刷新问题）
-- [x] 交互式文件预览（支持多选和切换显示）
-- [x] Tabs界面重构（彻底解决页面刷新问题）
-- [x] 按钮ID冲突修复（所有按钮添加唯一key）
-- [x] 界面简化优化（移除复杂的文件预览功能）
-- [x] 重复邮件详情修复（支持滚动显示所有31封重复邮件）
-- [x] 重复导航按钮清理（移除冗余的导航按钮）
-
-### 第四阶段 ✅
-- [x] GPTBots API调用集成（支持节点选择：sg/cn/th）
-- [x] API Key配置（默认key + 临时输入选项）
-- [x] API连接测试功能
-- [x] LLM处理流程实现（完整的提示词模板）
-
-### 第五阶段 ✅  
-- [x] 完整LLM处理流程实现
-- [x] 批处理功能（支持延迟和批量大小配置）
-- [x] 结构化信息提取（按照项目指南模板）
-- [x] 最终Markdown文件生成（包含AI提取信息+原始内容）
-
-### 第六阶段 🔮（未来扩展）
-- [ ] 知识库API集成
-- [ ] RAG问答系统
-- [ ] 高级功能扩展
-
-## 🐛 问题反馈
-
-如遇到问题，请检查：
-1. Python版本 >= 3.8
-2. 依赖包是否正确安装
-3. 网络连接是否正常（API调用需要）
-4. 文件权限是否充足
+---
 
 ## 📄 许可证
 
-本项目仅供内部使用和学习交流。
+本项目仅供内部学习与交流，禁止商业用途。
