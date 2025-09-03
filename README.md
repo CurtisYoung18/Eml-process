@@ -1,111 +1,105 @@
 # 📧 邮件知识库管理系统
 
-本项目是基于 Streamlit 的本地邮件处理与知识库管理平台，支持邮件上传、去重清洗、AI结构化处理与结果浏览。
+本项目是一个基于 Streamlit 的本地邮件处理与知识库管理平台，支持批量上传、清洗、AI结构化处理和结果管理。
 
 ---
 
 ## 🚀 快速部署指南
 
-### 1. 环境准备
-**如果没有安装 Python：**
-- 访问 [Python官网](https://www.python.org/downloads/) 下载并安装 Python 3.8+
-- 安装时勾选 "Add Python to PATH" 选项
-- 验证安装：在命令行运行 `python --version`
-
-### 2. 克隆代码
+### 1. 克隆项目
 ```bash
 git clone https://github.com/CurtisYoung18/Eml_process_platform.git
 cd Eml_process_platform
 ```
 
-### 3. 创建虚拟环境（推荐）
+### 2. 安装依赖
+建议使用虚拟环境：
 ```bash
-# 创建虚拟环境
-python -m venv venv
-
-# 激活虚拟环境
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
+python3 -m venv venv
 source venv/bin/activate
-```
-
-### 4. 安装依赖
-```bash
 pip install -r requirements.txt
 ```
 
-### 5. 配置环境变量（API Key）
-在项目根目录下创建 `.env` 文件（已自动生成，可直接修改）：
+### 3. 配置 API Key
+- 在项目根目录下创建 `.env` 文件（已自动生成模板）：
 ```
 GPTBOTS_API_KEY=你的GPTBots_API_Key
 ```
-> **注意**：API Key 仅存放于 .env 文件，切勿提交到 GitHub。
+- 默认会读取 `.env` 文件中的 `GPTBOTS_API_KEY`，如需更换可在界面临时输入。
 
-### 6. 启动应用
+### 4. 运行平台
 推荐使用启动脚本：
 ```bash
 python run_app.py
 ```
-或手动启动：
+或直接运行：
 ```bash
 streamlit run app.py
 ```
 
-### 7. 访问平台
-浏览器打开 http://localhost:8501
+### 5. 访问界面
+浏览器访问 [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## ⚙️ 主要配置项说明
+## 📂 目录结构说明
 
-所有主要配置均在 `app.py` 顶部的 `CONFIG` 字典中：
-```python
-CONFIG = {
-    "app_title": "📧 邮件知识库管理系统",
-    "version": "v1.0.0",
-    "upload_dir": "eml_process/uploads",      # 上传目录
-    "output_dir": "eml_process/output",       # 中间输出目录
-    "processed_dir": "eml_process/processed", # 清洗结果目录
-    "final_dir": "eml_process/final_output"   # LLM处理结果目录
-}
+- `app.py`              主应用入口
+- `run_app.py`          启动脚本（自动检查依赖和目录）
+- `requirements.txt`    依赖包列表
+- `gptbots_api.py`      GPTBots API 封装
+- `eml_process/`        邮件处理工作区（数据不上传）
+- `Eml/`                示例邮件文件夹（数据不上传）
+- `.env`                API Key 配置（不上传）
+
+> **注意：** 邮件原始数据和处理结果均存放于 `Eml/` 和 `eml_process/` 下，这些目录已在 `.gitignore` 中自动忽略，不会上传到 GitHub。
+
+---
+
+## ⚙️ 主要配置项
+
+- **API Key**：在 `.env` 文件中配置 `GPTBOTS_API_KEY`，或在界面手动输入。
+- **上传目录**：`eml_process/uploads/`（存放原始 EML 邮件）
+- **中间目录**：`eml_process/output/`（中间处理文件）
+- **清洗结果**：`eml_process/processed/`（Markdown 格式）
+- **最终结果**：`eml_process/final_output/`（LLM结构化结果）
+
+如需修改目录，可在 `app.py` 顶部 `CONFIG` 字典中调整。
+
+---
+
+## 📝 推送到 GitHub
+
+1. 初始化仓库（如未初始化）
+```bash
+git init
+git add .
+git commit -m "init project"
+git branch -M main
+git remote add origin https://github.com/CurtisYoung18/Eml_process_platform.git
+git push -u origin main
 ```
-如需更改邮件存放、输出等目录，直接修改此处路径。
-
-### API Key 配置
-- 默认从 `.env` 文件读取 `GPTBOTS_API_KEY`。
-- 也可在界面手动输入临时 Key（仅本次会话有效）。
-
----
-
-## 📁 目录结构简述
-
-```
-Eml_process_platform/
-├── app.py                # 主应用入口
-├── run_app.py            # 启动脚本
-├── requirements.txt      # 依赖列表
-├── .env                  # API Key（需手动配置）
-├── eml_process/          # 邮件数据与处理结果（已被 .gitignore 忽略）
-│   ├── uploads/          # 上传邮件
-│   ├── output/           # 中间文件
-│   ├── processed/        # 清洗后Markdown
-│   └── final_output/     # LLM处理结果
-├── Eml/                  # 示例邮件（不上传）
-├── venv_new/             # 虚拟环境（不上传）
-└── ...
+2. 后续开发直接：
+```bash
+git add .
+git commit -m "your message"
+git push
 ```
 
 ---
 
-## 🛠️ 常见问题
+## 🛡️ 隐私与数据安全
+- 邮件数据、处理结果均为本地存储，**不会上传到云端或GitHub**。
+- `.env`、`Eml/`、`eml_process/` 等敏感目录已自动忽略。
 
-- **如何更换API Key？**
-  - 修改 `.env` 文件中的 `GPTBOTS_API_KEY`，重启应用即可。
-- **如何更改邮件/结果存放目录？**
-  - 修改 `app.py` 顶部 `CONFIG` 字典中的路径。
 ---
 
-## 📄 许可证
+## 💡 常见问题
+- Python 版本建议 >= 3.8
+- 依赖安装失败请检查网络或更换 PyPI 源
+- API Key 失效请联系 GPTBots 获取
 
-本项目仅供内部学习与交流，禁止商业用途。
+---
+
+## 📄 LICENSE
+本项目仅供内部学习与交流使用。

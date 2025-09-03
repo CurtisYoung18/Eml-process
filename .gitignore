@@ -1,33 +1,41 @@
-# 忽略邮件数据和处理结果
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.env
+.env.*
+
+# Virtual environments
+venv*/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Streamlit cache
+.streamlit/
+
+# 邮件数据
 Eml/
 eml_process/uploads/
 eml_process/output/
 eml_process/processed/
 eml_process/final_output/
 
-# 虚拟环境
-venv_new/
-venv/
-.env
-*.env
+# Jupyter
+.ipynb_checkpoints/
 
-# Python缓存
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# 日志和临时文件
-*.log
-*.tmp
-activity.log
-
-# Jupyter/Colab
-*.ipynb_checkpoints/
-
-# 系统文件
+# Mac
 .DS_Store
-Thumbs.db
 
-# 不上传eml2json内容
-eml2json/
+# Others
+activity.log
+gptbots_api.log

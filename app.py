@@ -360,6 +360,7 @@ def show_llm_processing_page():
     
     with col2:
         # API Key配置
+        import os
         default_api_key = os.getenv("GPTBOTS_API_KEY", "")
         
         use_default_key = st.checkbox(
