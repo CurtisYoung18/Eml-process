@@ -1,0 +1,52 @@
+# 排除不需要的文件和目录
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# 排除开发文件
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~
+
+# 排除环境变量文件
+.env
+.env.local
+.env.production
+
+# 排除上传的文件（运行时会重新生成）
+eml_process/uploads/*
+eml_process/processed/*
+eml_process/final_output/*
+logs/*
+
+# 保留目录结构但排除内容
+!eml_process/uploads/.gitkeep
+!eml_process/processed/.gitkeep
+!eml_process/final_output/.gitkeep
+!logs/.gitkeep
+
+# 排除文档
+docs/
+README.md
+*.md

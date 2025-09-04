@@ -1,0 +1,4 @@
+# System packages needed for Streamlit Cloud
+# These will be installed via apt-get
+
+curl
