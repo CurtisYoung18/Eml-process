@@ -311,9 +311,11 @@ def start_knowledge_base_upload(config, **params):
         if params["selected_files"]:
             # 上传选中的文件
             files_to_upload = [final_dir / filename for filename in params["selected_files"]]
+            upload_mode = "selected"
         else:
             # 上传所有文件
             files_to_upload = list(final_dir.glob("*.md"))
+            upload_mode = "all"
         
         if not files_to_upload:
             st.error("❌ 没有找到要上传的文件")
@@ -322,14 +324,21 @@ def start_knowledge_base_upload(config, **params):
         progress_bar.progress(10)
         status_text.text(f"📧 准备上传 {len(files_to_upload)} 个文件...")
         
-        # 使用批量上传功能
-        upload_result = client.upload_markdown_files_from_directory(
-            directory_path=str(final_dir),
-            knowledge_base_id=params["knowledge_base_id"],
-            chunk_token=params["chunk_token"] or 600,
-            splitter=params["splitter"],
-            batch_size=10  # 使用固定的批次大小
-        )
+        # 根据上传模式选择不同的上传方法
+        if upload_mode == "all":
+            # 使用批量上传功能（上传整个目录）
+            upload_result = client.upload_markdown_files_from_directory(
+                directory_path=str(final_dir),
+                knowledge_base_id=params["knowledge_base_id"],
+                chunk_token=params["chunk_token"] or 600,
+                splitter=params["splitter"],
+                batch_size=10  # 使用固定的批次大小
+            )
+        else:
+            # 逐个上传选中的文件
+            upload_result = upload_selected_files(
+                client, files_to_upload, params, progress_bar, status_text
+            )
         
         progress_bar.progress(90)
         status_text.text("📝 处理上传结果...")
@@ -342,39 +351,73 @@ def start_knowledge_base_upload(config, **params):
             with result_container.container():
                 st.success("🎉 知识库上传完成！")
                 
-                # 统计信息
+                # 统计信息 - 兼容两种上传方式的结果格式
                 col1, col2, col3, col4 = st.columns(4)
                 
+                # 统一处理不同上传方式的结果格式
+                total_files = upload_result.get("total_count", upload_result.get("total_files", 0))
+                successful_uploads = upload_result.get("success_count", upload_result.get("successful_uploads", 0))
+                failed_uploads = upload_result.get("failed_count", upload_result.get("failed_uploads", 0))
+                batches_processed = upload_result.get("batches_processed", 1)
+                
                 with col1:
-                    st.metric("总文件数", upload_result["total_files"])
+                    st.metric("总文件数", total_files)
                 
                 with col2:
-                    st.metric("上传成功", upload_result["successful_uploads"])
+                    st.metric("上传成功", successful_uploads)
                 
                 with col3:
-                    st.metric("上传失败", upload_result["failed_uploads"])
+                    st.metric("上传失败", failed_uploads)
                 
                 with col4:
-                    st.metric("处理批次", upload_result["batches_processed"])
+                    st.metric("处理批次", batches_processed)
                 
-                # 成功上传的文件
-                if upload_result["uploaded_files"]:
+                # 成功上传的文件 - 兼容两种格式
+                uploaded_files = upload_result.get("uploaded_files", [])
+                success_files = upload_result.get("success_files", [])
+                
+                if uploaded_files or success_files:
                     st.subheader("✅ 成功上传的文件")
-                    success_data = []
-                    for doc in upload_result["uploaded_files"]:
-                        success_data.append({
-                            "文档ID": doc.get("doc_id", ""),
-                            "文档名称": doc.get("doc_name", "")
-                        })
                     
-                    if success_data:
-                        st.dataframe(pd.DataFrame(success_data))
+                    # 处理批量上传的结果格式
+                    if uploaded_files:
+                        success_data = []
+                        for doc in uploaded_files:
+                            success_data.append({
+                                "文档ID": doc.get("doc_id", ""),
+                                "文档名称": doc.get("doc_name", "")
+                            })
+                        
+                        if success_data:
+                            st.dataframe(pd.DataFrame(success_data))
+                    
+                    # 处理选择文件上传的结果格式
+                    elif success_files:
+                        for file_info in success_files:
+                            if isinstance(file_info, dict):
+                                file_name = file_info.get('file', file_info.get('filename', '未知文件'))
+                                chunks = file_info.get('chunks', file_info.get('chunks_count', 0))
+                                size = file_info.get('size', 0)
+                                st.write(f"📄 {file_name} - {chunks} 个分片 ({size} 字符)")
+                            else:
+                                st.write(f"📄 {file_info}")
                 
-                # 失败的文件
-                if upload_result["failed_files"]:
+                # 失败的文件 - 兼容两种格式
+                failed_files = upload_result.get("failed_files", [])
+                if failed_files:
                     st.subheader("❌ 上传失败的文件")
-                    for failed in upload_result["failed_files"]:
-                        st.error(f"{failed['file_name']}: {failed['error']}")
+                    for failed in failed_files:
+                        if isinstance(failed, dict):
+                            # 批量上传格式
+                            if 'file_name' in failed:
+                                st.error(f"{failed['file_name']}: {failed['error']}")
+                            # 选择文件上传格式
+                            elif 'file' in failed:
+                                st.error(f"{failed['file']}: {failed['error']}")
+                            else:
+                                st.error(f"未知文件: {failed.get('error', '未知错误')}")
+                        else:
+                            st.error(str(failed))
                 
                 # 保存上传记录
                 if params["create_backup"]:
@@ -386,7 +429,7 @@ def start_knowledge_base_upload(config, **params):
                     
                     st.info(f"📄 上传记录已保存到: {backup_filename}")
                 
-                log_activity(f"知识库上传完成: {upload_result['successful_uploads']}/{upload_result['total_files']} 成功")
+                log_activity(f"知识库上传完成: {successful_uploads}/{total_files} 成功")
         
         else:
             progress_bar.progress(0)
@@ -400,3 +443,100 @@ def start_knowledge_base_upload(config, **params):
         result_container.error(f"❌ 上传过程中发生错误: {str(e)}")
         log_activity(f"知识库上传错误: {str(e)}")
         st.exception(e)
+
+
+def upload_selected_files(client, files_to_upload, params, progress_bar, status_text):
+    """
+    上传选中的文件到知识库
+    
+    Args:
+        client: KnowledgeBaseAPI客户端
+        files_to_upload: 要上传的文件路径列表
+        params: 上传参数
+        progress_bar: 进度条
+        status_text: 状态文本
+    
+    Returns:
+        dict: 上传结果
+    """
+    import time
+    from datetime import datetime
+    
+    upload_results = {
+        "success_count": 0,
+        "failed_count": 0,
+        "total_count": len(files_to_upload),
+        "failed_files": [],
+        "success_files": [],
+        "upload_time": datetime.now().strftime('%Y%m%d_%H%M%S')
+    }
+    
+    try:
+        # 逐个上传文件
+        for i, file_path in enumerate(files_to_upload):
+            try:
+                # 更新进度
+                progress = 20 + (i / len(files_to_upload)) * 60  # 20-80%的进度用于文件上传
+                progress_bar.progress(int(progress))
+                status_text.text(f"📤 正在上传文件 {i+1}/{len(files_to_upload)}: {file_path.name}")
+                
+                # 读取文件内容
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                if not content.strip():
+                    upload_results["failed_files"].append({
+                        "file": file_path.name,
+                        "error": "文件内容为空"
+                    })
+                    upload_results["failed_count"] += 1
+                    continue
+                
+                # 调用单文件上传API
+                result = client.upload_markdown_content(
+                    content=content,
+                    filename=file_path.name,
+                    knowledge_base_id=params["knowledge_base_id"],
+                    chunk_token=params["chunk_token"] or 600,
+                    splitter=params["splitter"]
+                )
+                
+                if result and "error" not in result:
+                    upload_results["success_files"].append({
+                        "file": file_path.name,
+                        "chunks": result.get("chunks_count", 0),
+                        "size": len(content)
+                    })
+                    upload_results["success_count"] += 1
+                else:
+                    error_msg = result.get("error", "未知错误") if result else "API调用失败"
+                    upload_results["failed_files"].append({
+                        "file": file_path.name,
+                        "error": error_msg
+                    })
+                    upload_results["failed_count"] += 1
+                
+                # 添加延迟避免API限流
+                if i < len(files_to_upload) - 1:
+                    time.sleep(1)
+                    
+            except Exception as e:
+                upload_results["failed_files"].append({
+                    "file": file_path.name,
+                    "error": f"处理错误: {str(e)}"
+                })
+                upload_results["failed_count"] += 1
+                
+                # 如果设置了遇到错误时继续，则继续处理下一个文件
+                if not params.get("continue_on_error", True):
+                    break
+        
+        return upload_results
+        
+    except Exception as e:
+        return {
+            "error": f"批量上传过程中发生错误: {str(e)}",
+            "success_count": upload_results["success_count"],
+            "failed_count": upload_results["failed_count"],
+            "total_count": upload_results["total_count"]
+        }

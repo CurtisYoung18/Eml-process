@@ -67,6 +67,6 @@ def get_processing_status():
         status["LLM处理"] = "pending"
     
     # 检查知识库构建状态（暂时为pending）
-    status["知识库构建"] = "pending"
+    status["知识库构建"] = "scheduled"
     
     return status

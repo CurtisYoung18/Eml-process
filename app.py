@@ -69,7 +69,7 @@ def main():
             elif status == "processing":
                 st.warning(f"⏳ {step}")
             else:
-                st.info(f"⏸️ {step}")
+                st.info(f"📅 {step}")
     
     # 主内容区域
     if current_step == "首页概览":

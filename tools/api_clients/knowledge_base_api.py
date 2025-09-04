@@ -37,6 +37,7 @@ class KnowledgeBaseAPI:
         """
         self.api_key = api_key
         self.endpoint = endpoint
+        self.logger = logging.getLogger(__name__)
         
         # 根据endpoint设置基础URL
         self.base_url = f"https://api-{endpoint}.gptbots.ai"
@@ -494,6 +495,92 @@ class KnowledgeBaseAPI:
                     f"成功 {results['successful_uploads']} 个, 失败 {results['failed_uploads']} 个")
         
         return results
+
+
+    def upload_markdown_content(self, content: str, filename: str = "document.md",
+                               knowledge_base_id: str = None,
+                               chunk_token: int = 600,
+                               splitter: str = None) -> Dict:
+        """
+        上传单个Markdown内容到知识库
+        
+        Args:
+            content: Markdown文件内容
+            filename: 文件名
+            knowledge_base_id: 目标知识库ID
+            chunk_token: 分块大小（Token数）
+            splitter: 分隔符
+            
+        Returns:
+            dict: 上传结果
+        """
+        try:
+            # 编码内容为base64
+            content_base64 = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+            
+            # 准备文件数据（与批量上传格式一致）
+            file_data = {
+                "file_name": filename,
+                "file_base64": content_base64,
+                "source_url": f"local://{filename}"
+            }
+            
+            # 准备上传数据
+            upload_data = {
+                "files": [file_data]  # 包装成文件列表
+            }
+            
+            # 可选参数
+            if knowledge_base_id:
+                upload_data["knowledge_base_id"] = knowledge_base_id
+            
+            # 分块参数（二选一）
+            if splitter:
+                upload_data["splitter"] = splitter
+            else:
+                upload_data["chunk_token"] = chunk_token
+            
+            # 发送上传请求
+            response = requests.post(
+                self.add_text_doc_url,
+                headers=self._get_headers(),
+                json=upload_data,
+                timeout=300  # 5分钟超时
+            )
+            
+            if response.status_code == 200:
+                result = response.json()
+                self.logger.info(f"单文件上传成功: {filename}")
+                return {
+                    "success": True,
+                    "filename": filename,
+                    "chunks_count": result.get("data", {}).get("chunks_count", 0),
+                    "message": "上传成功"
+                }
+            else:
+                error_msg = f"上传失败: HTTP {response.status_code}"
+                try:
+                    error_data = response.json()
+                    error_msg = error_data.get("message", error_msg)
+                except:
+                    pass
+                    
+                self.logger.error(f"单文件上传失败: {filename} - {error_msg}")
+                return {
+                    "error": error_msg,
+                    "filename": filename,
+                    "status_code": response.status_code
+                }
+                
+        except requests.exceptions.Timeout:
+            error_msg = "上传超时"
+            self.logger.error(f"单文件上传超时: {filename}")
+            return {"error": error_msg, "filename": filename}
+            
+        except Exception as e:
+            error_msg = f"上传异常: {str(e)}"
+            self.logger.error(f"单文件上传异常: {filename} - {error_msg}")
+            return {"error": error_msg, "filename": filename}
 
 
 def main():
