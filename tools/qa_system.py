@@ -10,19 +10,6 @@ def show_qa_system_page():
     """显示问答系统页面"""
     st.header("💬 智能问答系统")
     
-    # 检查前置条件
-    from .utils import count_files
-    from app import CONFIG
-    
-    final_files = count_files(CONFIG["final_dir"], "*.md")
-    
-    if final_files == 0:
-        st.warning("⚠️ 未发现已处理的文件，请先完成前面的步骤。")
-        st.info("💡 需要完成：邮件上传 → 数据清洗 → LLM处理 → 知识库上传")
-        return
-    
-    st.success(f"✅ 发现 {final_files} 个已处理的文件，可以开始问答")
-    
     # 直接显示问答界面
     st.markdown("""
     ### 💬 基于知识库的智能问答
@@ -49,12 +36,6 @@ def show_qa_system_page():
     components.html(iframe_html, height=1300)
 
     
-    # 导航按钮
+    # 使用说明
     st.markdown("---")
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col1:
-        if st.button("⬅️ 上一步", help="返回知识库管理页面", key="qa_prev_btn"):
-            st.session_state.current_step = "知识库管理"
-            st.rerun()
-    with col3:
-        st.info("💡 这是最终的问答功能")
+    st.info("💡 这是独立的智能问答系统，您可以直接提问而无需处理任何文件。问答基于预先配置的知识库内容。")
