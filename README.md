@@ -15,22 +15,36 @@
 
 ## 🚀 快速开始
 
-### 1. 环境准备
+### Mac
 ```bash
 # 克隆项目
 git clone https://github.com/CurtisYoung18/Eml_process_platform.git
 cd Eml_process_platform
-
 # 创建虚拟环境
-python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
-
+python -m venv venv
+source venv/bin/activate
 # 安装依赖
 pip install -r requirements.txt
+# 运行app
+python3 run_app.py
 ```
 
-### 2. 配置API Key
+
+### Windows
+```bash
+# 克隆项目
+git clone https://github.com/CurtisYoung18/Eml_process_platform.git
+cd Eml_process_platform
+# 创建虚拟环境
+python -m venv venv
+venv\Scripts\activate.bat
+# 安装依赖
+pip install -r requirements.txt
+# 运行app
+python run_app.py
+```
+
+### 配置API Key
 复制环境变量示例文件并配置：
 ```bash
 cp env_example.txt .env
@@ -44,16 +58,8 @@ cp env_example.txt .env
 
 > 📋 详细配置说明请参考：[env_example.txt](./env_example.txt)
 
-### 3. 启动应用
-```bash
-# 推荐使用启动脚本
-python run_app.py
 
-# 或直接运行
-streamlit run app.py
-```
-
-### 4. 访问系统
+### 访问app
 浏览器访问：[http://localhost:8501](http://localhost:8501)
 
 ---
