@@ -18,7 +18,7 @@
 ### Mac
 ```bash
 # 克隆项目
-git clone https://github.com/CurtisYoung18/Eml_process_platform.git
+git clone https://github.com/CurtisYoung18/Eml-process.git
 cd Eml_process_platform
 # 创建虚拟环境
 python -m venv venv
@@ -33,7 +33,7 @@ python3 run_app.py
 ### Windows
 ```bash
 # 克隆项目
-git clone https://github.com/CurtisYoung18/Eml_process_platform.git
+git clone https://github.com/CurtisYoung18/Eml-process.git
 cd Eml_process_platform
 # 创建虚拟环境
 python -m venv venv
