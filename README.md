@@ -19,7 +19,7 @@
 ```bash
 # 克隆项目
 git clone https://github.com/CurtisYoung18/Eml-process.git
-cd Eml_process_platform
+cd Eml-process
 # 创建虚拟环境
 python -m venv venv
 source venv/bin/activate
@@ -34,7 +34,7 @@ python3 run_app.py
 ```bash
 # 克隆项目
 git clone https://github.com/CurtisYoung18/Eml-process.git
-cd Eml_process_platform
+cd Eml-process
 # 创建虚拟环境
 python -m venv venv
 venv\Scripts\activate.bat
