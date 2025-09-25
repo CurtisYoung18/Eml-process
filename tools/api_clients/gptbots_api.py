@@ -35,12 +35,8 @@ class GPTBotsAPI:
         """
         self.app_key = app_key
         # 根据文档设置正确的API地址
-        if endpoint == "sg":
-            self.base_url = "https://api-sg.gptbots.ai"
-        elif endpoint == "th":
-            self.base_url = "https://api-th.gptbots.ai"
-        else:
-            self.base_url = f"https://api-{endpoint}.gptbots.ai"
+        # 使用新的内网IP地址
+        self.base_url = "http://10.52.20.41:19080"
         
         # 根据官方文档设置正确的API endpoints
         self.create_conversation_url = f"{self.base_url}/v1/conversation"

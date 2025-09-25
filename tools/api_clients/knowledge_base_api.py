@@ -40,7 +40,8 @@ class KnowledgeBaseAPI:
         self.logger = logging.getLogger(__name__)
         
         # 根据endpoint设置基础URL
-        self.base_url = f"https://api-{endpoint}.gptbots.ai"
+        # 使用新的内网IP地址
+        self.base_url = "http://10.52.20.41:19080"
         
         # API端点URLs
         self.knowledge_base_list_url = f"{self.base_url}/v1/bot/knowledge/base/page"

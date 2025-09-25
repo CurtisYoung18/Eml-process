@@ -313,14 +313,9 @@ def show_auto_run_configuration():
     with col2:
         st.markdown("**LLM处理参数**")
         
-        endpoint = st.selectbox(
-            "API节点",
-            options=["sg", "cn", "th"],
-            format_func=lambda x: {"sg": "🌏 新加坡 (推荐)", "cn": "🇨🇳 中国", "th": "🇹🇭 泰国"}[x],
-            index=0,
-            key="auto_endpoint",
-            help="选择API服务节点"
-        )
+        # 使用固定的内网API地址
+        st.info("🌐 **API服务地址**: http://10.52.20.41:19080")
+        endpoint = "internal"  # 使用固定标识
         st.session_state.auto_config['endpoint'] = endpoint
         
         delay = st.slider(
