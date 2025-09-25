@@ -8,7 +8,6 @@ import streamlit as st
 
 def show_qa_system_page():
     """显示问答系统页面"""
-    st.header("💬 智能问答系统")
     
     # 直接显示问答界面
     st.markdown("""

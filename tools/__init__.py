@@ -22,6 +22,9 @@ from .email_processing import EmailCleaner
 # API客户端模块
 from .api_clients import GPTBotsAPI, KnowledgeBaseAPI
 
+# 自动处理流水线模块
+from .auto_pipeline import AutoProcessingPipeline, run_auto_processing_pipeline
+
 __all__ = [
     # 页面功能
     'show_homepage',
@@ -43,5 +46,9 @@ __all__ = [
     
     # API客户端
     'GPTBotsAPI',
-    'KnowledgeBaseAPI'
+    'KnowledgeBaseAPI',
+    
+    # 自动处理流水线
+    'AutoProcessingPipeline',
+    'run_auto_processing_pipeline'
 ]
