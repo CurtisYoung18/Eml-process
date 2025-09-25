@@ -70,7 +70,7 @@ def show_llm_processing_page():
         # 验证API配置
         st.subheader("🔍 API连接测试")
         if st.button("🧪 测试API连接", key="test_api_btn"):
-            test_api_connection(api_key, endpoint)
+            test_api_connection(api_key)
 
     with col2:
         # LLM处理参数
@@ -124,7 +124,7 @@ def show_llm_processing_page():
         
         # 执行处理逻辑
         if processing_state == "processing":
-            start_llm_processing(api_key, endpoint, delay_seconds, CONFIG)
+            start_llm_processing(api_key, delay_seconds, CONFIG)
         
     # 导航按钮
     st.markdown("---")
@@ -139,7 +139,7 @@ def show_llm_processing_page():
             st.rerun()
 
 
-def test_api_connection(api_key, endpoint):
+def test_api_connection(api_key):
     """测试API连接"""
     st.info("🔄 正在测试API连接...")
     
@@ -147,7 +147,7 @@ def test_api_connection(api_key, endpoint):
         from .api_clients import GPTBotsAPI
         
         # 创建API客户端
-        client = GPTBotsAPI(api_key, endpoint=endpoint)
+        client = GPTBotsAPI(api_key)
         
         # 发送测试消息
         test_query = "你好，这是一个连接测试。"
@@ -170,7 +170,7 @@ def test_api_connection(api_key, endpoint):
         st.warning("请确认API配置正确")
 
 
-def start_llm_processing(api_key, endpoint, delay, config):
+def start_llm_processing(api_key, delay, config):
     """开始LLM处理"""
     # 检查处理状态
     if st.session_state.llm_processing_state != "processing":
@@ -189,7 +189,7 @@ def start_llm_processing(api_key, endpoint, delay, config):
         
         # 初始化API客户端
         status_text.text("🔍 初始化GPTBots API客户端...")
-        client = GPTBotsAPI(api_key, endpoint=endpoint)
+        client = GPTBotsAPI(api_key)
         
         # 获取待处理的Markdown文件
         processed_dir = Path(config["processed_dir"])

@@ -178,8 +178,7 @@ class AutoProcessingPipeline:
             self.update_status("初始化GPTBots API客户端...")
             
             client = GPTBotsAPI(
-                self.config["llm_api_key"], 
-                endpoint=self.config["endpoint"]
+                self.config["llm_api_key"]
             )
             
             # 获取待处理文件
@@ -278,8 +277,7 @@ class AutoProcessingPipeline:
             self.update_status("初始化知识库API客户端...")
             
             client = KnowledgeBaseAPI(
-                self.config["kb_api_key"],
-                endpoint=self.config["endpoint"]
+                self.config["kb_api_key"]
             )
             
             # 检查要上传的文件

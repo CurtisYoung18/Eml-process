@@ -25,13 +25,12 @@ logging.basicConfig(
 )
 
 class GPTBotsAPI:
-    def __init__(self, app_key: str, endpoint: str = "sg"):
+    def __init__(self, app_key: str):
         """
         初始化GPTBots API客户端
         
         Args:
             app_key: API应用密钥
-            endpoint: 数据中心端点 (sg, th)
         """
         self.app_key = app_key
         # 根据文档设置正确的API地址
@@ -194,7 +193,7 @@ def main():
     api_key = "your-api-key-here"  # 请替换为您的API密钥
     
     # 初始化API客户端
-    client = GPTBotsAPI(api_key, endpoint="sg")
+    client = GPTBotsAPI(api_key)
     
     # 测试API调用
     test_query = "你好，请介绍一下GPTBots的功能"

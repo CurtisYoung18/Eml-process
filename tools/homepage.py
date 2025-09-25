@@ -401,7 +401,7 @@ def show_auto_run_configuration():
         if kb_api_key:
             if st.button("🔄 刷新知识库列表", key="refresh_kb_list", help="获取当前API Key可访问的知识库列表"):
                 with st.spinner("正在获取知识库列表..."):
-                    knowledge_bases = get_knowledge_base_list_for_auto(kb_api_key, st.session_state.auto_config['endpoint'])
+                    knowledge_bases = get_knowledge_base_list_for_auto(kb_api_key)
                     if knowledge_bases:
                         st.session_state.auto_config['knowledge_bases'] = knowledge_bases
                         st.success(f"✅ 成功获取 {len(knowledge_bases)} 个知识库")
@@ -681,7 +681,7 @@ def start_auto_processing(uploaded_files):
         st.error("请检查配置和网络连接，然后重试")
 
 
-def get_knowledge_base_list_for_auto(api_key, endpoint):
+def get_knowledge_base_list_for_auto(api_key):
     """
     为全自动配置获取知识库列表
     
@@ -696,7 +696,7 @@ def get_knowledge_base_list_for_auto(api_key, endpoint):
         from .api_clients import KnowledgeBaseAPI
         
         # 初始化API客户端
-        client = KnowledgeBaseAPI(api_key, endpoint=endpoint)
+        client = KnowledgeBaseAPI(api_key)
         
         # 获取知识库列表
         response = client.get_knowledge_bases()

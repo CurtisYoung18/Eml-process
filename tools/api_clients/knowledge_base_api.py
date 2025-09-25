@@ -27,16 +27,14 @@ logging.basicConfig(
 )
 
 class KnowledgeBaseAPI:
-    def __init__(self, api_key: str, endpoint: str = "sg"):
+    def __init__(self, api_key: str):
         """
         初始化GPTBots知识库API客户端
         
         Args:
             api_key: API密钥
-            endpoint: 数据中心端点 (sg, cn, th)
         """
         self.api_key = api_key
-        self.endpoint = endpoint
         self.logger = logging.getLogger(__name__)
         
         # 根据endpoint设置基础URL
@@ -590,7 +588,7 @@ def main():
     api_key = "your-api-key-here"  # 请替换为您的API密钥
     
     # 初始化知识库API客户端
-    client = KnowledgeBaseAPI(api_key, endpoint="sg")
+    client = KnowledgeBaseAPI(api_key)
     
     # 测试获取知识库列表
     knowledge_bases = client.get_knowledge_bases()

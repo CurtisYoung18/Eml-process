@@ -76,7 +76,7 @@ def show_knowledge_base_page():
     # 获取知识库列表
     st.subheader("📋 知识库列表")
     if st.button("🔄 刷新知识库列表", key="get_kb_list_btn"):
-        st.session_state.knowledge_bases = get_knowledge_base_list(api_key, endpoint)
+        st.session_state.knowledge_bases = get_knowledge_base_list(api_key)
     
     st.markdown("---")
     
@@ -243,14 +243,14 @@ def show_knowledge_base_page():
             st.rerun()
 
 
-def get_knowledge_base_list(api_key, endpoint):
+def get_knowledge_base_list(api_key):
     """获取并显示知识库列表"""
     st.info("🔄 正在获取知识库列表...")
     
     try:
         from .api_clients import KnowledgeBaseAPI
         
-        client = KnowledgeBaseAPI(api_key, endpoint=endpoint)
+        client = KnowledgeBaseAPI(api_key)
         result = client.get_knowledge_bases()
         
         if result and "knowledge_base" in result:
@@ -304,7 +304,7 @@ def start_knowledge_base_upload(config, **params):
         
         # 初始化API客户端
         status_text.text("🔍 初始化知识库API客户端...")
-        client = KnowledgeBaseAPI(params["api_key"], endpoint=params["endpoint"])
+        client = KnowledgeBaseAPI(params["api_key"])
         
         # 确定要上传的文件
         final_dir = Path(config["final_dir"])

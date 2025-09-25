@@ -26,12 +26,7 @@ DIRECTORIES = {
 
 # API配置
 API_CONFIG = {
-    "default_endpoint": "sg",
-    "available_endpoints": {
-        "sg": "🌏 新加坡 (sg) - 推荐",
-        "cn": "🇨🇳 中国 (cn)",
-        "th": "🇹🇭 泰国 (th)"
-    },
+    "base_url": "http://10.52.20.41:19080",
     "default_chunk_token": 600,
     "default_batch_size": 10,
     "default_delay": 2,
@@ -102,7 +97,6 @@ def get_env_config():
         },
         
         # 通用配置
-        "default_endpoint": os.getenv("GPTBOTS_DEFAULT_ENDPOINT", "sg"),
         "debug": os.getenv("DEBUG", "false").lower() == "true",
         
         # 向后兼容的通用API Key
